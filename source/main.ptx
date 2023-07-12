@@ -1711,10 +1711,6 @@
               If you cannot devise a proof using your chosen strategy, perhaps another strategy should be attempted. 
               There is no fixed way of finding a proof; it requires experimentation, playing around and trying different things.
             </p>
-
-          </subsection>
-
-          <subsection xml:id="subsec-evens-odds"><title>Our First Proof: Evens and Odds</title>
             
             <p>
               You are probably familiar with the statement “the sum of even numbers is even.” 
@@ -1817,9 +1813,6 @@
               Mathematical formulas and symbols are parts of sentences, and are treated no differently from other words. 
             </p>
 
-          </subsection>
-
-          <subsection xml:id="subsec-direct-number"><title>Direct Proofs and Number Theory</title>
 
             <definition xml:id="def-divides">
               <statement>
