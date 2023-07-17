@@ -655,7 +655,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.1",
   "title": "Direct Proof",
-  "body": "Direct Proof  Direct Proofs  Theorems are not proved in a vacuum. To prove one theorem, we usually need to use various relevant definitions, and theorems that have already been proved. If we do not want to keep going backwards infinitely, we need to start with some objects that we use without definition, as well as some facts about these objects that are assumed without proof. Such facts are called axioms, and a body of knowledge that can be derived from a set of axioms is called an axiomatic system.  In modern abstract mathematics, we take set theory as our basis for all arguments.  As a basis for our work in the present chapter, we will make use of standard definitions and properties of the familiar number systems such as the integers, rational numbers and real numbers.  The statement of virtually every theorem, when viewed appropriately, is of the form P → Q, or some combination of such statements. To prove theorems, we therefore need to know how to prove statements of the form P → Q.    The most intuitive form of proof, which we treat in this section, is called a direct proof : assume that is true, and produce a series of steps, each one following from the previous ones, which eventually lead to .    That this sort of proof deserves a name is because there are other approaches that can be taken, as we will soon see.  Direct proofs, when completed, typically have the following form.   Suppose that is true. ... (argumentation) ... Then is true.   When constructing a proof, the first thing to do is specify what you are assuming, and what it is you are trying to prove. Then you pick a strategy for the proof; one such strategy is direct proof. The next stage is actually figuring out a proof, making use of your chosen strategy. If you cannot devise a proof using your chosen strategy, perhaps another strategy should be attempted. There is no fixed way of finding a proof; it requires experimentation, playing around and trying different things.  You are probably familiar with the statement “the sum of even numbers is even.” This statement can be viewed in the form P → Q if we look at it properly, because it actually says “if n and m are even numbers, then n + m is an even number. To construct a rigorous proof of our statement (as well as the corresponding result for odd numbers), we first need precise definitions of the terms involved.  Our theorem is concerned with the integers, that is, the numbers . . . , −3, −2, −1, 0, 1, 2, 3, . . . , and so we need to assume that we know what the integers are, that we have the operations addition, subtraction, multiplication and division, and that these operations satisfy standard properties, for example the Distributive Law. Using only those standard facts about the integers, we can make the following definition, which is the basis for our theorem and its proof.    Let be an integer. The number is even if there is some integer such that . The number is odd if there is some integer such that .    We are now ready to state and prove our theorem.    Let and be integers.   If and are both even, then is even.    If and m are both odd, then is even.    If is even and is odd, then is odd.          Suppose that and are both even. Then there exist integers and such that and . Then Because and are integers, so is . Hence is even.    Combing soon!    Combing soon!        There is a fourth possible case we did not state in , namely, the case when is odd and is even, because that case is really no different from Part (3) of the theorem, and hence it would not tell us anything new; it makes no difference whether we call the even number and the odd number , or vice versa.   The proof of Part (1) of Theorem 2.1.3 is quite simple, but there are a few features worth mentioning, because they are typical of what is found in virtually all our subsequent proofs (and in the proofs you will need to write). First, the proof relies completely on the definition of what it means to be an even or an odd integer. In a large number of proofs, going back to the formal definitions involved is the key step; forgetting to do so is a major source of error by students who are first learning about proofs.  Second, observe that the proof is written in grammatically correct English. Complete sentences are used, with proper punctuation. Each sentence begins with a capital letter, and ends with a period, even if the end of the sentence is in a displayed equation. Mathematical formulas and symbols are parts of sentences, and are treated no differently from other words.    Let and be integers. The number  divides the number if and only if there is some integer such that . If divides , we write , and we say that is a factor of , and that is divisible by .     It is customary in definitions to write “if” rather than “if and only if,” because it is taken as assumed that if the condition does not hold, then the term being defined cannot be applied.     Let , and be integers. If and , then .    Suppose that and . Hence there are integers and such that and . Define the integer by . Then . Because , it follows that .      Any integer divides zero.    Let be an integer. Observe that . Hence .     Let be an integer. Prove that if is even then is even, and if is odd then is odd.    "
+  "body": "Direct Proof  Direct Proofs  Theorems are not proved in a vacuum. To prove one theorem, we usually need to use various relevant definitions, and theorems that have already been proved. If we do not want to keep going backwards infinitely, we need to start with some objects that we use without definition, as well as some facts about these objects that are assumed without proof. Such facts are called axioms, and a body of knowledge that can be derived from a set of axioms is called an axiomatic system.  In modern abstract mathematics, we take set theory as our basis for all arguments.  As a basis for our work in the present chapter, we will make use of standard definitions and properties of the familiar number systems such as the integers, rational numbers and real numbers.  The statement of virtually every theorem, when viewed appropriately, is of the form P \\to Q, or some combination of such statements. To prove theorems, we therefore need to know how to prove statements of the form P \\to Q.    The most intuitive form of proof, which we treat in this section, is called a direct proof : assume that is true, and produce a series of steps, each one following from the previous ones, which eventually lead to .    That this sort of proof deserves a name is because there are other approaches that can be taken, as we will soon see.  Direct proofs, when completed, typically have the following form.   Suppose that is true. ... (argumentation) ... Then is true.   When constructing a proof, the first thing to do is specify what you are assuming, and what it is you are trying to prove. Then you pick a strategy for the proof; one such strategy is direct proof. The next stage is actually figuring out a proof, making use of your chosen strategy. If you cannot devise a proof using your chosen strategy, perhaps another strategy should be attempted. There is no fixed way of finding a proof; it requires experimentation, playing around and trying different things.  You are probably familiar with the statement “the sum of even numbers is even.” This statement can be viewed in the form P \\to Q if we look at it properly, because it actually says “if n and m are even numbers, then n + m is an even number. To construct a rigorous proof of our statement (as well as the corresponding result for odd numbers), we first need precise definitions of the terms involved.  Our theorem is concerned with the integers, that is, the numbers . . . , -3, -2, -1, 0, 1, 2, 3, . . . , and so we need to assume that we know what the integers are, that we have the operations addition, subtraction, multiplication and division, and that these operations satisfy standard properties, for example the Distributive Law. Using only those standard facts about the integers, we can make the following definition, which is the basis for our theorem and its proof.    Let be an integer. The number is even if there is some integer such that . The number is odd if there is some integer such that .    We are now ready to state and prove our theorem.    Let and be integers.   If and are both even, then is even.    If and m are both odd, then is even.    If is even and is odd, then is odd.          Suppose that and are both even. Then there exist integers and such that and . Then Because and are integers, so is . Hence is even.    Combing soon!    Combing soon!        There is a fourth possible case we did not state in , namely, the case when is odd and is even, because that case is really no different from Part (3) of the theorem, and hence it would not tell us anything new; it makes no difference whether we call the even number and the odd number , or vice versa.   The proof of Part (1) of Theorem 2.1.3 is quite simple, but there are a few features worth mentioning, because they are typical of what is found in virtually all our subsequent proofs (and in the proofs you will need to write). First, the proof relies completely on the definition of what it means to be an even or an odd integer. In a large number of proofs, going back to the formal definitions involved is the key step; forgetting to do so is a major source of error by students who are first learning about proofs.  Second, observe that the proof is written in grammatically correct English. Complete sentences are used, with proper punctuation. Each sentence begins with a capital letter, and ends with a period, even if the end of the sentence is in a displayed equation. Mathematical formulas and symbols are parts of sentences, and are treated no differently from other words.    Let and be integers. The number  divides the number if and only if there is some integer such that . If divides , we write , and we say that is a factor of , and that is divisible by .     It is customary in definitions to write “if” rather than “if and only if,” because it is taken as assumed that if the condition does not hold, then the term being defined cannot be applied.     Let , and be integers. If and , then .    Suppose that and . Hence there are integers and such that and . Define the integer by . Then . Because , it follows that .      Any integer divides zero.    Let be an integer. Observe that . Hence .     Let be an integer. Prove that if is even then is even, and if is odd then is odd.    "
 },
 {
   "id": "def-direct-proof",
@@ -754,7 +754,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.2",
   "title": "Contrapositive, Contradiction",
-  "body": "Contrapositive, Contradiction   In this section we discuss two strategies for proving statements of the form . Both these strategies are a bit more convoluted than direct proof, but in some situations they are nonetheless easier to work with. A less than perfect analogy might be when the straightest road between two cities leads up and down a mountain and through difficult terrain, whereas a curved road might at first seem to be going in the wrong direction, but in fact it bypasses the mountain and is ultimately easier and quicker than the straight road.   Contrapositive  Recall .    In order to prove , we could just as well prove , which we would do by the method of direct proof. We construct such a proof by assuming that is false, and then, in the final write-up, presenting a step-by-step argument going from to . A proof of this sort is called proof by contrapositive .     Suppose that is false. ... (argumentation) ... Then is false.     Let be an integer. If is odd, then is odd.    Suppose that is even. Then there is some integer such that . Hence . Because is an integer, it follows that is even. By contrapositive, we see that if is odd then n is odd.     In the above proof we mentioned that we used proof by contrapositive. In general, it is often helpful to the reader to have the method of proof stated explicitly.    Contradiction  Another method of proof for theorems with statements of the form , which looks similar to proof by contrapositive but is actually distinct from it, is proof by contradiction.    The method of proof by contradiction is to show that is true by assuming that is true, and then deriving a logical contradiction, by which we mean a statement that cannot be true under any circumstances.    Logicians use the term “proof by contradiction” to mean the proof of a statement by assuming , then reaching a contradiction, and then deducing that must be true. For our purposes, we are interested in proof by contradiction for the special case where the statement has the form , because that is how mathematical theorems are formulated.   We prove the result by contradiction. Suppose that is true and that is false. ... (argumentation) ... We have therefore reached a contradiction. Therefore implies .     The only consecutive non-negative integers , and that satisfy are , and .    We prove the result by contradiction. Suppose that , and are non-negative consecutive integers other than , and , and that . Because a, b and c are not 3, 4 and 5, we know that a \\neq 3, and because the three numbers are consecutive, we know that b = a + 1 and c = a + 2. From we deduce that . After expanding and rearranging we obtain . This equation factors as . Hence . We have already remarked that , and we know a is non-negative. Therefore we have a contradiction, and the theorem is proved.    Our next two theorems are both famous results that have well-known proofs by contradiction. These clever proofs are much more difficult than what we have seen so far, and are more than would be expected of a student to figure out on her own at this point.    Let be a real number. The number is a rational number if there exist integers and such that and . If is not a rational number, it is an irrational number.     Observe that if x is a rational number, then there are many different fractions of the form n m such that x = n m. Given any fraction n m such that n 6 = 0, we can always reduce it to “lowest terms,” by which we mean that the numerator and denominator have no common factors other than 1 and −1.     Let be a positive real number. The square root of , denoted , is a positive real number such that .      There is no rational number such that .    Let be a real number. Suppose that , and that is rational. We will derive a contradiction. Because is rational, there are integers and such that . Observe that . If is not in lowest terms, then we could cancel any common factors, bringing it to lowest terms. There is no problem assuming that this has been done already, and so we may assume that n and m have no common factors other than and .  Because , then . It follows that , and hence . We now ask whether is even or odd. If were odd, then using Exercise 2.2.4 we would see that would be odd. This last statement is not possible, because , and must be even, because it is divisible by . It follows that cannot be odd; hence must be even. Therefore there is some integer such that . Then , so that , and therefore . By an argument similar to the one used above, we see that is even. We therefore conclude that both and are even. We have therefore reached a contradiction, because any two even numbers have as a common factor, and yet we assumed that and have no common factors other than and . Hence is not rational.      Let be an integer greater than . The number is a prime number iff the only positive integers that divide are and . The number is a composite number iff it is not a prime number.     Prove that the product of a non-zero rational number and an irrational number is irrational.    "
+  "body": "Contrapositive, Contradiction   In this section we discuss two strategies for proving statements of the form . Both these strategies are a bit more convoluted than direct proof, but in some situations they are nonetheless easier to work with. A less than perfect analogy might be when the straightest road between two cities leads up and down a mountain and through difficult terrain, whereas a curved road might at first seem to be going in the wrong direction, but in fact it bypasses the mountain and is ultimately easier and quicker than the straight road.   Contrapositive  Recall .    In order to prove , we could just as well prove , which we would do by the method of direct proof. We construct such a proof by assuming that is false, and then, in the final write-up, presenting a step-by-step argument going from to . A proof of this sort is called proof by contrapositive .     Suppose that is false. ... (argumentation) ... Then is false.     Let be an integer. If is odd, then is odd.    Suppose that is even. Then there is some integer such that . Hence . Because is an integer, it follows that is even. By contrapositive, we see that if is odd then n is odd.     In the above proof we mentioned that we used proof by contrapositive. In general, it is often helpful to the reader to have the method of proof stated explicitly.    Contradiction  Another method of proof for theorems with statements of the form , which looks similar to proof by contrapositive but is actually distinct from it, is proof by contradiction.    The method of proof by contradiction is to show that is true by assuming that is true, and then deriving a logical contradiction, by which we mean a statement that cannot be true under any circumstances.    Logicians use the term “proof by contradiction” to mean the proof of a statement by assuming , then reaching a contradiction, and then deducing that must be true. For our purposes, we are interested in proof by contradiction for the special case where the statement has the form , because that is how mathematical theorems are formulated.   We prove the result by contradiction. Suppose that is true and that is false. ... (argumentation) ... We have therefore reached a contradiction. Therefore implies .     The only consecutive non-negative integers , and that satisfy are , and .    We prove the result by contradiction. Suppose that , and are non-negative consecutive integers other than , and , and that . Because a, b and c are not 3, 4 and 5, we know that a \\neq 3, and because the three numbers are consecutive, we know that b = a + 1 and c = a + 2. From we deduce that . After expanding and rearranging we obtain . This equation factors as . Hence . We have already remarked that , and we know a is non-negative. Therefore we have a contradiction, and the theorem is proved.    Our next two theorems are both famous results that have well-known proofs by contradiction. These clever proofs are much more difficult than what we have seen so far, and are more than would be expected of a student to figure out on her own at this point.    Let be a real number. The number is a rational number if there exist integers and such that and . If is not a rational number, it is an irrational number.     Observe that if is a rational number, then there are many different fractions of the form such that . Given any fraction such that , we can always reduce it to “lowest terms,” by which we mean that the numerator and denominator have no common factors other than and .     Let be a positive real number. The square root of , denoted , is a positive real number such that .      There is no rational number such that .    Let be a real number. Suppose that , and that is rational. We will derive a contradiction. Because is rational, there are integers and such that . Observe that . If is not in lowest terms, then we could cancel any common factors, bringing it to lowest terms. There is no problem assuming that this has been done already, and so we may assume that and have no common factors other than and .  Because , then . It follows that , and hence . We now ask whether is even or odd. If were odd, then using Exercise 2.2.4 we would see that would be odd. This last statement is not possible, because , and must be even, because it is divisible by . It follows that cannot be odd; hence must be even. Therefore there is some integer such that . Then , so that , and therefore . By an argument similar to the one used above, we see that is even. We therefore conclude that both and are even. We have therefore reached a contradiction, because any two even numbers have as a common factor, and yet we assumed that and have no common factors other than and . Hence is not rational.      Let be an integer greater than . The number is a prime number iff the only positive integers that divide are and . The number is a composite number iff it is not a prime number.     Prove that the product of a non-zero rational number and an irrational number is irrational.    "
 },
 {
   "id": "def-contrapositive-proof",
@@ -835,7 +835,7 @@ var ptx_lunr_docs = [
   "type": "Remark",
   "number": "2.19",
   "title": "",
-  "body": " Observe that if x is a rational number, then there are many different fractions of the form n m such that x = n m. Given any fraction n m such that n 6 = 0, we can always reduce it to “lowest terms,” by which we mean that the numerator and denominator have no common factors other than 1 and −1.  "
+  "body": " Observe that if is a rational number, then there are many different fractions of the form such that . Given any fraction such that , we can always reduce it to “lowest terms,” by which we mean that the numerator and denominator have no common factors other than and .  "
 },
 {
   "id": "def-square-root",
@@ -853,7 +853,7 @@ var ptx_lunr_docs = [
   "type": "Theorem",
   "number": "2.21",
   "title": "",
-  "body": "  There is no rational number such that .    Let be a real number. Suppose that , and that is rational. We will derive a contradiction. Because is rational, there are integers and such that . Observe that . If is not in lowest terms, then we could cancel any common factors, bringing it to lowest terms. There is no problem assuming that this has been done already, and so we may assume that n and m have no common factors other than and .  Because , then . It follows that , and hence . We now ask whether is even or odd. If were odd, then using Exercise 2.2.4 we would see that would be odd. This last statement is not possible, because , and must be even, because it is divisible by . It follows that cannot be odd; hence must be even. Therefore there is some integer such that . Then , so that , and therefore . By an argument similar to the one used above, we see that is even. We therefore conclude that both and are even. We have therefore reached a contradiction, because any two even numbers have as a common factor, and yet we assumed that and have no common factors other than and . Hence is not rational.   "
+  "body": "  There is no rational number such that .    Let be a real number. Suppose that , and that is rational. We will derive a contradiction. Because is rational, there are integers and such that . Observe that . If is not in lowest terms, then we could cancel any common factors, bringing it to lowest terms. There is no problem assuming that this has been done already, and so we may assume that and have no common factors other than and .  Because , then . It follows that , and hence . We now ask whether is even or odd. If were odd, then using Exercise 2.2.4 we would see that would be odd. This last statement is not possible, because , and must be even, because it is divisible by . It follows that cannot be odd; hence must be even. Therefore there is some integer such that . Then , so that , and therefore . By an argument similar to the one used above, we see that is even. We therefore conclude that both and are even. We have therefore reached a contradiction, because any two even numbers have as a common factor, and yet we assumed that and have no common factors other than and . Hence is not rational.   "
 },
 {
   "id": "def-prime-number",
@@ -880,7 +880,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.3",
   "title": "Other Proof Structures",
-  "body": "Other Proof Structures   The notion of equivalence of statements has already been seen to be useful in proving theorems, for example in proof by contrapositive. In this section we will make use of some other equivalences of statements to prove certain types of theorems.   Cases   One commonly used method for proving a statement of the form P → Q is by breaking up the proof into a number of cases (and possibly subcases, subsubcases and so on).   Formally, we use proof by cases when the premise P can be written in the form A ∨ B. We then use Exercise 1.3.2 (6) to see that (A ∨ B) → Q is equivalent to (A → Q) ∧ (B → Q). Hence, in order to prove that a statement of the form (A ∨ B) → Q is true, it is sufficient to prove that each of the statements A → Q and B → Q is true.   The use of this strategy often occurs when proving a statement involving a quantifier of the form “for all x in U,” and where no single proof can be found for all such x, but where U can be divided up into two or more parts, and where a proof can be found for each part.     Let n be an integer. Then n^2 + n is even.     In the proof of Theorem 2.4.1 we had two cases, which together covered all possibilities, and which were exclusive of each other. It is certainly possible to have more than two cases, and it is also possible to have non-exclusive cases; all that is needed is that all the cases combined cover all possibilities. The proof of Theorem 2.4.4 below has two non-exclusive cases.   We now turn to theorems that have statements of the form P → (A ∨ B). Such theorems are less common than the previously discussed type, but do occur, and it is worth being familiar with the standard proof strategies for such theorems.   There are two commonly used strategies, each one being advantageous in certain situations. One approach would be to use the contrapositive together with De Morgan’s Law (Fact 1.3.2 (13)), which together imply that P → (A∨B) is equivalent to (¬A∧¬B) → ¬P. The other would be to use Exercise 1.3.2 (5), which says that P → (A ∨ B) is equivalent to (P ∧ ¬A) → B. The roles of A and B could also be interchanged in this last statement.     Let x and y be real numbers. If xy is irrational, then x or y is irrational.    Suppose that xy is irrational and that x is rational. Hence x = a b for some integers a and b such that b 6 = 0. We will show that y is irrational, by using proof by contradiction. Suppose that y is rational. It follows that y = m n for some integers m and n such that n 6 = 0. Hence xy = am bn , and bn 6 = 0, contradicting the fact that xy is irrational. Hence y is irrational.     If and Only If  Whereas the most common logical form of the statement of a theorem is P → Q, as we have discussed so far, another common form is P ↔ Q. We refer to such theorems as “if and only if” theorems (often abbreviated “iff” theorems). To prove such a theorem, we make use of the fact that P ↔ Q is equivalent to (P → Q) ∧ (Q → P), as was shown in Fact 1.3.2 (11). Hence, to prove a single statement of the form P ↔ Q, it is sufficient to prove the two statements P → Q and Q → P, each of which can be proved using any of the methods we have seen so far.    Let a and b be non-zero integers. Then a|b and b|a if and only if a = b or a = −b.    ⇒. Suppose that a|b and b|a. Because a|b, there is some integer m such that am = b, and because b|a, there is some integer k such that bk = a. Substituting this last equation into the previous one, we obtain (bk)m = b, and hence b(km) = b. Because b 6 = 0, it follows that km = 1. Because k and m are integers, then either k = 1 and m = 1, or k = −1 and m = −1. (We will not provide a proof of this last fact; it is stated as Theorem A.4 in the Appendix.) In the former case a = b, and in the latter case a = −b.  ⇐. Suppose that a = b or a = −b. First, suppose that a = b. Then a · 1 = b, so a|b, and b · 1 = a, so b|a. Similarly, suppose that a = −b. Then a · (−1) = b, so a|b, and b · (−1) = a, so b|a.      Let m and n be integers. Then mn is odd if and only if both m and n are odd.    ⇐. Suppose that m and n are both odd. Hence there is an integer j such that m = 2 j + 1, and there is an integer k such that n = 2k + 1. Therefore mn = (2 j + 1)(2k + 1) = 4 jk + 2 j + 2k + 1 = 2(2 jk + j + k) + 1. Because k and j are integers, so is 2 jk + j + k. Therefore mn is odd.  ⇒. Suppose that m and n are not both odd. We will deduce that mn is not odd, and the desired result will follow by contrapositive. If m and n are not both odd, then at least one of them is even. Suppose first that m is even. Then there is an integer p such that m = 2p. Hence mn = (2p)n = 2(pn). Because p and n are integers, so is pn. Therefore mn is even. Next assume that n is even. The proof in this case is similar to the previous case, and we omit the details.     The Following are Equivalent  A slightly more built-up version of an if and only if theorem is a theorem that states that three or more statements are all mutually equivalent. Such theorems often include the phrase “the following are equivalent,” sometimes abbreviated “TFAE.”   "
+  "body": "Other Proof Structures   The notion of equivalence of statements has already been seen to be useful in proving theorems, for example in proof by contrapositive. In this section we will make use of some other equivalences of statements to prove certain types of theorems.   Cases   One commonly used method for proving a statement of the form is by breaking up the proof into a number of cases (and possibly subcases, subsubcases and so on).   Formally, we use proof by cases when the premise can be written in the form . We then use Exercise 1.3.2 (6) to see that is equivalent to . Hence, in order to prove that a statement of the form is true, it is sufficient to prove that each of the statements and is true.   The use of this strategy often occurs when proving a statement involving a quantifier of the form “for all in ,” and where no single proof can be found for all such , but where can be divided up into two or more parts, and where a proof can be found for each part.     Let be an integer. Then is even.     In the proof of Theorem 2.4.1 we had two cases, which together covered all possibilities, and which were exclusive of each other. It is certainly possible to have more than two cases, and it is also possible to have non-exclusive cases; all that is needed is that all the cases combined cover all possibilities. The proof of Theorem 2.4.4 below has two non-exclusive cases.   We now turn to theorems that have statements of the form . Such theorems are less common than the previously discussed type, but do occur, and it is worth being familiar with the standard proof strategies for such theorems.   There are two commonly used strategies, each one being advantageous in certain situations. One approach would be to use the contrapositive together with De Morgan’s Law (Fact 1.3.2 (13)), which together imply that is equivalent to . The other would be to use Exercise 1.3.2 (5), which says that is equivalent to . The roles of and could also be interchanged in this last statement.     Let and be real numbers. If is irrational, then or is irrational.    Suppose that is irrational and that is rational. Hence for some integers and such that . We will show that is irrational, by using proof by contradiction. Suppose that is rational. It follows that for some integers and such that . Hence , and , contradicting the fact that is irrational. Hence is irrational.     If and Only If  Whereas the most common logical form of the statement of a theorem is , as we have discussed so far, another common form is . We refer to such theorems as “if and only if” theorems (often abbreviated “iff” theorems). To prove such a theorem, we make use of the fact that is equivalent to , as was shown in Fact 1.3.2 (11). Hence, to prove a single statement of the form , it is sufficient to prove the two statements and , each of which can be proved using any of the methods we have seen so far.    Let and be non-zero integers. Then and if and only if or .    ⇒. Suppose that and . Because , there is some integer m such that , and because , there is some integer such that . Substituting this last equation into the previous one, we obtain , and hence . Because , it follows that . Because and m are integers, then either and , or and . (We will not provide a proof of this last fact; it is stated as Theorem A.4 in the Appendix.) In the former case , and in the latter case .  ⇐. Suppose that or . First, suppose that . Then , so , and , so . Similarly, suppose that . Then , so , and , so .      Let and be integers. Then is odd if and only if both and are odd.    ⇐. Suppose that and are both odd. Hence there is an integer such that , and there is an integer such that . Therefore Because and are integers, so is . Therefore is odd.  ⇒. Suppose that and are not both odd. We will deduce that mn is not odd, and the desired result will follow by contrapositive. If and are not both odd, then at least one of them is even. Suppose first that is even. Then there is an integer such that . Hence . Because and are integers, so is . Therefore is even. Next assume that is even. The proof in this case is similar to the previous case, and we omit the details.     The Following are Equivalent  A slightly more built-up version of an if and only if theorem is a theorem that states that three or more statements are all mutually equivalent. Such theorems often include the phrase “the following are equivalent,” sometimes abbreviated “TFAE.”   "
 },
 {
   "id": "convention-11",
@@ -889,7 +889,7 @@ var ptx_lunr_docs = [
   "type": "Convention",
   "number": "2.24",
   "title": "",
-  "body": " One commonly used method for proving a statement of the form P → Q is by breaking up the proof into a number of cases (and possibly subcases, subsubcases and so on).  "
+  "body": " One commonly used method for proving a statement of the form is by breaking up the proof into a number of cases (and possibly subcases, subsubcases and so on).  "
 },
 {
   "id": "remark-14",
@@ -898,7 +898,7 @@ var ptx_lunr_docs = [
   "type": "Remark",
   "number": "2.25",
   "title": "",
-  "body": " The use of this strategy often occurs when proving a statement involving a quantifier of the form “for all x in U,” and where no single proof can be found for all such x, but where U can be divided up into two or more parts, and where a proof can be found for each part.  "
+  "body": " The use of this strategy often occurs when proving a statement involving a quantifier of the form “for all in ,” and where no single proof can be found for all such , but where can be divided up into two or more parts, and where a proof can be found for each part.  "
 },
 {
   "id": "thm-even-square-plus-n",
@@ -907,7 +907,7 @@ var ptx_lunr_docs = [
   "type": "Theorem",
   "number": "2.26",
   "title": "",
-  "body": "  Let n be an integer. Then n^2 + n is even.   "
+  "body": "  Let be an integer. Then is even.   "
 },
 {
   "id": "remark-15",
@@ -925,7 +925,7 @@ var ptx_lunr_docs = [
   "type": "Convention",
   "number": "2.28",
   "title": "",
-  "body": " There are two commonly used strategies, each one being advantageous in certain situations. One approach would be to use the contrapositive together with De Morgan’s Law (Fact 1.3.2 (13)), which together imply that P → (A∨B) is equivalent to (¬A∧¬B) → ¬P. The other would be to use Exercise 1.3.2 (5), which says that P → (A ∨ B) is equivalent to (P ∧ ¬A) → B. The roles of A and B could also be interchanged in this last statement.  "
+  "body": " There are two commonly used strategies, each one being advantageous in certain situations. One approach would be to use the contrapositive together with De Morgan’s Law (Fact 1.3.2 (13)), which together imply that is equivalent to . The other would be to use Exercise 1.3.2 (5), which says that is equivalent to . The roles of and could also be interchanged in this last statement.  "
 },
 {
   "id": "thm-irrational-product",
@@ -934,7 +934,7 @@ var ptx_lunr_docs = [
   "type": "Theorem",
   "number": "2.29",
   "title": "",
-  "body": "  Let x and y be real numbers. If xy is irrational, then x or y is irrational.    Suppose that xy is irrational and that x is rational. Hence x = a b for some integers a and b such that b 6 = 0. We will show that y is irrational, by using proof by contradiction. Suppose that y is rational. It follows that y = m n for some integers m and n such that n 6 = 0. Hence xy = am bn , and bn 6 = 0, contradicting the fact that xy is irrational. Hence y is irrational.   "
+  "body": "  Let and be real numbers. If is irrational, then or is irrational.    Suppose that is irrational and that is rational. Hence for some integers and such that . We will show that is irrational, by using proof by contradiction. Suppose that is rational. It follows that for some integers and such that . Hence , and , contradicting the fact that is irrational. Hence is irrational.   "
 },
 {
   "id": "thm-mutual-divide",
@@ -943,7 +943,7 @@ var ptx_lunr_docs = [
   "type": "Theorem",
   "number": "2.30",
   "title": "",
-  "body": "  Let a and b be non-zero integers. Then a|b and b|a if and only if a = b or a = −b.    ⇒. Suppose that a|b and b|a. Because a|b, there is some integer m such that am = b, and because b|a, there is some integer k such that bk = a. Substituting this last equation into the previous one, we obtain (bk)m = b, and hence b(km) = b. Because b 6 = 0, it follows that km = 1. Because k and m are integers, then either k = 1 and m = 1, or k = −1 and m = −1. (We will not provide a proof of this last fact; it is stated as Theorem A.4 in the Appendix.) In the former case a = b, and in the latter case a = −b.  ⇐. Suppose that a = b or a = −b. First, suppose that a = b. Then a · 1 = b, so a|b, and b · 1 = a, so b|a. Similarly, suppose that a = −b. Then a · (−1) = b, so a|b, and b · (−1) = a, so b|a.   "
+  "body": "  Let and be non-zero integers. Then and if and only if or .    ⇒. Suppose that and . Because , there is some integer m such that , and because , there is some integer such that . Substituting this last equation into the previous one, we obtain , and hence . Because , it follows that . Because and m are integers, then either and , or and . (We will not provide a proof of this last fact; it is stated as Theorem A.4 in the Appendix.) In the former case , and in the latter case .  ⇐. Suppose that or . First, suppose that . Then , so , and , so . Similarly, suppose that . Then , so , and , so .   "
 },
 {
   "id": "thm-odd-product",
@@ -952,7 +952,7 @@ var ptx_lunr_docs = [
   "type": "Theorem",
   "number": "2.31",
   "title": "",
-  "body": "  Let m and n be integers. Then mn is odd if and only if both m and n are odd.    ⇐. Suppose that m and n are both odd. Hence there is an integer j such that m = 2 j + 1, and there is an integer k such that n = 2k + 1. Therefore mn = (2 j + 1)(2k + 1) = 4 jk + 2 j + 2k + 1 = 2(2 jk + j + k) + 1. Because k and j are integers, so is 2 jk + j + k. Therefore mn is odd.  ⇒. Suppose that m and n are not both odd. We will deduce that mn is not odd, and the desired result will follow by contrapositive. If m and n are not both odd, then at least one of them is even. Suppose first that m is even. Then there is an integer p such that m = 2p. Hence mn = (2p)n = 2(pn). Because p and n are integers, so is pn. Therefore mn is even. Next assume that n is even. The proof in this case is similar to the previous case, and we omit the details.   "
+  "body": "  Let and be integers. Then is odd if and only if both and are odd.    ⇐. Suppose that and are both odd. Hence there is an integer such that , and there is an integer such that . Therefore Because and are integers, so is . Therefore is odd.  ⇒. Suppose that and are not both odd. We will deduce that mn is not odd, and the desired result will follow by contrapositive. If and are not both odd, then at least one of them is even. Suppose first that is even. Then there is an integer such that . Hence . Because and are integers, so is . Therefore is even. Next assume that is even. The proof in this case is similar to the previous case, and we omit the details.   "
 },
 {
   "id": "sec-set-basics",
@@ -961,14 +961,23 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "3.1",
   "title": "Set Basics",
-  "body": "Set Basics     Natural Numbers  the set of natural numbers  , denoted ;   Integers  the set of integers  , denoted ;   Rational Numbers  the set of rational numbers , denoted , which is the set of fractions;   Real Numbers  the set of real numbers , denoted , which is the set of all the numbers that are informally thought of as forming the number line.       An extremely valuable set we will regularly encounter is the empty set (also called the null set) which is the set that does not have any elements in it. That is, the empty set is the set . This set is denoted .   It may seem strange to consider a set that doesn't have anything in it, but the role of the empty set in set theory is somewhat analogous to the role of zero in arithmetic.  Set Builder Notation      Let and be sets. The set is a subset of the set , denoted , if implies . If is not a subset of , we write .    Subset Proof  There is a standard strategy for proving a statement of the form “ ,” which is to take an arbitrary element , and then to use the definitions of and to deduce that . Such a proof typically has the following form.  Proof. Let . ... (argumentation) ... Then . Hence .    It is important to distinguish between the notion of an object being an element of a set, and the notion of a set being a subset of another set. For example, let . Then and are true, whereas the statements “ ” and “ ” are false. Also, observe that a set can be an element of another set. Let . Observe that is not the same as the set . Then and are true, but “ ” and “ ” are false.                  If and , then .          To show that , we start by choosing an arbitrary element , where we think of this “ ” as the one on the left-hand side of the expression “ .” It then follows that , where we now think of this “ ” as the one on the right-hand side of the expression “ .” Hence , using the definition of subsets.    We give two proofs, because both are instructive. First, we have a direct proof. To show that , we need to show that if , then . Because is always false, then the logical implication “if , then ” is always true, using the precise definition of the conditional given in Section 1.2.  Next, we have a proof by contradiction. Suppose that . Then there exists some such that . This statement cannot be true, however, because there is no such that . We have therefore reached a contradiction, and hence the desired result is true.  This proof by contradiction might not appear to fit the standard outline for such proofs as described in Section 2.3, because it does not appear as if we are viewing the statement being proved as having the form . In fact, there are two ways of viewing the statement being proved as having this form. For the direct proof given above, we viewed the statement being proved as . We then chose an arbitrary set , and proved the statement . For the proof by contradiction, we viewed the statement being proved as “if is a set, then ,” and then indeed used our standard method of doing proof by contradiction.    This proof, having no logical tricks, is extremely typical. Let . Because , it follows that . Because , it follows that . Therefore we see that implies , and hence .         Let and be sets. The set  equals the set , denoted , if and . The set is a proper subset of the set , denoted , if and .     There is a bit of variation in the mathematical literature for the notation used for proper subsets. Some texts use to mean is a proper subset of , whereas others use the notation to mean what we write as .    Proof. Let . ... (argumentation) ... Then . Therefore . Next, Let . ... (argumentation) ... Then . Hence . We conclude that .     Let and be sets.    .    If then .    If and , then .       All three parts of this lemma follow straightforwardly from the definition of equality of sets together with Lemma 3.2.4. Details are left to the reader.    In some situations we will find it useful to look at not just one subset of a given set, but at all subsets of the set. In particular, we can form a new set, the elements of which are the subsets of the given set.    Let be a set. The power set of , denoted , is the set defined by .        Because , then . In particular, we see that .    Let . Then the subsets of are . The last of these subsets is not proper, but we need all subsets, not only the proper ones. Therefore It can be seen intuitively that if is a finite set with n elements, then is a finite set with elements; by Part (1) of this exercise we see that this formula holds even when . This formula is proved in Theorem 7.7.10 (1).       Let and be sets. Prove that it is not possible that and are both true.   "
+  "body": "Set Basics  Sets and Notation  In the present chapter we will discuss the common basis for all systems of axioms used in contemporary mathematics, which is set theory. Though of surprisingly recent vintage, having been developed by Georg Cantor in the late nineteenth century, set theory has become widely accepted among mathematicians as the starting place for rigorous mathematics. We will take an intuitive approach to set theory (often referred to as “naive set theory”), but then build on it rigorously.   A set is a well-defined collection of objects that can be thought of as a single entity itself.   The most basic way of specifying the elements of a set is to list the elements of that set. This works well when the set contains only a small number of objects. The usual practice is to list these elements between braces.     Natural Numbers  the set of natural numbers  , denoted ;   Integers  the set of integers  , denoted ;   Rational Numbers  the set of rational numbers , denoted , which is the set of fractions;   Real Numbers  the set of real numbers , denoted , which is the set of all the numbers that are informally thought of as forming the number line.      Empty Set  An extremely valuable set we will regularly encounter is the empty set (also called the null set) which is the set that does not have any elements in it. That is, the empty set is the set . This set is denoted .   It may seem strange to consider a set that doesn't have anything in it, but the role of the empty set in set theory is somewhat analogous to the role of zero in arithmetic.  Set Builder Notation  Sometimes it is not possible to list all the elements of a set. In this case, it is sometimes convenient to use the so-called set builder notation in which the set is defined by stating a rule that all elements of the set must satisfy. If P .x\/ is a predicate in the variable x, then the notation stands for the set of all elements x in the universal set U for which P .x\/ is true. If it is clear what set is being used for the universal set, this notation is sometimes shortened to fx j P .x\/g. This is usually read as “the set of all x such that P .x\/.” The vertical bar stands for the phrase “such that.” Some writers will use a colon (:) instead of the vertical bar.    Subsets and Set Equality    Let and be sets. The set is a subset of the set , denoted , if implies . If is not a subset of , we write .    Subset Proof  There is a standard strategy for proving a statement of the form “ ,” which is to take an arbitrary element , and then to use the definitions of and to deduce that . Such a proof typically has the following form.  Proof. Let . ... (argumentation) ... Then . Hence .    It is important to distinguish between the notion of an object being an element of a set, and the notion of a set being a subset of another set. For example, let . Then and are true, whereas the statements “ ” and “ ” are false. Also, observe that a set can be an element of another set. Let . Observe that is not the same as the set . Then and are true, but “ ” and “ ” are false.   Properties of Subsets                If and , then .          To show that , we start by choosing an arbitrary element , where we think of this “ ” as the one on the left-hand side of the expression “ .” It then follows that , where we now think of this “ ” as the one on the right-hand side of the expression “ .” Hence , using the definition of subsets.    We give two proofs, because both are instructive. First, we have a direct proof. To show that , we need to show that if , then . Because is always false, then the logical implication “if , then ” is always true, using the precise definition of the conditional given in Section 1.2.  Next, we have a proof by contradiction. Suppose that . Then there exists some such that . This statement cannot be true, however, because there is no such that . We have therefore reached a contradiction, and hence the desired result is true.  This proof by contradiction might not appear to fit the standard outline for such proofs as described in Section 2.3, because it does not appear as if we are viewing the statement being proved as having the form . In fact, there are two ways of viewing the statement being proved as having this form. For the direct proof given above, we viewed the statement being proved as . We then chose an arbitrary set , and proved the statement . For the proof by contradiction, we viewed the statement being proved as “if is a set, then ,” and then indeed used our standard method of doing proof by contradiction.    This proof, having no logical tricks, is extremely typical. Let . Because , it follows that . Because , it follows that . Therefore we see that implies , and hence .       Set Equality   Let and be sets. The set  equals the set , denoted , if and . The set is a proper subset of the set , denoted , if and .     There is a bit of variation in the mathematical literature for the notation used for proper subsets. Some texts use to mean is a proper subset of , whereas others use the notation to mean what we write as .   Set Equality Proof  Proof. Let . ... (argumentation) ... Then . Therefore . Next, Let . ... (argumentation) ... Then . Hence . We conclude that .   Properties of Set Equalities   Let and be sets.    .    If then .    If and , then .       All three parts of this lemma follow straightforwardly from the definition of equality of sets together with Lemma 3.2.4. Details are left to the reader.    In some situations we will find it useful to look at not just one subset of a given set, but at all subsets of the set. In particular, we can form a new set, the elements of which are the subsets of the given set.  Power Set   Let be a set. The power set of , denoted , is the set defined by .    Power Sets     Because , then . In particular, we see that .    Let . Then the subsets of are . The last of these subsets is not proper, but we need all subsets, not only the proper ones. Therefore It can be seen intuitively that if is a finite set with n elements, then is a finite set with elements; by Part (1) of this exercise we see that this formula holds even when . This formula is proved in Theorem 7.7.10 (1).      Mutually Proper  Let and be sets. Prove that it is not possible that and are both true.    "
+},
+{
+  "id": "convention-13",
+  "level": "2",
+  "url": "sec-set-basics.html#convention-13",
+  "type": "Convention",
+  "number": "3.1",
+  "title": "",
+  "body": " A set is a well-defined collection of objects that can be thought of as a single entity itself.  "
 },
 {
   "id": "example-23",
   "level": "2",
   "url": "sec-set-basics.html#example-23",
   "type": "Example",
-  "number": "3.1",
+  "number": "3.2",
   "title": "",
   "body": "   Natural Numbers  the set of natural numbers  , denoted ;   Integers  the set of integers  , denoted ;   Rational Numbers  the set of rational numbers , denoted , which is the set of fractions;   Real Numbers  the set of real numbers , denoted , which is the set of all the numbers that are informally thought of as forming the number line.     "
 },
@@ -977,25 +986,25 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-set-basics.html#example-24",
   "type": "Example",
-  "number": "3.2",
-  "title": "",
-  "body": " An extremely valuable set we will regularly encounter is the empty set (also called the null set) which is the set that does not have any elements in it. That is, the empty set is the set . This set is denoted .  "
+  "number": "3.3",
+  "title": "Empty Set.",
+  "body": "Empty Set  An extremely valuable set we will regularly encounter is the empty set (also called the null set) which is the set that does not have any elements in it. That is, the empty set is the set . This set is denoted .  "
 },
 {
-  "id": "convention-13",
+  "id": "convention-14",
   "level": "2",
-  "url": "sec-set-basics.html#convention-13",
+  "url": "sec-set-basics.html#convention-14",
   "type": "Convention",
-  "number": "3.3",
+  "number": "3.4",
   "title": "Set Builder Notation.",
-  "body": "Set Builder Notation   "
+  "body": "Set Builder Notation  Sometimes it is not possible to list all the elements of a set. In this case, it is sometimes convenient to use the so-called set builder notation in which the set is defined by stating a rule that all elements of the set must satisfy. If P .x\/ is a predicate in the variable x, then the notation stands for the set of all elements x in the universal set U for which P .x\/ is true. If it is clear what set is being used for the universal set, this notation is sometimes shortened to fx j P .x\/g. This is usually read as “the set of all x such that P .x\/.” The vertical bar stands for the phrase “such that.” Some writers will use a colon (:) instead of the vertical bar.  "
 },
 {
   "id": "def-subset",
   "level": "2",
   "url": "sec-set-basics.html#def-subset",
   "type": "Definition",
-  "number": "3.4",
+  "number": "3.5",
   "title": "",
   "body": "  Let and be sets. The set is a subset of the set , denoted , if implies . If is not a subset of , we write .   "
 },
@@ -1004,7 +1013,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-set-basics.html#insight-4",
   "type": "Structure",
-  "number": "3.5",
+  "number": "3.6",
   "title": "Subset Proof.",
   "body": "Subset Proof  There is a standard strategy for proving a statement of the form “ ,” which is to take an arbitrary element , and then to use the definitions of and to deduce that . Such a proof typically has the following form.  Proof. Let . ... (argumentation) ... Then . Hence .  "
 },
@@ -1013,7 +1022,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-set-basics.html#remark-16",
   "type": "Remark",
-  "number": "3.6",
+  "number": "3.7",
   "title": "",
   "body": " It is important to distinguish between the notion of an object being an element of a set, and the notion of a set being a subset of another set. For example, let . Then and are true, whereas the statements “ ” and “ ” are false. Also, observe that a set can be an element of another set. Let . Observe that is not the same as the set . Then and are true, but “ ” and “ ” are false.  "
 },
@@ -1022,25 +1031,25 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-set-basics.html#thm-properties-of-subsets",
   "type": "Theorem",
-  "number": "3.7",
-  "title": "",
-  "body": "               If and , then .          To show that , we start by choosing an arbitrary element , where we think of this “ ” as the one on the left-hand side of the expression “ .” It then follows that , where we now think of this “ ” as the one on the right-hand side of the expression “ .” Hence , using the definition of subsets.    We give two proofs, because both are instructive. First, we have a direct proof. To show that , we need to show that if , then . Because is always false, then the logical implication “if , then ” is always true, using the precise definition of the conditional given in Section 1.2.  Next, we have a proof by contradiction. Suppose that . Then there exists some such that . This statement cannot be true, however, because there is no such that . We have therefore reached a contradiction, and hence the desired result is true.  This proof by contradiction might not appear to fit the standard outline for such proofs as described in Section 2.3, because it does not appear as if we are viewing the statement being proved as having the form . In fact, there are two ways of viewing the statement being proved as having this form. For the direct proof given above, we viewed the statement being proved as . We then chose an arbitrary set , and proved the statement . For the proof by contradiction, we viewed the statement being proved as “if is a set, then ,” and then indeed used our standard method of doing proof by contradiction.    This proof, having no logical tricks, is extremely typical. Let . Because , it follows that . Because , it follows that . Therefore we see that implies , and hence .      "
+  "number": "3.8",
+  "title": "Properties of Subsets.",
+  "body": "Properties of Subsets                If and , then .          To show that , we start by choosing an arbitrary element , where we think of this “ ” as the one on the left-hand side of the expression “ .” It then follows that , where we now think of this “ ” as the one on the right-hand side of the expression “ .” Hence , using the definition of subsets.    We give two proofs, because both are instructive. First, we have a direct proof. To show that , we need to show that if , then . Because is always false, then the logical implication “if , then ” is always true, using the precise definition of the conditional given in Section 1.2.  Next, we have a proof by contradiction. Suppose that . Then there exists some such that . This statement cannot be true, however, because there is no such that . We have therefore reached a contradiction, and hence the desired result is true.  This proof by contradiction might not appear to fit the standard outline for such proofs as described in Section 2.3, because it does not appear as if we are viewing the statement being proved as having the form . In fact, there are two ways of viewing the statement being proved as having this form. For the direct proof given above, we viewed the statement being proved as . We then chose an arbitrary set , and proved the statement . For the proof by contradiction, we viewed the statement being proved as “if is a set, then ,” and then indeed used our standard method of doing proof by contradiction.    This proof, having no logical tricks, is extremely typical. Let . Because , it follows that . Because , it follows that . Therefore we see that implies , and hence .      "
 },
 {
   "id": "def-set-equality",
   "level": "2",
   "url": "sec-set-basics.html#def-set-equality",
   "type": "Definition",
-  "number": "3.8",
-  "title": "",
-  "body": "  Let and be sets. The set  equals the set , denoted , if and . The set is a proper subset of the set , denoted , if and .   "
+  "number": "3.9",
+  "title": "Set Equality.",
+  "body": "Set Equality   Let and be sets. The set  equals the set , denoted , if and . The set is a proper subset of the set , denoted , if and .   "
 },
 {
-  "id": "convention-14",
+  "id": "convention-15",
   "level": "2",
-  "url": "sec-set-basics.html#convention-14",
+  "url": "sec-set-basics.html#convention-15",
   "type": "Convention",
-  "number": "3.9",
+  "number": "3.10",
   "title": "",
   "body": " There is a bit of variation in the mathematical literature for the notation used for proper subsets. Some texts use to mean is a proper subset of , whereas others use the notation to mean what we write as .  "
 },
@@ -1049,45 +1058,45 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-set-basics.html#insight-5",
   "type": "Structure",
-  "number": "3.10",
-  "title": "",
-  "body": " Proof. Let . ... (argumentation) ... Then . Therefore . Next, Let . ... (argumentation) ... Then . Hence . We conclude that .  "
+  "number": "3.11",
+  "title": "Set Equality Proof.",
+  "body": "Set Equality Proof  Proof. Let . ... (argumentation) ... Then . Therefore . Next, Let . ... (argumentation) ... Then . Hence . We conclude that .  "
 },
 {
-  "id": "lemma-1",
+  "id": "corollary-1",
   "level": "2",
-  "url": "sec-set-basics.html#lemma-1",
-  "type": "Lemma",
-  "number": "3.11",
-  "title": "",
-  "body": "  Let and be sets.    .    If then .    If and , then .       All three parts of this lemma follow straightforwardly from the definition of equality of sets together with Lemma 3.2.4. Details are left to the reader.   "
+  "url": "sec-set-basics.html#corollary-1",
+  "type": "Corollary",
+  "number": "3.12",
+  "title": "Properties of Set Equalities.",
+  "body": "Properties of Set Equalities   Let and be sets.    .    If then .    If and , then .       All three parts of this lemma follow straightforwardly from the definition of equality of sets together with Lemma 3.2.4. Details are left to the reader.   "
 },
 {
   "id": "def-power-set",
   "level": "2",
   "url": "sec-set-basics.html#def-power-set",
   "type": "Definition",
-  "number": "3.12",
-  "title": "",
-  "body": "  Let be a set. The power set of , denoted , is the set defined by .   "
+  "number": "3.13",
+  "title": "Power Set.",
+  "body": "Power Set   Let be a set. The power set of , denoted , is the set defined by .   "
 },
 {
   "id": "example-25",
   "level": "2",
   "url": "sec-set-basics.html#example-25",
   "type": "Example",
-  "number": "3.13",
-  "title": "",
-  "body": "    Because , then . In particular, we see that .    Let . Then the subsets of are . The last of these subsets is not proper, but we need all subsets, not only the proper ones. Therefore It can be seen intuitively that if is a finite set with n elements, then is a finite set with elements; by Part (1) of this exercise we see that this formula holds even when . This formula is proved in Theorem 7.7.10 (1).     "
+  "number": "3.14",
+  "title": "Power Sets.",
+  "body": "Power Sets     Because , then . In particular, we see that .    Let . Then the subsets of are . The last of these subsets is not proper, but we need all subsets, not only the proper ones. Therefore It can be seen intuitively that if is a finite set with n elements, then is a finite set with elements; by Part (1) of this exercise we see that this formula holds even when . This formula is proved in Theorem 7.7.10 (1).     "
 },
 {
   "id": "exercise-4",
   "level": "2",
   "url": "sec-set-basics.html#exercise-4",
   "type": "Exploration",
-  "number": "3.14",
-  "title": "",
-  "body": " Let and be sets. Prove that it is not possible that and are both true.  "
+  "number": "3.15",
+  "title": "Mutually Proper.",
+  "body": "Mutually Proper  Let and be sets. Prove that it is not possible that and are both true.  "
 },
 {
   "id": "sec-set-operations",
@@ -1103,7 +1112,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-set-operations.html#def-union-intersection",
   "type": "Definition",
-  "number": "3.15",
+  "number": "3.16",
   "title": "",
   "body": "  Let and be sets. The union of and , denoted , is the set defined by . The intersection of and , denoted , is the set defined by .   "
 },
@@ -1112,7 +1121,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-set-operations.html#thm-properties-union-intersection",
   "type": "Theorem",
-  "number": "3.16",
+  "number": "3.17",
   "title": "",
   "body": "  Let , and be sets.    and . If is a set such that and , then .     and . If is a set such that and , then .   Commutative Laws   and .   Associative Laws   and .   Distributive Laws   and .   Identity Laws   and .   Idempotent Laws   and .   Absorbtion Laws   and .    If , then and .      "
 },
@@ -1121,7 +1130,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-set-operations.html#def-disjoint",
   "type": "Definition",
-  "number": "3.17",
+  "number": "3.18",
   "title": "",
   "body": "  Let and be sets. The sets and are disjoint if .   "
 },
@@ -1130,7 +1139,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-set-operations.html#example-26",
   "type": "Example",
-  "number": "3.18",
+  "number": "3.19",
   "title": "",
   "body": " Let be the set of even integers, let be the set of odd integers and let be the set of prime numbers. Then and are disjoint, whereas and are not disjoint (because ).  "
 },
@@ -1139,16 +1148,16 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-set-operations.html#def-set-difference",
   "type": "Definition",
-  "number": "3.19",
+  "number": "3.20",
   "title": "",
   "body": "  Let and be sets. The set difference (also called the difference ) of and , denoted , is the set defined by .   "
 },
 {
-  "id": "convention-15",
+  "id": "convention-16",
   "level": "2",
-  "url": "sec-set-operations.html#convention-15",
+  "url": "sec-set-operations.html#convention-16",
   "type": "Convention",
-  "number": "3.20",
+  "number": "3.21",
   "title": "",
   "body": " Some books use the notation instead of . Though the notation may seem intuitive, there are situations where it can become misleading or confusing.  "
 },
@@ -1157,7 +1166,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-set-operations.html#thm-properties-of-set-difference",
   "type": "Theorem",
-  "number": "3.21",
+  "number": "3.22",
   "title": "",
   "body": "  Let , and be sets.    .     .     if and only if .     if and only if .    If , then .    If , then .     and (DeMorgan's Laws).      "
 },
@@ -1166,7 +1175,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-set-operations.html#def-cartesian-product",
   "type": "Definition",
-  "number": "3.22",
+  "number": "3.23",
   "title": "",
   "body": "  Let and be sets. The product (also called the Cartesian product ) of and , denoted , is the set , where denotes an ordered pair.   "
 },
@@ -1175,7 +1184,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-set-operations.html#example-27",
   "type": "Example",
-  "number": "3.23",
+  "number": "3.24",
   "title": "",
   "body": " We can think of , which is defined in terms of ordered pairs of real numbers, as . Similarly, we think of as   "
 },
@@ -1184,7 +1193,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-set-operations.html#thm-properties-of-products",
   "type": "Theorem",
-  "number": "3.24",
+  "number": "3.25",
   "title": "",
   "body": "  Let , , and be sets.   If and , then .     and (Distributive Laws).     and (Distributive Laws).     and .     .      "
 },
@@ -1193,7 +1202,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-set-operations.html#remark-17",
   "type": "Remark",
-  "number": "3.25",
+  "number": "3.26",
   "title": "",
   "body": " Observe that is not the same as , unless and happen to be equal.  "
 },
@@ -1202,7 +1211,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-set-operations.html#exercise-5",
   "type": "Exploration",
-  "number": "3.26",
+  "number": "3.27",
   "title": "",
   "body": " Let and be sets. Prove that   "
 },
@@ -1211,7 +1220,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-set-operations.html#exercise-6",
   "type": "Exploration",
-  "number": "3.27",
+  "number": "3.28",
   "title": "",
   "body": " Let , and be sets. Suppose that , and that . Prove that .  "
 },
@@ -1220,7 +1229,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-set-operations.html#exercise-7",
   "type": "Exploration",
-  "number": "3.28",
+  "number": "3.29",
   "title": "",
   "body": " For real numbers , and , we know that . Let , and be sets.   Suppose that . Prove that .    Does hold for all sets , and ? Prove or give a counterexample for this formula. If the formula is false, find and prove a modification of this formula that holds for all sets.     "
 },
@@ -1238,7 +1247,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-families-of-sets.html#def-family-of-sets",
   "type": "Definition",
-  "number": "3.29",
+  "number": "3.30",
   "title": "",
   "body": "  Let be a set. The set is called a family of sets if all the elements of A are sets. The family of sets is indexed by , denoted , if there is a non-empty set such that there is an element for each , and that every element of equals for exactly one .   "
 },
@@ -1247,7 +1256,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-families-of-sets.html#remark-18",
   "type": "Remark",
-  "number": "3.30",
+  "number": "3.31",
   "title": "",
   "body": " Convention for vs. for indexing sets.  "
 },
@@ -1256,7 +1265,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-families-of-sets.html#def-union-intersection-2",
   "type": "Definition",
-  "number": "3.31",
+  "number": "3.32",
   "title": "",
   "body": "  Let be a family of sets. The union of the sets in , denoted , is defined as follows. If , then if , then . The intersection of the sets in , denoted , is defined as follows. If , then if , then is not defined. If is indexed by a set , then we write to denote the union and intersection of the sets in , respectively.   "
 },
@@ -1265,7 +1274,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-families-of-sets.html#thm-properties-of-families",
   "type": "Theorem",
-  "number": "3.32",
+  "number": "3.33",
   "title": "",
   "body": "  Let be a non-empty set, let be a family of sets indexed by and let be a set.    for all . If for all , then .     for all . If for all , then .   Distributive Law   .   Distributive Law   .   De Morgan's Law   .   De Morgan's Law   .      "
 },
@@ -1405,9 +1414,9 @@ var ptx_lunr_docs = [
   "body": "  Let and be sets, and let be a function.   If has an inverse, then the inverse is unique.    If has a right inverse and a left inverse , then , and hence has an inverse.    If is an inverse of , then is an inverse of .      "
 },
 {
-  "id": "convention-16",
+  "id": "convention-17",
   "level": "2",
-  "url": "sec-composition-and-inverse-functions.html#convention-16",
+  "url": "sec-composition-and-inverse-functions.html#convention-17",
   "type": "Convention",
   "number": "4.13",
   "title": "",
@@ -1450,9 +1459,9 @@ var ptx_lunr_docs = [
   "body": "    Let be defined by for all . This function is surjective and injective, and hence bijective. First, we show that is injective. Let . Suppose that . Then . It follows that , and because and , we deduce that . Hence is injective. Second, we show that is surjective. Let . Then , and so . Hence k is surjective.    Let be defined by for all . This function is injective but not surjective. The proof of the injectivity of is the same as the proof of the injectivity of the function in Part (1) of this example. The reason that is not surjective is that for any , though is in the codomain of .    Let be defined by for all . This function is surjective but not injective. The proof of the surjectivity of is the same as the proof of the surjectivity of the function in Part (1) of this example. The reason is not injective is because even though . (Observe that instead of we could have used for any positive number , but a single instance where the definition of injectivity fails is sufficient.)    Let be defined by for all . This function is neither injective nor surjective, which is seen using the same arguments as the corresponding arguments for and in Parts (2) and (3) of this example.     "
 },
 {
-  "id": "lemma-2",
+  "id": "lemma-1",
   "level": "2",
-  "url": "sec-inject-surject-biject.html#lemma-2",
+  "url": "sec-inject-surject-biject.html#lemma-1",
   "type": "Lemma",
   "number": "4.17",
   "title": "",
@@ -1630,18 +1639,18 @@ var ptx_lunr_docs = [
   "body": "  Let , and let . Then there is a unique such that .    To prove uniqueness, suppose that there are such that and . It follows from Lemma 5.2.3 (2) that , and from Lemma 5.2.3 (3) that . That is, we have for some . On the other hand, because , it follows that . We deduce that , and hence that . To prove existence, we use the Division Algorithm (Theorem A.5) to deduce that there are such that and . Hence , and therefore .   "
 },
 {
-  "id": "corollary-1",
+  "id": "corollary-2",
   "level": "2",
-  "url": "sec-congruence.html#corollary-1",
+  "url": "sec-congruence.html#corollary-2",
   "type": "Corollary",
   "number": "5.11",
   "title": "",
   "body": "  Let , and let . Then precisely one of the following holds: either for some , or for some , or for some , \\dots, or for some .   "
 },
 {
-  "id": "corollary-2",
+  "id": "corollary-3",
   "level": "2",
-  "url": "sec-congruence.html#corollary-2",
+  "url": "sec-congruence.html#corollary-3",
   "type": "Corollary",
   "number": "5.12",
   "title": "",
@@ -1666,9 +1675,9 @@ var ptx_lunr_docs = [
   "body": "  Let . The set of integers modulo , denoted , is the set defined by , where the relation classes are for congruence modulo .   "
 },
 {
-  "id": "convention-17",
+  "id": "convention-18",
   "level": "2",
-  "url": "sec-congruence.html#convention-17",
+  "url": "sec-congruence.html#convention-18",
   "type": "Convention",
   "number": "5.15",
   "title": "",
@@ -1693,9 +1702,9 @@ var ptx_lunr_docs = [
   "body": "  Let . Let and be the binary operations on defined by and for all .   "
 },
 {
-  "id": "lemma-4",
+  "id": "lemma-3",
   "level": "2",
-  "url": "sec-congruence.html#lemma-4",
+  "url": "sec-congruence.html#lemma-3",
   "type": "Lemma",
   "number": "5.18",
   "title": "",
@@ -1720,9 +1729,9 @@ var ptx_lunr_docs = [
   "body": "  Let . The canonical map for congruence modulo is the function defined by for all .   "
 },
 {
-  "id": "convention-18",
+  "id": "convention-19",
   "level": "2",
-  "url": "sec-congruence.html#convention-18",
+  "url": "sec-congruence.html#convention-19",
   "type": "Convention",
   "number": "5.21",
   "title": "",
@@ -1783,9 +1792,9 @@ var ptx_lunr_docs = [
   "body": "  Let be a set, and let be a relation on . The relation is an equivalence relation if it is reflexive, symmetric and transitive.   "
 },
 {
-  "id": "convention-19",
+  "id": "convention-20",
   "level": "2",
-  "url": "sec-equivalence-relations.html#convention-19",
+  "url": "sec-equivalence-relations.html#convention-20",
   "type": "Convention",
   "number": "5.27",
   "title": "",
@@ -1864,9 +1873,9 @@ var ptx_lunr_docs = [
   "body": "  Let be a non-empty set, and let be an equivalence relation on . Then is a partition of .   "
 },
 {
-  "id": "corollary-4",
+  "id": "corollary-5",
   "level": "2",
-  "url": "sec-equivalence-relations.html#corollary-4",
+  "url": "sec-equivalence-relations.html#corollary-5",
   "type": "Corollary",
   "number": "5.36",
   "title": "",
@@ -1963,9 +1972,9 @@ var ptx_lunr_docs = [
   "body": "  Let and be sets. The sets and are equinumerous, denoted (more commonly ), if there is a bijective function .   "
 },
 {
-  "id": "convention-20",
+  "id": "convention-21",
   "level": "2",
-  "url": "sec-cardinality-of-sets.html#convention-20",
+  "url": "sec-cardinality-of-sets.html#convention-21",
   "type": "Convention",
   "number": "7.2",
   "title": "",
@@ -2044,9 +2053,9 @@ var ptx_lunr_docs = [
   "body": "  Let and be sets. We say that if there is an injective function .   "
 },
 {
-  "id": "convention-21",
+  "id": "convention-22",
   "level": "2",
-  "url": "sec-cardinality-of-sets.html#convention-21",
+  "url": "sec-cardinality-of-sets.html#convention-22",
   "type": "Convention",
   "number": "7.11",
   "title": "",
@@ -2134,18 +2143,18 @@ var ptx_lunr_docs = [
   "body": "  Let be a set. Suppose that is finite. The cardinality of , denoted , is defined as follows. If , let . If , let , where .   "
 },
 {
-  "id": "corollary-6",
+  "id": "corollary-7",
   "level": "2",
-  "url": "sec-finite-countable-sets.html#corollary-6",
+  "url": "sec-finite-countable-sets.html#corollary-7",
   "type": "Corollary",
   "number": "7.20",
   "title": "",
   "body": "  Let . Then if and only if .   "
 },
 {
-  "id": "corollary-7",
+  "id": "corollary-8",
   "level": "2",
-  "url": "sec-finite-countable-sets.html#corollary-7",
+  "url": "sec-finite-countable-sets.html#corollary-8",
   "type": "Corollary",
   "number": "7.21",
   "title": "",
@@ -2386,9 +2395,9 @@ var ptx_lunr_docs = [
   "body": "Binary Operation   A internal binary operation binary operation operation on a set is a     "
 },
 {
-  "id": "convention-22",
+  "id": "convention-23",
   "level": "2",
-  "url": "sec-binary-operations.html#convention-22",
+  "url": "sec-binary-operations.html#convention-23",
   "type": "Convention",
   "number": "8.2",
   "title": "",
@@ -2827,9 +2836,9 @@ var ptx_lunr_docs = [
   "body": "  Let be a lattice, and let be an order homomorphism. Suppose that the least upper bound and greatest lower bound exist for all non-empty subsets of . Then there is some such that .    Let . Observe that is non-empty because it is a poset, and all posets are assumed to be non-empty. Let be the greatest lower bound of , which exists by hypothesis. Then is a lower bound of , and therefore for all . In particular, we see that . It follows that , and so is non-empty.  Let be the least upper bound of . Let . Then is an upper bound of , and therefore . Using the definition of and the fact that is an order homomorphism, we deduce that . It follows that is an upper bound for . Because is the least upper bound of , we deduce that . Because is an order homomorphism, it follows that . Hence , and therefore , because is an upper bound of . By antisymmetry, we deduce that .   "
 },
 {
-  "id": "corollary-10",
+  "id": "corollary-11",
   "level": "2",
-  "url": "sec-lattices.html#corollary-10",
+  "url": "sec-lattices.html#corollary-11",
   "type": "Corollary",
   "number": "8.48",
   "title": "",
@@ -2842,16 +2851,142 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "8.5",
   "title": "Axioms for Set Theory",
-  "body": "Axioms for Set Theory        "
+  "body": "Axioms for Set Theory  Axiom of Extensionality   Let and be sets. If and have the same elements, then .    Axiom of Empty Set   There is a set such that for all sets .    Axiom of Pairing   Let and be sets. There is a set such that if and only if or .    Axiom of Union   Let be a set. There is a set such that if and only if there is some such that .    Axiom of Power Set   Let be a set. There is a set such that if and only if .    Axiom of Regularity   Let be a set. Suppose that . Then there is some such that .    Axiom of Selection   Let be a logical property of sets with one free variable that can be formulated in the context of the ZF axioms. Let be a set. Then there is a set such that if and only if y and is true.    Axiom of Infinity   There is a set such that , and if then .    Axiom of Replacement   Let be a functional property of sets with two free variables and that can be formulated in the context of the ZF axioms. Let be a set. Then there is a set such that if and only if there is some such that is true.    Axiom of Choice   Let be a set. Suppose that if , then and . Then there is a set such that if , then contains a single element.    "
 },
 {
-  "id": "axiom-",
+  "id": "axiom-extensionality",
   "level": "2",
-  "url": "sec-axioms.html#axiom-",
+  "url": "sec-axioms.html#axiom-extensionality",
   "type": "Axiom",
   "number": "8.49",
+  "title": "Axiom of Extensionality.",
+  "body": "Axiom of Extensionality   Let and be sets. If and have the same elements, then .   "
+},
+{
+  "id": "axiom-empty-set",
+  "level": "2",
+  "url": "sec-axioms.html#axiom-empty-set",
+  "type": "Axiom",
+  "number": "8.50",
+  "title": "Axiom of Empty Set.",
+  "body": "Axiom of Empty Set   There is a set such that for all sets .   "
+},
+{
+  "id": "axiom-pairing",
+  "level": "2",
+  "url": "sec-axioms.html#axiom-pairing",
+  "type": "Axiom",
+  "number": "8.51",
+  "title": "Axiom of Pairing.",
+  "body": "Axiom of Pairing   Let and be sets. There is a set such that if and only if or .   "
+},
+{
+  "id": "axiom-union",
+  "level": "2",
+  "url": "sec-axioms.html#axiom-union",
+  "type": "Axiom",
+  "number": "8.52",
+  "title": "Axiom of Union.",
+  "body": "Axiom of Union   Let be a set. There is a set such that if and only if there is some such that .   "
+},
+{
+  "id": "axiom-power-set",
+  "level": "2",
+  "url": "sec-axioms.html#axiom-power-set",
+  "type": "Axiom",
+  "number": "8.53",
+  "title": "Axiom of Power Set.",
+  "body": "Axiom of Power Set   Let be a set. There is a set such that if and only if .   "
+},
+{
+  "id": "axiom-regularity",
+  "level": "2",
+  "url": "sec-axioms.html#axiom-regularity",
+  "type": "Axiom",
+  "number": "8.54",
+  "title": "Axiom of Regularity.",
+  "body": "Axiom of Regularity   Let be a set. Suppose that . Then there is some such that .   "
+},
+{
+  "id": "axiom-selection",
+  "level": "2",
+  "url": "sec-axioms.html#axiom-selection",
+  "type": "Axiom",
+  "number": "8.55",
+  "title": "Axiom of Selection.",
+  "body": "Axiom of Selection   Let be a logical property of sets with one free variable that can be formulated in the context of the ZF axioms. Let be a set. Then there is a set such that if and only if y and is true.   "
+},
+{
+  "id": "axiom-infinity",
+  "level": "2",
+  "url": "sec-axioms.html#axiom-infinity",
+  "type": "Axiom",
+  "number": "8.56",
+  "title": "Axiom of Infinity.",
+  "body": "Axiom of Infinity   There is a set such that , and if then .   "
+},
+{
+  "id": "axiom-replacement",
+  "level": "2",
+  "url": "sec-axioms.html#axiom-replacement",
+  "type": "Axiom",
+  "number": "8.57",
+  "title": "Axiom of Replacement.",
+  "body": "Axiom of Replacement   Let be a functional property of sets with two free variables and that can be formulated in the context of the ZF axioms. Let be a set. Then there is a set such that if and only if there is some such that is true.   "
+},
+{
+  "id": "axiom-choice",
+  "level": "2",
+  "url": "sec-axioms.html#axiom-choice",
+  "type": "Axiom",
+  "number": "8.58",
+  "title": "Axiom of Choice.",
+  "body": "Axiom of Choice   Let be a set. Suppose that if , then and . Then there is a set such that if , then contains a single element.   "
+},
+{
+  "id": "sec-topology",
+  "level": "1",
+  "url": "sec-topology.html",
+  "type": "Section",
+  "number": "A.1",
+  "title": "Topology",
+  "body": "Topology    Suppose 𝑋 is a set. Then 𝒯 is a topology on 𝑋 if and only if 𝒯 is a collection of subsets of 𝑋 such that   ∅ \\in 𝒯,    𝑋 \\in 𝒯,    if 𝑈 \\in 𝒯 and 𝑉 \\in 𝒯, then 𝑈 \\cap 𝑉 \\in 𝒯, and    if {𝑈𝛼}𝛼\\in 𝜆 is any collection of sets of 𝒯, then ⋃𝛼\\in 𝜆 𝑈𝛼 \\in 𝒯.     A topological space is an ordered pair (𝑋, 𝒯), where 𝑋 is a set and 𝒯 is a topology on 𝑋. We use the word space to mean topological space unless otherwise noted.    The definition of a topological space arose from an abstraction of our familiar concepts of limits and continuity in Euclidean spaces. The properties of the sets in a topology were properties that were satisfied by the usual open sets of ℝ, so we will use the term open to refer to sets in a topology.    A set 𝑈 ⊂ 𝑋 is called an open set in (𝑋, 𝒯) if and only if 𝑈 \\in 𝒯.     It is customary to use the letters 𝑈 and 𝑉 to denote open sets.   So we can think of a topology on 𝑋 as specifying what subsets of 𝑋 will be considered open.   Keep in mind that open sets are elements of the topology 𝒯 and subsets of the space 𝑋. Elements of 𝑋, on the other hand, are the points of the space 𝑋.   "
+},
+{
+  "id": "def-topology",
+  "level": "2",
+  "url": "sec-topology.html#def-topology",
+  "type": "Definition",
+  "number": "A.1",
   "title": "",
-  "body": "     "
+  "body": "  Suppose 𝑋 is a set. Then 𝒯 is a topology on 𝑋 if and only if 𝒯 is a collection of subsets of 𝑋 such that   ∅ \\in 𝒯,    𝑋 \\in 𝒯,    if 𝑈 \\in 𝒯 and 𝑉 \\in 𝒯, then 𝑈 \\cap 𝑉 \\in 𝒯, and    if {𝑈𝛼}𝛼\\in 𝜆 is any collection of sets of 𝒯, then ⋃𝛼\\in 𝜆 𝑈𝛼 \\in 𝒯.     A topological space is an ordered pair (𝑋, 𝒯), where 𝑋 is a set and 𝒯 is a topology on 𝑋. We use the word space to mean topological space unless otherwise noted.   "
+},
+{
+  "id": "def-open-set",
+  "level": "2",
+  "url": "sec-topology.html#def-open-set",
+  "type": "Definition",
+  "number": "A.2",
+  "title": "",
+  "body": "  A set 𝑈 ⊂ 𝑋 is called an open set in (𝑋, 𝒯) if and only if 𝑈 \\in 𝒯.   "
+},
+{
+  "id": "convention-24",
+  "level": "2",
+  "url": "sec-topology.html#convention-24",
+  "type": "Convention",
+  "number": "A.3",
+  "title": "",
+  "body": " It is customary to use the letters 𝑈 and 𝑉 to denote open sets.  "
+},
+{
+  "id": "remark-24",
+  "level": "2",
+  "url": "sec-topology.html#remark-24",
+  "type": "Remark",
+  "number": "A.4",
+  "title": "",
+  "body": " Keep in mind that open sets are elements of the topology 𝒯 and subsets of the space 𝑋. Elements of 𝑋, on the other hand, are the points of the space 𝑋.  "
 },
 {
   "id": "colophon-2",

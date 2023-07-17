@@ -530,7 +530,13 @@ window.MathJax = {
 <li>
 <div class="toc-item"><a href="ch-sets.html" class="internal"><span class="codenumber">3</span> <span class="title">Sets</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-set-basics.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Set Basics</span></a></div></li>
+<li>
+<div class="toc-item"><a href="sec-set-basics.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Set Basics</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec-set-basics.html#subsec-sets-notation" class="internal"><span class="title">Sets and Notation</span></a></div></li>
+<li><div class="toc-item"><a href="sec-set-basics.html#subsec-subsets" class="internal"><span class="title">Subsets and Set Equality</span></a></div></li>
+</ul>
+</li>
 <li><div class="toc-item"><a href="sec-set-operations.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Set Operations</span></a></div></li>
 <li><div class="toc-item"><a href="sec-families-of-sets.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Families of Sets</span></a></div></li>
 </ul>
@@ -594,7 +600,16 @@ window.MathJax = {
 </li>
 </ul>
 </li>
-<li><div class="toc-item"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div></li>
+<li>
+<div class="toc-item"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div>
+<ul class="structural">
+<li>
+<div class="toc-item"><a href="appendix-1.html" class="internal"><span class="codenumber">A</span> <span class="title">Topology</span></a></div>
+<ul class="structural"><li><div class="toc-item"><a href="sec-topology.html" class="internal"><span class="codenumber">A.1</span> <span class="title">Topology</span></a></div></li></ul>
+</li>
+<li><div class="toc-item"><a href="colophon-2.html" class="internal"><span class="title">Colophon</span></a></div></li>
+</ul>
+</li>
 </ul></nav></div>
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-equivalence-relations"><h2 class="heading hide-type">
 <span class="type">Section</span> <span class="codenumber">5.3</span> <span class="title">Equivalence Relations</span>
@@ -602,80 +617,80 @@ window.MathJax = {
 <article class="definition definition-like" id="def-r-s-t"><h3 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">5.24</span><span class="period">.</span>
 </h3>
-<div class="para logical" id="p-455">
+<div class="para logical" id="p-458">
 <div class="para">Let <span class="process-math">\(A\)</span> be a non-empty set, and let <span class="process-math">\(R\)</span> be a relation on <span class="process-math">\(A\text{.}\)</span>
 </div>
 <ol class="decimal">
-<li id="li-187"><div class="para" id="p-456">The relation <span class="process-math">\(R\)</span> is reflexive if <span class="process-math">\(x R x\text{,}\)</span> for all <span class="process-math">\(x\in  A\text{.}\)</span>
+<li id="li-187"><div class="para" id="p-459">The relation <span class="process-math">\(R\)</span> is reflexive if <span class="process-math">\(x R x\text{,}\)</span> for all <span class="process-math">\(x\in  A\text{.}\)</span>
 </div></li>
-<li id="li-188"><div class="para" id="p-457">The relation <span class="process-math">\(R\)</span> is symmetric if <span class="process-math">\(x R y\)</span> implies <span class="process-math">\(y R x\text{,}\)</span> for all <span class="process-math">\(x, y\in  A\text{.}\)</span>
+<li id="li-188"><div class="para" id="p-460">The relation <span class="process-math">\(R\)</span> is symmetric if <span class="process-math">\(x R y\)</span> implies <span class="process-math">\(y R x\text{,}\)</span> for all <span class="process-math">\(x, y\in  A\text{.}\)</span>
 </div></li>
-<li id="li-189"><div class="para" id="p-458">The relation <span class="process-math">\(R\)</span> is transitive if <span class="process-math">\(x R y\)</span> and <span class="process-math">\(y R z\)</span> imply <span class="process-math">\(x R z\text{,}\)</span> for all <span class="process-math">\(x, y, z\in  A\text{.}\)</span>
+<li id="li-189"><div class="para" id="p-461">The relation <span class="process-math">\(R\)</span> is transitive if <span class="process-math">\(x R y\)</span> and <span class="process-math">\(y R z\)</span> imply <span class="process-math">\(x R z\text{,}\)</span> for all <span class="process-math">\(x, y, z\in  A\text{.}\)</span>
 </div></li>
 </ol>
 </div></article><article class="example example-like" id="example-34"><h3 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">5.25</span><span class="period">.</span>
 </h3>
-<div class="para logical" id="p-459"><ol class="decimal">
-<li id="li-190"><div class="para" id="p-460">The relation <span class="process-math">\(\leq \)</span> on <span class="process-math">\(R\)</span> is reflexive and transitive, but not symmetric.</div></li>
-<li id="li-191"><div class="para" id="p-461">The relation of one person being the cousin of another is symmetric, but neither reflexive nor transitive.</div></li>
-<li id="li-192"><div class="para" id="p-462">The relation of one person being the daughter of another person is neither reflexive, symmetric nor transitive.</div></li>
+<div class="para logical" id="p-462"><ol class="decimal">
+<li id="li-190"><div class="para" id="p-463">The relation <span class="process-math">\(\leq \)</span> on <span class="process-math">\(R\)</span> is reflexive and transitive, but not symmetric.</div></li>
+<li id="li-191"><div class="para" id="p-464">The relation of one person being the cousin of another is symmetric, but neither reflexive nor transitive.</div></li>
+<li id="li-192"><div class="para" id="p-465">The relation of one person being the daughter of another person is neither reflexive, symmetric nor transitive.</div></li>
 </ol></div></article><article class="definition definition-like" id="def-equivalence-relation"><h3 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">5.26</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-463">Let <span class="process-math">\(A\)</span> be a set, and let <span class="process-math">\(\sim \)</span> be a relation on <span class="process-math">\(A\text{.}\)</span> The relation <span class="process-math">\(\sim \)</span> is an equivalence relation if it is reflexive, symmetric and transitive.</div></article><article class="convention remark-like" id="convention-19"><h3 class="heading">
+<div class="para" id="p-466">Let <span class="process-math">\(A\)</span> be a set, and let <span class="process-math">\(\sim \)</span> be a relation on <span class="process-math">\(A\text{.}\)</span> The relation <span class="process-math">\(\sim \)</span> is an equivalence relation if it is reflexive, symmetric and transitive.</div></article><article class="convention remark-like" id="convention-20"><h3 class="heading">
 <span class="type">Convention</span><span class="space"> </span><span class="codenumber">5.27</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-464">We use <span class="process-math">\(\sim\)</span> for equivalence relations.</div></article><article class="example example-like" id="example-35"><h3 class="heading">
+<div class="para" id="p-467">We use <span class="process-math">\(\sim\)</span> for equivalence relations.</div></article><article class="example example-like" id="example-35"><h3 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">5.28</span><span class="period">.</span>
 </h3>
-<div class="para logical" id="p-465"><ul class="disc">
-<li id="li-193"><div class="para" id="p-466">Equality</div></li>
-<li id="li-194"><div class="para" id="p-467">Being the same age</div></li>
+<div class="para logical" id="p-468"><ul class="disc">
+<li id="li-193"><div class="para" id="p-469">Equality</div></li>
+<li id="li-194"><div class="para" id="p-470">Being the same age</div></li>
 </ul></div></article><article class="corollary theorem-like" id="cor-congruence-equivalence-relation"><h3 class="heading">
 <span class="type">Corollary</span><span class="space"> </span><span class="codenumber">5.29</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-468">Congruence module <span class="process-math">\(n\)</span> for any <span class="process-math">\(n\in\N\)</span> is an equivalene relation on <span class="process-math">\(\Z\text{.}\)</span>
+<div class="para" id="p-471">Congruence module <span class="process-math">\(n\)</span> for any <span class="process-math">\(n\in\N\)</span> is an equivalene relation on <span class="process-math">\(\Z\text{.}\)</span>
 </div></article><article class="definition definition-like" id="def-equivalence-class"><h3 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">5.30</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-469">Let <span class="process-math">\(A\)</span> be a non-empty set, and let <span class="process-math">\(\sim\)</span> be an equivalence relation on <span class="process-math">\(A\text{.}\)</span> The relation classes of <span class="process-math">\(A\)</span> with respect to <span class="process-math">\(\sim\)</span> are called equivalence classes.</div></article><article class="definition definition-like" id="def-quotient-set"><h3 class="heading">
+<div class="para" id="p-472">Let <span class="process-math">\(A\)</span> be a non-empty set, and let <span class="process-math">\(\sim\)</span> be an equivalence relation on <span class="process-math">\(A\text{.}\)</span> The relation classes of <span class="process-math">\(A\)</span> with respect to <span class="process-math">\(\sim\)</span> are called equivalence classes.</div></article><article class="definition definition-like" id="def-quotient-set"><h3 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">5.31</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-470">Let <span class="process-math">\(A\)</span> be a non-empty set, and let <span class="process-math">\(\sim\)</span> be an equivalence relation on <span class="process-math">\(A\text{.}\)</span> The quotient set of <span class="process-math">\(A\)</span> with respect to <span class="process-math">\(\sim\text{,}\)</span> denoted <span class="process-math">\(A/\sim\text{,}\)</span> is the set defined by <span class="process-math">\(A/\sim  = \{[x] | x\in  A\}\text{.}\)</span>
+<div class="para" id="p-473">Let <span class="process-math">\(A\)</span> be a non-empty set, and let <span class="process-math">\(\sim\)</span> be an equivalence relation on <span class="process-math">\(A\text{.}\)</span> The quotient set of <span class="process-math">\(A\)</span> with respect to <span class="process-math">\(\sim\text{,}\)</span> denoted <span class="process-math">\(A/\sim\text{,}\)</span> is the set defined by <span class="process-math">\(A/\sim  = \{[x] | x\in  A\}\text{.}\)</span>
 </div></article><article class="definition definition-like" id="def-canonical-map"><h3 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">5.32</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-471">Let <span class="process-math">\(A\)</span> be a non-empty set, and let <span class="process-math">\(\sim\)</span> be an equivalence relation on <span class="process-math">\(A\text{.}\)</span> The canonical map for <span class="process-math">\(A\)</span> and <span class="process-math">\(\sim\)</span>  is the function <span class="process-math">\(\gamma  : A \to  A/\sim\)</span>  defined by <span class="process-math">\(\gamma (x) = [x]\)</span> for all <span class="process-math">\(x\in  A\text{.}\)</span>
+<div class="para" id="p-474">Let <span class="process-math">\(A\)</span> be a non-empty set, and let <span class="process-math">\(\sim\)</span> be an equivalence relation on <span class="process-math">\(A\text{.}\)</span> The canonical map for <span class="process-math">\(A\)</span> and <span class="process-math">\(\sim\)</span>  is the function <span class="process-math">\(\gamma  : A \to  A/\sim\)</span>  defined by <span class="process-math">\(\gamma (x) = [x]\)</span> for all <span class="process-math">\(x\in  A\text{.}\)</span>
 </div></article><article class="definition definition-like" id="def-partition"><h3 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">5.33</span><span class="period">.</span>
 </h3>
-<div class="para logical" id="p-472">
+<div class="para logical" id="p-475">
 <div class="para">Let <span class="process-math">\(A\)</span> be a non-empty set. A partition of <span class="process-math">\(A\)</span> is a family <span class="process-math">\(\cD\)</span> of non-empty subsets of <span class="process-math">\(A\)</span> such that</div>
 <ol class="decimal">
-<li id="li-195"><div class="para" id="p-473">if <span class="process-math">\(P, Q\in\cD\)</span> and <span class="process-math">\(P \neq  Q\text{,}\)</span> then <span class="process-math">\(P ∩ Q = \es\text{;}\)</span>
+<li id="li-195"><div class="para" id="p-476">if <span class="process-math">\(P, Q\in\cD\)</span> and <span class="process-math">\(P \neq  Q\text{,}\)</span> then <span class="process-math">\(P \cap  Q = \es\text{;}\)</span>
 </div></li>
-<li id="li-196"><div class="para" id="p-474"><span class="process-math">\(\bigcup _{P\in \cD} P = A\text{.}\)</span></div></li>
+<li id="li-196"><div class="para" id="p-477"><span class="process-math">\(\bigcup _{P\in \cD} P = A\text{.}\)</span></div></li>
 </ol>
 </div></article><article class="example example-like" id="example-36"><h3 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">5.34</span><span class="period">.</span>
 </h3>
-<div class="para logical" id="p-475"><ul class="disc">
-<li id="li-197"><div class="para" id="p-476">Let <span class="process-math">\(\E\)</span> denote the set of even integers, and let <span class="process-math">\(\O\)</span> denote the set of odd integers. Then <span class="process-math">\(\cD = {\E, \O}\)</span> is a partition of <span class="process-math">\(\Z\text{.}\)</span>
+<div class="para logical" id="p-478"><ul class="disc">
+<li id="li-197"><div class="para" id="p-479">Let <span class="process-math">\(\E\)</span> denote the set of even integers, and let <span class="process-math">\(\O\)</span> denote the set of odd integers. Then <span class="process-math">\(\cD = {\E, \O}\)</span> is a partition of <span class="process-math">\(\Z\text{.}\)</span>
 </div></li>
-<li id="li-198"><div class="para" id="p-477">Let <span class="process-math">\(\cC = \{[n, n + 1)\}_{n\in \Z}\text{.}\)</span> Then <span class="process-math">\(C\)</span> is a partition of <span class="process-math">\(\R\text{.}\)</span>
+<li id="li-198"><div class="para" id="p-480">Let <span class="process-math">\(\cC = \{[n, n + 1)\}_{n\in \Z}\text{.}\)</span> Then <span class="process-math">\(C\)</span> is a partition of <span class="process-math">\(\R\text{.}\)</span>
 </div></li>
-<li id="li-199"><div class="para" id="p-478">Let <span class="process-math">\(\cG = \{(n - 1, n + 1)\}_{n\in \Z}\text{.}\)</span> Then <span class="process-math">\(G\)</span> is not a partition of <span class="process-math">\(\R\text{,}\)</span> because it is not pairwise disjoint. For example, we observe that <span class="process-math">\((1 - 1, 1 + 1) ∩ (2 - 1, 2 + 1) = (1, 2)\text{.}\)</span>
+<li id="li-199"><div class="para" id="p-481">Let <span class="process-math">\(\cG = \{(n - 1, n + 1)\}_{n\in \Z}\text{.}\)</span> Then <span class="process-math">\(G\)</span> is not a partition of <span class="process-math">\(\R\text{,}\)</span> because it is not pairwise disjoint. For example, we observe that <span class="process-math">\((1 - 1, 1 + 1) \cap  (2 - 1, 2 + 1) = (1, 2)\text{.}\)</span>
 </div></li>
 </ul></div></article><article class="theorem theorem-like" id="thm-equivalence-partitions"><h3 class="heading">
 <span class="type">Theorem</span><span class="space"> </span><span class="codenumber">5.35</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-479">Let <span class="process-math">\(A\)</span> be a non-empty set, and let <span class="process-math">\(\sim\)</span> be an equivalence relation on <span class="process-math">\(A\text{.}\)</span> Then <span class="process-math">\(A/\sim\)</span> is a partition of <span class="process-math">\(A\text{.}\)</span>
-</div></article><article class="corollary theorem-like" id="corollary-4"><h3 class="heading">
+<div class="para" id="p-482">Let <span class="process-math">\(A\)</span> be a non-empty set, and let <span class="process-math">\(\sim\)</span> be an equivalence relation on <span class="process-math">\(A\text{.}\)</span> Then <span class="process-math">\(A/\sim\)</span> is a partition of <span class="process-math">\(A\text{.}\)</span>
+</div></article><article class="corollary theorem-like" id="corollary-5"><h3 class="heading">
 <span class="type">Corollary</span><span class="space"> </span><span class="codenumber">5.36</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-480">Let <span class="process-math">\(A\)</span> be a non-empty set, let <span class="process-math">\(\sim\)</span> be an equivalence relation on <span class="process-math">\(A\)</span> and let <span class="process-math">\(x, y\in  A\text{.}\)</span> Then <span class="process-math">\([x] = [y]\)</span> if and only if <span class="process-math">\(x \sim  y\text{.}\)</span>
-</div></article><div class="para" id="p-481">psi and phi stuff to come</div></section></div>
+<div class="para" id="p-483">Let <span class="process-math">\(A\)</span> be a non-empty set, let <span class="process-math">\(\sim\)</span> be an equivalence relation on <span class="process-math">\(A\)</span> and let <span class="process-math">\(x, y\in  A\text{.}\)</span> Then <span class="process-math">\([x] = [y]\)</span> if and only if <span class="process-math">\(x \sim  y\text{.}\)</span>
+</div></article><div class="para" id="p-484">psi and phi stuff to come</div></section></div>
 <div class="ptx-content-footer">
 <a class="previous-button button" href="sec-congruence.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon">^</span><span class="name">Top</span></a><a class="next-button button" href="ch-induction-recursion.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a>
 </div></main>

@@ -530,7 +530,13 @@ window.MathJax = {
 <li>
 <div class="toc-item"><a href="ch-sets.html" class="internal"><span class="codenumber">3</span> <span class="title">Sets</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-set-basics.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Set Basics</span></a></div></li>
+<li>
+<div class="toc-item"><a href="sec-set-basics.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Set Basics</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec-set-basics.html#subsec-sets-notation" class="internal"><span class="title">Sets and Notation</span></a></div></li>
+<li><div class="toc-item"><a href="sec-set-basics.html#subsec-subsets" class="internal"><span class="title">Subsets and Set Equality</span></a></div></li>
+</ul>
+</li>
 <li><div class="toc-item"><a href="sec-set-operations.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Set Operations</span></a></div></li>
 <li><div class="toc-item"><a href="sec-families-of-sets.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Families of Sets</span></a></div></li>
 </ul>
@@ -594,7 +600,16 @@ window.MathJax = {
 </li>
 </ul>
 </li>
-<li><div class="toc-item"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div></li>
+<li>
+<div class="toc-item"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div>
+<ul class="structural">
+<li>
+<div class="toc-item"><a href="appendix-1.html" class="internal"><span class="codenumber">A</span> <span class="title">Topology</span></a></div>
+<ul class="structural"><li><div class="toc-item"><a href="sec-topology.html" class="internal"><span class="codenumber">A.1</span> <span class="title">Topology</span></a></div></li></ul>
+</li>
+<li><div class="toc-item"><a href="colophon-2.html" class="internal"><span class="title">Colophon</span></a></div></li>
+</ul>
+</li>
 </ul></nav></div>
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-composition-and-inverse-functions"><h2 class="heading hide-type">
 <span class="type">Section</span> <span class="codenumber">4.3</span> <span class="title">Composition and Inverse Functions</span>
@@ -602,8 +617,8 @@ window.MathJax = {
 <article class="definition definition-like" id="def-composition"><h3 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">4.9</span><span class="period">.</span>
 </h3>
-<div class="para logical" id="p-358">
-<div class="para">Let <span class="process-math">\(A\text{,}\)</span> <span class="process-math">\(B\)</span> and <span class="process-math">\(C\)</span> be sets, and let <span class="process-math">\(f : A \to B\)</span> and <span class="process-math">\(g : B \to  C\)</span> be functions. The composition of <span class="process-math">\(f\)</span> and <span class="process-math">\(g\)</span> is the function <span class="process-math">\(g \circ  f : A \to  C\)</span> defined by</div>
+<div class="para logical" id="p-361">
+<div class="para">Let <span class="process-math">\(A\text{,}\)</span> <span class="process-math">\(B\)</span> and <span class="process-math">\(C\)</span> be sets, and let <span class="process-math">\(f : A \to B\)</span> and <span class="process-math">\(g : B \to  C\)</span> be functions. The <dfn class="terminology">composition</dfn> of <span class="process-math">\(f\)</span> and <span class="process-math">\(g\)</span> is the function <span class="process-math">\(g \circ  f : A \to  C\)</span> defined by</div>
 <div class="displaymath process-math">
 \begin{equation*}
 (g \circ  f )(x) = g( f (x))
@@ -614,44 +629,44 @@ window.MathJax = {
 </div></article><article class="theorem theorem-like" id="thm-properties-of-composition"><h3 class="heading">
 <span class="type">Theorem</span><span class="space"> </span><span class="codenumber">4.10</span><span class="period">.</span>
 </h3>
-<div class="para logical" id="p-359">
+<div class="para logical" id="p-362">
 <div class="para">Let <span class="process-math">\(A, B, C\)</span> and <span class="process-math">\(D\)</span> be sets, and let <span class="process-math">\(f : A \to B\)</span> and <span class="process-math">\(g : B \to  C\)</span> and <span class="process-math">\(h : C \to  D\)</span> be functions.</div>
 <ol class="decimal">
-<li id="li-135"><div class="para" id="p-360">
+<li id="li-135"><div class="para" id="p-363">
 <span class="process-math">\((h \circ  g) \circ  f = h \circ  (g \circ  f )\)</span> (Associative Law).</div></li>
-<li id="li-136"><div class="para" id="p-361">
+<li id="li-136"><div class="para" id="p-364">
 <span class="process-math">\(f \circ  1A = f and 1B \circ  f = f\)</span> (Identity Law).</div></li>
 </ol>
 </div></article><article class="definition definition-like" id="def-left-right-inverse"><h3 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">4.11</span><span class="period">.</span>
 </h3>
-<div class="para logical" id="p-362">
+<div class="para logical" id="p-365">
 <div class="para">Let <span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span> be sets, and let <span class="process-math">\(f : A \to B\)</span> and g : <span class="process-math">\(B \to  A\)</span> be functions.</div>
 <ul class="disc">
-<li id="li-137"><div class="para" id="p-363">The function <span class="process-math">\(g\)</span> is a right inverse for <span class="process-math">\(f\)</span> if <span class="process-math">\(f \circ  g = 1B\text{.}\)</span>
+<li id="li-137"><div class="para" id="p-366">The function <span class="process-math">\(g\)</span> is a right inverse for <span class="process-math">\(f\)</span> if <span class="process-math">\(f \circ  g = 1B\text{.}\)</span>
 </div></li>
-<li id="li-138"><div class="para" id="p-364">The function <span class="process-math">\(g\)</span> is a left inverse for <span class="process-math">\(f\)</span> if <span class="process-math">\(g \circ  f = 1A\text{.}\)</span>
+<li id="li-138"><div class="para" id="p-367">The function <span class="process-math">\(g\)</span> is a left inverse for <span class="process-math">\(f\)</span> if <span class="process-math">\(g \circ  f = 1A\text{.}\)</span>
 </div></li>
-<li id="li-139"><div class="para" id="p-365">The function <span class="process-math">\(g\)</span> is an inverse for <span class="process-math">\(f\)</span> if it is both a right inverse and a left inverse.</div></li>
+<li id="li-139"><div class="para" id="p-368">The function <span class="process-math">\(g\)</span> is an inverse for <span class="process-math">\(f\)</span> if it is both a right inverse and a left inverse.</div></li>
 </ul>
 </div></article><article class="theorem theorem-like" id="thm-inverse-properties"><h3 class="heading">
 <span class="type">Theorem</span><span class="space"> </span><span class="codenumber">4.12</span><span class="period">.</span>
 </h3>
-<div class="para logical" id="p-366">
+<div class="para logical" id="p-369">
 <div class="para">Let <span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span> be sets, and let <span class="process-math">\(f : A \to B\)</span> be a function.</div>
 <ol class="decimal">
-<li id="li-140"><div class="para" id="p-367">If <span class="process-math">\(f\)</span> has an inverse, then the inverse is unique.</div></li>
-<li id="li-141"><div class="para" id="p-368">If <span class="process-math">\(f\)</span> has a right inverse <span class="process-math">\(g\)</span> and a left inverse <span class="process-math">\(h\text{,}\)</span> then <span class="process-math">\(g = h\text{,}\)</span> and hence <span class="process-math">\(f\)</span> has an inverse.</div></li>
-<li id="li-142"><div class="para" id="p-369">If <span class="process-math">\(g\)</span> is an inverse of <span class="process-math">\(f\text{,}\)</span> then <span class="process-math">\(f\)</span> is an inverse of <span class="process-math">\(g\text{.}\)</span>
+<li id="li-140"><div class="para" id="p-370">If <span class="process-math">\(f\)</span> has an inverse, then the inverse is unique.</div></li>
+<li id="li-141"><div class="para" id="p-371">If <span class="process-math">\(f\)</span> has a right inverse <span class="process-math">\(g\)</span> and a left inverse <span class="process-math">\(h\text{,}\)</span> then <span class="process-math">\(g = h\text{,}\)</span> and hence <span class="process-math">\(f\)</span> has an inverse.</div></li>
+<li id="li-142"><div class="para" id="p-372">If <span class="process-math">\(g\)</span> is an inverse of <span class="process-math">\(f\text{,}\)</span> then <span class="process-math">\(f\)</span> is an inverse of <span class="process-math">\(g\text{.}\)</span>
 </div></li>
 </ol>
-</div></article><article class="convention remark-like" id="convention-16"><h3 class="heading">
+</div></article><article class="convention remark-like" id="convention-17"><h3 class="heading">
 <span class="type">Convention</span><span class="space"> </span><span class="codenumber">4.13</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-370">Let <span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span> be sets, and let <span class="process-math">\(f : A \to B\)</span> be a function. If <span class="process-math">\(f\)</span> has an inverse, the inverse is denoted <span class="process-math">\(f\inv  : B \to  A\text{.}\)</span>
+<div class="para" id="p-373">Let <span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span> be sets, and let <span class="process-math">\(f : A \to B\)</span> be a function. If <span class="process-math">\(f\)</span> has an inverse, the inverse is denoted <span class="process-math">\(f\inv  : B \to  A\text{.}\)</span>
 </div></article><article class="exercise exercise-like" id="exercise-11"><a href="" data-knowl="" class="id-ref exercise-knowl original" data-refid="hk-exercise-11"><h3 class="heading">
 <span class="type">Exploration</span><span class="space"> </span><span class="codenumber">4.14</span><span class="period">.</span>
-</h3></a></article><div class="hidden-content tex2jax_ignore" id="hk-exercise-11"><article class="exercise exercise-like"><div class="para logical" id="p-371">
+</h3></a></article><div class="hidden-content tex2jax_ignore" id="hk-exercise-11"><article class="exercise exercise-like"><div class="para logical" id="p-374">
 <div class="para">Let <span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span> be sets, let <span class="process-math">\(U \subseteq  A\)</span> and <span class="process-math">\(V \subseteq  C\)</span> be subsets, and let <span class="process-math">\(f : A \to B\)</span> and <span class="process-math">\(g : B \to  C\)</span> be functions. Prove that</div>
 <div class="displaymath process-math">
 \begin{equation*}

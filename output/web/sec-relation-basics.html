@@ -530,7 +530,13 @@ window.MathJax = {
 <li>
 <div class="toc-item"><a href="ch-sets.html" class="internal"><span class="codenumber">3</span> <span class="title">Sets</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-set-basics.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Set Basics</span></a></div></li>
+<li>
+<div class="toc-item"><a href="sec-set-basics.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Set Basics</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec-set-basics.html#subsec-sets-notation" class="internal"><span class="title">Sets and Notation</span></a></div></li>
+<li><div class="toc-item"><a href="sec-set-basics.html#subsec-subsets" class="internal"><span class="title">Subsets and Set Equality</span></a></div></li>
+</ul>
+</li>
 <li><div class="toc-item"><a href="sec-set-operations.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Set Operations</span></a></div></li>
 <li><div class="toc-item"><a href="sec-families-of-sets.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Families of Sets</span></a></div></li>
 </ul>
@@ -594,7 +600,16 @@ window.MathJax = {
 </li>
 </ul>
 </li>
-<li><div class="toc-item"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div></li>
+<li>
+<div class="toc-item"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div>
+<ul class="structural">
+<li>
+<div class="toc-item"><a href="appendix-1.html" class="internal"><span class="codenumber">A</span> <span class="title">Topology</span></a></div>
+<ul class="structural"><li><div class="toc-item"><a href="sec-topology.html" class="internal"><span class="codenumber">A.1</span> <span class="title">Topology</span></a></div></li></ul>
+</li>
+<li><div class="toc-item"><a href="colophon-2.html" class="internal"><span class="title">Colophon</span></a></div></li>
+</ul>
+</li>
 </ul></nav></div>
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-relation-basics"><h2 class="heading hide-type">
 <span class="type">Section</span> <span class="codenumber">5.1</span> <span class="title">Relation Basics</span>
@@ -602,28 +617,28 @@ window.MathJax = {
 <article class="definition definition-like" id="def-relation"><h3 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">5.1</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-411">Let <span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span> be sets. A relation <span class="process-math">\(R\)</span> from <span class="process-math">\(A\)</span> to <span class="process-math">\(B\)</span> is a subset <span class="process-math">\(R \subseteq  A \times B\text{.}\)</span> If <span class="process-math">\(a\in  A\)</span> and <span class="process-math">\(b\in B\text{,}\)</span> we write <span class="process-math">\(a R b\)</span> if <span class="process-math">\((a, b)\in  R\text{,}\)</span> and <span class="process-math">\(a \notR b\)</span> if <span class="process-math">\((a, b) \not\in  R\text{.}\)</span> A relation on <span class="process-math">\(A\)</span> is a relation from <span class="process-math">\(A\)</span> to <span class="process-math">\(A\text{.}\)</span>
+<div class="para" id="p-414">Let <span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span> be sets. A relation <span class="process-math">\(R\)</span> from <span class="process-math">\(A\)</span> to <span class="process-math">\(B\)</span> is a subset <span class="process-math">\(R \subseteq  A \times B\text{.}\)</span> If <span class="process-math">\(a\in  A\)</span> and <span class="process-math">\(b\in B\text{,}\)</span> we write <span class="process-math">\(a R b\)</span> if <span class="process-math">\((a, b)\in  R\text{,}\)</span> and <span class="process-math">\(a \notR b\)</span> if <span class="process-math">\((a, b) \not\in  R\text{.}\)</span> A relation on <span class="process-math">\(A\)</span> is a relation from <span class="process-math">\(A\)</span> to <span class="process-math">\(A\text{.}\)</span>
 </div></article><article class="example example-like" id="example-30"><h3 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">5.2</span><span class="period">.</span>
 </h3>
-<div class="para logical" id="p-412"><ul class="disc">
-<li id="li-172"><div class="para" id="p-413">Let <span class="process-math">\(P\)</span> be the set of all people. Define a relation on <span class="process-math">\(P\)</span> by having person <span class="process-math">\(x\)</span> related to person <span class="process-math">\(y\)</span> if and only if <span class="process-math">\(x\)</span> and <span class="process-math">\(y\)</span> have at least one parent in common.</div></li>
-<li id="li-173"><div class="para" id="p-414">The symbols &lt; and <span class="process-math">\(\leq \)</span> both represent relations on <span class="process-math">\(\R\text{.}\)</span>
+<div class="para logical" id="p-415"><ul class="disc">
+<li id="li-172"><div class="para" id="p-416">Let <span class="process-math">\(P\)</span> be the set of all people. Define a relation on <span class="process-math">\(P\)</span> by having person <span class="process-math">\(x\)</span> related to person <span class="process-math">\(y\)</span> if and only if <span class="process-math">\(x\)</span> and <span class="process-math">\(y\)</span> have at least one parent in common.</div></li>
+<li id="li-173"><div class="para" id="p-417">The symbols &lt; and <span class="process-math">\(\leq \)</span> both represent relations on <span class="process-math">\(\R\text{.}\)</span>
 </div></li>
-<li id="li-174"><div class="para" id="p-415">Let <span class="process-math">\(A\)</span> be a set. The symbol “<span class="process-math">\(\subseteq \)</span>” represents a relation on <span class="process-math">\(\cP (A)\text{,}\)</span> where <span class="process-math">\(P\text{,}\)</span> <span class="process-math">\(Q\in\cP (A)\)</span> are related if and only if <span class="process-math">\(P \subseteq  Q\text{.}\)</span>
+<li id="li-174"><div class="para" id="p-418">Let <span class="process-math">\(A\)</span> be a set. The symbol “<span class="process-math">\(\subseteq \)</span>” represents a relation on <span class="process-math">\(\cP (A)\text{,}\)</span> where <span class="process-math">\(P\text{,}\)</span> <span class="process-math">\(Q\in\cP (A)\)</span> are related if and only if <span class="process-math">\(P \subseteq  Q\text{.}\)</span>
 </div></li>
 </ul></div></article><article class="proposition theorem-like" id="prop-functions-are-relations"><h3 class="heading">
 <span class="type">Proposition</span><span class="space"> </span><span class="codenumber">5.3</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-416">Let <span class="process-math">\(f : A \to B\)</span> be a function. Then <span class="process-math">\(f\)</span> is defined by a subset of <span class="process-math">\(A \times B\)</span> satisfying a certain condition. Hence <span class="process-math">\(f\)</span> is also a relation from <span class="process-math">\(A\)</span> to <span class="process-math">\(B\text{.}\)</span>
-</div></article><div class="para" id="p-417">The concept of a relation is therefore seen to be more general than the concept of a function.</div>
+<div class="para" id="p-419">Let <span class="process-math">\(f : A \to B\)</span> be a function. Then <span class="process-math">\(f\)</span> is defined by a subset of <span class="process-math">\(A \times B\)</span> satisfying a certain condition. Hence <span class="process-math">\(f\)</span> is also a relation from <span class="process-math">\(A\)</span> to <span class="process-math">\(B\text{.}\)</span>
+</div></article><div class="para" id="p-420">The concept of a relation is therefore seen to be more general than the concept of a function.</div>
 <article class="remark remark-like" id="remark-19"><h3 class="heading">
 <span class="type">Remark</span><span class="space"> </span><span class="codenumber">5.4</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-418">In principle, it would have been logical to have the chapter on relations before the chapter on functions, and to view functions as a special case of relations. In practice, however, most mathematicians do not think of functions as special types of relations when they use functions on a daily basis, and therefore functions deserve their own treatment independent of the study of relations.</div></article><article class="definition definition-like" id="def-relation-class"><h3 class="heading">
+<div class="para" id="p-421">In principle, it would have been logical to have the chapter on relations before the chapter on functions, and to view functions as a special case of relations. In practice, however, most mathematicians do not think of functions as special types of relations when they use functions on a daily basis, and therefore functions deserve their own treatment independent of the study of relations.</div></article><article class="definition definition-like" id="def-relation-class"><h3 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">5.5</span><span class="period">.</span>
 </h3>
-<div class="para logical" id="p-419">
+<div class="para logical" id="p-422">
 <div class="para">Let <span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span> be non-empty sets, let <span class="process-math">\(R\)</span> be a relation from <span class="process-math">\(A\)</span> to <span class="process-math">\(B\text{,}\)</span> and let <span class="process-math">\(x\in  A\text{.}\)</span> The relation class of <span class="process-math">\(x\)</span> with respect to <span class="process-math">\(R\text{,}\)</span> denoted <span class="process-math">\(R [x]\text{,}\)</span> is the set defined by</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -635,10 +650,10 @@ R [x] = \{y\in B | x R y\}\text{.}
 </div></article><article class="example example-like" id="example-31"><h3 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">5.6</span><span class="period">.</span>
 </h3>
-<div class="para logical" id="p-420"><ul class="disc">
-<li id="li-175"><div class="para" id="p-421">There are a number of distinct cases here, and we will examine a few of them. If <span class="process-math">\(x\)</span> is the only child of each of her parents, then <span class="process-math">\([x] = \{x\}\text{,}\)</span> where we observe that <span class="process-math">\(x\)</span> has the same parents as herself. If <span class="process-math">\(y\)</span> and <span class="process-math">\(z\)</span> are the only two children of each of their parents, then <span class="process-math">\([y] = \{y, z\} = [z]\text{.}\)</span> If <span class="process-math">\(a\)</span> has one half-sibling <span class="process-math">\(b\)</span> by her father, and another half-sibling <span class="process-math">\(c\)</span> by her mother, and each of <span class="process-math">\(b\)</span> and <span class="process-math">\(c\)</span> has no other siblings or half-siblings, then <span class="process-math">\([a] = \{a, b, c\}\text{,}\)</span> and <span class="process-math">\([b] = \{a, b\}\text{,}\)</span> and <span class="process-math">\([c] = \{a, c\}\text{.}\)</span>
+<div class="para logical" id="p-423"><ul class="disc">
+<li id="li-175"><div class="para" id="p-424">There are a number of distinct cases here, and we will examine a few of them. If <span class="process-math">\(x\)</span> is the only child of each of her parents, then <span class="process-math">\([x] = \{x\}\text{,}\)</span> where we observe that <span class="process-math">\(x\)</span> has the same parents as herself. If <span class="process-math">\(y\)</span> and <span class="process-math">\(z\)</span> are the only two children of each of their parents, then <span class="process-math">\([y] = \{y, z\} = [z]\text{.}\)</span> If <span class="process-math">\(a\)</span> has one half-sibling <span class="process-math">\(b\)</span> by her father, and another half-sibling <span class="process-math">\(c\)</span> by her mother, and each of <span class="process-math">\(b\)</span> and <span class="process-math">\(c\)</span> has no other siblings or half-siblings, then <span class="process-math">\([a] = \{a, b, c\}\text{,}\)</span> and <span class="process-math">\([b] = \{a, b\}\text{,}\)</span> and <span class="process-math">\([c] = \{a, c\}\text{.}\)</span>
 </div></li>
-<li id="li-176"><div class="para" id="p-422">For the relation &lt;, we see that <span class="process-math">\([x] = (x, ∞)\)</span> for all <span class="process-math">\(x\in\R\text{,}\)</span> and for the relation <span class="process-math">\(\leq \text{,}\)</span> we see that <span class="process-math">\([x] = [x, ∞)\)</span> for all <span class="process-math">\(x\in\R\text{.}\)</span>
+<li id="li-176"><div class="para" id="p-425">For the relation &lt;, we see that <span class="process-math">\([x] = (x, ∞)\)</span> for all <span class="process-math">\(x\in\R\text{,}\)</span> and for the relation <span class="process-math">\(\leq \text{,}\)</span> we see that <span class="process-math">\([x] = [x, ∞)\)</span> for all <span class="process-math">\(x\in\R\text{.}\)</span>
 </div></li>
 </ul></div></article></section></div>
 <div class="ptx-content-footer">

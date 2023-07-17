@@ -530,7 +530,13 @@ window.MathJax = {
 <li>
 <div class="toc-item"><a href="ch-sets.html" class="internal"><span class="codenumber">3</span> <span class="title">Sets</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-set-basics.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Set Basics</span></a></div></li>
+<li>
+<div class="toc-item"><a href="sec-set-basics.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Set Basics</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec-set-basics.html#subsec-sets-notation" class="internal"><span class="title">Sets and Notation</span></a></div></li>
+<li><div class="toc-item"><a href="sec-set-basics.html#subsec-subsets" class="internal"><span class="title">Subsets and Set Equality</span></a></div></li>
+</ul>
+</li>
 <li><div class="toc-item"><a href="sec-set-operations.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Set Operations</span></a></div></li>
 <li><div class="toc-item"><a href="sec-families-of-sets.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Families of Sets</span></a></div></li>
 </ul>
@@ -594,7 +600,16 @@ window.MathJax = {
 </li>
 </ul>
 </li>
-<li><div class="toc-item"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div></li>
+<li>
+<div class="toc-item"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div>
+<ul class="structural">
+<li>
+<div class="toc-item"><a href="appendix-1.html" class="internal"><span class="codenumber">A</span> <span class="title">Topology</span></a></div>
+<ul class="structural"><li><div class="toc-item"><a href="sec-topology.html" class="internal"><span class="codenumber">A.1</span> <span class="title">Topology</span></a></div></li></ul>
+</li>
+<li><div class="toc-item"><a href="colophon-2.html" class="internal"><span class="title">Colophon</span></a></div></li>
+</ul>
+</li>
 </ul></nav></div>
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="direct-proof"><h2 class="heading hide-type">
 <span class="type">Section</span> <span class="codenumber">2.1</span> <span class="title">Direct Proof</span>
@@ -605,7 +620,7 @@ window.MathJax = {
 <div class="para" id="p-176">Theorems are not proved in a vacuum. To prove one theorem, we usually need to use various relevant definitions, and theorems that have already been proved. If we do not want to keep going backwards infinitely, we need to start with some objects that we use without definition, as well as some facts about these objects that are assumed without proof. Such facts are called axioms, and a body of knowledge that can be derived from a set of axioms is called an axiomatic system.</div>
 <div class="para" id="p-177">In modern abstract mathematics, we take set theory as our basis for all arguments.</div>
 <div class="para" id="p-178">As a basis for our work in the present chapter, we will make use of standard definitions and properties of the familiar number systems such as the integers, rational numbers and real numbers.</div>
-<div class="para" id="p-179">The statement of virtually every theorem, when viewed appropriately, is of the form P → Q, or some combination of such statements. To prove theorems, we therefore need to know how to prove statements of the form P → Q.</div>
+<div class="para" id="p-179">The statement of virtually every theorem, when viewed appropriately, is of the form P \to  Q, or some combination of such statements. To prove theorems, we therefore need to know how to prove statements of the form P \to  Q.</div>
 <article class="definition definition-like" id="def-direct-proof"><h4 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">2.1</span><span class="period">.</span>
 </h4>
@@ -616,8 +631,8 @@ window.MathJax = {
 <span class="type">Structure</span><span class="space"> </span><span class="codenumber">2.2</span><span class="period">.</span>
 </h4>
 <div class="para" id="p-183">Suppose that <span class="process-math">\(P\)</span> is true. ... (argumentation) ... Then <span class="process-math">\(Q\)</span> is true.</div></article><div class="para" id="p-184">When constructing a proof, the first thing to do is specify what you are assuming, and what it is you are trying to prove. Then you pick a strategy for the proof; one such strategy is direct proof. The next stage is actually figuring out a proof, making use of your chosen strategy. If you cannot devise a proof using your chosen strategy, perhaps another strategy should be attempted. There is no fixed way of finding a proof; it requires experimentation, playing around and trying different things.</div>
-<div class="para" id="p-185">You are probably familiar with the statement “the sum of even numbers is even.” This statement can be viewed in the form P → Q if we look at it properly, because it actually says “if n and m are even numbers, then n + m is an even number. To construct a rigorous proof of our statement (as well as the corresponding result for odd numbers), we first need precise definitions of the terms involved.</div>
-<div class="para" id="p-186">Our theorem is concerned with the integers, that is, the numbers . . . , −3, −2, −1, 0, 1, 2, 3, . . . , and so we need to assume that we know what the integers are, that we have the operations addition, subtraction, multiplication and division, and that these operations satisfy standard properties, for example the Distributive Law. Using only those standard facts about the integers, we can make the following definition, which is the basis for our theorem and its proof.</div>
+<div class="para" id="p-185">You are probably familiar with the statement “the sum of even numbers is even.” This statement can be viewed in the form P \to  Q if we look at it properly, because it actually says “if n and m are even numbers, then n + m is an even number. To construct a rigorous proof of our statement (as well as the corresponding result for odd numbers), we first need precise definitions of the terms involved.</div>
+<div class="para" id="p-186">Our theorem is concerned with the integers, that is, the numbers . . . , -3, -2, -1, 0, 1, 2, 3, . . . , and so we need to assume that we know what the integers are, that we have the operations addition, subtraction, multiplication and division, and that these operations satisfy standard properties, for example the Distributive Law. Using only those standard facts about the integers, we can make the following definition, which is the basis for our theorem and its proof.</div>
 <article class="definition definition-like" id="def-even-odd"><h4 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">2.3</span><span class="period">.</span>
 </h4>

@@ -530,7 +530,13 @@ window.MathJax = {
 <li>
 <div class="toc-item"><a href="ch-sets.html" class="internal"><span class="codenumber">3</span> <span class="title">Sets</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-set-basics.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Set Basics</span></a></div></li>
+<li>
+<div class="toc-item"><a href="sec-set-basics.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Set Basics</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec-set-basics.html#subsec-sets-notation" class="internal"><span class="title">Sets and Notation</span></a></div></li>
+<li><div class="toc-item"><a href="sec-set-basics.html#subsec-subsets" class="internal"><span class="title">Subsets and Set Equality</span></a></div></li>
+</ul>
+</li>
 <li><div class="toc-item"><a href="sec-set-operations.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Set Operations</span></a></div></li>
 <li><div class="toc-item"><a href="sec-families-of-sets.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Families of Sets</span></a></div></li>
 </ul>
@@ -594,7 +600,16 @@ window.MathJax = {
 </li>
 </ul>
 </li>
-<li><div class="toc-item"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div></li>
+<li>
+<div class="toc-item"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div>
+<ul class="structural">
+<li>
+<div class="toc-item"><a href="appendix-1.html" class="internal"><span class="codenumber">A</span> <span class="title">Topology</span></a></div>
+<ul class="structural"><li><div class="toc-item"><a href="sec-topology.html" class="internal"><span class="codenumber">A.1</span> <span class="title">Topology</span></a></div></li></ul>
+</li>
+<li><div class="toc-item"><a href="colophon-2.html" class="internal"><span class="title">Colophon</span></a></div></li>
+</ul>
+</li>
 </ul></nav></div>
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-image-and-pre-image"><h2 class="heading hide-type">
 <span class="type">Section</span> <span class="codenumber">4.2</span> <span class="title">Image and Preimage</span>
@@ -602,7 +617,7 @@ window.MathJax = {
 <article class="definition definition-like" id="def-image"><h3 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">4.5</span><span class="period">.</span>
 </h3>
-<div class="para logical" id="p-343">
+<div class="para logical" id="p-346">
 <div class="para">Let <span class="process-math">\(P \subseteq  A\text{.}\)</span> The <dfn class="terminology">image</dfn> of <span class="process-math">\(P\)</span> under <span class="process-math">\(f\text{,}\)</span> denoted <span class="process-math">\(f(P)\text{,}\)</span> is the set defined by</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -614,7 +629,7 @@ f (P) = {b\in B | b = f (p) for some p\in  P}.
 </div></article><article class="definition definition-like" id="def-preimage"><h3 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">4.6</span><span class="period">.</span>
 </h3>
-<div class="para logical" id="p-344">
+<div class="para logical" id="p-347">
 <div class="para">Let <span class="process-math">\(Q \subseteq B\text{.}\)</span> The <dfn class="terminology">inverse image</dfn> of <span class="process-math">\(Q\)</span> under <span class="process-math">\(f\text{,}\)</span> denoted <span class="process-math">\(f\inv (Q)\text{,}\)</span> is the set defined by</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -624,34 +639,34 @@ f\inv(Q) = {a\in  A | f(a)\in  Q}.
 </div></article><article class="theorem theorem-like" id="thm-properties-of-image-preimage"><h3 class="heading">
 <span class="type">Theorem</span><span class="space"> </span><span class="codenumber">4.7</span><span class="period">.</span>
 </h3>
-<div class="para logical" id="p-345">
+<div class="para logical" id="p-348">
 <div class="para">Let <span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span> be sets, let <span class="process-math">\(C, D \subseteq  A\)</span> and <span class="process-math">\(S,\sqcap \subseteq B\)</span> be subsets, and let <span class="process-math">\(f : A \to B\)</span> be a function. Let <span class="process-math">\(I\)</span> and <span class="process-math">\(K\)</span> be non-empty sets, let <span class="process-math">\({Ui}i\in I\)</span> be a family of subsets of <span class="process-math">\(A\)</span> indexed by <span class="process-math">\(I\text{,}\)</span> and let <span class="process-math">\({Vk}k\in K\)</span> be a family of subsets of <span class="process-math">\(B\)</span> indexed by <span class="process-math">\(K\text{.}\)</span>
 </div>
 <ol class="decimal">
-<li id="li-124"><div class="para" id="p-346">
+<li id="li-124"><div class="para" id="p-349">
 <span class="process-math">\(f ( \es ) = \es \)</span> and <span class="process-math">\(f\inv ( \es ) = \es \text{.}\)</span>
 </div></li>
-<li id="li-125"><div class="para" id="p-347"><span class="process-math">\(f\inv (B) = A\text{.}\)</span></div></li>
-<li id="li-126"><div class="para" id="p-348">
+<li id="li-125"><div class="para" id="p-350"><span class="process-math">\(f\inv (B) = A\text{.}\)</span></div></li>
+<li id="li-126"><div class="para" id="p-351">
 <span class="process-math">\(f (C) \subseteq  S\)</span> if and only if <span class="process-math">\(C \subseteq  f\inv (S)\text{.}\)</span>
 </div></li>
-<li id="li-127"><div class="para" id="p-349">If <span class="process-math">\(C \subseteq  D\text{,}\)</span> then <span class="process-math">\(f (C) \subseteq  f (D)\text{.}\)</span>
+<li id="li-127"><div class="para" id="p-352">If <span class="process-math">\(C \subseteq  D\text{,}\)</span> then <span class="process-math">\(f (C) \subseteq  f (D)\text{.}\)</span>
 </div></li>
-<li id="li-128"><div class="para" id="p-350">If <span class="process-math">\(S \subseteq  T\text{,}\)</span> then <span class="process-math">\(f\inv (S) \subseteq  f\inv (T )\text{.}\)</span>
+<li id="li-128"><div class="para" id="p-353">If <span class="process-math">\(S \subseteq  T\text{,}\)</span> then <span class="process-math">\(f\inv (S) \subseteq  f\inv (T )\text{.}\)</span>
 </div></li>
-<li id="li-129"><div class="para" id="p-351"><span class="process-math">\(f (\bigcup i\in I Ui) = \bigcup i\in I f (Ui)\text{.}\)</span></div></li>
-<li id="li-130"><div class="para" id="p-352"><span class="process-math">\(f (⋂i\in I Ui) \subseteq  ⋂i\in I f (Ui)\text{.}\)</span></div></li>
-<li id="li-131"><div class="para" id="p-353"><span class="process-math">\(f\inv  (\bigcup k\in K Vk) = \bigcup k\in K f\inv (Vk)\text{.}\)</span></div></li>
-<li id="li-132"><div class="para" id="p-354"><span class="process-math">\(f\inv  (⋂k\in K Vk) = ⋂k\in K f\inv (Vk)\text{.}\)</span></div></li>
+<li id="li-129"><div class="para" id="p-354"><span class="process-math">\(f (\bigcup i\in I Ui) = \bigcup i\in I f (Ui)\text{.}\)</span></div></li>
+<li id="li-130"><div class="para" id="p-355"><span class="process-math">\(f (⋂i\in I Ui) \subseteq  ⋂i\in I f (Ui)\text{.}\)</span></div></li>
+<li id="li-131"><div class="para" id="p-356"><span class="process-math">\(f\inv  (\bigcup k\in K Vk) = \bigcup k\in K f\inv (Vk)\text{.}\)</span></div></li>
+<li id="li-132"><div class="para" id="p-357"><span class="process-math">\(f\inv  (⋂k\in K Vk) = ⋂k\in K f\inv (Vk)\text{.}\)</span></div></li>
 </ol>
 </div></article><article class="exercise exercise-like" id="exercise-10"><a href="" data-knowl="" class="id-ref exercise-knowl original" data-refid="hk-exercise-10"><h3 class="heading">
 <span class="type">Exploration</span><span class="space"> </span><span class="codenumber">4.8</span><span class="period">.</span>
-</h3></a></article><div class="hidden-content tex2jax_ignore" id="hk-exercise-10"><article class="exercise exercise-like"><div class="para logical" id="p-355">
+</h3></a></article><div class="hidden-content tex2jax_ignore" id="hk-exercise-10"><article class="exercise exercise-like"><div class="para logical" id="p-358">
 <div class="para">Let <span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span> be sets, let <span class="process-math">\(P, Q \subseteq  A\)</span> be subsets and let <span class="process-math">\(f : A \to B\)</span> be a function.</div>
 <ol class="decimal">
-<li id="li-133"><div class="para" id="p-356">Prove that <span class="process-math">\(f (P) - f (Q) \subseteq  f (P - Q)\text{.}\)</span>
+<li id="li-133"><div class="para" id="p-359">Prove that <span class="process-math">\(f (P) - f (Q) \subseteq  f (P - Q)\text{.}\)</span>
 </div></li>
-<li id="li-134"><div class="para" id="p-357">Is it necessarily the case that <span class="process-math">\(f (P - Q) \subseteq  f (P) - f (Q)\text{?}\)</span> Give a proof or a counterexample.</div></li>
+<li id="li-134"><div class="para" id="p-360">Is it necessarily the case that <span class="process-math">\(f (P - Q) \subseteq  f (P) - f (Q)\text{?}\)</span> Give a proof or a counterexample.</div></li>
 </ol>
 </div></article></div></section></div>
 <div class="ptx-content-footer">

@@ -530,7 +530,13 @@ window.MathJax = {
 <li>
 <div class="toc-item"><a href="ch-sets.html" class="internal"><span class="codenumber">3</span> <span class="title">Sets</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-set-basics.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Set Basics</span></a></div></li>
+<li>
+<div class="toc-item"><a href="sec-set-basics.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Set Basics</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec-set-basics.html#subsec-sets-notation" class="internal"><span class="title">Sets and Notation</span></a></div></li>
+<li><div class="toc-item"><a href="sec-set-basics.html#subsec-subsets" class="internal"><span class="title">Subsets and Set Equality</span></a></div></li>
+</ul>
+</li>
 <li><div class="toc-item"><a href="sec-set-operations.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Set Operations</span></a></div></li>
 <li><div class="toc-item"><a href="sec-families-of-sets.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Families of Sets</span></a></div></li>
 </ul>
@@ -594,15 +600,58 @@ window.MathJax = {
 </li>
 </ul>
 </li>
-<li><div class="toc-item"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div></li>
+<li>
+<div class="toc-item"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div>
+<ul class="structural">
+<li>
+<div class="toc-item"><a href="appendix-1.html" class="internal"><span class="codenumber">A</span> <span class="title">Topology</span></a></div>
+<ul class="structural"><li><div class="toc-item"><a href="sec-topology.html" class="internal"><span class="codenumber">A.1</span> <span class="title">Topology</span></a></div></li></ul>
+</li>
+<li><div class="toc-item"><a href="colophon-2.html" class="internal"><span class="title">Colophon</span></a></div></li>
+</ul>
+</li>
 </ul></nav></div>
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-axioms"><h2 class="heading hide-type">
 <span class="type">Section</span> <span class="codenumber">8.5</span> <span class="title">Axioms for Set Theory</span>
 </h2>
-<article class="axiom theorem-like" id="axiom-"><h3 class="heading">
-<span class="type">Axiom</span><span class="space"> </span><span class="codenumber">8.49</span><span class="period">.</span>
+<article class="axiom theorem-like" id="axiom-extensionality"><h3 class="heading">
+<span class="type">Axiom</span><span class="space"> </span><span class="codenumber">8.49</span><span class="period">.</span><span class="space"> </span><span class="title">Axiom of Extensionality.</span>
 </h3>
-<div class="para" id="p-697"></div></article></section></div>
+<div class="para" id="p-700">Let <span class="process-math">\(x\)</span> and <span class="process-math">\(y\)</span> be sets. If <span class="process-math">\(x\)</span> and <span class="process-math">\(y\)</span> have the same elements, then <span class="process-math">\(x = y\text{.}\)</span>
+</div></article><article class="axiom theorem-like" id="axiom-empty-set"><h3 class="heading">
+<span class="type">Axiom</span><span class="space"> </span><span class="codenumber">8.50</span><span class="period">.</span><span class="space"> </span><span class="title">Axiom of Empty Set.</span>
+</h3>
+<div class="para" id="p-701">There is a set <span class="process-math">\(z\)</span> such that <span class="process-math">\(x \not\in  z\)</span> for all sets <span class="process-math">\(x\text{.}\)</span>
+</div></article><article class="axiom theorem-like" id="axiom-pairing"><h3 class="heading">
+<span class="type">Axiom</span><span class="space"> </span><span class="codenumber">8.51</span><span class="period">.</span><span class="space"> </span><span class="title">Axiom of Pairing.</span>
+</h3>
+<div class="para" id="p-702">Let <span class="process-math">\(x\)</span> and <span class="process-math">\(y\)</span> be sets. There is a set <span class="process-math">\(z\)</span> such that <span class="process-math">\(w \in  z\)</span> if and only if <span class="process-math">\(w = x\)</span> or <span class="process-math">\(w = y\text{.}\)</span>
+</div></article><article class="axiom theorem-like" id="axiom-union"><h3 class="heading">
+<span class="type">Axiom</span><span class="space"> </span><span class="codenumber">8.52</span><span class="period">.</span><span class="space"> </span><span class="title">Axiom of Union.</span>
+</h3>
+<div class="para" id="p-703">Let <span class="process-math">\(x\)</span> be a set. There is a set <span class="process-math">\(z\)</span> such that <span class="process-math">\(w \in  z\)</span> if and only if there is some <span class="process-math">\(y \in  x\)</span> such that <span class="process-math">\(w \in  y\text{.}\)</span>
+</div></article><article class="axiom theorem-like" id="axiom-power-set"><h3 class="heading">
+<span class="type">Axiom</span><span class="space"> </span><span class="codenumber">8.53</span><span class="period">.</span><span class="space"> </span><span class="title">Axiom of Power Set.</span>
+</h3>
+<div class="para" id="p-704">Let <span class="process-math">\(x\)</span> be a set. There is a set <span class="process-math">\(z\)</span> such that <span class="process-math">\(w \in  z\)</span> if and only if <span class="process-math">\(w \sse x\text{.}\)</span>
+</div></article><article class="axiom theorem-like" id="axiom-regularity"><h3 class="heading">
+<span class="type">Axiom</span><span class="space"> </span><span class="codenumber">8.54</span><span class="period">.</span><span class="space"> </span><span class="title">Axiom of Regularity.</span>
+</h3>
+<div class="para" id="p-705">Let <span class="process-math">\(x\)</span> be a set. Suppose that <span class="process-math">\(x \ne \es\text{.}\)</span> Then there is some <span class="process-math">\(y \in  x\)</span> such that <span class="process-math">\(x \cap  y = \es\text{.}\)</span>
+</div></article><article class="axiom theorem-like" id="axiom-selection"><h3 class="heading">
+<span class="type">Axiom</span><span class="space"> </span><span class="codenumber">8.55</span><span class="period">.</span><span class="space"> </span><span class="title">Axiom of Selection.</span>
+</h3>
+<div class="para" id="p-706">Let <span class="process-math">\(P(t)\)</span> be a logical property of sets with one free variable <span class="process-math">\(t\)</span> that can be formulated in the context of the ZF axioms. Let <span class="process-math">\(x\)</span> be a set. Then there is a set <span class="process-math">\(z\)</span> such that <span class="process-math">\(y \in  z\)</span> if and only if y<span class="process-math">\(\in  x\)</span> and <span class="process-math">\(P(y)\)</span> is true.</div></article><article class="axiom theorem-like" id="axiom-infinity"><h3 class="heading">
+<span class="type">Axiom</span><span class="space"> </span><span class="codenumber">8.56</span><span class="period">.</span><span class="space"> </span><span class="title">Axiom of Infinity.</span>
+</h3>
+<div class="para" id="p-707">There is a set <span class="process-math">\(z\)</span> such that <span class="process-math">\(\es  \in  z\text{,}\)</span> and if <span class="process-math">\(x \in  z\)</span> then <span class="process-math">\(x \cup \{x\} \in  z\text{.}\)</span>
+</div></article><article class="axiom theorem-like" id="axiom-replacement"><h3 class="heading">
+<span class="type">Axiom</span><span class="space"> </span><span class="codenumber">8.57</span><span class="period">.</span><span class="space"> </span><span class="title">Axiom of Replacement.</span>
+</h3>
+<div class="para" id="p-708">Let <span class="process-math">\(F(s,t)\)</span> be a functional property of sets with two free variables <span class="process-math">\(s\)</span> and <span class="process-math">\(t\)</span> that can be formulated in the context of the ZF axioms. Let <span class="process-math">\(x\)</span> be a set. Then there is a set <span class="process-math">\(z\)</span> such that <span class="process-math">\(y \in  z\)</span> if and only if there is some <span class="process-math">\(w \in  x\)</span> such that <span class="process-math">\(F(w, y)\)</span> is true.</div></article><article class="axiom theorem-like" id="axiom-choice"><h3 class="heading">
+<span class="type">Axiom</span><span class="space"> </span><span class="codenumber">8.58</span><span class="period">.</span><span class="space"> </span><span class="title">Axiom of Choice.</span>
+</h3>
+<div class="para" id="p-709">Let <span class="process-math">\(x\)</span> be a set. Suppose that if <span class="process-math">\(y, w \in  x\text{,}\)</span> then <span class="process-math">\(y \ne \es\)</span>  and <span class="process-math">\(y \cap w = \es\text{.}\)</span> Then there is a set <span class="process-math">\(z\)</span> such that if <span class="process-math">\(y \in  x\text{,}\)</span> then <span class="process-math">\(y \cap z\)</span> contains a single element.</div></article></section></div>
 <div class="ptx-content-footer">
 <a class="previous-button button" href="sec-lattices.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon">^</span><span class="name">Top</span></a><a class="next-button button" href="backmatter.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a>
 </div></main>

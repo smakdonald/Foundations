@@ -530,7 +530,13 @@ window.MathJax = {
 <li>
 <div class="toc-item"><a href="ch-sets.html" class="internal"><span class="codenumber">3</span> <span class="title">Sets</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-set-basics.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Set Basics</span></a></div></li>
+<li>
+<div class="toc-item"><a href="sec-set-basics.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Set Basics</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec-set-basics.html#subsec-sets-notation" class="internal"><span class="title">Sets and Notation</span></a></div></li>
+<li><div class="toc-item"><a href="sec-set-basics.html#subsec-subsets" class="internal"><span class="title">Subsets and Set Equality</span></a></div></li>
+</ul>
+</li>
 <li><div class="toc-item"><a href="sec-set-operations.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Set Operations</span></a></div></li>
 <li class="active"><div class="toc-item"><a href="sec-families-of-sets.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Families of Sets</span></a></div></li>
 </ul>
@@ -594,22 +600,31 @@ window.MathJax = {
 </li>
 </ul>
 </li>
-<li><div class="toc-item"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div></li>
+<li>
+<div class="toc-item"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div>
+<ul class="structural">
+<li>
+<div class="toc-item"><a href="appendix-1.html" class="internal"><span class="codenumber">A</span> <span class="title">Topology</span></a></div>
+<ul class="structural"><li><div class="toc-item"><a href="sec-topology.html" class="internal"><span class="codenumber">A.1</span> <span class="title">Topology</span></a></div></li></ul>
+</li>
+<li><div class="toc-item"><a href="colophon-2.html" class="internal"><span class="title">Colophon</span></a></div></li>
+</ul>
+</li>
 </ul></nav></div>
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-families-of-sets"><h2 class="heading hide-type">
 <span class="type">Section</span> <span class="codenumber">3.3</span> <span class="title">Families of Sets</span>
 </h2>
 <article class="definition definition-like" id="def-family-of-sets"><h3 class="heading">
-<span class="type">Definition</span><span class="space"> </span><span class="codenumber">3.29</span><span class="period">.</span>
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">3.30</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-320">Let <span class="process-math">\(A\)</span> be a set. The set <span class="process-math">\(A\)</span> is called a <dfn class="terminology">family of sets</dfn> if all the elements of A are sets. The family of sets <span class="process-math">\(A\)</span> is <dfn class="terminology">indexed</dfn> by <span class="process-math">\(I\text{,}\)</span> denoted <span class="process-math">\(A = \{A_i\}_{i\in I}\text{,}\)</span> if there is a non-empty set <span class="process-math">\(I\)</span> such that there is an element <span class="process-math">\(A_i\in  A\)</span> for each <span class="process-math">\(i\in  I\text{,}\)</span> and that every element of <span class="process-math">\(A\)</span> equals <span class="process-math">\(A_i\)</span> for exactly one <span class="process-math">\(i\in  I\text{.}\)</span>
+<div class="para" id="p-323">Let <span class="process-math">\(A\)</span> be a set. The set <span class="process-math">\(A\)</span> is called a <dfn class="terminology">family of sets</dfn> if all the elements of A are sets. The family of sets <span class="process-math">\(A\)</span> is <dfn class="terminology">indexed</dfn> by <span class="process-math">\(I\text{,}\)</span> denoted <span class="process-math">\(A = \{A_i\}_{i\in I}\text{,}\)</span> if there is a non-empty set <span class="process-math">\(I\)</span> such that there is an element <span class="process-math">\(A_i\in  A\)</span> for each <span class="process-math">\(i\in  I\text{,}\)</span> and that every element of <span class="process-math">\(A\)</span> equals <span class="process-math">\(A_i\)</span> for exactly one <span class="process-math">\(i\in  I\text{.}\)</span>
 </div></article><article class="remark remark-like" id="remark-18"><h3 class="heading">
-<span class="type">Remark</span><span class="space"> </span><span class="codenumber">3.30</span><span class="period">.</span>
+<span class="type">Remark</span><span class="space"> </span><span class="codenumber">3.31</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-321">Convention for <span class="process-math">\(I\)</span> vs. <span class="process-math">\(\alpha\)</span> for indexing sets.</div></article><article class="definition definition-like" id="def-union-intersection-2"><h3 class="heading">
-<span class="type">Definition</span><span class="space"> </span><span class="codenumber">3.31</span><span class="period">.</span>
+<div class="para" id="p-324">Convention for <span class="process-math">\(I\)</span> vs. <span class="process-math">\(\alpha\)</span> for indexing sets.</div></article><article class="definition definition-like" id="def-union-intersection-2"><h3 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">3.32</span><span class="period">.</span>
 </h3>
-<div class="para logical" id="p-322">
+<div class="para logical" id="p-325">
 <div class="para">Let <span class="process-math">\(A\)</span> be a family of sets. The <dfn class="terminology">union</dfn> of the sets in <span class="process-math">\(A\text{,}\)</span> denoted <span class="process-math">\(\bigcup_{X\in A} X\text{,}\)</span> is defined as follows. If <span class="process-math">\(A \neq \emptyset\text{,}\)</span> then</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -629,29 +644,29 @@ window.MathJax = {
 \end{equation*}
 </div>
 <div class="para">to denote the union and intersection of the sets in <span class="process-math">\(A\text{,}\)</span> respectively.</div>
-</div></article><div class="para" id="p-323">Intuitively, the set <span class="process-math">\(\bigcup i\in I A_i\)</span> is the set that contains everything that is in at least one of the sets <span class="process-math">\(A_i\text{;}\)</span> the set <span class="process-math">\(\bigcap  i\in I A_i\)</span> is the set containing everything that is in all of the sets <span class="process-math">\(A_i\text{.}\)</span> The same holds for the non-indexed notation.</div>
+</div></article><div class="para" id="p-326">Intuitively, the set <span class="process-math">\(\bigcup i\in I A_i\)</span> is the set that contains everything that is in at least one of the sets <span class="process-math">\(A_i\text{;}\)</span> the set <span class="process-math">\(\bigcap  i\in I A_i\)</span> is the set containing everything that is in all of the sets <span class="process-math">\(A_i\text{.}\)</span> The same holds for the non-indexed notation.</div>
 <article class="theorem theorem-like" id="thm-properties-of-families"><h3 class="heading">
-<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">3.32</span><span class="period">.</span>
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">3.33</span><span class="period">.</span>
 </h3>
-<div class="para logical" id="p-324">
-<div class="para">Let <span class="process-math">\(I\)</span> be a non-empty set, let <span class="process-math">\(\{A_i\}i\in I\)</span> be a family of sets indexed by <span class="process-math">\(I\)</span> and let <span class="process-math">\(B\)</span> be a set.</div>
+<div class="para logical" id="p-327">
+<div class="para">Let <span class="process-math">\(I\)</span> be a non-empty set, let <span class="process-math">\(\{A_i\}_{i\in I}\)</span> be a family of sets indexed by <span class="process-math">\(I\)</span> and let <span class="process-math">\(B\)</span> be a set.</div>
 <ol class="decimal">
-<li id="li-111"><div class="para" id="p-325">
-<span class="process-math">\(\bigcap i\in I A_i \subseteq  A k\)</span> for all <span class="process-math">\(k\in  I\text{.}\)</span> If <span class="process-math">\(B \subseteq  A k\)</span> for all <span class="process-math">\(k\in  I\text{,}\)</span> then <span class="process-math">\(B \subseteq\bigcap i\in I A_i\)</span> .</div></li>
-<li id="li-112"><div class="para" id="p-326">
-<span class="process-math">\(Ak \subseteq\bigcup  i\in I A_i\)</span> for all <span class="process-math">\(k\in  I\text{.}\)</span> If <span class="process-math">\(A k \subseteq B\)</span> for all <span class="process-math">\(k\in  I\text{,}\)</span> then <span class="process-math">\(\bigcup  i\in I A_i \subseteq B\text{.}\)</span>
+<li id="li-111"><div class="para" id="p-328">
+<span class="process-math">\(\bigcap_{i\in I} A_i \subseteq  A_k\)</span> for all <span class="process-math">\(k\in  I\text{.}\)</span> If <span class="process-math">\(B \subseteq  A_k\)</span> for all <span class="process-math">\(k\in I\text{,}\)</span> then <span class="process-math">\(B \subseteq\bigcap_{i\in I} A_i\)</span> .</div></li>
+<li id="li-112"><div class="para" id="p-329">
+<span class="process-math">\(A_k \subseteq\bigcup_{i\in I} A_i\)</span> for all <span class="process-math">\(k\in  I\text{.}\)</span> If <span class="process-math">\(A_k \subseteq B\)</span> for all <span class="process-math">\(k\in I\text{,}\)</span> then <span class="process-math">\(\bigcup_{i\in I} A_i \subseteq B\text{.}\)</span>
 </div></li>
 <li id="li-113">
-<span class="heading"><span class="title">Distributive Law.</span></span><div class="para" id="p-327"><span class="process-math">\(B \cap  (\bigcup  i\in I A_i) = \bigcup i\in I (B \cap  A_i)\text{.}\)</span></div>
+<span class="heading"><span class="title">Distributive Law.</span></span><div class="para" id="p-330"><span class="process-math">\(B \cap (\bigcup_{i\in I} A_i) = \bigcup_{i\in I}(B \cap  A_i)\text{.}\)</span></div>
 </li>
 <li id="li-114">
-<span class="heading"><span class="title">Distributive Law.</span></span><div class="para" id="p-328"><span class="process-math">\(B \cup  (\bigcap i\in I A_i) = \bigcap i\in I (B \cup  A_i)\text{.}\)</span></div>
+<span class="heading"><span class="title">Distributive Law.</span></span><div class="para" id="p-331"><span class="process-math">\(B \cup  (\bigcap_{i\in I} A_i) = \bigcap_{i\in I} (B \cup  A_i)\text{.}\)</span></div>
 </li>
 <li id="li-115">
-<span class="heading"><span class="title">De Morgan's Law.</span></span><div class="para" id="p-329"><span class="process-math">\(B - (\bigcup i\in I A_i) = \bigcap i\in I (B - A_i)\text{.}\)</span></div>
+<span class="heading"><span class="title">De Morgan's Law.</span></span><div class="para" id="p-332"><span class="process-math">\(B \sm (\bigcup_{i\in I} A_i) = \bigcap_{i\in I} (B \sm A_i)\text{.}\)</span></div>
 </li>
 <li id="li-116">
-<span class="heading"><span class="title">De Morgan's Law.</span></span><div class="para" id="p-330"><span class="process-math">\(B - (\bigcap i\in I A_i) = \bigcup i\in I (B - A_i)\text{.}\)</span></div>
+<span class="heading"><span class="title">De Morgan's Law.</span></span><div class="para" id="p-333"><span class="process-math">\(B \sm (\bigcap_{i\in I} A_i) = \bigcup_{i\in I} (B \sm A_i)\text{.}\)</span></div>
 </li>
 </ol>
 </div></article></section></div>

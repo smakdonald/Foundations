@@ -530,7 +530,13 @@ window.MathJax = {
 <li>
 <div class="toc-item"><a href="ch-sets.html" class="internal"><span class="codenumber">3</span> <span class="title">Sets</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-set-basics.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Set Basics</span></a></div></li>
+<li>
+<div class="toc-item"><a href="sec-set-basics.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Set Basics</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec-set-basics.html#subsec-sets-notation" class="internal"><span class="title">Sets and Notation</span></a></div></li>
+<li><div class="toc-item"><a href="sec-set-basics.html#subsec-subsets" class="internal"><span class="title">Subsets and Set Equality</span></a></div></li>
+</ul>
+</li>
 <li><div class="toc-item"><a href="sec-set-operations.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Set Operations</span></a></div></li>
 <li><div class="toc-item"><a href="sec-families-of-sets.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Families of Sets</span></a></div></li>
 </ul>
@@ -594,7 +600,16 @@ window.MathJax = {
 </li>
 </ul>
 </li>
-<li><div class="toc-item"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div></li>
+<li>
+<div class="toc-item"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div>
+<ul class="structural">
+<li>
+<div class="toc-item"><a href="appendix-1.html" class="internal"><span class="codenumber">A</span> <span class="title">Topology</span></a></div>
+<ul class="structural"><li><div class="toc-item"><a href="sec-topology.html" class="internal"><span class="codenumber">A.1</span> <span class="title">Topology</span></a></div></li></ul>
+</li>
+<li><div class="toc-item"><a href="colophon-2.html" class="internal"><span class="title">Colophon</span></a></div></li>
+</ul>
+</li>
 </ul></nav></div>
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-quantifiers"><h2 class="heading hide-type">
 <span class="type">Section</span> <span class="codenumber">1.4</span> <span class="title">Quantifiers</span>
@@ -679,7 +694,7 @@ window.MathJax = {
 <div class="para" id="p-146">We can form statements with more than one quantifier, as long as different quantifiers involve different variables.</div>
 <article class="example example-like" id="example-19"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">1.59</span><span class="period">.</span><span class="space"> </span><span class="title">The Order of the Quantifiers Matters..</span>
-</h4> <div class="para" id="p-147">Suppose that <span class="process-math">\(P(x, y) = “x + y^2 = 3,”\)</span> where <span class="process-math">\(x\)</span> and <span class="process-math">\(y\)</span> are real numbers. The statement <span class="process-math">\((∀y)(∃x)P(x, y)\)</span> can then be written in English as “for all <span class="process-math">\(y\)</span> there exists some <span class="process-math">\(x\)</span> such that<span class="process-math">\(x + y^2 = 3\text{,}\)</span>” or equivalently “for each <span class="process-math">\(y\)</span> there is some <span class="process-math">\(x\)</span> such that <span class="process-math">\(x + y^2 = 3\text{.}\)</span>” This statement is true, because for any real number <span class="process-math">\(y\)</span> we can always solve for <span class="process-math">\(x\)</span> in terms of <span class="process-math">\(y\text{,}\)</span> yielding <span class="process-math">\(x = 3 − y^2\)</span> .</div> <div class="para" id="p-148">If we reverse the order of the quantifiers, we obtain the statement <span class="process-math">\((∃x)(∀y)P(x, y)\text{,}\)</span> which can be written in English as “there exists some <span class="process-math">\(x\)</span> such that for all <span class="process-math">\(y\text{,}\)</span> the equation <span class="process-math">\(x+y^2 = 3\)</span> holds.” This statement is false, because for any given <span class="process-math">\(x\text{,}\)</span> there can be at most two values of <span class="process-math">\(y\)</span> such that <span class="process-math">\(x + y^2 = 3\text{.}\)</span>
+</h4> <div class="para" id="p-147">Suppose that <span class="process-math">\(P(x, y) = “x + y^2 = 3,”\)</span> where <span class="process-math">\(x\)</span> and <span class="process-math">\(y\)</span> are real numbers. The statement <span class="process-math">\((∀y)(∃x)P(x, y)\)</span> can then be written in English as “for all <span class="process-math">\(y\)</span> there exists some <span class="process-math">\(x\)</span> such that<span class="process-math">\(x + y^2 = 3\text{,}\)</span>” or equivalently “for each <span class="process-math">\(y\)</span> there is some <span class="process-math">\(x\)</span> such that <span class="process-math">\(x + y^2 = 3\text{.}\)</span>” This statement is true, because for any real number <span class="process-math">\(y\)</span> we can always solve for <span class="process-math">\(x\)</span> in terms of <span class="process-math">\(y\text{,}\)</span> yielding <span class="process-math">\(x = 3 - y^2\)</span> .</div> <div class="para" id="p-148">If we reverse the order of the quantifiers, we obtain the statement <span class="process-math">\((∃x)(∀y)P(x, y)\text{,}\)</span> which can be written in English as “there exists some <span class="process-math">\(x\)</span> such that for all <span class="process-math">\(y\text{,}\)</span> the equation <span class="process-math">\(x+y^2 = 3\)</span> holds.” This statement is false, because for any given <span class="process-math">\(x\text{,}\)</span> there can be at most two values of <span class="process-math">\(y\)</span> such that <span class="process-math">\(x + y^2 = 3\text{.}\)</span>
 </div></article><article class="remark remark-like" id="remark-10"><h4 class="heading">
 <span class="type">Remark</span><span class="space"> </span><span class="codenumber">1.60</span><span class="period">.</span>
 </h4>

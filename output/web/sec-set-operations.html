@@ -530,7 +530,13 @@ window.MathJax = {
 <li>
 <div class="toc-item"><a href="ch-sets.html" class="internal"><span class="codenumber">3</span> <span class="title">Sets</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-set-basics.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Set Basics</span></a></div></li>
+<li>
+<div class="toc-item"><a href="sec-set-basics.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Set Basics</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec-set-basics.html#subsec-sets-notation" class="internal"><span class="title">Sets and Notation</span></a></div></li>
+<li><div class="toc-item"><a href="sec-set-basics.html#subsec-subsets" class="internal"><span class="title">Subsets and Set Equality</span></a></div></li>
+</ul>
+</li>
 <li class="active"><div class="toc-item"><a href="sec-set-operations.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Set Operations</span></a></div></li>
 <li><div class="toc-item"><a href="sec-families-of-sets.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Families of Sets</span></a></div></li>
 </ul>
@@ -594,15 +600,24 @@ window.MathJax = {
 </li>
 </ul>
 </li>
-<li><div class="toc-item"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div></li>
+<li>
+<div class="toc-item"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div>
+<ul class="structural">
+<li>
+<div class="toc-item"><a href="appendix-1.html" class="internal"><span class="codenumber">A</span> <span class="title">Topology</span></a></div>
+<ul class="structural"><li><div class="toc-item"><a href="sec-topology.html" class="internal"><span class="codenumber">A.1</span> <span class="title">Topology</span></a></div></li></ul>
+</li>
+<li><div class="toc-item"><a href="colophon-2.html" class="internal"><span class="title">Colophon</span></a></div></li>
+</ul>
+</li>
 </ul></nav></div>
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-set-operations"><h2 class="heading hide-type">
 <span class="type">Section</span> <span class="codenumber">3.2</span> <span class="title">Set Operations</span>
 </h2>
 <article class="definition definition-like" id="def-union-intersection"><h3 class="heading">
-<span class="type">Definition</span><span class="space"> </span><span class="codenumber">3.15</span><span class="period">.</span>
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">3.16</span><span class="period">.</span>
 </h3>
-<div class="para logical" id="p-283">
+<div class="para logical" id="p-286">
 <div class="para">Let <span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span> be sets. The <dfn class="terminology">union</dfn> of <span class="process-math">\(A\)</span> and <span class="process-math">\(B\text{,}\)</span> denoted <span class="process-math">\(A \cup B\text{,}\)</span> is the set defined by</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -616,88 +631,88 @@ A \cap B = \{x | x\in  A \text{ and }x\in B\}\text{.}
 \end{equation*}
 </div>
 </div></article><article class="theorem theorem-like" id="thm-properties-union-intersection"><h3 class="heading">
-<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">3.16</span><span class="period">.</span>
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">3.17</span><span class="period">.</span>
 </h3>
-<div class="para logical" id="p-284">
+<div class="para logical" id="p-287">
 <div class="para">Let <span class="process-math">\(A\text{,}\)</span> <span class="process-math">\(B\)</span> and <span class="process-math">\(C\)</span> be sets.</div>
 <ol class="decimal">
-<li id="li-88"><div class="para" id="p-285">
-<span class="process-math">\(A \cap B \subseteq  A\)</span> and <span class="process-math">\(A \cap B \subseteq B\text{.}\)</span> If <span class="process-math">\(X\)</span> is a set such that <span class="process-math">\(X \subseteq  A\)</span> and <span class="process-math">\(X \subseteq B\text{,}\)</span> then <span class="process-math">\(X \subseteq  A \cap B\text{.}\)</span>
+<li id="li-88"><div class="para" id="p-288">
+<span class="process-math">\(A \cap B \subseteq A\)</span> and <span class="process-math">\(A \cap B \subseteq B\text{.}\)</span> If <span class="process-math">\(X\)</span> is a set such that <span class="process-math">\(X \subseteq  A\)</span> and <span class="process-math">\(X \subseteq B\text{,}\)</span> then <span class="process-math">\(X \subseteq  A \cap B\text{.}\)</span>
 </div></li>
-<li id="li-89"><div class="para" id="p-286">
+<li id="li-89"><div class="para" id="p-289">
 <span class="process-math">\(A \subseteq  A \cup B\)</span> and <span class="process-math">\(B \subseteq  A \cup B\text{.}\)</span> If <span class="process-math">\(Y\)</span> is a set such that <span class="process-math">\(A \subseteq  Y\)</span> and <span class="process-math">\(B \subseteq  Y\text{,}\)</span> then <span class="process-math">\(A \cup B \subseteq  Y\)</span> .</div></li>
 <li id="li-90">
-<span class="heading"><span class="title">Commutative Laws.</span></span><div class="para" id="p-287">
+<span class="heading"><span class="title">Commutative Laws.</span></span><div class="para" id="p-290">
 <span class="process-math">\(A \cup B = B \cup  A\)</span> and <span class="process-math">\(A \cap B = B \cap  A\text{.}\)</span>
 </div>
 </li>
 <li id="li-91">
-<span class="heading"><span class="title">Associative Laws.</span></span><div class="para" id="p-288">
+<span class="heading"><span class="title">Associative Laws.</span></span><div class="para" id="p-291">
 <span class="process-math">\((A\cup B)\cup C = A\cup (B\cup C)\)</span> and <span class="process-math">\((A\cap B)\cap C = A\cap (B\cap C)\text{.}\)</span>
 </div>
 </li>
 <li id="li-92">
-<span class="heading"><span class="title">Distributive Laws.</span></span><div class="para" id="p-289">
+<span class="heading"><span class="title">Distributive Laws.</span></span><div class="para" id="p-292">
 <span class="process-math">\(A \cap  (B \cup C) = (A \cap B) \cup  (A \cap C)\)</span> and <span class="process-math">\(A \cup  (B \cap C) = (A \cup B) \cap  (A \cup C)\text{.}\)</span>
 </div>
 </li>
 <li id="li-93">
-<span class="heading"><span class="title">Identity Laws.</span></span><div class="para" id="p-290">
+<span class="heading"><span class="title">Identity Laws.</span></span><div class="para" id="p-293">
 <span class="process-math">\(A \cup\emptyset = A\)</span> and <span class="process-math">\(A \cap\emptyset = \emptyset\text{.}\)</span>
 </div>
 </li>
 <li id="li-94">
-<span class="heading"><span class="title">Idempotent Laws.</span></span><div class="para" id="p-291">
+<span class="heading"><span class="title">Idempotent Laws.</span></span><div class="para" id="p-294">
 <span class="process-math">\(A \cup  A = A\)</span> and <span class="process-math">\(A \cap  A = A\text{.}\)</span>
 </div>
 </li>
 <li id="li-95">
-<span class="heading"><span class="title">Absorbtion Laws.</span></span><div class="para" id="p-292">
+<span class="heading"><span class="title">Absorbtion Laws.</span></span><div class="para" id="p-295">
 <span class="process-math">\(A \cup  (A \cap B) = A\)</span> and <span class="process-math">\(A \cap  (A \cup B) = A\text{.}\)</span>
 </div>
 </li>
-<li id="li-96"><div class="para" id="p-293">If <span class="process-math">\(A \subseteq B\text{,}\)</span> then <span class="process-math">\(A \cup C \subseteq B \cup C\)</span> and <span class="process-math">\(A \cap C \subseteq B \cap C\text{.}\)</span>
+<li id="li-96"><div class="para" id="p-296">If <span class="process-math">\(A \subseteq B\text{,}\)</span> then <span class="process-math">\(A \cup C \subseteq B \cup C\)</span> and <span class="process-math">\(A \cap C \subseteq B \cap C\text{.}\)</span>
 </div></li>
 </ol>
 </div></article><article class="definition definition-like" id="def-disjoint"><h3 class="heading">
-<span class="type">Definition</span><span class="space"> </span><span class="codenumber">3.17</span><span class="period">.</span>
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">3.18</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-294">Let <span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span> be sets. The sets <span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span> are <dfn class="terminology">disjoint</dfn> if <span class="process-math">\(A \cap B = \emptyset\text{.}\)</span>
+<div class="para" id="p-297">Let <span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span> be sets. The sets <span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span> are <dfn class="terminology">disjoint</dfn> if <span class="process-math">\(A \cap B = \emptyset\text{.}\)</span>
 </div></article><article class="example example-like" id="example-26"><h3 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.18</span><span class="period">.</span>
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.19</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-295">Let <span class="process-math">\(\E\)</span> be the set of even integers, let <span class="process-math">\(\O\)</span> be the set of odd integers and let <span class="process-math">\(\P\)</span> be the set of prime numbers. Then <span class="process-math">\(\E\)</span> and <span class="process-math">\(\O\)</span> are disjoint, whereas <span class="process-math">\(\E\)</span> and <span class="process-math">\(\P\)</span> are not disjoint (because <span class="process-math">\(\E \cap\P = \{2\}\)</span>).</div></article><article class="definition definition-like" id="def-set-difference"><h3 class="heading">
-<span class="type">Definition</span><span class="space"> </span><span class="codenumber">3.19</span><span class="period">.</span>
+<div class="para" id="p-298">Let <span class="process-math">\(\E\)</span> be the set of even integers, let <span class="process-math">\(\O\)</span> be the set of odd integers and let <span class="process-math">\(\P\)</span> be the set of prime numbers. Then <span class="process-math">\(\E\)</span> and <span class="process-math">\(\O\)</span> are disjoint, whereas <span class="process-math">\(\E\)</span> and <span class="process-math">\(\P\)</span> are not disjoint (because <span class="process-math">\(\E \cap\P = \{2\}\)</span>).</div></article><article class="definition definition-like" id="def-set-difference"><h3 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">3.20</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-296">Let <span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span> be sets. The <dfn class="terminology">set difference</dfn> (also called the <dfn class="terminology">difference</dfn>) of <span class="process-math">\(A\)</span> and <span class="process-math">\(B\text{,}\)</span> denoted <span class="process-math">\(A \sm B\text{,}\)</span> is the set defined by <span class="process-math">\(A \sm B = \{x | x\in  A \text{ and }x \not\in B\}\text{.}\)</span>
-</div></article><article class="convention remark-like" id="convention-15"><h3 class="heading">
-<span class="type">Convention</span><span class="space"> </span><span class="codenumber">3.20</span><span class="period">.</span>
+<div class="para" id="p-299">Let <span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span> be sets. The <dfn class="terminology">set difference</dfn> (also called the <dfn class="terminology">difference</dfn>) of <span class="process-math">\(A\)</span> and <span class="process-math">\(B\text{,}\)</span> denoted <span class="process-math">\(A \sm B\text{,}\)</span> is the set defined by <span class="process-math">\(A \sm B = \{x | x\in  A \text{ and }x \not\in B\}\text{.}\)</span>
+</div></article><article class="convention remark-like" id="convention-16"><h3 class="heading">
+<span class="type">Convention</span><span class="space"> </span><span class="codenumber">3.21</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-297">Some books use the notation <span class="process-math">\(A - B\)</span> instead of <span class="process-math">\(A \sm B\text{.}\)</span> Though the notation <span class="process-math">\(A - B\)</span> may seem intuitive, there are situations where it can become misleading or confusing.</div></article><article class="theorem theorem-like" id="thm-properties-of-set-difference"><h3 class="heading">
-<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">3.21</span><span class="period">.</span>
+<div class="para" id="p-300">Some books use the notation <span class="process-math">\(A - B\)</span> instead of <span class="process-math">\(A \sm B\text{.}\)</span> Though the notation <span class="process-math">\(A - B\)</span> may seem intuitive, there are situations where it can become misleading or confusing.</div></article><article class="theorem theorem-like" id="thm-properties-of-set-difference"><h3 class="heading">
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">3.22</span><span class="period">.</span>
 </h3>
-<div class="para logical" id="p-298">
+<div class="para logical" id="p-301">
 <div class="para">Let <span class="process-math">\(A\text{,}\)</span> <span class="process-math">\(B\)</span> and <span class="process-math">\(C\)</span> be sets.</div>
 <ol class="decimal">
-<li id="li-97"><div class="para" id="p-299"><span class="process-math">\(A \sm B \subseteq  A\text{.}\)</span></div></li>
-<li id="li-98"><div class="para" id="p-300"><span class="process-math">\((A \sm B) \cap B = \emptyset\text{.}\)</span></div></li>
-<li id="li-99"><div class="para" id="p-301">
+<li id="li-97"><div class="para" id="p-302"><span class="process-math">\(A \sm B \subseteq  A\text{.}\)</span></div></li>
+<li id="li-98"><div class="para" id="p-303"><span class="process-math">\((A \sm B) \cap B = \emptyset\text{.}\)</span></div></li>
+<li id="li-99"><div class="para" id="p-304">
 <span class="process-math">\(A \sm B = \emptyset\)</span> if and only if <span class="process-math">\(A \subseteq B\text{.}\)</span>
 </div></li>
-<li id="li-100"><div class="para" id="p-302">
+<li id="li-100"><div class="para" id="p-305">
 <span class="process-math">\(B \sm (B \sm A) = A\)</span> if and only if <span class="process-math">\(A \subseteq B\text{.}\)</span>
 </div></li>
-<li id="li-101"><div class="para" id="p-303">If <span class="process-math">\(A \subseteq B\text{,}\)</span> then <span class="process-math">\(A \sm C = A \cap  (B \sm C)\text{.}\)</span>
+<li id="li-101"><div class="para" id="p-306">If <span class="process-math">\(A \subseteq B\text{,}\)</span> then <span class="process-math">\(A \sm C = A \cap  (B \sm C)\text{.}\)</span>
 </div></li>
-<li id="li-102"><div class="para" id="p-304">If <span class="process-math">\(A \subseteq B\text{,}\)</span> then <span class="process-math">\(C \sm A ⊇ C \sm B\text{.}\)</span>
+<li id="li-102"><div class="para" id="p-307">If <span class="process-math">\(A \subseteq B\text{,}\)</span> then <span class="process-math">\(C \sm A ⊇ C \sm B\text{.}\)</span>
 </div></li>
-<li id="li-103"><div class="para" id="p-305">
+<li id="li-103"><div class="para" id="p-308">
 <span class="process-math">\(C \sm (A \cup B) = (C \sm A) \cap  (C \sm B)\)</span> and <span class="process-math">\(C \sm (A \cap B) = (C \sm A) \cup  (C \sm B)\)</span> (DeMorgan's Laws).</div></li>
 </ol>
 </div></article><article class="definition definition-like" id="def-cartesian-product"><h3 class="heading">
-<span class="type">Definition</span><span class="space"> </span><span class="codenumber">3.22</span><span class="period">.</span>
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">3.23</span><span class="period">.</span>
 </h3>
-<div class="para logical" id="p-306">
+<div class="para logical" id="p-309">
 <div class="para">Let <span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span> be sets. The <dfn class="terminology">product</dfn> (also called the <dfn class="terminology">Cartesian product</dfn>) of <span class="process-math">\(A\)</span> and <span class="process-math">\(B\text{,}\)</span> denoted <span class="process-math">\(A \times B\text{,}\)</span> is the set</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -706,9 +721,9 @@ A \times B = \{(a, b) | a\in  A and b\in B\}\text{,}
 </div>
 <div class="para">where <span class="process-math">\((a, b)\)</span> denotes an ordered pair.</div>
 </div></article><article class="example example-like" id="example-27"><h3 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.23</span><span class="period">.</span>
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">3.24</span><span class="period">.</span>
 </h3>
-<div class="para logical" id="p-307">
+<div class="para logical" id="p-310">
 <div class="para">We can think of <span class="process-math">\(\R^2\text{,}\)</span> which is defined in terms of ordered pairs of real numbers, as <span class="process-math">\(\R^2 = \R \times\R\text{.}\)</span> Similarly, we think of <span class="process-math">\(\R^n\)</span> as</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -716,41 +731,41 @@ A \times B = \{(a, b) | a\in  A and b\in B\}\text{,}
 \end{equation*}
 </div>
 </div></article><article class="theorem theorem-like" id="thm-properties-of-products"><h3 class="heading">
-<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">3.24</span><span class="period">.</span>
+<span class="type">Theorem</span><span class="space"> </span><span class="codenumber">3.25</span><span class="period">.</span>
 </h3>
-<div class="para logical" id="p-308">
+<div class="para logical" id="p-311">
 <div class="para">Let <span class="process-math">\(A\text{,}\)</span> <span class="process-math">\(B\text{,}\)</span> <span class="process-math">\(C\)</span> and <span class="process-math">\(D\)</span> be sets.</div>
 <ol class="decimal">
-<li id="li-104"><div class="para" id="p-309">If <span class="process-math">\(A \subseteq B\)</span> and <span class="process-math">\(C \subseteq  D\text{,}\)</span> then <span class="process-math">\(A \times C \subseteq B \times  D\text{.}\)</span>
+<li id="li-104"><div class="para" id="p-312">If <span class="process-math">\(A \subseteq B\)</span> and <span class="process-math">\(C \subseteq  D\text{,}\)</span> then <span class="process-math">\(A \times C \subseteq B \times  D\text{.}\)</span>
 </div></li>
-<li id="li-105"><div class="para" id="p-310">
+<li id="li-105"><div class="para" id="p-313">
 <span class="process-math">\(A \times  (B \cup C) = (A \times B) \cup  (A \times C)\)</span> and <span class="process-math">\((B \cup C) \times  A = (B \times  A) \cup  (C \times  A)\)</span> (Distributive Laws).</div></li>
-<li id="li-106"><div class="para" id="p-311">
+<li id="li-106"><div class="para" id="p-314">
 <span class="process-math">\(A \times  (B \cap C) = (A \times B) \cap  (A \times C)\)</span> and <span class="process-math">\((B \cap C) \times  A = (B \times  A) \cap  (C \times  A)\)</span> (Distributive Laws).</div></li>
-<li id="li-107"><div class="para" id="p-312">
+<li id="li-107"><div class="para" id="p-315">
 <span class="process-math">\(A \times\emptyset = \emptyset\)</span> and <span class="process-math">\(\emptyset \times  A = \emptyset\text{.}\)</span>
 </div></li>
-<li id="li-108"><div class="para" id="p-313"><span class="process-math">\((A \cap B) \times  (C \cap  D) = (A \times C) \cap  (B \times  D)\text{.}\)</span></div></li>
+<li id="li-108"><div class="para" id="p-316"><span class="process-math">\((A \cap B) \times  (C \cap  D) = (A \times C) \cap  (B \times  D)\text{.}\)</span></div></li>
 </ol>
 </div></article><article class="remark remark-like" id="remark-17"><h3 class="heading">
-<span class="type">Remark</span><span class="space"> </span><span class="codenumber">3.25</span><span class="period">.</span>
+<span class="type">Remark</span><span class="space"> </span><span class="codenumber">3.26</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-314">Observe that <span class="process-math">\(A \times B\)</span> is not the same as <span class="process-math">\(B \times  A\text{,}\)</span> unless <span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span> happen to be equal.</div></article><article class="exercise exercise-like" id="exercise-5"><a href="" data-knowl="" class="id-ref exercise-knowl original" data-refid="hk-exercise-5"><h3 class="heading">
-<span class="type">Exploration</span><span class="space"> </span><span class="codenumber">3.26</span><span class="period">.</span>
-</h3></a></article><div class="hidden-content tex2jax_ignore" id="hk-exercise-5"><article class="exercise exercise-like"><div class="para" id="p-315">Let <span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span> be sets. Prove that <span class="process-math">\((A\cup B)-A = B - (A \cap B)\)</span>
+<div class="para" id="p-317">Observe that <span class="process-math">\(A \times B\)</span> is not the same as <span class="process-math">\(B \times  A\text{,}\)</span> unless <span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span> happen to be equal.</div></article><article class="exercise exercise-like" id="exercise-5"><a href="" data-knowl="" class="id-ref exercise-knowl original" data-refid="hk-exercise-5"><h3 class="heading">
+<span class="type">Exploration</span><span class="space"> </span><span class="codenumber">3.27</span><span class="period">.</span>
+</h3></a></article><div class="hidden-content tex2jax_ignore" id="hk-exercise-5"><article class="exercise exercise-like"><div class="para" id="p-318">Let <span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span> be sets. Prove that <span class="process-math">\((A\cup B)\sm A = B \sm (A \cap B)\)</span>
 </div></article></div>
 <article class="exercise exercise-like" id="exercise-6"><a href="" data-knowl="" class="id-ref exercise-knowl original" data-refid="hk-exercise-6"><h3 class="heading">
-<span class="type">Exploration</span><span class="space"> </span><span class="codenumber">3.27</span><span class="period">.</span>
-</h3></a></article><div class="hidden-content tex2jax_ignore" id="hk-exercise-6"><article class="exercise exercise-like"><div class="para" id="p-316">Let <span class="process-math">\(A\text{,}\)</span> <span class="process-math">\(B\)</span> and <span class="process-math">\(C\)</span> be sets. Suppose that <span class="process-math">\(C \subset  A \cup B\text{,}\)</span> and that <span class="process-math">\(C \cap  A = \emptyset\text{.}\)</span> Prove that <span class="process-math">\(C \subseteq B\text{.}\)</span>
+<span class="type">Exploration</span><span class="space"> </span><span class="codenumber">3.28</span><span class="period">.</span>
+</h3></a></article><div class="hidden-content tex2jax_ignore" id="hk-exercise-6"><article class="exercise exercise-like"><div class="para" id="p-319">Let <span class="process-math">\(A\text{,}\)</span> <span class="process-math">\(B\)</span> and <span class="process-math">\(C\)</span> be sets. Suppose that <span class="process-math">\(C \subset  A \cup B\text{,}\)</span> and that <span class="process-math">\(C \cap  A = \emptyset\text{.}\)</span> Prove that <span class="process-math">\(C \subseteq B\text{.}\)</span>
 </div></article></div>
 <article class="exercise exercise-like" id="exercise-7"><a href="" data-knowl="" class="id-ref exercise-knowl original" data-refid="hk-exercise-7"><h3 class="heading">
-<span class="type">Exploration</span><span class="space"> </span><span class="codenumber">3.28</span><span class="period">.</span>
-</h3></a></article><div class="hidden-content tex2jax_ignore" id="hk-exercise-7"><article class="exercise exercise-like"><div class="para logical" id="p-317">
+<span class="type">Exploration</span><span class="space"> </span><span class="codenumber">3.29</span><span class="period">.</span>
+</h3></a></article><div class="hidden-content tex2jax_ignore" id="hk-exercise-7"><article class="exercise exercise-like"><div class="para logical" id="p-320">
 <div class="para">For real numbers <span class="process-math">\(a\text{,}\)</span> <span class="process-math">\(b\)</span> and <span class="process-math">\(c\text{,}\)</span> we know that <span class="process-math">\(a - (b - c) = (a - b) + c\text{.}\)</span> Let <span class="process-math">\(A\text{,}\)</span> <span class="process-math">\(B\)</span> and <span class="process-math">\(C\)</span> be sets.</div>
 <ol class="decimal">
-<li id="li-109"><div class="para" id="p-318">Suppose that <span class="process-math">\(C \subseteq  A\text{.}\)</span> Prove that <span class="process-math">\(A - (B -C) = (A - B) \cup C\text{.}\)</span>
+<li id="li-109"><div class="para" id="p-321">Suppose that <span class="process-math">\(C \subseteq  A\text{.}\)</span> Prove that <span class="process-math">\(A \sm (B \sm C) = (A \sm B) \cup C\text{.}\)</span>
 </div></li>
-<li id="li-110"><div class="para" id="p-319">Does <span class="process-math">\(A \sm (B \sm C) = (A \sm B) \cup  C\)</span> hold for all sets <span class="process-math">\(A\text{,}\)</span> <span class="process-math">\(B\)</span> and <span class="process-math">\(C\text{?}\)</span> Prove or give a counterexample for this formula. If the formula is false, find and prove a modification of this formula that holds for all sets.</div></li>
+<li id="li-110"><div class="para" id="p-322">Does <span class="process-math">\(A \sm (B \sm C) = (A \sm B) \cup  C\)</span> hold for all sets <span class="process-math">\(A\text{,}\)</span> <span class="process-math">\(B\)</span> and <span class="process-math">\(C\text{?}\)</span> Prove or give a counterexample for this formula. If the formula is false, find and prove a modification of this formula that holds for all sets.</div></li>
 </ol>
 </div></article></div></section></div>
 <div class="ptx-content-footer">

@@ -783,7 +783,7 @@
             </remark>
 
             <p>
-              It might appear at first glance as if we are not introducing anything new here, given that we are defining implication in terms of conditional statements, but there is a significant new idea in the present discussion, which is that we single out those situations where <m>P → Q</m> is not just a statement (which is always the case), but where <m>P → Q</m> is a tautology.
+              It might appear at first glance as if we are not introducing anything new here, given that we are defining implication in terms of conditional statements, but there is a significant new idea in the present discussion, which is that we single out those situations where <m>P \to  Q</m> is not just a statement (which is always the case), but where <m>P \to  Q</m> is a tautology.
             </p>
 
             <p>
@@ -898,10 +898,10 @@
 
             <example>
               <p>
-                Written in symbols, we saw that <m>¬(P → Q) ⇒ P ∨ Q</m>.
-                On the other hand, the same truth tables used to establish this implication also show that <m>P ∨ Q</m> does not imply <m>¬(P → Q)</m>.
-                For example, when P and Q are both true, then <m>P ∨ Q</m> is true, but <m>¬(P → Q)</m> is false. 
-                Alternatively, it can be seen by a truth table that <m>(P ∨ Q) → [¬(P → Q)]</m> is not a tautology.
+                Written in symbols, we saw that <m>¬(P \to  Q) ⇒ P ∨ Q</m>.
+                On the other hand, the same truth tables used to establish this implication also show that <m>P ∨ Q</m> does not imply <m>¬(P \to  Q)</m>.
+                For example, when P and Q are both true, then <m>P ∨ Q</m> is true, but <m>¬(P \to  Q)</m> is false. 
+                Alternatively, it can be seen by a truth table that <m>(P ∨ Q) \to  [¬(P \to  Q)]</m> is not a tautology.
               </p>
             </example>
 
@@ -932,7 +932,7 @@
             <remark>
               <p>
                 Certainly, two different English sentences can convey equivalent statements, for example “if it rains I will stay home” and “I will stay home if it rains.” 
-                These two statements are both English variants of <m>P → Q</m>, where <m>P = </m>“it rains,” and <m>Q = </m>“I will stay home.” 
+                These two statements are both English variants of <m>P \to  Q</m>, where <m>P = </m>“it rains,” and <m>Q = </m>“I will stay home.” 
                 The difference between these two statements is an issue only of the flexibility of the English language; symbolically, these two statements are identical, not just equivalent.
               </p>
             </remark>
@@ -971,7 +971,7 @@
 
                   <li><title>Commutative Law</title>
                     <p>
-                      <m>P ∧ Q ⇔ Q ∧ P</m>.
+                      <m>P \wedge  Q ⇔ Q \wedge  P</m>.
                     </p>
                   </li>
 
@@ -983,31 +983,31 @@
 
                   <li><title>Associative Law</title>
                     <p>
-                      <m>(P ∧ Q) ∧ R ⇔ P ∧ (Q ∧ R)</m>.
+                      <m>(P \wedge  Q) \wedge  R ⇔ P \wedge  (Q \wedge  R)</m>.
                     </p>
                   </li>
 
                   <li><title>Distributive Law</title>
                     <p>
-                      <m>P ∧ (Q ∨ R) ⇔ (P ∧ Q) ∨ (P ∧ R</m>.
+                      <m>P \wedge  (Q ∨ R) ⇔ (P \wedge  Q) ∨ (P \wedge  R</m>.
                     </p>
                   </li>
 
                   <li><title>Distributive Law</title>
                     <p>
-                      <m>P ∨ (Q ∧ R) ⇔ (P ∨ Q) ∧ (P ∨ R)</m>.
+                      <m>P ∨ (Q \wedge  R) ⇔ (P ∨ Q) \wedge  (P ∨ R)</m>.
                     </p>
                   </li>
 
                   <li>
                     <p>
-                      <m>P → Q ⇔ ¬P ∨ Q</m>.
+                      <m>P \to  Q ⇔ ¬P ∨ Q</m>.
                     </p>
                   </li>
 
                   <li><title>Contrapositive</title>
                     <p>
-                      <m>P → Q ⇔ ¬Q → ¬P</m>.
+                      <m>P \to  Q ⇔ ¬Q \to  ¬P</m>.
                     </p>
                   </li>
 
@@ -1019,31 +1019,31 @@
 
                   <li>
                     <p>
-                      <m>P ↔ Q ⇔ (P → Q) ∧ (Q → P)</m>.
+                      <m>P ↔ Q ⇔ (P \to  Q) \wedge  (Q \to  P)</m>.
                     </p>
                   </li>
 
                   <li><title>De Morgan’s Law</title>
                     <p>
-                      <m>¬(P ∧ Q) ⇔ ¬P ∨ ¬Q</m>.
+                      <m>¬(P \wedge  Q) ⇔ ¬P ∨ ¬Q</m>.
                     </p>
                   </li>
 
                   <li><title>De Morgan’s Law</title>
                     <p>
-                      <m>¬(P ∨ Q) ⇔ ¬P ∧ ¬Q</m>.
+                      <m>¬(P ∨ Q) ⇔ ¬P \wedge  ¬Q</m>.
                     </p>
                   </li>
 
                   <li>
                     <p>
-                      <m>¬(P → Q) ⇔ P ∧ ¬Q</m>.
+                      <m>¬(P \to  Q) ⇔ P \wedge  ¬Q</m>.
                     </p>
                   </li>
 
                   <li>
                     <p>
-                      <m>¬(P ↔ Q) ⇔ (P ∧ ¬Q) ∨ (¬P ∧ Q)</m>.
+                      <m>¬(P ↔ Q) ⇔ (P \wedge  ¬Q) ∨ (¬P \wedge  Q)</m>.
                     </p>
                   </li>
                 </ol>
@@ -1082,7 +1082,7 @@
             </example>
 
             <p>
-              We also give names to two other variants of statements of the form <m>P → Q</m>.
+              We also give names to two other variants of statements of the form <m>P \to  Q</m>.
             </p>
 
             <definition xml:id="def-converse-statement">
@@ -1115,7 +1115,7 @@
 
             <remark>
               <p>
-                Although the converse and inverse of a statement are not equivalent to the original statement, we note that, however, that the converse and the inverse are equivalent to each another, as can be seen by applying Fact 1.3.2 (9) to the statement <m>Q → P</m>.
+                Although the converse and inverse of a statement are not equivalent to the original statement, we note that, however, that the converse and the inverse are equivalent to each another, as can be seen by applying Fact 1.3.2 (9) to the statement <m>Q \to  P</m>.
               </p>
             </remark>
 
@@ -1435,7 +1435,7 @@
               <p>
                 Suppose that <m>P(x, y) = “x + y^2 = 3,”</m> where <m>x</m> and <m>y</m> are real numbers. 
                 The statement <m>(∀y)(∃x)P(x, y)</m> can then be written in English as “for all <m>y</m> there exists some <m>x</m> such that<m> x + y^2 = 3</m>,” or equivalently “for each <m>y</m> there is some <m>x</m> such that <m>x + y^2 = 3</m>.” 
-                This statement is true, because for any real number <m>y</m> we can always solve for <m>x</m> in terms of <m>y</m>, yielding <m>x = 3 − y^2</m> .
+                This statement is true, because for any real number <m>y</m> we can always solve for <m>x</m> in terms of <m>y</m>, yielding <m>x = 3 - y^2</m> .
               </p>
 
               <p>
@@ -1674,8 +1674,8 @@
             </p>
 
             <p>
-              The statement of virtually every theorem, when viewed appropriately, is of the form P → Q, or some combination of such statements.
-              To prove theorems, we therefore need to know how to prove statements of the form P → Q.
+              The statement of virtually every theorem, when viewed appropriately, is of the form P \to  Q, or some combination of such statements.
+              To prove theorems, we therefore need to know how to prove statements of the form P \to  Q.
             </p>
 
             <definition xml:id="def-direct-proof">
@@ -1714,13 +1714,13 @@
             
             <p>
               You are probably familiar with the statement “the sum of even numbers is even.” 
-              This statement can be viewed in the form P → Q if we look at it properly, because it actually says “if n and m are even numbers, then n + m is an even number.
+              This statement can be viewed in the form P \to  Q if we look at it properly, because it actually says “if n and m are even numbers, then n + m is an even number.
               To construct a rigorous proof of our statement (as well as the corresponding result for odd numbers), we first need precise definitions of the terms involved.
             </p>
 
             <p>
               Our theorem is concerned with the integers, that is, the numbers
-              . . . , −3, −2, −1, 0, 1, 2, 3, . . . ,
+              . . . , -3, -2, -1, 0, 1, 2, 3, . . . ,
               and so we need to assume that we know what the integers are, that we have the operations addition, subtraction, multiplication and division, and that these operations satisfy standard properties, for example the Distributive Law. 
               Using only those standard facts about the integers, we can make the following definition, which is the basis for our theorem and its proof.
             </p>
@@ -1880,7 +1880,7 @@
 
           <introduction>
             <p>
-              In this section we discuss two strategies for proving statements of the form <m>P → Q</m>. 
+              In this section we discuss two strategies for proving statements of the form <m>P \to  Q</m>. 
               Both these strategies are a bit more convoluted than direct proof, but in some situations they are nonetheless easier to work with. 
               A less than perfect analogy might be when the straightest road between two cities leads up and down a mountain and through difficult terrain, whereas a curved road might at first seem to be going in the wrong direction, but in fact it bypasses the mountain and is ultimately easier and quicker than the straight road.
             </p>
@@ -1946,7 +1946,7 @@
             <definition xml:id="def-contradiction-proof">
               <statement>
                 <p>
-                  The method of proof by <term>contradiction</term> is to show that <m>P → Q</m> is true by assuming that <m>P ∧ ¬Q</m> is true, and then deriving a logical contradiction, by which we mean a statement that cannot be true under any circumstances.
+                  The method of proof by <term>contradiction</term> is to show that <m>P \to  Q</m> is true by assuming that <m>P \wedge  ¬Q</m> is true, and then deriving a logical contradiction, by which we mean a statement that cannot be true under any circumstances.
                 </p>
               </statement>
             </definition>
@@ -1997,7 +1997,7 @@
               <statement>
                 <p>
                   Let <m>x</m> be a real number. 
-                  The number <m>x</m> is a <term>rational</term> number if there exist integers <m>n</m> and <m>m</m> such that <m>m \neq  0</m> and <m>x = \frac{n}{m}</m> .
+                  The number <m>x</m> is a <term>rational</term> number if there exist integers <m>n</m> and <m>m</m> such that <m>m \neq  0</m> and <m>x = \frac{n}{m}</m>.
                   If <m>x</m> is not a rational number, it is an <term>irrational</term> number.
                 </p>
               </statement>
@@ -2005,8 +2005,8 @@
 
             <remark>
               <p>
-                Observe that if x is a rational number, then there are many different fractions of the form n m such that x = n m. 
-                Given any fraction n m such that n 6 = 0, we can always reduce it to “lowest terms,” by which we mean that the numerator and denominator have no common factors other than 1 and −1.
+                Observe that if <m>x</m> is a rational number, then there are many different fractions of the form <m>n/m</m> such that <m>x = n/m</m>. 
+                Given any fraction <m>n/m</m> such that <m>n \ne 0</m>, we can always reduce it to “lowest terms,” by which we mean that the numerator and denominator have no common factors other than <m>1</m> and <m>-1</m>.
               </p>
             </remark>
 
@@ -2034,7 +2034,7 @@
                   Because <m>x</m> is rational, there are integers <m>n</m> and <m>m</m> such that <m>x = \frac nm </m>. 
                   Observe that <m>n \neq  0</m>. 
                   If <m>\frac nm</m> is not in lowest terms, then we could cancel any common factors, bringing it to lowest terms. 
-                  There is no problem assuming that this has been done already, and so we may assume that n and m have no common factors other than <m>1</m> and <m>-1</m>.
+                  There is no problem assuming that this has been done already, and so we may assume that <m>n</m> and <m>m</m> have no common factors other than <m>1</m> and <m>-1</m>.
                 </p>
 
                 <p>
@@ -2089,26 +2089,27 @@
 
             <convention>
               <p>
-                One commonly used method for proving a statement of the form P → Q is by breaking up the proof into a number of <term>cases</term> (and possibly subcases, subsubcases and so on).
+                One commonly used method for proving a statement of the form <m>P \to  Q</m> is by breaking up the proof into a number of <term>cases</term> (and possibly subcases, subsubcases and so on).
               </p>
             </convention>
 
             <p>
-              Formally, we use proof by cases when the premise P can be written in the form A ∨ B. 
-              We then use Exercise 1.3.2 (6) to see that (A ∨ B) → Q is equivalent to (A → Q) ∧ (B → Q). 
-              Hence, in order to prove that a statement of the form (A ∨ B) → Q is true, it is sufficient to prove that each of the statements A → Q and B → Q is true.
+              Formally, we use proof by cases when the premise <m>P</m> can be written in the form <m>A ∨ B</m>. 
+              We then use Exercise 1.3.2 (6) to see that <m>(A ∨ B) \to  Q</m> is equivalent to <m>(A \to  Q) \wedge  (B \to  Q)</m>. 
+              Hence, in order to prove that a statement of the form <m>(A ∨ B) \to  Q</m> is true, it is sufficient to prove that each of the statements <m>A \to  Q</m> and <m>B \to  Q</m> is true.
             </p>
 
             <remark>
               <p>
-                The use of this strategy often occurs when proving a statement involving a quantifier of the form “for all x in U,” and where no single proof can be found for all such x, but where U can be divided up into two or more parts, and where a proof can be found for each part.
+                The use of this strategy often occurs when proving a statement involving a quantifier of the form “for all <m>x</m> in <m>U</m>,” and where no single proof can be found for all such <m>x</m>, but where <m>U</m> can be divided up into two or more parts, and where a proof can be found for each part.
               </p>
             </remark>
 
             <theorem xml:id="thm-even-square-plus-n">
               <statement>
                 <p>
-                  Let n be an integer. Then n^2 + n is even.
+                  Let <m>n</m> be an integer. 
+                  Then <m>n^2 + n</m> is even.
                 </p>
               </statement>
             </theorem>
@@ -2122,78 +2123,76 @@
             </remark>
 
             <p>
-              We now turn to theorems that have statements of the form P → (A ∨ B). 
+              We now turn to theorems that have statements of the form <m>P \to  (A ∨ B)</m>. 
               Such theorems are less common than the previously discussed type, but do occur, and it is worth being familiar with the standard proof strategies for such theorems. 
             </p>
 
             <convention>
               <p>
                 There are two commonly used strategies, each one being advantageous in certain situations.
-                One approach would be to use the contrapositive together with De Morgan’s Law (Fact 1.3.2 (13)), which together imply that P → (A∨B) is equivalent to (¬A∧¬B) → ¬P. 
-                The other would be to use Exercise 1.3.2 (5), which says that P → (A ∨ B) is equivalent to (P ∧ ¬A) → B. 
-                The roles of A and B could also be interchanged in this last statement.
+                One approach would be to use the contrapositive together with De Morgan’s Law (Fact 1.3.2 (13)), which together imply that <m>P \to  (A∨B)</m> is equivalent to <m>(¬A\wedge ¬B) \to  ¬P</m>. 
+                The other would be to use Exercise 1.3.2 (5), which says that<m> P \to  (A ∨ B)</m> is equivalent to <m>(P \wedge  ¬A) \to  B</m>. 
+                The roles of <m>A</m> and <m>B</m> could also be interchanged in this last statement.
               </p>
             </convention>
 
             <theorem xml:id="thm-irrational-product">
               <statement>
                 <p>
-                  Let x and y be real numbers. 
-                  If xy is irrational, then x or y is irrational.
+                  Let <m>x</m> and <m>y</m> be real numbers. 
+                  If <m>xy</m> is irrational, then <m>x</m> or <m>y</m> is irrational.
                 </p>
               </statement>
 
               <proof>
                 <p>
-                  Suppose that xy is irrational and that x is rational. Hence x = a
-b for some
-integers a and b such that b 6 = 0. We will show that y is irrational, by using proof by
-contradiction. Suppose that y is rational. It follows that y = m
-n for some integers m
-and n such that n 6 = 0. Hence xy = am
-bn , and bn 6 = 0, contradicting the fact that xy is
-irrational. Hence y is irrational. 
+                  Suppose that <m>xy</m> is irrational and that <m>x</m> is rational. 
+                  Hence <m>x = a/b</m> for some integers <m>a</m> and <m>b</m> such that <m>b \ne 0</m>. 
+                  We will show that <m>y</m> is irrational, by using proof by contradiction. 
+                  Suppose that <m>y</m> is rational. 
+                  It follows that <m>y = m/n</m> for some integers <m>m</m> and <m>n</m> such that <m>n \ne 0</m>. 
+                  Hence <m>xy = am/bn</m>, and <m>bn \ne 0</m>, contradicting the fact that <m>xy</m> is irrational. 
+                  Hence <m>y</m> is irrational. 
                 </p>
               </proof>
             </theorem>
-            
-            
             
           </subsection>
 
           <subsection xml:id="subsec-iff"><title>If and Only If</title>
             
             <p>
-              Whereas the most common logical form of the statement of a theorem is P → Q, as we have discussed so far, another common form is P ↔ Q. 
+              Whereas the most common logical form of the statement of a theorem is <m>P \to  Q</m>, as we have discussed so far, another common form is <m>P ↔ Q</m>. 
               We refer to such theorems as “if and only if” theorems (often abbreviated “iff” theorems). 
-              To prove such a theorem, we make use of the fact that P ↔ Q is equivalent to (P → Q) ∧ (Q → P), as was shown in Fact 1.3.2 (11).
-              Hence, to prove a single statement of the form P ↔ Q, it is sufficient to prove the two statements P → Q and Q → P, each of which can be proved using any of the methods we have seen so far.
+              To prove such a theorem, we make use of the fact that <m>P ↔ Q</m> is equivalent to <m>(P \to  Q) \wedge  (Q \to  P)</m>, as was shown in Fact 1.3.2 (11).
+              Hence, to prove a single statement of the form <m>P ↔ Q</m>, it is sufficient to prove the two statements <m>P \to  Q</m> and <m>Q \to  P</m>, each of which can be proved using any of the methods we have seen so far.
             </p>
 
             <theorem xml:id="thm-mutual-divide">
               <statement>
                 <p>
-                  Let a and b be non-zero integers. Then a|b and b|a if and only if a = b or a = −b.
+                  Let <m>a</m> and <m>b</m> be non-zero integers. 
+                  Then <m>a|b</m> and <m>b|a</m> if and only if <m>a = b</m> or <m>a = -b</m>.
                 </p>
               </statement>
 
               <proof>
                 <p>
-                  ⇒. Suppose that a|b and b|a. 
-                  Because a|b, there is some integer m such that am = b, and because b|a, there is some integer k such that bk = a. 
-                  Substituting this last equation into the previous one, we obtain (bk)m = b, and hence b(km) = b.
-                  Because b 6 = 0, it follows that km = 1. 
-                  Because k and m are integers, then either k = 1 and m = 1, or k = −1 and m = −1. 
+                  ⇒. Suppose that <m>a|b</m> and <m>b|a</m>. 
+                  Because <m>a|b</m>, there is some integer m such that <m>am = b</m>, and because <m>b|a</m>, there is some integer <m>k</m> such that <m>bk = a</m>. 
+                  Substituting this last equation into the previous one, we obtain <m>(bk)m = b</m>, and hence <m>b(km) = b</m>.
+                  Because <m>b \ne 0</m>, it follows that <m>km = 1</m>. 
+                  Because <m>k</m> and m are integers, then either <m>k = 1</m> and <m>m = 1</m>, or <m>k = -1</m> and <m>m = -1</m>. 
                   (We will not provide a proof of this last fact; it is stated as Theorem A.4 in the Appendix.) 
-                  In the former case a = b, and in the latter case a = −b.
+                  In the former case <m>a = b</m>, and in the latter case <m>a = -b</m>.
                 </p>
 
                 <p>
-                  ⇐. Suppose that a = b or a = −b. 
-                  First, suppose that a = b. 
-                  Then a · 1 = b, so a|b, and b · 1 = a, so b|a. 
-                  Similarly, suppose that a = −b. 
-                  Then a · (−1) = b, so a|b, and b · (−1) = a, so b|a. 
+                  ⇐. Suppose that <m>a = b</m> or <m>a = -b</m>. 
+                  First, suppose that <m>a = b</m>. 
+                  Then <m>a · 1 = b</m>, so <m>a|b</m>, and <m>b · 1 = a</m>, so <m>b|a</m>. 
+                  Similarly, suppose that <m>a = -b</m>. 
+                  Then <m>a · (-1) = b</m>, so <m>a|b</m>, and <m>b · (-1) = a</m>, so <m>b|a</m>. 
                 </p>
               </proof>
             </theorem>
@@ -2201,33 +2200,35 @@ irrational. Hence y is irrational.
             <theorem xml:id="thm-odd-product">
               <statement>
                 <p>
-                  Let m and n be integers. 
-                  Then mn is odd if and only if both m and n are odd.
+                  Let <m>m</m> and <m>n</m> be integers. 
+                  Then <m>mn</m> is odd if and only if both <m>m</m> and <m>n</m> are odd.
                 </p>
               </statement>
 
               <proof>
                 <p>
                   ⇐. 
-                  Suppose that m and n are both odd. 
-                  Hence there is an integer j such that m = 2 j + 1, and there is an integer k such that n = 2k + 1. 
+                  Suppose that <m>m</m> and <m>n</m> are both odd. 
+                  Hence there is an integer <m>j</m> such that <m>m = 2 j + 1</m>, and there is an integer <m>k</m> such that <m>n = 2k + 1</m>. 
                   Therefore
-                  mn = (2 j + 1)(2k + 1) = 4 jk + 2 j + 2k + 1 = 2(2 jk + j + k) + 1.
-                  Because k and j are integers, so is 2 jk + j + k. 
-                  Therefore mn is odd.
+                  <me>
+                    mn = (2 j + 1)(2k + 1) = 4 jk + 2 j + 2k + 1 = 2(2 jk + j + k) + 1.
+                  </me>
+                  Because <m>k</m> and <m>j</m> are integers, so is <m>2 jk + j + k</m>. 
+                  Therefore <m>mn</m> is odd.
                 </p>
 
                 <p>
                   ⇒. 
-                  Suppose that m and n are not both odd. 
+                  Suppose that <m>m</m> and <m>n</m> are not both odd. 
                   We will deduce that mn is not odd, and the desired result will follow by contrapositive. 
-                  If m and n are not both odd, then at least one of them is even. 
-                  Suppose first that m is even. 
-                  Then there is an integer p such that m = 2p. 
-                  Hence mn = (2p)n = 2(pn). 
-                  Because p and n are integers, so is pn. 
-                  Therefore mn is even. 
-                  Next assume that n is even. 
+                  If <m>m</m> and <m>n</m> are not both odd, then at least one of them is even. 
+                  Suppose first that <m>m</m> is even. 
+                  Then there is an integer <m>p</m> such that <m>m = 2p</m>. 
+                  Hence <m>mn = (2p)n = 2(pn)</m>. 
+                  Because <m>p</m> and <m>n</m> are integers, so is <m>pn</m>. 
+                  Therefore <m>mn</m> is even. 
+                  Next assume that <m>n</m> is even. 
                   The proof in this case is similar to the previous case, and we omit the details. 
                 </p>
               </proof>
@@ -2252,287 +2253,323 @@ irrational. Hence y is irrational.
       <chapter xml:id="ch-sets"><title>Sets</title>
 
         <section xml:id="sec-set-basics"><title>Set Basics</title>
-          
-          <example>
-            <p>
-              <ul>
-                <li><title>Natural Numbers</title>
-                  <p>
-                    the set of <term>natural numbers</term>
-                    <me>\{1, 2, 3, \dots\}</me>,
-                    denoted <m>\N</m>;
-                  </p>
-                </li>
 
-                <li><title>Integers</title>
-                  <p>
-                    the set of <term>integers</term>
-                    <me>\{\dots, -2, -1, 0, 1, 2, \dots\}</me>,
-                    denoted <m>\Z</m>;
-                  </p>
-                </li>
-
-                <li><title>Rational Numbers</title>
-                  <p>
-                    the set of <term>rational numbers</term>, denoted <m>\Q</m>, which is the set of fractions;
-                  </p>
-                </li>
-
-                <li><title>Real Numbers</title>
-                  <p>
-                    the set of <term>real numbers</term>, denoted <m>\R</m>, which is the set of all the numbers that are informally thought of as forming the number line.
-                  </p>
-                </li>
-              </ul>
-            </p>
-          </example>
-
-          <example>
-            <p>
-              An extremely valuable set we will regularly encounter is the empty set (also called the null set) which is the set that does not have any elements in it. 
-              That is, the empty set is the set <m>\{ \}</m>. 
-              This set is denoted <m>\emptyset</m>.
-            </p>
-          </example>
-
-          <p>
-            It may seem strange to consider a set that doesn't have anything in it, but the role of the empty set in set theory is somewhat analogous to the role of zero in arithmetic.
-          </p>
-
-          <convention><title>Set Builder Notation</title>
-            <p></p>
-          </convention>
-
-          <definition xml:id="def-subset">
-            <statement>
-              <p>
-                Let <m>A</m> and <m>B</m> be sets. 
-                The set <m>A</m> is a <term>subset</term> of the set <m>B</m>, denoted <m>A \subseteq B</m>, if <m>x\in  A</m> implies <m>x\in B</m>. 
-                If <m>A</m> is not a subset of <m>B</m>, we write <m>A not\subseteq  B</m>.
-              </p>
-            </statement>
-          </definition>
-
-          <insight><title>Subset Proof</title>
-            <p>
-              There is a standard strategy for proving a statement of the form “<m>A \subseteq B</m>,” which is to take an arbitrary element <m>a\in  A</m>, and then to use the definitions of <m>A</m> and <m>B</m> to deduce that <m>a\in B</m>. 
-              Such a proof typically has the following form.
-            </p>
+          <subsection xml:id="subsec-sets-notation"><title>Sets and Notation</title>
 
             <p>
-              Proof. 
-              Let <m>a\in  A</m>.
-              ...
-              (argumentation)
-              ...
-              Then <m>a\in B</m>. 
-              Hence <m>A \subseteq B</m>. 
+              In the present chapter we will discuss the common basis for all systems of axioms used in contemporary mathematics, which is set theory. 
+              Though of surprisingly recent vintage, having been developed by Georg Cantor in the late nineteenth century, set theory has become widely accepted among mathematicians as the starting place for rigorous mathematics. 
+              We will take an intuitive approach to set theory (often referred to as “naive set theory”), but then build on it rigorously. 
             </p>
-          </insight>
 
-          <remark>
+            <convention>
+              <p>
+                A set is a well-defined collection of objects that can be thought of as a single entity itself. 
+              </p>
+            </convention>
+
             <p>
-              It is important to distinguish between the notion of an object being an element of a set, and the notion of a set being a subset of another set. 
-              For example, let <m>A =\{a, b, c\}</m>. Then <m>a\in  A</m> and <m>\{a\} \subseteq  A</m> are true, whereas the statements “<m>a \subseteq  A</m>” and “<m>\{a\}\in  A</m>” are false. 
-              Also, observe that a set can be an element of another set. 
-              Let <m>B = \{\{a\}, b, c\}</m>. 
-              Observe that <m>B</m> is not the same as the set <m>A</m>. 
-              Then <m>\{a\}\in B</m> and <m>\{\{a\}\} \subseteq B</m> are true, but “<m>a\in B</m>” and “<m>\{a\} \subseteq B</m>” are false.
+              The most basic way of specifying the elements of a set is to list the elements of that set.
+              This works well when the set contains only a small number of objects.
+              The usual practice is to list these elements between braces.
             </p>
-          </remark>
 
-          <theorem xml:id="thm-properties-of-subsets">
-            <statement>
+            <example>
               <p>
-                <ol>
-                  <li>
+                <ul>
+                  <li><title>Natural Numbers</title>
                     <p>
-                      <m>A \subseteq  A.</m>
+                      the set of <term>natural numbers</term>
+                      <me>\{1, 2, 3, \dots\}</me>,
+                      denoted <m>\N</m>;
                     </p>
                   </li>
 
-                  <li>
+                  <li><title>Integers</title>
                     <p>
-                      <m>0 \subseteq  A.</m>
+                      the set of <term>integers</term>
+                      <me>\{\dots, -2, -1, 0, 1, 2, \dots\}</me>,
+                      denoted <m>\Z</m>;
                     </p>
                   </li>
 
-                  <li>
+                  <li><title>Rational Numbers</title>
                     <p>
-                      If <m>A \subseteq B</m> and <m>B \subseteq  C</m>, then <m>A \subseteq  C</m>.
+                      the set of <term>rational numbers</term>, denoted <m>\Q</m>, which is the set of fractions;
                     </p>
                   </li>
-                </ol>
+
+                  <li><title>Real Numbers</title>
+                    <p>
+                      the set of <term>real numbers</term>, denoted <m>\R</m>, which is the set of all the numbers that are informally thought of as forming the number line.
+                    </p>
+                  </li>
+                </ul>
               </p>
-            </statement>
+            </example>
 
-            <proof>
+            <example><title>Empty Set</title>
               <p>
-                <ol>
-                  <li>
-                    <p>
-                      To show that <m>A \subseteq  A</m>, we start by choosing an arbitrary element <m>a\in  A</m>, where we think of this “<m>A</m>” as the one on the left-hand side of the expression “<m>A \subseteq  A</m>.” 
-                      It then follows that <m>a\in  A</m>, where we now think of this “<m>A</m>” as the one on the right-hand side of the expression “<m>A \subseteq  A</m>.” 
-                      Hence <m>A \subseteq  A</m>, using the definition of subsets.
-                    </p>
-                  </li>
-
-                  <li>
-                    <p>
-                      We give two proofs, because both are instructive. 
-                      First, we have a direct proof. 
-                      To show that <m>\emptyset \subseteq  A</m>, we need to show that if <m>a\in\emptyset</m>, then <m>a\in  A</m>. 
-                      Because <m>a\in\emptyset</m> is always false, then the logical implication “if <m>a\in\emptyset</m>, then <m>a\in  A</m>” is always true, using the precise definition of the conditional given in Section 1.2.
-                    </p>
-
-                    <p>
-                      Next, we have a proof by contradiction. 
-                      Suppose that <m>\emptyset not\subseteq   A</m>. 
-                      Then there exists some <m>x\in\emptyset</m> such that <m>x /\in  A</m>. 
-                      This statement cannot be true, however, because there is no <m>x</m> such that <m>x\in\emptyset</m>. 
-                      We have therefore reached a contradiction, and hence the desired result is true.
-                    </p>
-
-                    <p>
-                      This proof by contradiction might not appear to fit the standard outline for such proofs as described in Section 2.3, because it does not appear as if we are viewing the statement being proved as having the form <m>P \to  Q</m>. 
-                      In fact, there are two ways of viewing the statement being proved as having this form. 
-                      For the direct proof given above, we viewed the statement being proved as <m>(\forall A)([a\in\emptyset] \to  [a\in  A])</m>. 
-                      We then chose an arbitrary set <m>A</m>, and proved the statement <m>[a\in\emptyset] \to  [a\in  A]</m>. 
-                      For the proof by contradiction, we viewed the statement being proved as “if <m>A</m> is a set, then <m>\emptyset \subseteq  A</m>,” and then indeed used our standard method of doing proof by contradiction.
-                    </p>
-                  </li>
-
-                  <li>
-                    <p>
-                      This proof, having no logical tricks, is extremely typical. 
-                      Let <m>a\in  A</m>. 
-                      Because <m>A \subseteq B</m>, it follows that <m>a\in B</m>. 
-                      Because <m>B \subseteq  C</m>, it follows that <m>a\in  C</m>. 
-                      Therefore we see that <m>a\in  A</m> implies <m>a\in  C</m>, and hence <m>A \subseteq  C</m>.
-                    </p>
-                  </li>
-                </ol>
+                An extremely valuable set we will regularly encounter is the empty set (also called the null set) which is the set that does not have any elements in it. 
+                That is, the empty set is the set <m>\{ \}</m>. 
+                This set is denoted <m>\emptyset</m>.
               </p>
-            </proof>
-          </theorem>
+            </example>
 
-          <definition xml:id="def-set-equality">
-            <statement>
-              <p>
-                Let <m>A</m> and <m>B</m> be sets. 
-                The set <m>A</m> <term>equals</term> the set <m>B</m>, denoted <m>A = B</m>, if <m>A \subseteq B</m> and <m>B \subseteq  A</m>. 
-                The set <m>A</m> is a <term>proper subset</term> of the set <m>B</m>, denoted <m>A \subset B</m>, if <m>A \subseteq B</m> and <m>A \neq B</m>. 
-              </p>
-            </statement>
-          </definition>
-
-          <convention>
             <p>
-              There is a bit of variation in the mathematical literature for the notation used for proper subsets. 
-              Some texts use <m>A \subset B</m> to mean <m>A</m> is a proper subset of <m>B</m>, whereas others use the notation <m>A \subset B</m> to mean what we write as <m>A \subseteq B</m>.
+              It may seem strange to consider a set that doesn't have anything in it, but the role of the empty set in set theory is somewhat analogous to the role of zero in arithmetic.
             </p>
-          </convention>
 
-          <insight>
+            <convention><title>Set Builder Notation</title>
+              <p>
+                Sometimes it is not possible to list all the elements of a set. 
+                In this case, it is sometimes convenient to use the so-called set builder notation in which the set is defined by stating a rule that all elements of the set must satisfy. 
+                If P .x/ is a predicate in the variable x, then the notation
+
+                stands for the set of all elements x in the universal set U for which P .x/ is true.
+                If it is clear what set is being used for the universal set, this notation is sometimes shortened to fx j P .x/g. 
+                This is usually read as “the set of all x such that P .x/.”
+                The vertical bar stands for the phrase “such that.” 
+                Some writers will use a colon (:) instead of the vertical bar.
+              </p>
+            </convention>
+
+          </subsection>
+
+          <subsection xml:id="subsec-subsets"><title>Subsets and Set Equality</title>
+      
+            <definition xml:id="def-subset">
+              <statement>
+                <p>
+                  Let <m>A</m> and <m>B</m> be sets. 
+                  The set <m>A</m> is a <term>subset</term> of the set <m>B</m>, denoted <m>A \subseteq B</m>, if <m>x\in  A</m> implies <m>x\in B</m>. 
+                  If <m>A</m> is not a subset of <m>B</m>, we write <m>A not\subseteq  B</m>.
+                </p>
+              </statement>
+            </definition>
+
+            <insight><title>Subset Proof</title>
+              <p>
+                There is a standard strategy for proving a statement of the form “<m>A \subseteq B</m>,” which is to take an arbitrary element <m>a\in  A</m>, and then to use the definitions of <m>A</m> and <m>B</m> to deduce that <m>a\in B</m>. 
+                Such a proof typically has the following form.
+              </p>
+
+              <p>
+                Proof. 
+                Let <m>a\in  A</m>.
+                ...
+                (argumentation)
+                ...
+                Then <m>a\in B</m>. 
+                Hence <m>A \subseteq B</m>. 
+              </p>
+            </insight>
+
+            <remark>
+              <p>
+                It is important to distinguish between the notion of an object being an element of a set, and the notion of a set being a subset of another set. 
+                For example, let <m>A =\{a, b, c\}</m>. Then <m>a\in  A</m> and <m>\{a\} \subseteq  A</m> are true, whereas the statements “<m>a \subseteq  A</m>” and “<m>\{a\}\in  A</m>” are false. 
+                Also, observe that a set can be an element of another set. 
+                Let <m>B = \{\{a\}, b, c\}</m>. 
+                Observe that <m>B</m> is not the same as the set <m>A</m>. 
+                Then <m>\{a\}\in B</m> and <m>\{\{a\}\} \subseteq B</m> are true, but “<m>a\in B</m>” and “<m>\{a\} \subseteq B</m>” are false.
+              </p>
+            </remark>
+
+            <theorem xml:id="thm-properties-of-subsets"><title>Properties of Subsets</title>
+              <statement>
+                <p>
+                  <ol>
+                    <li>
+                      <p>
+                        <m>A \subseteq  A.</m>
+                      </p>
+                    </li>
+
+                    <li>
+                      <p>
+                        <m>\emptyset \subseteq  A.</m>
+                      </p>
+                    </li>
+
+                    <li>
+                      <p>
+                        If <m>A \subseteq B</m> and <m>B \subseteq  C</m>, then <m>A \subseteq  C</m>.
+                      </p>
+                    </li>
+                  </ol>
+                </p>
+              </statement>
+
+              <proof>
+                <p>
+                  <ol>
+                    <li>
+                      <p>
+                        To show that <m>A \subseteq  A</m>, we start by choosing an arbitrary element <m>a\in  A</m>, where we think of this “<m>A</m>” as the one on the left-hand side of the expression “<m>A \subseteq  A</m>.” 
+                        It then follows that <m>a\in  A</m>, where we now think of this “<m>A</m>” as the one on the right-hand side of the expression “<m>A \subseteq  A</m>.” 
+                        Hence <m>A \subseteq  A</m>, using the definition of subsets.
+                      </p>
+                    </li>
+
+                    <li>
+                      <p>
+                        We give two proofs, because both are instructive. 
+                        First, we have a direct proof. 
+                        To show that <m>\emptyset \subseteq  A</m>, we need to show that if <m>a\in\emptyset</m>, then <m>a\in  A</m>. 
+                        Because <m>a\in\emptyset</m> is always false, then the logical implication “if <m>a\in\emptyset</m>, then <m>a\in  A</m>” is always true, using the precise definition of the conditional given in Section 1.2.
+                      </p>
+
+                      <p>
+                        Next, we have a proof by contradiction. 
+                        Suppose that <m>\emptyset not\subseteq A</m>. 
+                        Then there exists some <m>x\in\emptyset</m> such that <m>x /\in  A</m>. 
+                        This statement cannot be true, however, because there is no <m>x</m> such that <m>x\in\emptyset</m>. 
+                        We have therefore reached a contradiction, and hence the desired result is true.
+                      </p>
+
+                      <p>
+                        This proof by contradiction might not appear to fit the standard outline for such proofs as described in Section 2.3, because it does not appear as if we are viewing the statement being proved as having the form <m>P \to  Q</m>. 
+                        In fact, there are two ways of viewing the statement being proved as having this form. 
+                        For the direct proof given above, we viewed the statement being proved as <m>(\forall A)([a\in\emptyset] \to  [a\in  A])</m>. 
+                        We then chose an arbitrary set <m>A</m>, and proved the statement <m>[a\in\emptyset] \to  [a\in  A]</m>. 
+                        For the proof by contradiction, we viewed the statement being proved as “if <m>A</m> is a set, then <m>\emptyset \subseteq  A</m>,” and then indeed used our standard method of doing proof by contradiction.
+                      </p>
+                    </li>
+
+                    <li>
+                      <p>
+                        This proof, having no logical tricks, is extremely typical. 
+                        Let <m>a\in  A</m>. 
+                        Because <m>A \subseteq B</m>, it follows that <m>a\in B</m>. 
+                        Because <m>B \subseteq  C</m>, it follows that <m>a\in  C</m>. 
+                        Therefore we see that <m>a\in  A</m> implies <m>a\in  C</m>, and hence <m>A \subseteq  C</m>.
+                      </p>
+                    </li>
+                  </ol>
+                </p>
+              </proof>
+            </theorem>
+
+            <definition xml:id="def-set-equality"><title>Set Equality</title>
+              <statement>
+                <p>
+                  Let <m>A</m> and <m>B</m> be sets. 
+                  The set <m>A</m> <term>equals</term> the set <m>B</m>, denoted <m>A = B</m>, if <m>A \subseteq B</m> and <m>B \subseteq  A</m>. 
+                  The set <m>A</m> is a <term>proper subset</term> of the set <m>B</m>, denoted <m>A \subset B</m>, if <m>A \subseteq B</m> and <m>A \neq B</m>. 
+                </p>
+              </statement>
+            </definition>
+
+            <convention>
+              <p>
+                There is a bit of variation in the mathematical literature for the notation used for proper subsets. 
+                Some texts use <m>A \subset B</m> to mean <m>A</m> is a proper subset of <m>B</m>, whereas others use the notation <m>A \subset B</m> to mean what we write as <m>A \subseteq B</m>.
+              </p>
+            </convention>
+
+            <insight><title>Set Equality Proof</title>
+              <p>
+                Proof. Let <m>a\in  A</m>.
+                ...
+                (argumentation)
+                ...
+                Then <m>a\in B</m>. Therefore <m>A \subseteq B</m>.
+                Next, Let <m>b\in B</m>.
+                ...
+                (argumentation)
+                ...
+                Then <m>b\in  A</m>. Hence <m>B \subseteq  A</m>.
+                We conclude that <m>A = B</m>.
+                
+              </p>
+            </insight>
+
+            <corollary><title>Properties of Set Equalities</title>
+              <statement>
+                <p>
+                  Let <m>A, B</m> and <m>C</m> be sets.
+                  <ol>
+                    <li>
+                      <p>
+                        <m>A = A</m>.
+                      </p>
+                    </li>
+
+                    <li>
+                      <p>
+                        If <m>A = B</m> then <m>B = A</m>.
+                      </p>
+                    </li>
+
+                    <li>
+                      <p>
+                        If <m>A = B</m> and <m>B = C</m>, then <m>A = C</m>.
+                      </p>
+                    </li>
+                  </ol>
+                </p>
+              </statement>
+
+              <proof>
+                <p>
+                  All three parts of this lemma follow straightforwardly from the definition of equality of sets together with Lemma 3.2.4. 
+                  Details are left to the reader.
+                </p>
+              </proof>
+            </corollary>
+
             <p>
-              Proof. Let <m>a\in  A</m>.
-              ...
-              (argumentation)
-              ...
-              Then <m>a\in B</m>. Therefore <m>A \subseteq B</m>.
-              Next, Let <m>b\in B</m>.
-              ...
-              (argumentation)
-              ...
-              Then <m>b\in  A</m>. Hence <m>B \subseteq  A</m>.
-              We conclude that <m>A = B</m>.
-              
+              In some situations we will find it useful to look at not just one subset of a given set, but at all subsets of the set. 
+              In particular, we can form a new set, the elements of which are the subsets of the given set.
             </p>
-          </insight>
 
-          <lemma>
-            <statement>
+            <definition xml:id="def-power-set"><title>Power Set</title>
+              <statement>
+                <p>
+                  Let <m>A</m> be a set. The <term>power set</term> of <m>A</m>, denoted <m>\cP(A)</m>, is the set defined by
+                    <me>\cP(A) = \{X | X \subseteq  A\}</me>. 
+                </p>
+              </statement>
+            </definition>
+
+            <example><title>Power Sets</title>
               <p>
-                Let <m>A, B</m> and <m>C</m> be sets.
-                <ol>
+                <ul>
                   <li>
                     <p>
-                      <m>A = A</m>.
+                      Because <m>\emptyset \subseteq\emptyset</m>, then <m>P ( \emptyset) = \{ \emptyset\}</m>. 
+                      In particular, we see that <m>P ( \emptyset) \neq\emptyset</m>.
                     </p>
                   </li>
 
                   <li>
                     <p>
-                      If <m>A = B</m> then <m>B = A</m>.
+                      Let <m>A = \{a, b, c\}</m>. 
+                      Then the subsets of <m>A</m> are <m>\emptyset, \{a\}, \{b\}, \{c\}, \{a, b\}, \{a, c\}, \{b, c\} \text{ and }\{a, b, c\}</m>. 
+                      The last of these subsets is not proper, but we need all subsets, not only the proper ones. 
+                      Therefore
+                        <me>
+                          \cP(A) = \{ \emptyset, \{a\}, \{b\}, \{c\}, \{a, b\}, \{a, c\}, \{b, c\}, \{a, b, c\}\}.
+                        </me>
+                      It can be seen intuitively that if <m>A</m> is a finite set with n elements, then <m>\cP(A)</m> is a finite set with <m>2^n</m> elements; by Part (1) of this exercise we see that this formula holds even when <m>n = 0</m>. 
+                      This formula is proved in Theorem 7.7.10 (1). 
                     </p>
                   </li>
-
-                  <li>
-                    <p>
-                      If <m>A = B</m> and <m>B = C</m>, then <m>A = C</m>.
-                    </p>
-                  </li>
-                </ol>
+                </ul>
               </p>
-            </statement>
+            </example>
 
-            <proof>
-              <p>
-                All three parts of this lemma follow straightforwardly from the definition of equality of sets together with Lemma 3.2.4. 
-                Details are left to the reader.
-              </p>
-            </proof>
-          </lemma>
+            <exercise><title>Mutually Proper</title>
+              <statement>
+                <p>
+                  Let <m>A</m> and <m>B</m> be sets. 
+                  Prove that it is not possible that <m>A \subset B</m> and <m>B \subseteq  A</m> are both true.
+                </p>
+              </statement>
+            </exercise>
 
-          <p>
-            In some situations we will find it useful to look at not just one subset of a given set, but at all subsets of the set. 
-            In particular, we can form a new set, the elements of which are the subsets of the given set.
-          </p>
-
-          <definition xml:id="def-power-set">
-            <statement>
-              <p>
-                Let <m>A</m> be a set. The <term>power set</term> of <m>A</m>, denoted <m>\cP(A)</m>, is the set defined by
-                  <me>\cP(A) = \{X | X \subseteq  A\}</me>. 
-              </p>
-            </statement>
-          </definition>
-
-          <example>
-            <p>
-              <ul>
-                <li>
-                  <p>
-                    Because <m>\emptyset \subseteq\emptyset</m>, then <m>P ( \emptyset) = \{ \emptyset\}</m>. 
-                    In particular, we see that <m>P ( \emptyset) \neq\emptyset</m>.
-                  </p>
-                </li>
-
-                <li>
-                  <p>
-                    Let <m>A = \{a, b, c\}</m>. 
-                    Then the subsets of <m>A</m> are <m>\emptyset, \{a\}, \{b\}, \{c\}, \{a, b\}, \{a, c\}, \{b, c\} and \{a, b, c\}</m>. 
-                    The last of these subsets is not proper, but we need all subsets, not only the proper ones. 
-                    Therefore
-                      <me>
-                        \cP(A) = \{ \emptyset, \{a\}, \{b\}, \{c\}, \{a, b\}, \{a, c\}, \{b, c\}, \{a, b, c\}\}.
-                      </me>
-                    It can be seen intuitively that if <m>A</m> is a finite set with n elements, then <m>\cP(A)</m> is a finite set with <m>2^n</m> elements; by Part (1) of this exercise we see that this formula holds even when <m>n = 0</m>. 
-                    This formula is proved in Theorem 7.7.10 (1). 
-                  </p>
-                </li>
-              </ul>
-            </p>
-          </example>
-
-          <exercise>
-            <statement>
-              <p>
-                Let <m>A</m> and <m>B</m> be sets. 
-                Prove that it is not possible that <m>A \subset B</m> and <m>B \subseteq  A</m> are both true.
-              </p>
-            </statement>
-          </exercise>
+          </subsection>
           
         </section>
 
@@ -2543,9 +2580,13 @@ irrational. Hence y is irrational.
               <p>
                 Let <m>A</m> and <m>B</m> be sets. 
                 The <term>union</term> of <m>A</m> and <m>B</m>, denoted <m>A \cup B</m>, is the set defined by 
-                  <me>A \cup B = \{x | x\in  A \text{ or } x\in B\}</me>.
+                <me>
+                  A \cup B = \{x | x\in  A \text{ or } x\in B\}
+                </me>.
                 The <term>intersection</term> of <m>A</m> and <m>B</m>, denoted <m>A \cap B</m>, is the set defined by
-                  <me>A \cap B = \{x | x\in  A \text{ and }x\in B\}</me>. 
+                <me>
+                  A \cap B = \{x | x\in  A \text{ and }x\in B\}
+                </me>. 
               </p>
             </statement>
           </definition>
@@ -2557,7 +2598,7 @@ irrational. Hence y is irrational.
                 <ol>
                   <li>
                     <p>
-                      <m>A \cap B \subseteq  A</m> and <m>A \cap B \subseteq B</m>. 
+                      <m>A \cap B \subseteq A</m> and <m>A \cap B \subseteq B</m>. 
                       If <m>X</m> is a set such that <m>X \subseteq  A</m> and <m>X \subseteq B</m>, then <m>X \subseteq  A \cap B</m>.
                     </p>
                   </li>
@@ -2769,7 +2810,7 @@ irrational. Hence y is irrational.
             <statement>
               <p>
                 Let <m>A</m> and <m>B</m> be sets. 
-                Prove that <m>(A\cup B)-A = B - (A \cap B)</m>
+                Prove that <m>(A\cup B)\sm A = B \sm (A \cap B)</m>
               </p>
             </statement>
           </exercise>
@@ -2792,7 +2833,7 @@ irrational. Hence y is irrational.
                 <ol>
                   <li>
                     <p>
-                      Suppose that <m>C \subseteq  A</m>. Prove that <m>A - (B -C) = (A - B) \cup C</m>.
+                      Suppose that <m>C \subseteq  A</m>. Prove that <m>A \sm (B \sm C) = (A \sm B) \cup C</m>.
                     </p>
                   </li>
 
@@ -2855,43 +2896,43 @@ irrational. Hence y is irrational.
           <theorem xml:id="thm-properties-of-families">
             <statement>
               <p>
-                Let <m>I</m> be a non-empty set, let <m>\{A_i\}i\in I</m> be a family of sets indexed by <m>I</m> and let <m>B</m> be a set.
+                Let <m>I</m> be a non-empty set, let <m>\{A_i\}_{i\in I}</m> be a family of sets indexed by <m>I</m> and let <m>B</m> be a set.
                 <ol>
                   <li>
                     <p>
-                      <m>\bigcap i\in I A_i \subseteq  A k</m> for all <m>k\in  I</m>. 
-                      If <m>B \subseteq  A k</m> for all <m>k\in  I</m>, then <m>B \subseteq\bigcap i\in I A_i</m> .
+                      <m>\bigcap_{i\in I} A_i \subseteq  A_k</m> for all <m>k\in  I</m>. 
+                      If <m>B \subseteq  A_k</m> for all <m>k\in I</m>, then <m>B \subseteq\bigcap_{i\in I} A_i</m> .
                     </p>
                   </li>
 
                   <li>
                     <p>
-                      <m>Ak \subseteq\bigcup  i\in I A_i</m> for all <m>k\in  I</m>. 
-                      If <m>A k \subseteq B</m> for all <m>k\in  I</m>, then <m>\bigcup  i\in I A_i \subseteq B</m>.
+                      <m>A_k \subseteq\bigcup_{i\in I} A_i</m> for all <m>k\in  I</m>. 
+                      If <m>A_k \subseteq B</m> for all <m>k\in I</m>, then <m>\bigcup_{i\in I} A_i \subseteq B</m>.
                     </p>
                   </li>
 
                   <li><title>Distributive Law</title>
                     <p>
-                      <m>B \cap  (\bigcup  i\in I A_i) = \bigcup i\in I (B \cap  A_i)</m>.
+                      <m>B \cap (\bigcup_{i\in I} A_i) = \bigcup_{i\in I}(B \cap  A_i)</m>.
                     </p>
                   </li>
 
                   <li><title>Distributive Law</title>
                     <p>
-                      <m>B \cup  (\bigcap i\in I A_i) = \bigcap i\in I (B \cup  A_i)</m>.
+                      <m>B \cup  (\bigcap_{i\in I} A_i) = \bigcap_{i\in I} (B \cup  A_i)</m>.
                     </p>
                   </li>
 
                   <li><title>De Morgan's Law</title>
                     <p>
-                      <m>B - (\bigcup i\in I A_i) = \bigcap i\in I (B - A_i)</m>.
+                      <m>B \sm (\bigcup_{i\in I} A_i) = \bigcap_{i\in I} (B \sm A_i)</m>.
                     </p>
                   </li>
 
                   <li><title>De Morgan's Law</title>
                     <p>
-                      <m>B - (\bigcap i\in I A_i) = \bigcup i\in I (B - A_i)</m>.
+                      <m>B \sm (\bigcap_{i\in I} A_i) = \bigcup_{i\in I} (B \sm A_i)</m>.
                     </p>
                   </li>
                 </ol>
@@ -3123,7 +3164,7 @@ irrational. Hence y is irrational.
             <statement>
               <p>
                 Let <m>A</m>, <m>B</m> and <m>C</m> be sets, and let <m>f : A \to B</m> and <m>g : B \to  C</m> be functions.
-                The composition of <m>f</m> and <m>g</m> is the function <m>g \circ  f : A \to  C</m> defined by
+                The <term>composition</term> of <m>f</m> and <m>g</m> is the function <m>g \circ  f : A \to  C</m> defined by
                 <me>(g \circ  f )(x) = g( f (x))</me>
                 for all <m>x\in  A</m>. 
               </p>
@@ -3429,7 +3470,7 @@ irrational. Hence y is irrational.
 
                   <li>
                     <p>
-                      Prove that the projection maps <m>π1 : A \times B \to  A</m> and <m>π2 : A \times B \to B</m> are surjective. 
+                      Prove that the projection maps <m>π_1 : A \times B \to  A</m> and <m>π_2 : A \times B \to B</m> are surjective. 
                       Are the projection maps injective?
                     </p>
                   </li>
@@ -3624,7 +3665,8 @@ irrational. Hence y is irrational.
           <definition xml:id="def-congruent">
             <statement>
               <p>
-                Let <m>n\in\N</m>, and let <m>a, b\in\Z</m>. The number <m>a</m> is congruent to the number <m>b</m> modulo <m>n</m>, denoted <m>a \equiv  b (mod n)</m>, if <m>a - b = kn</m> for some <m>k\in\Z</m>.
+                Let <m>n\in\N</m>, and let <m>a, b\in\Z</m>. 
+                The number <m>a</m> is congruent to the number <m>b</m> modulo <m>n</m>, denoted <m>a \equiv  b (mod n)</m>, if <m>a - b = kn</m> for some <m>k\in\Z</m>.
               </p>
             </statement>
           </definition>
@@ -3738,7 +3780,7 @@ irrational. Hence y is irrational.
                 <ol>
                   <li>
                     <p>
-                      Let <m>a, b\in\Z</m>. If <m>a \equiv b (mod n)</m>, then <m>[a] = [b]</m>. If <m>a \not\equiv b (mod n)</m>, then [<m>a] ∩ [b] = \es</m>.
+                      Let <m>a, b\in\Z</m>. If <m>a \equiv b (mod n)</m>, then <m>[a] = [b]</m>. If <m>a \not\equiv b (mod n)</m>, then [<m>a] \cap  [b] = \es</m>.
                     </p>
                   </li>
 
@@ -3768,11 +3810,11 @@ irrational. Hence y is irrational.
                     <p>
                       Now assume that <m>a \not\equiv b (mod n)</m>. 
                       We use proof by contradiction. 
-                      Suppose that <m>[a] ∩ [b] \neq \es</m>.
-                      Hence there is some <m>y\in  [a] ∩ [b]</m>. 
+                      Suppose that <m>[a] \cap  [b] \neq \es</m>.
+                      Hence there is some <m>y\in  [a] \cap  [b]</m>. 
                       Then <m>y\in  [a]</m> and <m>y\in  [b]</m>, so that <m>a \equiv  y (mod n)</m> and <m>b \equiv  y (mod n)</m>. 
                       By Lemma 5.2.3 (2) we see that <m>y \equiv b (mod n)</m>, and by Lemma 5.2.3 (3) it follows that <m>a \equiv b (mod n)</m>, which is a contradiction. 
-                      We conclude that <m>[a] ∩ [b] = \es</m>.
+                      We conclude that <m>[a] \cap  [b] = \es</m>.
                     </p>
                   </li>
 
@@ -4017,7 +4059,7 @@ irrational. Hence y is irrational.
                 <ol>
                   <li>
                     <p>
-                      if <m>P, Q\in\cD</m> and <m>P \neq  Q</m>, then <m>P ∩ Q = \es</m>;
+                      if <m>P, Q\in\cD</m> and <m>P \neq  Q</m>, then <m>P \cap  Q = \es</m>;
                     </p>
                   </li>
 
@@ -4052,7 +4094,7 @@ irrational. Hence y is irrational.
                   <p>
                     Let <m>\cG = \{(n - 1, n + 1)\}_{n\in \Z}</m>. 
                     Then <m>G</m> is not a partition of <m>\R</m>, because it is not pairwise disjoint. 
-                    For example, we observe that <m>(1 - 1, 1 + 1) ∩ (2 - 1, 2 + 1) = (1, 2)</m>. 
+                    For example, we observe that <m>(1 - 1, 1 + 1) \cap  (2 - 1, 2 + 1) = (1, 2)</m>. 
                   </p>
                 </li>
               </ul>
@@ -4080,7 +4122,6 @@ irrational. Hence y is irrational.
           <p>psi and phi stuff to come</p>
           
         </section>
-
 
       </chapter>
 
@@ -4548,7 +4589,7 @@ irrational. Hence y is irrational.
                   <li>
                     <p>
                       Let <m>A</m>, <m>B</m> and <m>C</m> be sets. 
-                      Suppose that <m>A \# B</m> and that <m>A ∩C = \es</m>  and <m>B ∩C = \es</m> .
+                      Suppose that <m>A \# B</m> and that <m>A \cap C = \es</m>  and <m>B \cap C = \es</m> .
                       Prove that <m>A \cup C \# B \cup C</m>.
                     </p>
                   </li>
@@ -4556,7 +4597,7 @@ irrational. Hence y is irrational.
                   <li>
                     <p>
                       Let <m>A</m>, <m>B</m> and <m>C</m> be sets. 
-                      Suppose that <m>A \cup C \# B \cup C</m> and that <m>A ∩C = \es</m>  and <m>B ∩ C = \es</m> . 
+                      Suppose that <m>A \cup C \# B \cup C</m> and that <m>A \cap C = \es</m>  and <m>B \cap  C = \es</m> . 
                       Is it necessarily the case that <m>A \# B</m>? 
                       Give a proof or a counterexample.
                     </p>
@@ -6007,10 +6048,94 @@ irrational. Hence y is irrational.
 
         <section xml:id="sec-axioms"><title>Axioms for Set Theory</title>
 
-          <axiom xml:id="axiom-">
+          <axiom xml:id="axiom-extensionality"><title>Axiom of Extensionality</title>
             <statement>
               <p>
-                
+                Let <m>x</m> and <m>y</m> be sets. 
+                If <m>x</m> and <m>y</m> have the same elements, then <m>x = y</m>.
+              </p>
+            </statement>
+          </axiom>
+
+          <axiom xml:id="axiom-empty-set"><title>Axiom of Empty Set</title>
+            <statement>
+              <p>
+                There is a set <m>z</m> such that <m>x \not\in  z</m> for all sets <m>x</m>.
+              </p>
+            </statement>
+          </axiom>
+
+          <axiom xml:id="axiom-pairing"><title>Axiom of Pairing</title>
+            <statement>
+              <p>
+                Let <m>x</m> and <m>y</m> be sets. 
+                There is a set <m>z</m> such that <m>w \in  z</m> if and only if <m>w = x</m> or <m>w = y</m>.
+              </p>
+            </statement>
+          </axiom>
+
+          <axiom xml:id="axiom-union"><title>Axiom of Union</title>
+            <statement>
+              <p>
+                Let <m>x</m> be a set. 
+                There is a set <m>z</m> such that <m>w \in  z</m> if and only if there is some <m>y \in  x</m> such that <m>w \in  y</m>.
+              </p>
+            </statement>
+          </axiom>
+
+          <axiom xml:id="axiom-power-set"><title>Axiom of Power Set</title>
+            <statement>
+              <p>
+                Let <m>x</m> be a set. 
+                There is a set <m>z</m> such that <m>w \in  z</m> if and only if <m>w \sse x</m>.
+              </p>
+            </statement>
+          </axiom>
+
+          <axiom xml:id="axiom-regularity"><title>Axiom of Regularity</title>
+            <statement>
+              <p>
+                Let <m>x</m> be a set. 
+                Suppose that <m>x \ne \es</m>. 
+                Then there is some <m>y \in  x</m> such that <m>x \cap  y = \es</m>.
+              </p>
+            </statement>
+          </axiom>
+
+          <axiom xml:id="axiom-selection"><title>Axiom of Selection</title>
+            <statement>
+              <p>
+                Let <m>P(t)</m> be a logical property of sets with one free variable <m>t</m> that can be formulated in the context of the ZF axioms. 
+                Let <m>x</m> be a set. 
+                Then there is a set <m>z</m> such that <m>y \in  z</m> if and only if y<m> \in  x</m> and <m>P(y)</m> is true.
+              </p>
+            </statement>
+          </axiom>
+
+          <axiom xml:id="axiom-infinity"><title>Axiom of Infinity</title>
+            <statement>
+              <p>
+                There is a set <m>z</m> such that <m>\es  \in  z</m>, and if <m>x \in  z</m> then <m>x \cup \{x\} \in  z</m>.
+              </p>
+            </statement>
+          </axiom>
+
+          <axiom xml:id="axiom-replacement"><title>Axiom of Replacement</title>
+            <statement>
+              <p>
+                Let <m>F(s,t)</m> be a functional property of sets with two free variables <m>s</m> and <m>t</m> that can be formulated in the context of the ZF axioms. 
+                Let <m>x</m> be a set. 
+                Then there is a set <m>z</m> such that <m>y \in  z</m> if and only if there is some <m>w \in  x</m> such that <m>F(w, y)</m> is true.
+              </p>
+            </statement>
+          </axiom>
+
+          <axiom xml:id="axiom-choice"><title>Axiom of Choice</title>
+            <statement>
+              <p>
+                Let <m>x</m> be a set. 
+                Suppose that if <m>y, w \in  x</m>, then <m>y \ne \es</m>  and <m>y \cap w = \es</m>.
+                Then there is a set <m>z</m> such that if <m>y \in  x</m>, then <m>y \cap z</m> contains a single element.
               </p>
             </statement>
           </axiom>
@@ -6023,6 +6148,82 @@ irrational. Hence y is irrational.
     </part>
 
     <backmatter xml:id="backmatter"><title>Backmatter</title>
+
+      <appendix><title>Topology</title>
+
+        <section xml:id="sec-topology"><title>Topology</title>
+
+          <definition xml:id="def-topology">
+            <statement>
+              <p>
+                Suppose 𝑋 is a set. Then 𝒯 is a topology on 𝑋 if and only if 𝒯 is a collection of subsets of 𝑋 such that
+                <ol>
+                  <li>
+                    <p>
+                      ∅ \in  𝒯,
+                    </p>
+                  </li>
+
+                  <li>
+                    <p>
+                      𝑋 \in  𝒯,
+                    </p>
+                  </li>
+
+                  <li>
+                    <p>
+                      if 𝑈 \in  𝒯 and 𝑉 \in  𝒯, then 𝑈 \cap  𝑉 \in  𝒯, and
+                    </p>
+                  </li>
+
+                  <li>
+                    <p>
+                      if {𝑈𝛼}𝛼\in 𝜆 is any collection of sets of 𝒯, then ⋃𝛼\in 𝜆 𝑈𝛼 \in  𝒯.
+                    </p>
+                  </li>
+                </ol>
+              </p>
+
+              <p>
+                A topological space is an ordered pair (𝑋, 𝒯), where 𝑋 is a set and 𝒯 is a topology on 𝑋. 
+                We use the word space to mean topological space unless otherwise noted.
+              </p>
+            </statement>
+          </definition>
+
+          <p>
+            The definition of a topological space arose from an abstraction of our familiar concepts of limits and continuity in Euclidean spaces. The properties of the sets in a topology were properties that were satisfied by the usual open sets of ℝ, so we will use the term open to refer to sets in a topology.
+          </p>
+
+          <definition xml:id="def-open-set">
+            <statement>
+              <p>
+                A set 𝑈 ⊂ 𝑋 is called an open set in (𝑋, 𝒯) if and only if 𝑈 \in  𝒯.
+              </p>
+            </statement>
+          </definition>
+
+          <convention>
+            <p>
+              It is customary to use the letters 𝑈 and 𝑉 to denote open sets.
+            </p>
+          </convention>
+
+          <p>
+            So we can think of a topology on 𝑋 as specifying what subsets of 𝑋 will be considered open.
+          </p>
+
+          <remark>
+            <p>
+              Keep in mind that open sets are elements of the topology 𝒯 and subsets of the space 𝑋. Elements of 𝑋, on the other hand, are the points of the space 𝑋.
+            </p>
+          </remark>
+          
+        </section>
+      
+
+
+      </appendix>
 
       <colophon>
         <p> This book was authored in <pretext />. </p>

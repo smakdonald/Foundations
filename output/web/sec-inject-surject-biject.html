@@ -530,7 +530,13 @@ window.MathJax = {
 <li>
 <div class="toc-item"><a href="ch-sets.html" class="internal"><span class="codenumber">3</span> <span class="title">Sets</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-set-basics.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Set Basics</span></a></div></li>
+<li>
+<div class="toc-item"><a href="sec-set-basics.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Set Basics</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec-set-basics.html#subsec-sets-notation" class="internal"><span class="title">Sets and Notation</span></a></div></li>
+<li><div class="toc-item"><a href="sec-set-basics.html#subsec-subsets" class="internal"><span class="title">Subsets and Set Equality</span></a></div></li>
+</ul>
+</li>
 <li><div class="toc-item"><a href="sec-set-operations.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Set Operations</span></a></div></li>
 <li><div class="toc-item"><a href="sec-families-of-sets.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Families of Sets</span></a></div></li>
 </ul>
@@ -594,7 +600,16 @@ window.MathJax = {
 </li>
 </ul>
 </li>
-<li><div class="toc-item"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div></li>
+<li>
+<div class="toc-item"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div>
+<ul class="structural">
+<li>
+<div class="toc-item"><a href="appendix-1.html" class="internal"><span class="codenumber">A</span> <span class="title">Topology</span></a></div>
+<ul class="structural"><li><div class="toc-item"><a href="sec-topology.html" class="internal"><span class="codenumber">A.1</span> <span class="title">Topology</span></a></div></li></ul>
+</li>
+<li><div class="toc-item"><a href="colophon-2.html" class="internal"><span class="title">Colophon</span></a></div></li>
+</ul>
+</li>
 </ul></nav></div>
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-inject-surject-biject"><h2 class="heading hide-type">
 <span class="type">Section</span> <span class="codenumber">4.4</span> <span class="title">Injectivity, Surjectivity, Bijectivty</span>
@@ -602,95 +617,95 @@ window.MathJax = {
 <article class="definition definition-like" id="def-jectivity"><h3 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">4.15</span><span class="period">.</span>
 </h3>
-<div class="para logical" id="p-372">
+<div class="para logical" id="p-375">
 <div class="para">Let <span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span> be sets, and let <span class="process-math">\(f : A \to B\)</span> be a function.</div>
 <ul class="disc">
-<li id="li-143"><div class="para" id="p-373">The function <span class="process-math">\(f\)</span> is injective (also called one-to-one or monic) if <span class="process-math">\(x \neq  y\)</span> implies <span class="process-math">\(f (x) \neq  f (y)\)</span> for all <span class="process-math">\(x, y\in  A\text{;}\)</span> equivalently, if <span class="process-math">\(f (x) = f (y)\)</span> implies <span class="process-math">\(x = y\)</span> for all <span class="process-math">\(x, y\in  A\text{.}\)</span>
+<li id="li-143"><div class="para" id="p-376">The function <span class="process-math">\(f\)</span> is injective (also called one-to-one or monic) if <span class="process-math">\(x \neq  y\)</span> implies <span class="process-math">\(f (x) \neq  f (y)\)</span> for all <span class="process-math">\(x, y\in  A\text{;}\)</span> equivalently, if <span class="process-math">\(f (x) = f (y)\)</span> implies <span class="process-math">\(x = y\)</span> for all <span class="process-math">\(x, y\in  A\text{.}\)</span>
 </div></li>
-<li id="li-144"><div class="para" id="p-374">The function <span class="process-math">\(f\)</span> is surjective (also called onto or epic) if for every <span class="process-math">\(b\in B\text{,}\)</span> there exists some <span class="process-math">\(a\in  A\)</span> such that <span class="process-math">\(f(a) = b\text{;}\)</span> equivalently, if <span class="process-math">\(f(a) = B\text{.}\)</span>
+<li id="li-144"><div class="para" id="p-377">The function <span class="process-math">\(f\)</span> is surjective (also called onto or epic) if for every <span class="process-math">\(b\in B\text{,}\)</span> there exists some <span class="process-math">\(a\in  A\)</span> such that <span class="process-math">\(f(a) = b\text{;}\)</span> equivalently, if <span class="process-math">\(f(a) = B\text{.}\)</span>
 </div></li>
-<li id="li-145"><div class="para" id="p-375">The function <span class="process-math">\(f\)</span> is bijective if it is both injective and surjective.</div></li>
+<li id="li-145"><div class="para" id="p-378">The function <span class="process-math">\(f\)</span> is bijective if it is both injective and surjective.</div></li>
 </ul>
 </div></article><article class="example example-like" id="example-29"><h3 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">4.16</span><span class="period">.</span>
 </h3>
-<div class="para logical" id="p-376"><ul class="disc">
-<li id="li-146"><div class="para" id="p-377">Let <span class="process-math">\(k : [0, ∞) \to  [0, ∞)\)</span> be defined by <span class="process-math">\(k(x) = x2\)</span> for all <span class="process-math">\(x\in  [0, ∞)\text{.}\)</span> This function is surjective and injective, and hence bijective. First, we show that <span class="process-math">\(k\)</span> is injective. Let <span class="process-math">\(x, y\in  [0, ∞)\text{.}\)</span> Suppose that <span class="process-math">\(k(x) = k(y)\text{.}\)</span> Then <span class="process-math">\(x2 = y2\text{.}\)</span> It follows that <span class="process-math">\(√x2 = √y2\text{,}\)</span> and because <span class="process-math">\(x ≥ 0\)</span> and <span class="process-math">\(y ≥ 0\text{,}\)</span> we deduce that <span class="process-math">\(x = √x2 = √y2 = y\text{.}\)</span> Hence <span class="process-math">\(k\)</span> is injective. Second, we show that <span class="process-math">\(k\)</span> is surjective. Let <span class="process-math">\(b\in  [0, ∞)\text{.}\)</span> Then <span class="process-math">\(√b\in  [0, ∞)\text{,}\)</span> and so <span class="process-math">\(k(√b) = (√b)2 = b\text{.}\)</span> Hence k is surjective.</div></li>
-<li id="li-147"><div class="para" id="p-378">Let <span class="process-math">\(g : [0, ∞) \to  R\)</span> be defined by <span class="process-math">\(g(x) = x2\)</span> for all <span class="process-math">\(x\in  [0, ∞)\text{.}\)</span> This function is injective but not surjective. The proof of the injectivity of <span class="process-math">\(g\)</span> is the same as the proof of the injectivity of the function <span class="process-math">\(k\)</span> in Part (1) of this example. The reason that <span class="process-math">\(g\)</span> is not surjective is that <span class="process-math">\(g(a) \neq  -2\)</span> for any <span class="process-math">\(a\in  [0, ∞)\text{,}\)</span> though <span class="process-math">\(-2\)</span> is in the codomain of <span class="process-math">\(g\text{.}\)</span>
+<div class="para logical" id="p-379"><ul class="disc">
+<li id="li-146"><div class="para" id="p-380">Let <span class="process-math">\(k : [0, ∞) \to  [0, ∞)\)</span> be defined by <span class="process-math">\(k(x) = x2\)</span> for all <span class="process-math">\(x\in  [0, ∞)\text{.}\)</span> This function is surjective and injective, and hence bijective. First, we show that <span class="process-math">\(k\)</span> is injective. Let <span class="process-math">\(x, y\in  [0, ∞)\text{.}\)</span> Suppose that <span class="process-math">\(k(x) = k(y)\text{.}\)</span> Then <span class="process-math">\(x2 = y2\text{.}\)</span> It follows that <span class="process-math">\(√x2 = √y2\text{,}\)</span> and because <span class="process-math">\(x ≥ 0\)</span> and <span class="process-math">\(y ≥ 0\text{,}\)</span> we deduce that <span class="process-math">\(x = √x2 = √y2 = y\text{.}\)</span> Hence <span class="process-math">\(k\)</span> is injective. Second, we show that <span class="process-math">\(k\)</span> is surjective. Let <span class="process-math">\(b\in  [0, ∞)\text{.}\)</span> Then <span class="process-math">\(√b\in  [0, ∞)\text{,}\)</span> and so <span class="process-math">\(k(√b) = (√b)2 = b\text{.}\)</span> Hence k is surjective.</div></li>
+<li id="li-147"><div class="para" id="p-381">Let <span class="process-math">\(g : [0, ∞) \to  R\)</span> be defined by <span class="process-math">\(g(x) = x2\)</span> for all <span class="process-math">\(x\in  [0, ∞)\text{.}\)</span> This function is injective but not surjective. The proof of the injectivity of <span class="process-math">\(g\)</span> is the same as the proof of the injectivity of the function <span class="process-math">\(k\)</span> in Part (1) of this example. The reason that <span class="process-math">\(g\)</span> is not surjective is that <span class="process-math">\(g(a) \neq  -2\)</span> for any <span class="process-math">\(a\in  [0, ∞)\text{,}\)</span> though <span class="process-math">\(-2\)</span> is in the codomain of <span class="process-math">\(g\text{.}\)</span>
 </div></li>
-<li id="li-148"><div class="para" id="p-379">Let <span class="process-math">\(h : R \to  [0, ∞)\)</span> be defined by <span class="process-math">\(h(x) = x2\)</span> for all <span class="process-math">\(x\in  R\text{.}\)</span> This function is surjective but not injective. The proof of the surjectivity of <span class="process-math">\(h\)</span> is the same as the proof of the surjectivity of the function <span class="process-math">\(k\)</span> in Part (1) of this example. The reason <span class="process-math">\(h\)</span> is not injective is because <span class="process-math">\(h(-3) = 9 = h(3)\)</span> even though <span class="process-math">\(-3 \neq  3\text{.}\)</span> (Observe that instead of <span class="process-math">\(±3\)</span> we could have used <span class="process-math">\(±a\)</span> for any positive number <span class="process-math">\(a\text{,}\)</span> but a single instance where the definition of injectivity fails is sufficient.)</div></li>
-<li id="li-149"><div class="para" id="p-380">Let <span class="process-math">\(f : R \to  R\)</span> be defined by <span class="process-math">\(f (x) = x2\)</span> for all <span class="process-math">\(x\in  R\text{.}\)</span> This function is neither injective nor surjective, which is seen using the same arguments as the corresponding arguments for <span class="process-math">\(g\)</span> and <span class="process-math">\(h\)</span> in Parts (2) and (3) of this example.</div></li>
-</ul></div></article><article class="lemma theorem-like" id="lemma-2"><h3 class="heading">
+<li id="li-148"><div class="para" id="p-382">Let <span class="process-math">\(h : R \to  [0, ∞)\)</span> be defined by <span class="process-math">\(h(x) = x2\)</span> for all <span class="process-math">\(x\in  R\text{.}\)</span> This function is surjective but not injective. The proof of the surjectivity of <span class="process-math">\(h\)</span> is the same as the proof of the surjectivity of the function <span class="process-math">\(k\)</span> in Part (1) of this example. The reason <span class="process-math">\(h\)</span> is not injective is because <span class="process-math">\(h(-3) = 9 = h(3)\)</span> even though <span class="process-math">\(-3 \neq  3\text{.}\)</span> (Observe that instead of <span class="process-math">\(±3\)</span> we could have used <span class="process-math">\(±a\)</span> for any positive number <span class="process-math">\(a\text{,}\)</span> but a single instance where the definition of injectivity fails is sufficient.)</div></li>
+<li id="li-149"><div class="para" id="p-383">Let <span class="process-math">\(f : R \to  R\)</span> be defined by <span class="process-math">\(f (x) = x2\)</span> for all <span class="process-math">\(x\in  R\text{.}\)</span> This function is neither injective nor surjective, which is seen using the same arguments as the corresponding arguments for <span class="process-math">\(g\)</span> and <span class="process-math">\(h\)</span> in Parts (2) and (3) of this example.</div></li>
+</ul></div></article><article class="lemma theorem-like" id="lemma-1"><h3 class="heading">
 <span class="type">Lemma</span><span class="space"> </span><span class="codenumber">4.17</span><span class="period">.</span>
 </h3>
-<div class="para logical" id="p-381">
+<div class="para logical" id="p-384">
 <div class="para">Let <span class="process-math">\(A\text{,}\)</span> <span class="process-math">\(B\)</span> and <span class="process-math">\(C\)</span> be sets, and let <span class="process-math">\(f : A \to B\)</span> and <span class="process-math">\(g : B \to  C\)</span> be functions.</div>
 <ol class="decimal">
-<li id="li-150"><div class="para" id="p-382">If <span class="process-math">\(f\)</span> and <span class="process-math">\(g\)</span> are injective, then <span class="process-math">\(g \circ  f\)</span> is injective.</div></li>
-<li id="li-151"><div class="para" id="p-383">If <span class="process-math">\(f\)</span> and <span class="process-math">\(g\)</span> are surjective, then <span class="process-math">\(g \circ  f\)</span> is surjective.</div></li>
-<li id="li-152"><div class="para" id="p-384">If <span class="process-math">\(f\)</span> and <span class="process-math">\(g\)</span> are bijective, then <span class="process-math">\(g \circ  f\)</span> is bijective.</div></li>
+<li id="li-150"><div class="para" id="p-385">If <span class="process-math">\(f\)</span> and <span class="process-math">\(g\)</span> are injective, then <span class="process-math">\(g \circ  f\)</span> is injective.</div></li>
+<li id="li-151"><div class="para" id="p-386">If <span class="process-math">\(f\)</span> and <span class="process-math">\(g\)</span> are surjective, then <span class="process-math">\(g \circ  f\)</span> is surjective.</div></li>
+<li id="li-152"><div class="para" id="p-387">If <span class="process-math">\(f\)</span> and <span class="process-math">\(g\)</span> are bijective, then <span class="process-math">\(g \circ  f\)</span> is bijective.</div></li>
 </ol>
 </div></article><article class="theorem theorem-like" id="theorem-19"><h3 class="heading">
 <span class="type">Theorem</span><span class="space"> </span><span class="codenumber">4.18</span><span class="period">.</span>
 </h3>
-<div class="para logical" id="p-385">
+<div class="para logical" id="p-388">
 <div class="para">Let <span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span> be non-empty sets, and let <span class="process-math">\(f : A \to B\)</span> be a function.</div>
 <ol class="decimal">
-<li id="li-153"><div class="para" id="p-386">The function <span class="process-math">\(f\)</span> has a right inverse if and only if <span class="process-math">\(f\)</span> is surjective.</div></li>
-<li id="li-154"><div class="para" id="p-387">The function <span class="process-math">\(f\)</span> has a left inverse if and only if <span class="process-math">\(f\)</span> is injective.</div></li>
-<li id="li-155"><div class="para" id="p-388">The function <span class="process-math">\(f\)</span> has an inverse if and only if <span class="process-math">\(f\)</span> is bijective.</div></li>
+<li id="li-153"><div class="para" id="p-389">The function <span class="process-math">\(f\)</span> has a right inverse if and only if <span class="process-math">\(f\)</span> is surjective.</div></li>
+<li id="li-154"><div class="para" id="p-390">The function <span class="process-math">\(f\)</span> has a left inverse if and only if <span class="process-math">\(f\)</span> is injective.</div></li>
+<li id="li-155"><div class="para" id="p-391">The function <span class="process-math">\(f\)</span> has an inverse if and only if <span class="process-math">\(f\)</span> is bijective.</div></li>
 </ol>
 </div></article><article class="theorem theorem-like" id="theorem-20"><h3 class="heading">
 <span class="type">Theorem</span><span class="space"> </span><span class="codenumber">4.19</span><span class="period">.</span>
 </h3>
-<div class="para logical" id="p-389">
+<div class="para logical" id="p-392">
 <div class="para">Let <span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span> be non-empty sets, and let <span class="process-math">\(f : A \to B\)</span> be a function.</div>
 <ol class="decimal">
-<li id="li-156"><div class="para" id="p-390">The function <span class="process-math">\(f\)</span> is injective if and only if <span class="process-math">\(f \circ  g = f \circ  h\)</span> implies <span class="process-math">\(g = h\)</span> for all functions g<span class="process-math">\(, h : Y \to  A\)</span> for all sets <span class="process-math">\(Y\)</span> .</div></li>
-<li id="li-157"><div class="para" id="p-391">The function <span class="process-math">\(f\)</span> is surjective if and only if <span class="process-math">\(g \circ  f = h \circ  f\)</span> implies <span class="process-math">\(g = h\)</span> for all functions <span class="process-math">\(g, h : B \to  X\)</span> for all sets <span class="process-math">\(X\text{.}\)</span>
+<li id="li-156"><div class="para" id="p-393">The function <span class="process-math">\(f\)</span> is injective if and only if <span class="process-math">\(f \circ  g = f \circ  h\)</span> implies <span class="process-math">\(g = h\)</span> for all functions g<span class="process-math">\(, h : Y \to  A\)</span> for all sets <span class="process-math">\(Y\)</span> .</div></li>
+<li id="li-157"><div class="para" id="p-394">The function <span class="process-math">\(f\)</span> is surjective if and only if <span class="process-math">\(g \circ  f = h \circ  f\)</span> implies <span class="process-math">\(g = h\)</span> for all functions <span class="process-math">\(g, h : B \to  X\)</span> for all sets <span class="process-math">\(X\text{.}\)</span>
 </div></li>
 </ol>
 </div></article><article class="exercise exercise-like" id="exercise-12"><a href="" data-knowl="" class="id-ref exercise-knowl original" data-refid="hk-exercise-12"><h3 class="heading">
 <span class="type">Exploration</span><span class="space"> </span><span class="codenumber">4.20</span><span class="period">.</span>
-</h3></a></article><div class="hidden-content tex2jax_ignore" id="hk-exercise-12"><article class="exercise exercise-like"><div class="para logical" id="p-392">
+</h3></a></article><div class="hidden-content tex2jax_ignore" id="hk-exercise-12"><article class="exercise exercise-like"><div class="para logical" id="p-395">
 <div class="para">Let <span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span> be sets, and let <span class="process-math">\(S \subseteq  A\)</span> be a subset</div>
 <ol class="decimal">
-<li id="li-158"><div class="para" id="p-393">Prove that the identity map <span class="process-math">\(1A : A \to  A\)</span> is bijective.</div></li>
-<li id="li-159"><div class="para" id="p-394">Prove that inclusion map <span class="process-math">\(j : S \to  A\)</span> is injective.</div></li>
-<li id="li-160"><div class="para" id="p-395">Let <span class="process-math">\(f : A \to B\)</span> be a function. Suppose that <span class="process-math">\(f\)</span> is injective. Is the restriction <span class="process-math">\(f |S\)</span> necessarily injective? Give a proof or a counterexample.</div></li>
-<li id="li-161"><div class="para" id="p-396">Let <span class="process-math">\(g : A \to B\)</span> be a function. Suppose that <span class="process-math">\(g\)</span> is surjective. Is the restriction <span class="process-math">\(g|S\)</span> necessarily surjective? Give a proof or a counterexample.</div></li>
-<li id="li-162"><div class="para" id="p-397">Let <span class="process-math">\(h : S \to B\)</span> be a function, and let <span class="process-math">\(H : A \to B\)</span> be an extension of <span class="process-math">\(h\text{.}\)</span> Suppose that <span class="process-math">\(h\)</span> is injective. Is <span class="process-math">\(H\)</span> necessarily injective? Give a proof or a counterexample.</div></li>
-<li id="li-163"><div class="para" id="p-398">Let <span class="process-math">\(k : S \to B\)</span> be a function, and let <span class="process-math">\(K : A \to B\)</span> be an extension of <span class="process-math">\(k\text{.}\)</span> Suppose that <span class="process-math">\(k\)</span> is surjective. Is <span class="process-math">\(K\)</span> necessarily surjective? Give a proof or a counterexample.</div></li>
-<li id="li-164"><div class="para" id="p-399">Prove that the projection maps <span class="process-math">\(π1 : A \times B \to  A\)</span> and <span class="process-math">\(π2 : A \times B \to B\)</span> are surjective. Are the projection maps injective?</div></li>
+<li id="li-158"><div class="para" id="p-396">Prove that the identity map <span class="process-math">\(1A : A \to  A\)</span> is bijective.</div></li>
+<li id="li-159"><div class="para" id="p-397">Prove that inclusion map <span class="process-math">\(j : S \to  A\)</span> is injective.</div></li>
+<li id="li-160"><div class="para" id="p-398">Let <span class="process-math">\(f : A \to B\)</span> be a function. Suppose that <span class="process-math">\(f\)</span> is injective. Is the restriction <span class="process-math">\(f |S\)</span> necessarily injective? Give a proof or a counterexample.</div></li>
+<li id="li-161"><div class="para" id="p-399">Let <span class="process-math">\(g : A \to B\)</span> be a function. Suppose that <span class="process-math">\(g\)</span> is surjective. Is the restriction <span class="process-math">\(g|S\)</span> necessarily surjective? Give a proof or a counterexample.</div></li>
+<li id="li-162"><div class="para" id="p-400">Let <span class="process-math">\(h : S \to B\)</span> be a function, and let <span class="process-math">\(H : A \to B\)</span> be an extension of <span class="process-math">\(h\text{.}\)</span> Suppose that <span class="process-math">\(h\)</span> is injective. Is <span class="process-math">\(H\)</span> necessarily injective? Give a proof or a counterexample.</div></li>
+<li id="li-163"><div class="para" id="p-401">Let <span class="process-math">\(k : S \to B\)</span> be a function, and let <span class="process-math">\(K : A \to B\)</span> be an extension of <span class="process-math">\(k\text{.}\)</span> Suppose that <span class="process-math">\(k\)</span> is surjective. Is <span class="process-math">\(K\)</span> necessarily surjective? Give a proof or a counterexample.</div></li>
+<li id="li-164"><div class="para" id="p-402">Prove that the projection maps <span class="process-math">\(π_1 : A \times B \to  A\)</span> and <span class="process-math">\(π_2 : A \times B \to B\)</span> are surjective. Are the projection maps injective?</div></li>
 </ol>
 </div></article></div>
 <article class="exercise exercise-like" id="exercise-13"><a href="" data-knowl="" class="id-ref exercise-knowl original" data-refid="hk-exercise-13"><h3 class="heading">
 <span class="type">Exploration</span><span class="space"> </span><span class="codenumber">4.21</span><span class="period">.</span>
-</h3></a></article><div class="hidden-content tex2jax_ignore" id="hk-exercise-13"><article class="exercise exercise-like"><div class="para" id="p-400">Let <span class="process-math">\(A\text{,}\)</span> <span class="process-math">\(B\)</span> and <span class="process-math">\(C\)</span> be sets. Prove that there is a bijective function <span class="process-math">\(g : (A \times B) \times C \to  A \times  (B \times C)\text{.}\)</span>
+</h3></a></article><div class="hidden-content tex2jax_ignore" id="hk-exercise-13"><article class="exercise exercise-like"><div class="para" id="p-403">Let <span class="process-math">\(A\text{,}\)</span> <span class="process-math">\(B\)</span> and <span class="process-math">\(C\)</span> be sets. Prove that there is a bijective function <span class="process-math">\(g : (A \times B) \times C \to  A \times  (B \times C)\text{.}\)</span>
 </div></article></div>
 <article class="exercise exercise-like" id="exercise-14"><a href="" data-knowl="" class="id-ref exercise-knowl original" data-refid="hk-exercise-14"><h3 class="heading">
 <span class="type">Exploration</span><span class="space"> </span><span class="codenumber">4.22</span><span class="period">.</span>
-</h3></a></article><div class="hidden-content tex2jax_ignore" id="hk-exercise-14"><article class="exercise exercise-like"><div class="para" id="p-401">Let <span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span> be sets, let <span class="process-math">\(P, Q \subseteq  A\)</span> be subsets and let <span class="process-math">\(f : A \to B\)</span> be a function. Suppose that <span class="process-math">\(f\)</span> is injective. Prove that <span class="process-math">\(f (P - Q) = f (P) - f (Q)\text{.}\)</span>
+</h3></a></article><div class="hidden-content tex2jax_ignore" id="hk-exercise-14"><article class="exercise exercise-like"><div class="para" id="p-404">Let <span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span> be sets, let <span class="process-math">\(P, Q \subseteq  A\)</span> be subsets and let <span class="process-math">\(f : A \to B\)</span> be a function. Suppose that <span class="process-math">\(f\)</span> is injective. Prove that <span class="process-math">\(f (P - Q) = f (P) - f (Q)\text{.}\)</span>
 </div></article></div>
 <article class="exercise exercise-like" id="exercise-15"><a href="" data-knowl="" class="id-ref exercise-knowl original" data-refid="hk-exercise-15"><h3 class="heading">
 <span class="type">Exploration</span><span class="space"> </span><span class="codenumber">4.23</span><span class="period">.</span>
-</h3></a></article><div class="hidden-content tex2jax_ignore" id="hk-exercise-15"><article class="exercise exercise-like"><div class="para logical" id="p-402">
+</h3></a></article><div class="hidden-content tex2jax_ignore" id="hk-exercise-15"><article class="exercise exercise-like"><div class="para logical" id="p-405">
 <div class="para">Let <span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span> be sets, and let <span class="process-math">\(f : A \to B\)</span> and <span class="process-math">\(g : B \to  A\)</span> be functions.</div>
 <ol class="decimal">
-<li id="li-165"><div class="para" id="p-403">Suppose that <span class="process-math">\(f\)</span> is injective, and that <span class="process-math">\(g\)</span> is a left inverse of <span class="process-math">\(f\text{.}\)</span> Prove that <span class="process-math">\(g\)</span> is surjective.</div></li>
-<li id="li-166"><div class="para" id="p-404">Suppose that <span class="process-math">\(f\)</span> is surjective, and that <span class="process-math">\(g\)</span> is a right inverse of <span class="process-math">\(f\text{.}\)</span> Prove that <span class="process-math">\(g\)</span> is injective.</div></li>
-<li id="li-167"><div class="para" id="p-405">Suppose that <span class="process-math">\(f\)</span> is bijective, and that <span class="process-math">\(g\)</span> is the inverse of <span class="process-math">\(f\text{.}\)</span> Prove that <span class="process-math">\(g\)</span> is bijective.</div></li>
+<li id="li-165"><div class="para" id="p-406">Suppose that <span class="process-math">\(f\)</span> is injective, and that <span class="process-math">\(g\)</span> is a left inverse of <span class="process-math">\(f\text{.}\)</span> Prove that <span class="process-math">\(g\)</span> is surjective.</div></li>
+<li id="li-166"><div class="para" id="p-407">Suppose that <span class="process-math">\(f\)</span> is surjective, and that <span class="process-math">\(g\)</span> is a right inverse of <span class="process-math">\(f\text{.}\)</span> Prove that <span class="process-math">\(g\)</span> is injective.</div></li>
+<li id="li-167"><div class="para" id="p-408">Suppose that <span class="process-math">\(f\)</span> is bijective, and that <span class="process-math">\(g\)</span> is the inverse of <span class="process-math">\(f\text{.}\)</span> Prove that <span class="process-math">\(g\)</span> is bijective.</div></li>
 </ol>
 </div></article></div>
 <article class="exercise exercise-like" id="exercise-16"><a href="" data-knowl="" class="id-ref exercise-knowl original" data-refid="hk-exercise-16"><h3 class="heading">
 <span class="type">Exploration</span><span class="space"> </span><span class="codenumber">4.24</span><span class="period">.</span>
-</h3></a></article><div class="hidden-content tex2jax_ignore" id="hk-exercise-16"><article class="exercise exercise-like"><div class="para logical" id="p-406">
+</h3></a></article><div class="hidden-content tex2jax_ignore" id="hk-exercise-16"><article class="exercise exercise-like"><div class="para logical" id="p-409">
 <div class="para">Let <span class="process-math">\(A\text{,}\)</span> <span class="process-math">\(B\)</span> and <span class="process-math">\(C\)</span> be sets, and let <span class="process-math">\(f : A \to B\)</span> and <span class="process-math">\(g : B \to  C\)</span> be functions.</div>
 <ol class="decimal">
-<li id="li-168"><div class="para" id="p-407">Prove that if <span class="process-math">\(g \circ  f\)</span> is injective, then <span class="process-math">\(f\)</span> is injective.</div></li>
-<li id="li-169"><div class="para" id="p-408">Prove that if <span class="process-math">\(g \circ  f\)</span> is surjective, then <span class="process-math">\(g\)</span> is surjective.</div></li>
-<li id="li-170"><div class="para" id="p-409">Prove that if <span class="process-math">\(g \circ  f\)</span> is bijective, then <span class="process-math">\(f\)</span> is injective, and <span class="process-math">\(g\)</span> is surjective.</div></li>
-<li id="li-171"><div class="para" id="p-410">Find an example of functions <span class="process-math">\(f : A \to B\)</span> and <span class="process-math">\(g : B \to  C\)</span> such that <span class="process-math">\(g \circ  f\)</span> is bijective, but <span class="process-math">\(f\)</span> is not surjective, and <span class="process-math">\(g\)</span> is not injective. Hence Parts (1)-(3) of this exercise are the best possible results.</div></li>
+<li id="li-168"><div class="para" id="p-410">Prove that if <span class="process-math">\(g \circ  f\)</span> is injective, then <span class="process-math">\(f\)</span> is injective.</div></li>
+<li id="li-169"><div class="para" id="p-411">Prove that if <span class="process-math">\(g \circ  f\)</span> is surjective, then <span class="process-math">\(g\)</span> is surjective.</div></li>
+<li id="li-170"><div class="para" id="p-412">Prove that if <span class="process-math">\(g \circ  f\)</span> is bijective, then <span class="process-math">\(f\)</span> is injective, and <span class="process-math">\(g\)</span> is surjective.</div></li>
+<li id="li-171"><div class="para" id="p-413">Find an example of functions <span class="process-math">\(f : A \to B\)</span> and <span class="process-math">\(g : B \to  C\)</span> such that <span class="process-math">\(g \circ  f\)</span> is bijective, but <span class="process-math">\(f\)</span> is not surjective, and <span class="process-math">\(g\)</span> is not injective. Hence Parts (1)-(3) of this exercise are the best possible results.</div></li>
 </ol>
 </div></article></div></section></div>
 <div class="ptx-content-footer">

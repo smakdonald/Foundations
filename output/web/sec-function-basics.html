@@ -530,7 +530,13 @@ window.MathJax = {
 <li>
 <div class="toc-item"><a href="ch-sets.html" class="internal"><span class="codenumber">3</span> <span class="title">Sets</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-set-basics.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Set Basics</span></a></div></li>
+<li>
+<div class="toc-item"><a href="sec-set-basics.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Set Basics</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec-set-basics.html#subsec-sets-notation" class="internal"><span class="title">Sets and Notation</span></a></div></li>
+<li><div class="toc-item"><a href="sec-set-basics.html#subsec-subsets" class="internal"><span class="title">Subsets and Set Equality</span></a></div></li>
+</ul>
+</li>
 <li><div class="toc-item"><a href="sec-set-operations.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Set Operations</span></a></div></li>
 <li><div class="toc-item"><a href="sec-families-of-sets.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Families of Sets</span></a></div></li>
 </ul>
@@ -594,7 +600,16 @@ window.MathJax = {
 </li>
 </ul>
 </li>
-<li><div class="toc-item"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div></li>
+<li>
+<div class="toc-item"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div>
+<ul class="structural">
+<li>
+<div class="toc-item"><a href="appendix-1.html" class="internal"><span class="codenumber">A</span> <span class="title">Topology</span></a></div>
+<ul class="structural"><li><div class="toc-item"><a href="sec-topology.html" class="internal"><span class="codenumber">A.1</span> <span class="title">Topology</span></a></div></li></ul>
+</li>
+<li><div class="toc-item"><a href="colophon-2.html" class="internal"><span class="title">Colophon</span></a></div></li>
+</ul>
+</li>
 </ul></nav></div>
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-function-basics"><h2 class="heading hide-type">
 <span class="type">Section</span> <span class="codenumber">4.1</span> <span class="title">Function Basics</span>
@@ -602,21 +617,21 @@ window.MathJax = {
 <article class="definition definition-like" id="def-function"><h3 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">4.1</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-331">Let <span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span> be sets. A <dfn class="terminology">function</dfn> (also called a <dfn class="terminology">map</dfn>) <span class="process-math">\(f\)</span> from <span class="process-math">\(A\)</span> to <span class="process-math">\(B\text{,}\)</span> denoted <span class="process-math">\(f : A \to B\text{,}\)</span> is a subset <span class="process-math">\(F \subseteq  A \times B\)</span> such that for each <span class="process-math">\(a\in  A\text{,}\)</span> there is one and only one pair in <span class="process-math">\(F\)</span> of the form <span class="process-math">\((a, b)\text{.}\)</span> The set <span class="process-math">\(A\)</span> is called the <dfn class="terminology">domain</dfn> of <span class="process-math">\(f\)</span> and the set <span class="process-math">\(B\)</span> is called the <dfn class="terminology">codomain</dfn> of <span class="process-math">\(f\text{.}\)</span>
+<div class="para" id="p-334">Let <span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span> be sets. A <dfn class="terminology">function</dfn> (also called a <dfn class="terminology">map</dfn>) <span class="process-math">\(f\)</span> from <span class="process-math">\(A\)</span> to <span class="process-math">\(B\text{,}\)</span> denoted <span class="process-math">\(f : A \to B\text{,}\)</span> is a subset <span class="process-math">\(F \subseteq  A \times B\)</span> such that for each <span class="process-math">\(a\in  A\text{,}\)</span> there is one and only one pair in <span class="process-math">\(F\)</span> of the form <span class="process-math">\((a, b)\text{.}\)</span> The set <span class="process-math">\(A\)</span> is called the <dfn class="terminology">domain</dfn> of <span class="process-math">\(f\)</span> and the set <span class="process-math">\(B\)</span> is called the <dfn class="terminology">codomain</dfn> of <span class="process-math">\(f\text{.}\)</span>
 </div></article><article class="example example-like" id="example-28"><h3 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">4.2</span><span class="period">.</span>
 </h3>
-<div class="para logical" id="p-332"><ul class="disc">
-<li id="li-117"><div class="para" id="p-333">A <dfn class="terminology">constant map</dfn> <span class="process-math">\(f : A \to B\)</span> is any function of the form <span class="process-math">\(f (x) = b\)</span> for all <span class="process-math">\(x\in  A\text{,}\)</span> where <span class="process-math">\(b\in B\)</span> is some fixed element.</div></li>
-<li id="li-118"><div class="para" id="p-334">The <dfn class="terminology">identity map</dfn> on <span class="process-math">\(A\)</span> is the function <span class="process-math">\(1_A : A \to  A\)</span> defined by <span class="process-math">\(1_A(x) = x\)</span> for all <span class="process-math">\(x\in  A\text{.}\)</span>
+<div class="para logical" id="p-335"><ul class="disc">
+<li id="li-117"><div class="para" id="p-336">A <dfn class="terminology">constant map</dfn> <span class="process-math">\(f : A \to B\)</span> is any function of the form <span class="process-math">\(f (x) = b\)</span> for all <span class="process-math">\(x\in  A\text{,}\)</span> where <span class="process-math">\(b\in B\)</span> is some fixed element.</div></li>
+<li id="li-118"><div class="para" id="p-337">The <dfn class="terminology">identity map</dfn> on <span class="process-math">\(A\)</span> is the function <span class="process-math">\(1_A : A \to  A\)</span> defined by <span class="process-math">\(1_A(x) = x\)</span> for all <span class="process-math">\(x\in  A\text{.}\)</span>
 </div></li>
-<li id="li-119"><div class="para" id="p-335">The <dfn class="terminology">inclusion map</dfn> from <span class="process-math">\(S\)</span> to <span class="process-math">\(A\)</span> is the function <span class="process-math">\(j : S \to  A\)</span> defined by <span class="process-math">\(j(x) = x\)</span> for all <span class="process-math">\(x\in  S\)</span>
+<li id="li-119"><div class="para" id="p-338">The <dfn class="terminology">inclusion map</dfn> from <span class="process-math">\(S\)</span> to <span class="process-math">\(A\)</span> is the function <span class="process-math">\(j : S \to  A\)</span> defined by <span class="process-math">\(j(x) = x\)</span> for all <span class="process-math">\(x\in  S\)</span>
 </div></li>
-<li id="li-120"><div class="para" id="p-336">If <span class="process-math">\(f : A \to B\)</span> is a function, the <dfn class="terminology">restriction</dfn> of <span class="process-math">\(f\)</span> to <span class="process-math">\(S\text{,}\)</span> denoted <span class="process-math">\(f|_S\text{,}\)</span> is the function <span class="process-math">\(f|_S : S \to B\)</span> defined by <span class="process-math">\(f|_S(x) = f (x)\)</span> for all <span class="process-math">\(x\in  S\text{.}\)</span>
+<li id="li-120"><div class="para" id="p-339">If <span class="process-math">\(f : A \to B\)</span> is a function, the <dfn class="terminology">restriction</dfn> of <span class="process-math">\(f\)</span> to <span class="process-math">\(S\text{,}\)</span> denoted <span class="process-math">\(f|_S\text{,}\)</span> is the function <span class="process-math">\(f|_S : S \to B\)</span> defined by <span class="process-math">\(f|_S(x) = f (x)\)</span> for all <span class="process-math">\(x\in  S\text{.}\)</span>
 </div></li>
-<li id="li-121"><div class="para" id="p-337">If <span class="process-math">\(g : S \to B\)</span> is a function, an <dfn class="terminology">extension</dfn> of <span class="process-math">\(g\)</span> to <span class="process-math">\(A\)</span> is any function <span class="process-math">\(G : A \to B\)</span> such that <span class="process-math">\(G|S = g\text{.}\)</span>
+<li id="li-121"><div class="para" id="p-340">If <span class="process-math">\(g : S \to B\)</span> is a function, an <dfn class="terminology">extension</dfn> of <span class="process-math">\(g\)</span> to <span class="process-math">\(A\)</span> is any function <span class="process-math">\(G : A \to B\)</span> such that <span class="process-math">\(G|S = g\text{.}\)</span>
 </div></li>
-<li id="li-122"><div class="para logical" id="p-338">
+<li id="li-122"><div class="para logical" id="p-341">
 <div class="para">The <dfn class="terminology">projection maps</dfn> from <span class="process-math">\(A \times B\)</span> are the functions <span class="process-math">\(π_1 : A \times B \to  A\)</span> and <span class="process-math">\(π_2 : A \times B \to B\)</span> defined by <span class="process-math">\(π_1((a, b)) = a\)</span> and <span class="process-math">\(π_2((a, b)) = b\)</span> for all <span class="process-math">\((a, b)\in A \times B\text{.}\)</span> For any finite collection of sets <span class="process-math">\(A1, \dots, A p\text{,}\)</span> projection maps</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -625,7 +640,7 @@ window.MathJax = {
 </div>
 <div class="para">for all <span class="process-math">\(i\in  {1, \dots, p}\)</span> can be defined similarly.</div>
 </div></li>
-<li id="li-123"><div class="para logical" id="p-339">
+<li id="li-123"><div class="para logical" id="p-342">
 <div class="para">Let <span class="process-math">\(X\)</span> be a non-empty set, and let <span class="process-math">\(S \subseteq  X\)</span> be a subset. The <dfn class="terminology">characteristic map</dfn> for <span class="process-math">\(S\)</span> in <span class="process-math">\(X\text{,}\)</span> denoted <span class="process-math">\(χS\text{,}\)</span> is the function <span class="process-math">\(χS : X \to  {0, 1}\)</span> defined by</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -639,14 +654,14 @@ window.MathJax = {
 </div></li>
 </ul></div></article><article class="exercise exercise-like" id="exercise-8"><a href="" data-knowl="" class="id-ref exercise-knowl original" data-refid="hk-exercise-8"><h3 class="heading">
 <span class="type">Exploration</span><span class="space"> </span><span class="codenumber">4.3</span><span class="period">.</span>
-</h3></a></article><div class="hidden-content tex2jax_ignore" id="hk-exercise-8"><article class="exercise exercise-like"><div class="para" id="p-340">Let <span class="process-math">\(A\text{,}\)</span> <span class="process-math">\(B \subseteq  X\)</span> be subsets. Prove that <span class="process-math">\(χA = χB\)</span> if and only if <span class="process-math">\(A = B\text{.}\)</span>
+</h3></a></article><div class="hidden-content tex2jax_ignore" id="hk-exercise-8"><article class="exercise exercise-like"><div class="para" id="p-343">Let <span class="process-math">\(A\text{,}\)</span> <span class="process-math">\(B \subseteq  X\)</span> be subsets. Prove that <span class="process-math">\(χA = χB\)</span> if and only if <span class="process-math">\(A = B\text{.}\)</span>
 </div>
 <div class="solutions">
-<a href="" data-knowl="" class="id-ref hint-knowl original" data-refid="hk-hint-1" id="hint-1"><span class="type">Hint</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-hint-1"><div class="hint solution-like"><div class="para" id="p-341">Observe that “<span class="process-math">\(χA = χB\)</span>” is a statement of equality of functions, whereas “<span class="process-math">\(A = B\)</span>” is a statement of equality of sets.</div></div></div>
+<a href="" data-knowl="" class="id-ref hint-knowl original" data-refid="hk-hint-1" id="hint-1"><span class="type">Hint</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-hint-1"><div class="hint solution-like"><div class="para" id="p-344">Observe that “<span class="process-math">\(χA = χB\)</span>” is a statement of equality of functions, whereas “<span class="process-math">\(A = B\)</span>” is a statement of equality of sets.</div></div></div>
 </div></article></div>
 <article class="exercise exercise-like" id="exercise-9"><a href="" data-knowl="" class="id-ref exercise-knowl original" data-refid="hk-exercise-9"><h3 class="heading">
 <span class="type">Exploration</span><span class="space"> </span><span class="codenumber">4.4</span><span class="period">.</span>
-</h3></a></article><div class="hidden-content tex2jax_ignore" id="hk-exercise-9"><article class="exercise exercise-like"><div class="para" id="p-342">Let <span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span> be sets. A partial function from <span class="process-math">\(A\)</span> to <span class="process-math">\(B\)</span> is a function of the form <span class="process-math">\(f J : J \to B\text{,}\)</span> where <span class="process-math">\(J \subseteq  A\text{.}\)</span> We can think of partial functions from <span class="process-math">\(A\)</span> to <span class="process-math">\(B\)</span> as subsets of <span class="process-math">\(A \times B\)</span> that satisfy a certain condition. Let <span class="process-math">\(f J\)</span> and <span class="process-math">\(gK\)</span> be partial functions from <span class="process-math">\(A\)</span> to <span class="process-math">\(B\text{.}\)</span> Prove that <span class="process-math">\(f J \subseteq  g K\)</span> if and only if <span class="process-math">\(J \subseteq  K\)</span> and <span class="process-math">\(gK |J = f J\text{.}\)</span>
+</h3></a></article><div class="hidden-content tex2jax_ignore" id="hk-exercise-9"><article class="exercise exercise-like"><div class="para" id="p-345">Let <span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span> be sets. A partial function from <span class="process-math">\(A\)</span> to <span class="process-math">\(B\)</span> is a function of the form <span class="process-math">\(f J : J \to B\text{,}\)</span> where <span class="process-math">\(J \subseteq  A\text{.}\)</span> We can think of partial functions from <span class="process-math">\(A\)</span> to <span class="process-math">\(B\)</span> as subsets of <span class="process-math">\(A \times B\)</span> that satisfy a certain condition. Let <span class="process-math">\(f J\)</span> and <span class="process-math">\(gK\)</span> be partial functions from <span class="process-math">\(A\)</span> to <span class="process-math">\(B\text{.}\)</span> Prove that <span class="process-math">\(f J \subseteq  g K\)</span> if and only if <span class="process-math">\(J \subseteq  K\)</span> and <span class="process-math">\(gK |J = f J\text{.}\)</span>
 </div></article></div></section></div>
 <div class="ptx-content-footer">
 <a class="previous-button button" href="ch-functions.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon">^</span><span class="name">Top</span></a><a class="next-button button" href="sec-image-and-pre-image.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a>

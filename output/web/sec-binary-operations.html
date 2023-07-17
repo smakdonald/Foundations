@@ -530,7 +530,13 @@ window.MathJax = {
 <li>
 <div class="toc-item"><a href="ch-sets.html" class="internal"><span class="codenumber">3</span> <span class="title">Sets</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-set-basics.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Set Basics</span></a></div></li>
+<li>
+<div class="toc-item"><a href="sec-set-basics.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Set Basics</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec-set-basics.html#subsec-sets-notation" class="internal"><span class="title">Sets and Notation</span></a></div></li>
+<li><div class="toc-item"><a href="sec-set-basics.html#subsec-subsets" class="internal"><span class="title">Subsets and Set Equality</span></a></div></li>
+</ul>
+</li>
 <li><div class="toc-item"><a href="sec-set-operations.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Set Operations</span></a></div></li>
 <li><div class="toc-item"><a href="sec-families-of-sets.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Families of Sets</span></a></div></li>
 </ul>
@@ -594,7 +600,16 @@ window.MathJax = {
 </li>
 </ul>
 </li>
-<li><div class="toc-item"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div></li>
+<li>
+<div class="toc-item"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div>
+<ul class="structural">
+<li>
+<div class="toc-item"><a href="appendix-1.html" class="internal"><span class="codenumber">A</span> <span class="title">Topology</span></a></div>
+<ul class="structural"><li><div class="toc-item"><a href="sec-topology.html" class="internal"><span class="codenumber">A.1</span> <span class="title">Topology</span></a></div></li></ul>
+</li>
+<li><div class="toc-item"><a href="colophon-2.html" class="internal"><span class="title">Colophon</span></a></div></li>
+</ul>
+</li>
 </ul></nav></div>
 <main class="ptx-main"><div id="ptx-content" class="ptx-content">
 <section class="section" id="sec-binary-operations"><h2 class="heading hide-type">
@@ -605,7 +620,7 @@ window.MathJax = {
 </h3>
 <article class="definition definition-like" id="def-binop"><h4 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">8.1</span><span class="period">.</span><span class="space"> </span><span class="title">Binary Operation.</span>
-</h4> <div class="para logical" id="p-597">
+</h4> <div class="para logical" id="p-600">
 <div class="para">A <em class="emphasis">internal binary operation</em> on a set <span class="process-math">\(S\)</span> is a <code class="code-inline tex2jax_ignore">[provisional cross-reference: def-function]</code>
 </div>
 <div class="displaymath process-math" data-contains-math-knowls="">
@@ -613,87 +628,87 @@ window.MathJax = {
 -\cdot-:S\times S\to S,\text{given by } (x,y)\mapsto x\cdot y.
 \end{equation*}
 </div>
-</div></article><article class="convention remark-like" id="convention-22"><h4 class="heading">
+</div></article><article class="convention remark-like" id="convention-23"><h4 class="heading">
 <span class="type">Convention</span><span class="space"> </span><span class="codenumber">8.2</span><span class="period">.</span>
 </h4>
-<div class="para" id="p-598">Let <span class="process-math">\(S\)</span> be a set, and let <span class="process-math">\(* : S \times S \to S\)</span> be a binary operation. If <span class="process-math">\(a, b\in S\text{,}\)</span> then it would be proper to denote the result of doing the operation <span class="process-math">\(*\)</span> to the pair <span class="process-math">\((a, b)\)</span> by writing <span class="process-math">\(*((a, b))\text{.}\)</span> Such notation is quite cumbersome, however, and would not look like familiar binary operations such as addition of numbers. Hence, we will write <span class="process-math">\(a * b\)</span> instead of <span class="process-math">\(*((a, b))\text{.}\)</span>
+<div class="para" id="p-601">Let <span class="process-math">\(S\)</span> be a set, and let <span class="process-math">\(* : S \times S \to S\)</span> be a binary operation. If <span class="process-math">\(a, b\in S\text{,}\)</span> then it would be proper to denote the result of doing the operation <span class="process-math">\(*\)</span> to the pair <span class="process-math">\((a, b)\)</span> by writing <span class="process-math">\(*((a, b))\text{.}\)</span> Such notation is quite cumbersome, however, and would not look like familiar binary operations such as addition of numbers. Hence, we will write <span class="process-math">\(a * b\)</span> instead of <span class="process-math">\(*((a, b))\text{.}\)</span>
 </div></article><article class="remark remark-like" id="remark-22"><h4 class="heading">
 <span class="type">Remark</span><span class="space"> </span><span class="codenumber">8.3</span><span class="period">.</span>
 </h4>
-<div class="para" id="p-599">Internal binary operations are usually reffered to as “binary operations” as they are the most common form of binary operation. <a href="" data-knowl="" class="id-ref fn-knowl original" data-refid="hk-fn-2" id="fn-2"><sup> 1 </sup></a>
+<div class="para" id="p-602">Internal binary operations are usually reffered to as “binary operations” as they are the most common form of binary operation. <a href="" data-knowl="" class="id-ref fn-knowl original" data-refid="hk-fn-2" id="fn-2"><sup> 1 </sup></a>
 </div></article><article class="definition definition-like" id="def-closure"><h4 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">8.4</span><span class="period">.</span>
 </h4>
-<div class="para" id="p-600">A binary operation is <dfn class="terminology">closed</dfn>
+<div class="para" id="p-603">A binary operation is <dfn class="terminology">closed</dfn>
 </div></article><article class="example example-like" id="example-38"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">8.5</span><span class="period">.</span>
 </h4>
-<div class="para logical" id="p-601"><ul class="disc">
+<div class="para logical" id="p-604"><ul class="disc">
 <li id="li-233">
-<span class="heading"><span class="title">Addition.</span></span><div class="para" id="p-602">The function <span class="process-math">\(+:S\to S\)</span> defined by <span class="process-math">\(+(a,b)=a+b\)</span> is a binary operation for <span class="process-math">\(S\in\{\N,\Z,\Q,\R,\C\}\text{.}\)</span>
+<span class="heading"><span class="title">Addition.</span></span><div class="para" id="p-605">The function <span class="process-math">\(+:S\to S\)</span> defined by <span class="process-math">\(+(a,b)=a+b\)</span> is a binary operation for <span class="process-math">\(S\in\{\N,\Z,\Q,\R,\C\}\text{.}\)</span>
 </div>
 </li>
 <li id="li-234">
-<span class="heading"><span class="title">Multiplication.</span></span><div class="para" id="p-603">The function <span class="process-math">\(\cdot:S\to S\)</span> defined by <span class="process-math">\(+(a,b)=a\cdot b\)</span> (often shortened to <span class="process-math">\(ab\)</span>) is a binary operation for <span class="process-math">\(S\in\{\N,\Z,\Q,\R,\C\}\text{.}\)</span>
+<span class="heading"><span class="title">Multiplication.</span></span><div class="para" id="p-606">The function <span class="process-math">\(\cdot:S\to S\)</span> defined by <span class="process-math">\(+(a,b)=a\cdot b\)</span> (often shortened to <span class="process-math">\(ab\)</span>) is a binary operation for <span class="process-math">\(S\in\{\N,\Z,\Q,\R,\C\}\text{.}\)</span>
 </div>
 </li>
 <li id="li-235">
-<span class="heading"><span class="title">Composition.</span></span><div class="para" id="p-604">Let <span class="process-math">\(F\)</span> denote the set of all functions from a set <span class="process-math">\(S\)</span> to itself. The function <span class="process-math">\(\circ:F\to F\)</span> defined by <span class="process-math">\(\circ(f,g)=g\circ f\)</span> is a binary operation.</div>
+<span class="heading"><span class="title">Composition.</span></span><div class="para" id="p-607">Let <span class="process-math">\(F\)</span> denote the set of all functions from a set <span class="process-math">\(S\)</span> to itself. The function <span class="process-math">\(\circ:F\to F\)</span> defined by <span class="process-math">\(\circ(f,g)=g\circ f\)</span> is a binary operation.</div>
 </li>
 </ul></div></article><article class="definition definition-like" id="def-commutative"><h4 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">8.6</span><span class="period">.</span>
 </h4>
-<div class="para" id="p-605">A binary operation on a set <span class="process-math">\(S\)</span> is <dfn class="terminology">commutative</dfn> if <span class="process-math">\(a*b=b*a\)</span> for all <span class="process-math">\(a,b\in S\text{.}\)</span>
+<div class="para" id="p-608">A binary operation on a set <span class="process-math">\(S\)</span> is <dfn class="terminology">commutative</dfn> if <span class="process-math">\(a*b=b*a\)</span> for all <span class="process-math">\(a,b\in S\text{.}\)</span>
 </div></article><article class="definition definition-like" id="def-associative"><h4 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">8.7</span><span class="period">.</span>
 </h4>
-<div class="para" id="p-606">A binary operation on a set <span class="process-math">\(S\)</span> is <dfn class="terminology">associative</dfn> if <span class="process-math">\((a*b)*c=a*(b*c)\)</span> for all <span class="process-math">\(a,b,c\in S\text{.}\)</span>
+<div class="para" id="p-609">A binary operation on a set <span class="process-math">\(S\)</span> is <dfn class="terminology">associative</dfn> if <span class="process-math">\((a*b)*c=a*(b*c)\)</span> for all <span class="process-math">\(a,b,c\in S\text{.}\)</span>
 </div></article><article class="definition definition-like" id="def-idempotent"><h4 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">8.8</span><span class="period">.</span>
 </h4>
-<div class="para" id="p-607">A binary operation on a set <span class="process-math">\(S\)</span> is <dfn class="terminology">idempotent</dfn> if <span class="process-math">\(a * a=a\)</span> for all <span class="process-math">\(a\in S\text{.}\)</span>
+<div class="para" id="p-610">A binary operation on a set <span class="process-math">\(S\)</span> is <dfn class="terminology">idempotent</dfn> if <span class="process-math">\(a * a=a\)</span> for all <span class="process-math">\(a\in S\text{.}\)</span>
 </div></article><article class="definition definition-like" id="def-identity"><h4 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">8.9</span><span class="period">.</span>
 </h4>
-<div class="para logical" id="p-608">
+<div class="para logical" id="p-611">
 <div class="para">Let <span class="process-math">\(*\)</span> be a binary operation on a set <span class="process-math">\(S\text{.}\)</span>
 </div>
 <ul class="disc">
-<li id="li-236"><div class="para" id="p-609">An element <span class="process-math">\(\ell\)</span> is called a <dfn class="terminology">left identity</dfn> if <span class="process-math">\(\ell * a=a\)</span> for all <span class="process-math">\(a\in S\text{.}\)</span>
+<li id="li-236"><div class="para" id="p-612">An element <span class="process-math">\(\ell\)</span> is called a <dfn class="terminology">left identity</dfn> if <span class="process-math">\(\ell * a=a\)</span> for all <span class="process-math">\(a\in S\text{.}\)</span>
 </div></li>
-<li id="li-237"><div class="para" id="p-610">An element <span class="process-math">\(r\)</span> is called a <dfn class="terminology">right identity</dfn> if <span class="process-math">\(r * a=a\)</span> for all <span class="process-math">\(a\in S\text{.}\)</span>
+<li id="li-237"><div class="para" id="p-613">An element <span class="process-math">\(r\)</span> is called a <dfn class="terminology">right identity</dfn> if <span class="process-math">\(r * a=a\)</span> for all <span class="process-math">\(a\in S\text{.}\)</span>
 </div></li>
-<li id="li-238"><div class="para" id="p-611">An element <span class="process-math">\(e\)</span> is called an <dfn class="terminology">identity</dfn> if it is both a left and a right identity.</div></li>
+<li id="li-238"><div class="para" id="p-614">An element <span class="process-math">\(e\)</span> is called an <dfn class="terminology">identity</dfn> if it is both a left and a right identity.</div></li>
 </ul>
 </div></article><article class="theorem theorem-like" id="thm-unique-identity"><h4 class="heading">
 <span class="type">Theorem</span><span class="space"> </span><span class="codenumber">8.10</span><span class="period">.</span>
 </h4>
-<div class="para" id="p-612">Any binary operation has at most one identity.</div></article><article class="corollary theorem-like" id="cor-left-right-identity"><h4 class="heading">
+<div class="para" id="p-615">Any binary operation has at most one identity.</div></article><article class="corollary theorem-like" id="cor-left-right-identity"><h4 class="heading">
 <span class="type">Corollary</span><span class="space"> </span><span class="codenumber">8.11</span><span class="period">.</span>
 </h4>
-<div class="para" id="p-613">If an operation has both a left identity and a right identity, then these two elements are equal.</div></article><article class="definition definition-like" id="def-inverse"><h4 class="heading">
+<div class="para" id="p-616">If an operation has both a left identity and a right identity, then these two elements are equal.</div></article><article class="definition definition-like" id="def-inverse"><h4 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">8.12</span><span class="period">.</span>
 </h4>
-<div class="para logical" id="p-614">
+<div class="para logical" id="p-617">
 <div class="para">Let <span class="process-math">\(*\)</span> be a binary operation on a set <span class="process-math">\(S\)</span> with identity <span class="process-math">\(e\text{,}\)</span> and let <span class="process-math">\(a\in S\text{.}\)</span>
 </div>
 <ul class="disc">
-<li id="li-239"><div class="para" id="p-615">An element <span class="process-math">\(b\)</span> is called a <dfn class="terminology">left inverse</dfn> of <span class="process-math">\(a\)</span> if <span class="process-math">\(b * a=e\text{.}\)</span>
+<li id="li-239"><div class="para" id="p-618">An element <span class="process-math">\(b\)</span> is called a <dfn class="terminology">left inverse</dfn> of <span class="process-math">\(a\)</span> if <span class="process-math">\(b * a=e\text{.}\)</span>
 </div></li>
-<li id="li-240"><div class="para" id="p-616">An element <span class="process-math">\(c\)</span> is called a <dfn class="terminology">right inverse</dfn> if <span class="process-math">\(a * b=e\text{.}\)</span>
+<li id="li-240"><div class="para" id="p-619">An element <span class="process-math">\(c\)</span> is called a <dfn class="terminology">right inverse</dfn> if <span class="process-math">\(a * b=e\text{.}\)</span>
 </div></li>
-<li id="li-241"><div class="para" id="p-617">An element that is both a left inverse and right inverse of <span class="process-math">\(a\)</span> is called an <dfn class="terminology">inverse</dfn> of <span class="process-math">\(a\text{.}\)</span>
+<li id="li-241"><div class="para" id="p-620">An element that is both a left inverse and right inverse of <span class="process-math">\(a\)</span> is called an <dfn class="terminology">inverse</dfn> of <span class="process-math">\(a\text{.}\)</span>
 </div></li>
 </ul>
 </div></article><article class="proposition theorem-like" id="prop-unique-associative-inverses"><h4 class="heading">
 <span class="type">Proposition</span><span class="space"> </span><span class="codenumber">8.13</span><span class="period">.</span>
 </h4>
-<div class="para logical" id="p-618">
+<div class="para logical" id="p-621">
 <div class="para">Let <span class="process-math">\(*\)</span> be an associative binary operation on a set <span class="process-math">\(S\text{.}\)</span>
 </div>
 <ol class="decimal">
-<li id="li-242"><div class="para" id="p-619">Any element in <span class="process-math">\(S\)</span> has at most one inverse.</div></li>
-<li id="li-243"><div class="para" id="p-620">If <span class="process-math">\(a\in S\)</span> has a left inverse <span class="process-math">\(b\)</span> and a right inverse <span class="process-math">\(c\text{,}\)</span> then these <span class="process-math">\(b=c\text{.}\)</span>
+<li id="li-242"><div class="para" id="p-622">Any element in <span class="process-math">\(S\)</span> has at most one inverse.</div></li>
+<li id="li-243"><div class="para" id="p-623">If <span class="process-math">\(a\in S\)</span> has a left inverse <span class="process-math">\(b\)</span> and a right inverse <span class="process-math">\(c\text{,}\)</span> then these <span class="process-math">\(b=c\text{.}\)</span>
 </div></li>
 </ol>
 </div></article></section><section class="subsection" id="subsec-partial-binary-operations"><h3 class="heading hide-type">
@@ -702,11 +717,11 @@ window.MathJax = {
 <article class="definition definition-like" id="def-partial-function"><h4 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">8.14</span><span class="period">.</span>
 </h4>
-<div class="para" id="p-621">A <dfn class="terminology">partial function</dfn> from a set <span class="process-math">\(X\)</span> to a set <span class="process-math">\(Y\)</span> is a function from a subset <span class="process-math">\(A\)</span> of <span class="process-math">\(X\)</span> to <span class="process-math">\(Y\text{.}\)</span> This is denoted <span class="process-math">\(f:X\rightharpoonup Y\text{.}\)</span>
+<div class="para" id="p-624">A <dfn class="terminology">partial function</dfn> from a set <span class="process-math">\(X\)</span> to a set <span class="process-math">\(Y\)</span> is a function from a subset <span class="process-math">\(A\)</span> of <span class="process-math">\(X\)</span> to <span class="process-math">\(Y\text{.}\)</span> This is denoted <span class="process-math">\(f:X\rightharpoonup Y\text{.}\)</span>
 </div></article><article class="definition definition-like" id="def-partial-binary-operation"><h4 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">8.15</span><span class="period">.</span>
 </h4>
-<div class="para logical" id="p-622">
+<div class="para logical" id="p-625">
 <div class="para">A <em class="emphasis">partial binary operation</em> on a set <span class="process-math">\(S\)</span> is a partial function</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -715,13 +730,13 @@ window.MathJax = {
 </div>
 </div></article><article class="example example-like" id="example-39"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">8.16</span><span class="period">.</span><span class="space"> </span><span class="title">Division.</span>
-</h4> <div class="para" id="p-623"></div></article></section><section class="subsection" id="subsec-external-binary-operations"><h3 class="heading hide-type">
+</h4> <div class="para" id="p-626"></div></article></section><section class="subsection" id="subsec-external-binary-operations"><h3 class="heading hide-type">
 <span class="type">Subsection</span> <span class="codenumber"></span> <span class="title">External Binary Operations</span>
 </h3>
 <article class="definition definition-like" id="def-external-binary-operation"><h4 class="heading">
 <span class="type">Definition</span><span class="space"> </span><span class="codenumber">8.17</span><span class="period">.</span>
 </h4>
-<div class="para" id="p-624"></div></article></section></section><div class="hidden-content tex2jax_ignore" id="hk-fn-2"><div class="fn">The “internal” piece subtly implies the existence of some nebulous <em class="emphasis">external</em> binary operation, which we'll get to later.</div></div>
+<div class="para" id="p-627"></div></article></section></section><div class="hidden-content tex2jax_ignore" id="hk-fn-2"><div class="fn">The “internal” piece subtly implies the existence of some nebulous <em class="emphasis">external</em> binary operation, which we'll get to later.</div></div>
 </div>
 <div class="ptx-content-footer">
 <a class="previous-button button" href="ch-extras.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon">^</span><span class="name">Top</span></a><a class="next-button button" href="sec-algebraic-structures.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a>
