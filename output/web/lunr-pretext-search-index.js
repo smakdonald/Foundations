@@ -25,7 +25,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.1",
   "title": "Statements",
-  "body": "Statements  What is a Statement?    Each of our acts makes a statement as to our purpose.   Leo Buscaglia   When we prove theorems in mathematics, we are demonstrating the truth of certain statements. We therefore need to start our discussion of logic with a look at statements, and at how we recognize certain statements as true or false.    A statement is anything we can say, write or otherwise express that is either true or false.     We will be making two assumptions when dealing with statements: every statement is either true or false, and no statement is both true and false. The first of these assumptions, often referred to as the Law of the Excluded Middle (and known formally as bivalence), may seem innocuous enough, but in fact some mathematicians have chosen to work without this powerful axiom.   Statement Examples      The sky is blue is a statement, as it is either true or false.     Your birthday is October 23rd is a statement, as it is either your birtday or it isn't.     The mitochondria is the powerhouse of the cell is a statement.     Do a backflip is not a statement, because it cannot be said to be either true or false.      For something to be a statement, it has to be either true or false in principle; it does not matter whether we personally can verify its truth or falsity.   Combining Statements    Conjunction junction, what's your function?   Schoolhouse Rock   What makes statements valuable for our purposes is that there are a number of useful ways of forming new statements out of old ones. An analog to this would be the ways we have of combining numbers to get new ones, such as addition and multiplication; if we did not have these operations, then numbers would not be very interesting.  In this section we will discuss five ways of forming new statements out of old ones, corresponding to the English expressions: and; or; not; if, then; if and only if.    Let and be statements. The conjunction of and , which is denoted , is the statement that, intuitively, is true if both and are true, and is false otherwise. We read as “ and .” The precise definition of is given by the “truth table”     Let “it is raining today,” and let “it is cold today.” The statement would formally be “it is raining today and it is cold today.”   We could express the same idea more succinctly in English by saying “it is raining and cold today.” In general, we will try to use statements that read well in English, as well as being logically correct.   The colloquial use of the word “and” differs from the mathematical usage stated above. The mathematical usage means the above truth table, and nothing else, while colloquially there are other meanings in addition to this one. One source of confusion involving the word “and” that is well worth avoiding is the colloquial use of this word in the sense of “therefore.”     Let and be statements. The disjunction of and , which is denoted , is the statement that, intuitively, is true if either is true or is true or both are true, and is false otherwise. We read as “ or .” The precise definition of is given by the truth table     The mathematical use of the word “or” always means an inclusive “or,” so that if “ or ” is true, then either is true, or is true, or both and are true.    A simple example of a disjunction is the statement “my car is red or it will rain today.” This statement has the form , where “my car is red,” and “it will rain today.” The truth of this statement implies that at least one of the statements “my car is red” or “it will rain today” is true. The only thing not allowed is that both “my car is red” and “it will rain today” are false.     Let and be statements. The negation of , which is denoted , is the statement that, intuitively, is true if is false, and is false if is true. We read as “not .” The precise definition of is given in the truth table      Let and be statements. The conditional from to , which is denoted , is the statement that, intuitively, is true if it is never the case that is true and is false. We read as if then . The precise definition of P \\to Q is given in the truth table     A simple example of a conditional statement is if it rains today, then I will see a movie this evening. This statement has the form , where “it rains today,” and “I will see a movie this evening.” The truth of this statement does not say that it is raining today, nor that I will see a movie this evening. It only says what will happen if it rains today, which is that I will see a movie this evening. If it does not rain, I still might see a movie this evening, or I might not; both of these possibilities would be consistent with the truth of the original statement “if it rains today, then I will see a movie this evening.”    There are a number of variations as to how to write the statement in English. In addition to writing “if then ,” we could just as well write any of the following:   If , ;     if ;     only if ;     provided that ;    Assuming that , then ;     given that ;     is sufficient for ;     is necessary for .        Let and be statements. The biconditional from to , which is denoted , is the statement that, intuitively, is true if and are both true or both false, and is false otherwise. We read as “ if and only if .” The phrase “if and only if” is often abbreviated as “iff.” The precise definition of is given in the truth table     An example of a biconditional statement is “I will go for a walk if and only if Fred will join me.” This statement has the form , where “I will go for a walk,” and “Fred will join me.” The truth of this statement does not say that I will go for a walk, or that Fred will join me. It says that either Fred will join me and I will go for a walk, or that neither of these things will happen. In other words, it could not be the case that Fred joins me and yet I do not go for a walk, and it also could not be the case that I go for a walk, and yet Fred has not joined me.    There are some variations as to how to write the statement in English. In addition to writing “ if and only if ,” it is common to write “ is necessary and sufficient for .”   Rather than memorizing the truth tables, for many people it is easier to remember the rules summarized in   Logical Operators    Operator  Symbolic Form  Truth Values    Conjunction   True only when both and are true.    Disjunction   False only when both and are false.    Negation   Opposite truth value of    Conditional   False only when is true and is false.    Biconditional   True when either both and are true or when and are false      Tautologies and Contradictions    Do I contradict myself? Very well, then, I contradict myself; I am large - I contain multitudes.   Walt Whitman     A tautology is a statement that is always true by logical necessity, regardless of whether the component statements are true or false, and regardless of what we happen to observe in the real world.     An example of a tautology is the statement “Irene has red hair or she does not have red hair.” It seems intuitively clear that this statement is a tautology, and we can verify this fact formally by using truth tables. Let “Irene has red hair.” Then our purported tautology is the statement . The truth table for this statement is We see in column that the statement is always true, regardless of whether is true or false. This fact tells us that is a tautology. In general, a statement is a tautology if, as verified using a truth table, it is always true, regardless of whether its component statements are true or false.     A contradiction is a statement that is always false by logical necessity.     The statement “Irene has red hair and she does not have red hair” is a contradiction. In symbols this statement is , and it has truth table The statement is always false, regardless of whether is true or false. In general, a statement is a contradiction if, as verified using a truth table, it is always false, regardless of whether its component statements are true or false.    "
+  "body": "Statements  What is a Statement?    Each of our acts makes a statement as to our purpose.   Leo Buscaglia   When we prove theorems in mathematics, we are demonstrating the truth of certain statements. We therefore need to start our discussion of logic with a look at statements, and at how we recognize certain statements as true or false.    A statement is anything we can say, write or otherwise express that is either true or false.    The key is that there must be no ambiguity. To be a statement, a sentence must be true or false, and it cannot be both. This assumptions, often referred to as the Law of the Excluded Middle (and known formally as bivalence ), may seem innocuous enough, but in fact some mathematicians have chosen to work without this powerful axiom.   Statement Examples      The sky is blue is a statement, as it is either true or false.     Your birthday is October 23rd is a statement, as it is either your birtday or it isn't.     The mitochondria is the powerhouse of the cell is a statement.     Do a backflip is not a statement, because it cannot be said to be either true or false.      For something to be a statement, it has to be either true or false in principle; it does not matter whether we personally can verify its truth or falsity.  Some sentences that are mathematical in nature often are not statements because we may not know precisely what a variable represents.  Mathematical (Non-)Statements      The equation is not a statement since we do not know what represents.     isn't a statement either. The mathematical operation “Add one to two” does not have a truth value, it's just an instruction.        Combining Statements    Conjunction junction, what's your function?   Schoolhouse Rock   What makes statements valuable for our purposes is that there are a number of useful ways of forming new statements out of old ones. An analog to this would be the ways we have of combining numbers to get new ones, such as addition and multiplication; if we did not have these operations, then numbers would not be very interesting.  In this section we will discuss five ways of forming new statements out of old ones, corresponding to the English expressions: and; or; not; if, then; if and only if.  Conjunction   Let and be statements. The conjunction of and , which is denoted , is the statement that, intuitively, is true if both and are true, and is false otherwise. We read as “ and .” The precise definition of is given by the “truth table”                                Truth tables will be at the center of the next several sections, we will be using these a lot!    Let “it is raining today,” and let “it is cold today.” The statement would formally be “it is raining today and it is cold today.”   We could express the same idea more succinctly in English by saying “it is raining and cold today.” In general, we will try to use statements that read well in English, as well as being logically correct.   The colloquial use of the word “and” differs from the mathematical usage stated above. The mathematical usage means the above truth table, and nothing else, while colloquially there are other meanings in addition to this one. One source of confusion involving the word “and” that is well worth avoiding is the colloquial use of this word in the sense of “therefore.”   Disjunction   Let and be statements. The disjunction of and , which is denoted , is the statement that, intuitively, is true if either is true or is true or both are true, and is false otherwise. We read as “ or .” The precise definition of is given by the truth table                                The mathematical use of the word “or” always means an inclusive “or,” so that if “ or ” is true, then either is true, or is true, or both and are true.    A simple example of a disjunction is the statement “my car is red or it will rain today.” This statement has the form , where “my car is red,” and “it will rain today.” The truth of this statement implies that at least one of the statements “my car is red” or “it will rain today” is true. The only thing not allowed is that both “my car is red” and “it will rain today” are false.   Negation   Let and be statements. The negation of , which is denoted , is the statement that, intuitively, is true if is false, and is false if is true. We read as “not .” The precise definition of is given in the truth table                  Conditional Statement   Let and be statements. The conditional from to , which is denoted , is the statement that, intuitively, is true if it is never the case that is true and is false. We read as if then . The precise definition of is given in the truth table                               The above truth table for , which is universally accepted by mathematicians and logicians, may seem strange at first glance, and perhaps even contrary to intuition, but it is important to get used to it, because we will always use as we have defined it.   A simple example of a conditional statement is if it rains today, then I will see a movie this evening. This statement has the form , where “it rains today,” and “I will see a movie this evening.” The truth of this statement does not say that it is raining today, nor that I will see a movie this evening. It only says what will happen if it rains today, which is that I will see a movie this evening. If it does not rain, I still might see a movie this evening, or I might not; both of these possibilities would be consistent with the truth of the original statement “if it rains today, then I will see a movie this evening.”    There are a number of variations as to how to write the statement in English. In addition to writing “if then ,” we could just as well write any of the following:   If , ;     if ;     only if ;     provided that ;    Assuming that , then ;     given that ;     is sufficient for ;     is necessary for .      Biconditional Statement   Let and be statements. The biconditional from to , which is denoted , is the statement that, intuitively, is true if and are both true or both false, and is false otherwise. We read as “ if and only if .” The phrase “if and only if” is often abbreviated as “iff.” The precise definition of is given in the truth table                                An example of a biconditional statement is “I will go for a walk if and only if Fred will join me.” This statement has the form , where “I will go for a walk,” and “Fred will join me.” The truth of this statement does not say that I will go for a walk, or that Fred will join me. It says that either Fred will join me and I will go for a walk, or that neither of these things will happen. In other words, it could not be the case that Fred joins me and yet I do not go for a walk, and it also could not be the case that I go for a walk, and yet Fred has not joined me.    There are some variations as to how to write the statement in English. In addition to writing “ if and only if ,” it is common to write “ is necessary and sufficient for .”   Rather than memorizing the truth tables, for many people it is easier to remember the rules summarized in   Logical Operators    Operator  Symbolic Form  Truth Values    Conjunction   True only when both and are true.    Disjunction   False only when both and are false.    Negation   Opposite truth value of    Conditional   False only when is true and is false.    Biconditional   True when either both and are true or when and are false      Verifying Compound Statements  Now that we have defined our five basic ways of combining statements, we can form more complicated compound statements by using combinations of the basic operations.  Order of Operations  We use the standard convention that takes precedence over the other four operations, but none of these four takes precedence over the others.     We can form out of statements , and . We can form the truth table for the statement , doing one operation at a time, as follows:                                                                            To save time and effort, it is possible to write a smaller truth table with the same information as the truth table above, by writing one column at a time, and labeling the columns in the order of how we write them. In the truth table shown below, we first write columns 1 and 2, which are just copies of the P and Q columns; we then write column 3, which is the negation of the R column; column 4 is formed from columns 2 and 3, and column 5 is formed from columns 1 and 4. We put the label “5” in a box, to highlight that its column is the final result of the truth table, and refers to the compound statement in which we are interested. It is, however, the same result as in the previous truth table.                                                                                                           The role that parentheses play in avoiding ambiguity in statements written with symbols is often played in English sentences by punctuation.    Tautologies and Contradictions    Do I contradict myself? Very well, then, I contradict myself; I am large - I contain multitudes.   Walt Whitman   Tautology   A tautology is a statement that is always true by logical necessity, regardless of whether the component statements are true or false, and regardless of what we happen to observe in the real world.     An example of a tautology is the statement “Irene has red hair or she does not have red hair.” It seems intuitively clear that this statement is a tautology, and we can verify this fact formally by using truth tables. Let “Irene has red hair.” Then our purported tautology is the statement . The truth table for this statement is                            We see in column that the statement is always true, regardless of whether is true or false. This fact tells us that is a tautology.   In general, a statement is a tautology if, as verified using a truth table, it is always true, regardless of whether its component statements are true or false.   Verify that the statement is a tautology by constructing a truth table.   Contradiction   A contradiction is a statement that is always false by logical necessity.     The statement “Irene has red hair and she does not have red hair” is a contradiction. In symbols this statement is , and it has truth table                            The statement is always false, regardless of whether is true or false.   In general, a statement is a contradiction if, as verified using a truth table, it is always false, regardless of whether its component statements are true or false.       "
 },
 {
   "id": "def-statement",
@@ -37,22 +37,22 @@ var ptx_lunr_docs = [
   "body": "  A statement is anything we can say, write or otherwise express that is either true or false.   "
 },
 {
-  "id": "remark-1",
-  "level": "2",
-  "url": "sec-statements.html#remark-1",
-  "type": "Remark",
-  "number": "1.2",
-  "title": "",
-  "body": " We will be making two assumptions when dealing with statements: every statement is either true or false, and no statement is both true and false. The first of these assumptions, often referred to as the Law of the Excluded Middle (and known formally as bivalence), may seem innocuous enough, but in fact some mathematicians have chosen to work without this powerful axiom.  "
-},
-{
   "id": "example-1",
   "level": "2",
   "url": "sec-statements.html#example-1",
   "type": "Example",
-  "number": "1.3",
+  "number": "1.2",
   "title": "Statement Examples.",
   "body": "Statement Examples      The sky is blue is a statement, as it is either true or false.     Your birthday is October 23rd is a statement, as it is either your birtday or it isn't.     The mitochondria is the powerhouse of the cell is a statement.     Do a backflip is not a statement, because it cannot be said to be either true or false.     "
+},
+{
+  "id": "example-2",
+  "level": "2",
+  "url": "sec-statements.html#example-2",
+  "type": "Example",
+  "number": "1.3",
+  "title": "Mathematical (Non-)Statements.",
+  "body": "Mathematical (Non-)Statements      The equation is not a statement since we do not know what represents.     isn't a statement either. The mathematical operation “Add one to two” does not have a truth value, it's just an instruction.      "
 },
 {
   "id": "def-conjunction",
@@ -60,15 +60,24 @@ var ptx_lunr_docs = [
   "url": "sec-statements.html#def-conjunction",
   "type": "Definition",
   "number": "1.4",
-  "title": "",
-  "body": "  Let and be statements. The conjunction of and , which is denoted , is the statement that, intuitively, is true if both and are true, and is false otherwise. We read as “ and .” The precise definition of is given by the “truth table”   "
+  "title": "Conjunction.",
+  "body": "Conjunction   Let and be statements. The conjunction of and , which is denoted , is the statement that, intuitively, is true if both and are true, and is false otherwise. We read as “ and .” The precise definition of is given by the “truth table”                              "
 },
 {
-  "id": "example-2",
+  "id": "remark-1",
   "level": "2",
-  "url": "sec-statements.html#example-2",
-  "type": "Example",
+  "url": "sec-statements.html#remark-1",
+  "type": "Remark",
   "number": "1.5",
+  "title": "",
+  "body": " Truth tables will be at the center of the next several sections, we will be using these a lot!  "
+},
+{
+  "id": "example-3",
+  "level": "2",
+  "url": "sec-statements.html#example-3",
+  "type": "Example",
+  "number": "1.6",
   "title": "",
   "body": " Let “it is raining today,” and let “it is cold today.” The statement would formally be “it is raining today and it is cold today.”  "
 },
@@ -77,7 +86,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-statements.html#warning-1",
   "type": "Warning",
-  "number": "1.6",
+  "number": "1.7",
   "title": "",
   "body": " The colloquial use of the word “and” differs from the mathematical usage stated above. The mathematical usage means the above truth table, and nothing else, while colloquially there are other meanings in addition to this one. One source of confusion involving the word “and” that is well worth avoiding is the colloquial use of this word in the sense of “therefore.”  "
 },
@@ -86,25 +95,25 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-statements.html#def-disjunction",
   "type": "Definition",
-  "number": "1.7",
-  "title": "",
-  "body": "  Let and be statements. The disjunction of and , which is denoted , is the statement that, intuitively, is true if either is true or is true or both are true, and is false otherwise. We read as “ or .” The precise definition of is given by the truth table   "
+  "number": "1.8",
+  "title": "Disjunction.",
+  "body": "Disjunction   Let and be statements. The disjunction of and , which is denoted , is the statement that, intuitively, is true if either is true or is true or both are true, and is false otherwise. We read as “ or .” The precise definition of is given by the truth table                              "
 },
 {
   "id": "remark-2",
   "level": "2",
   "url": "sec-statements.html#remark-2",
   "type": "Remark",
-  "number": "1.8",
+  "number": "1.9",
   "title": "",
   "body": " The mathematical use of the word “or” always means an inclusive “or,” so that if “ or ” is true, then either is true, or is true, or both and are true.  "
 },
 {
-  "id": "example-3",
+  "id": "example-4",
   "level": "2",
-  "url": "sec-statements.html#example-3",
+  "url": "sec-statements.html#example-4",
   "type": "Example",
-  "number": "1.9",
+  "number": "1.10",
   "title": "",
   "body": " A simple example of a disjunction is the statement “my car is red or it will rain today.” This statement has the form , where “my car is red,” and “it will rain today.” The truth of this statement implies that at least one of the statements “my car is red” or “it will rain today” is true. The only thing not allowed is that both “my car is red” and “it will rain today” are false.  "
 },
@@ -113,25 +122,25 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-statements.html#def-negation",
   "type": "Definition",
-  "number": "1.10",
-  "title": "",
-  "body": "  Let and be statements. The negation of , which is denoted , is the statement that, intuitively, is true if is false, and is false if is true. We read as “not .” The precise definition of is given in the truth table   "
+  "number": "1.11",
+  "title": "Negation.",
+  "body": "Negation   Let and be statements. The negation of , which is denoted , is the statement that, intuitively, is true if is false, and is false if is true. We read as “not .” The precise definition of is given in the truth table                 "
 },
 {
   "id": "def-conditional",
   "level": "2",
   "url": "sec-statements.html#def-conditional",
   "type": "Definition",
-  "number": "1.11",
-  "title": "",
-  "body": "  Let and be statements. The conditional from to , which is denoted , is the statement that, intuitively, is true if it is never the case that is true and is false. We read as if then . The precise definition of P \\to Q is given in the truth table   "
+  "number": "1.12",
+  "title": "Conditional Statement.",
+  "body": "Conditional Statement   Let and be statements. The conditional from to , which is denoted , is the statement that, intuitively, is true if it is never the case that is true and is false. We read as if then . The precise definition of is given in the truth table                              "
 },
 {
-  "id": "example-4",
+  "id": "example-5",
   "level": "2",
-  "url": "sec-statements.html#example-4",
+  "url": "sec-statements.html#example-5",
   "type": "Example",
-  "number": "1.12",
+  "number": "1.13",
   "title": "",
   "body": " A simple example of a conditional statement is if it rains today, then I will see a movie this evening. This statement has the form , where “it rains today,” and “I will see a movie this evening.” The truth of this statement does not say that it is raining today, nor that I will see a movie this evening. It only says what will happen if it rains today, which is that I will see a movie this evening. If it does not rain, I still might see a movie this evening, or I might not; both of these possibilities would be consistent with the truth of the original statement “if it rains today, then I will see a movie this evening.”  "
 },
@@ -140,7 +149,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-statements.html#convention-1",
   "type": "Convention",
-  "number": "1.13",
+  "number": "1.14",
   "title": "",
   "body": " There are a number of variations as to how to write the statement in English. In addition to writing “if then ,” we could just as well write any of the following:   If , ;     if ;     only if ;     provided that ;    Assuming that , then ;     given that ;     is sufficient for ;     is necessary for .     "
 },
@@ -149,16 +158,16 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-statements.html#def-biconditional",
   "type": "Definition",
-  "number": "1.14",
-  "title": "",
-  "body": "  Let and be statements. The biconditional from to , which is denoted , is the statement that, intuitively, is true if and are both true or both false, and is false otherwise. We read as “ if and only if .” The phrase “if and only if” is often abbreviated as “iff.” The precise definition of is given in the truth table   "
+  "number": "1.15",
+  "title": "Biconditional Statement.",
+  "body": "Biconditional Statement   Let and be statements. The biconditional from to , which is denoted , is the statement that, intuitively, is true if and are both true or both false, and is false otherwise. We read as “ if and only if .” The phrase “if and only if” is often abbreviated as “iff.” The precise definition of is given in the truth table                              "
 },
 {
-  "id": "example-5",
+  "id": "example-6",
   "level": "2",
-  "url": "sec-statements.html#example-5",
+  "url": "sec-statements.html#example-6",
   "type": "Example",
-  "number": "1.15",
+  "number": "1.16",
   "title": "",
   "body": " An example of a biconditional statement is “I will go for a walk if and only if Fred will join me.” This statement has the form , where “I will go for a walk,” and “Fred will join me.” The truth of this statement does not say that I will go for a walk, or that Fred will join me. It says that either Fred will join me and I will go for a walk, or that neither of these things will happen. In other words, it could not be the case that Fred joins me and yet I do not go for a walk, and it also could not be the case that I go for a walk, and yet Fred has not joined me.  "
 },
@@ -167,7 +176,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-statements.html#convention-2",
   "type": "Convention",
-  "number": "1.16",
+  "number": "1.17",
   "title": "",
   "body": " There are some variations as to how to write the statement in English. In addition to writing “ if and only if ,” it is common to write “ is necessary and sufficient for .”  "
 },
@@ -176,45 +185,81 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-statements.html#table-operators",
   "type": "Table",
-  "number": "1.17",
+  "number": "1.18",
   "title": "Logical Operators",
   "body": "Logical Operators    Operator  Symbolic Form  Truth Values    Conjunction   True only when both and are true.    Disjunction   False only when both and are false.    Negation   Opposite truth value of    Conditional   False only when is true and is false.    Biconditional   True when either both and are true or when and are false    "
 },
 {
-  "id": "def-tautology",
+  "id": "convention-3",
   "level": "2",
-  "url": "sec-statements.html#def-tautology",
-  "type": "Definition",
-  "number": "1.18",
-  "title": "",
-  "body": "  A tautology is a statement that is always true by logical necessity, regardless of whether the component statements are true or false, and regardless of what we happen to observe in the real world.   "
-},
-{
-  "id": "example-6",
-  "level": "2",
-  "url": "sec-statements.html#example-6",
-  "type": "Example",
+  "url": "sec-statements.html#convention-3",
+  "type": "Convention",
   "number": "1.19",
-  "title": "",
-  "body": " An example of a tautology is the statement “Irene has red hair or she does not have red hair.” It seems intuitively clear that this statement is a tautology, and we can verify this fact formally by using truth tables. Let “Irene has red hair.” Then our purported tautology is the statement . The truth table for this statement is We see in column that the statement is always true, regardless of whether is true or false. This fact tells us that is a tautology. In general, a statement is a tautology if, as verified using a truth table, it is always true, regardless of whether its component statements are true or false.  "
-},
-{
-  "id": "def-contradiction",
-  "level": "2",
-  "url": "sec-statements.html#def-contradiction",
-  "type": "Definition",
-  "number": "1.20",
-  "title": "",
-  "body": "  A contradiction is a statement that is always false by logical necessity.   "
+  "title": "Order of Operations.",
+  "body": "Order of Operations  We use the standard convention that takes precedence over the other four operations, but none of these four takes precedence over the others.  "
 },
 {
   "id": "example-7",
   "level": "2",
   "url": "sec-statements.html#example-7",
   "type": "Example",
+  "number": "1.20",
+  "title": "",
+  "body": "  We can form out of statements , and . We can form the truth table for the statement , doing one operation at a time, as follows:                                                                            To save time and effort, it is possible to write a smaller truth table with the same information as the truth table above, by writing one column at a time, and labeling the columns in the order of how we write them. In the truth table shown below, we first write columns 1 and 2, which are just copies of the P and Q columns; we then write column 3, which is the negation of the R column; column 4 is formed from columns 2 and 3, and column 5 is formed from columns 1 and 4. We put the label “5” in a box, to highlight that its column is the final result of the truth table, and refers to the compound statement in which we are interested. It is, however, the same result as in the previous truth table.                                                                                                         "
+},
+{
+  "id": "remark-3",
+  "level": "2",
+  "url": "sec-statements.html#remark-3",
+  "type": "Remark",
   "number": "1.21",
   "title": "",
-  "body": " The statement “Irene has red hair and she does not have red hair” is a contradiction. In symbols this statement is , and it has truth table The statement is always false, regardless of whether is true or false. In general, a statement is a contradiction if, as verified using a truth table, it is always false, regardless of whether its component statements are true or false.  "
+  "body": " The role that parentheses play in avoiding ambiguity in statements written with symbols is often played in English sentences by punctuation.  "
+},
+{
+  "id": "def-tautology",
+  "level": "2",
+  "url": "sec-statements.html#def-tautology",
+  "type": "Definition",
+  "number": "1.22",
+  "title": "Tautology.",
+  "body": "Tautology   A tautology is a statement that is always true by logical necessity, regardless of whether the component statements are true or false, and regardless of what we happen to observe in the real world.   "
+},
+{
+  "id": "example-8",
+  "level": "2",
+  "url": "sec-statements.html#example-8",
+  "type": "Example",
+  "number": "1.23",
+  "title": "",
+  "body": " An example of a tautology is the statement “Irene has red hair or she does not have red hair.” It seems intuitively clear that this statement is a tautology, and we can verify this fact formally by using truth tables. Let “Irene has red hair.” Then our purported tautology is the statement . The truth table for this statement is                            We see in column that the statement is always true, regardless of whether is true or false. This fact tells us that is a tautology.  "
+},
+{
+  "id": "exercise-1",
+  "level": "2",
+  "url": "sec-statements.html#exercise-1",
+  "type": "Exploration",
+  "number": "1.24",
+  "title": "",
+  "body": " Verify that the statement is a tautology by constructing a truth table.  "
+},
+{
+  "id": "def-contradiction",
+  "level": "2",
+  "url": "sec-statements.html#def-contradiction",
+  "type": "Definition",
+  "number": "1.25",
+  "title": "Contradiction.",
+  "body": "Contradiction   A contradiction is a statement that is always false by logical necessity.   "
+},
+{
+  "id": "example-9",
+  "level": "2",
+  "url": "sec-statements.html#example-9",
+  "type": "Example",
+  "number": "1.26",
+  "title": "",
+  "body": " The statement “Irene has red hair and she does not have red hair” is a contradiction. In symbols this statement is , and it has truth table                            The statement is always false, regardless of whether is true or false.  "
 },
 {
   "id": "sec-statement-relations",
@@ -230,25 +275,25 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-statement-relations.html#def-implication",
   "type": "Definition",
-  "number": "1.22",
+  "number": "1.27",
   "title": "",
   "body": "  Let and be statements. We say that  implies  if the statement is a tautology.   "
 },
 {
-  "id": "convention-3",
+  "id": "convention-4",
   "level": "2",
-  "url": "sec-statement-relations.html#convention-3",
+  "url": "sec-statement-relations.html#convention-4",
   "type": "Convention",
-  "number": "1.23",
+  "number": "1.28",
   "title": "",
   "body": " We abbreviate the English expression “ implies ” with the notation “ .”  "
 },
 {
-  "id": "remark-3",
+  "id": "remark-4",
   "level": "2",
-  "url": "sec-statement-relations.html#remark-3",
+  "url": "sec-statement-relations.html#remark-4",
   "type": "Remark",
-  "number": "1.24",
+  "number": "1.29",
   "title": "",
   "body": " It is important to note the difference between the notations “ ” and “ .” The notation “ ” is a statement; it is a compound statement built up out of the statements and . The notation “ ” is a meta-statement, which is simply a shorthand way of writing the English expression “ implies ,” and it means that is not just true in some particular instances, but is a tautology.  "
 },
@@ -257,16 +302,16 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-statement-relations.html#ex-implications",
   "type": "Example",
-  "number": "1.25",
+  "number": "1.30",
   "title": "Important Implications.",
   "body": "Important Implications  Let and be statements.  Modus Ponens      Modus Tollens      Simplification      Simplification      Addition      Addition      Modus Tollendo Ponens      Modus Tollendo Ponens      Biconditional-Conditional      Biconditional-Conditional      Conditional-Biconditional      Hypothetical Syllogism      Constructive Dilemma        "
 },
 {
-  "id": "example-9",
+  "id": "example-11",
   "level": "2",
-  "url": "sec-statement-relations.html#example-9",
+  "url": "sec-statement-relations.html#example-11",
   "type": "Example",
-  "number": "1.26",
+  "number": "1.31",
   "title": "",
   "body": " Written in symbols, we saw that . On the other hand, the same truth tables used to establish this implication also show that does not imply . For example, when P and Q are both true, then is true, but is false. Alternatively, it can be seen by a truth table that is not a tautology.  "
 },
@@ -275,16 +320,16 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-statement-relations.html#def-equivalent-statements",
   "type": "Definition",
-  "number": "1.27",
+  "number": "1.32",
   "title": "",
   "body": "  Let and be statements. We say that and are equivalent if the statement is a tautology. We abbreviate the English expression “ and are equivalent” with the notation “ .”   "
 },
 {
-  "id": "remark-4",
+  "id": "remark-5",
   "level": "2",
-  "url": "sec-statement-relations.html#remark-4",
+  "url": "sec-statement-relations.html#remark-5",
   "type": "Remark",
-  "number": "1.28",
+  "number": "1.33",
   "title": "",
   "body": " Certainly, two different English sentences can convey equivalent statements, for example “if it rains I will stay home” and “I will stay home if it rains.” These two statements are both English variants of , where “it rains,” and “I will stay home.” The difference between these two statements is an issue only of the flexibility of the English language; symbolically, these two statements are identical, not just equivalent.  "
 },
@@ -293,7 +338,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-statement-relations.html#warning-2",
   "type": "Warning",
-  "number": "1.29",
+  "number": "1.34",
   "title": "",
   "body": " It is important to note the difference between the notations “ ” and “ .” The latter is a statement, whereas the former is a meta-statement, which is simply a shorthand way of writing the English expression “ is equivalent to .”  "
 },
@@ -302,25 +347,25 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-statement-relations.html#ident-double-negation",
   "type": "Example",
-  "number": "1.30",
+  "number": "1.35",
   "title": "Double Negation.",
   "body": "Double Negation    .   "
 },
 {
-  "id": "remark-5",
+  "id": "remark-6",
   "level": "2",
-  "url": "sec-statement-relations.html#remark-5",
+  "url": "sec-statement-relations.html#remark-6",
   "type": "Remark",
-  "number": "1.31",
+  "number": "1.36",
   "title": "",
   "body": "  might appear innocuous, but this equivalence plays a very important role in standard mathematical proofs. In informal terms, the equivalence of and means that “two negatives cancel each other out.”  "
 },
 {
-  "id": "example-11",
+  "id": "example-13",
   "level": "2",
-  "url": "sec-statement-relations.html#example-11",
+  "url": "sec-statement-relations.html#example-13",
   "type": "Example",
-  "number": "1.32",
+  "number": "1.37",
   "title": "Important Equivalent Statements.",
   "body": "Important Equivalent Statements  Let , and be statements.  Commutative Law   .   Commutative Law   .   Associative Law   .   Associative Law   .   Distributive Law   .   Distributive Law   .     .   Contrapositive   .     .     .   De Morgan’s Law   .   De Morgan’s Law   .     .     .     "
 },
@@ -329,16 +374,16 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-statement-relations.html#def-contrapositive",
   "type": "Definition",
-  "number": "1.33",
+  "number": "1.38",
   "title": "",
   "body": "  Given a conditional statement of the form , we call the contrapositive of the original statement.   "
 },
 {
-  "id": "example-12",
+  "id": "example-14",
   "level": "2",
-  "url": "sec-statement-relations.html#example-12",
+  "url": "sec-statement-relations.html#example-14",
   "type": "Example",
-  "number": "1.34",
+  "number": "1.39",
   "title": "",
   "body": " For example, the contrapositive of “if I eat too much I will feel sick” is “if I do not feel sick I did not eat too much.”  "
 },
@@ -347,7 +392,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-statement-relations.html#def-converse-statement",
   "type": "Definition",
-  "number": "1.35",
+  "number": "1.40",
   "title": "",
   "body": "  For a statement , we call the converse of the original statement.   "
 },
@@ -356,16 +401,16 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-statement-relations.html#def-inverse-statement",
   "type": "Definition",
-  "number": "1.36",
+  "number": "1.41",
   "title": "",
   "body": "  For a statement , we call the inverse of the original statement.   "
 },
 {
-  "id": "example-13",
+  "id": "example-15",
   "level": "2",
-  "url": "sec-statement-relations.html#example-13",
+  "url": "sec-statement-relations.html#example-15",
   "type": "Example",
-  "number": "1.37",
+  "number": "1.42",
   "title": "",
   "body": " Continuing the example of the previous paragraph, the converse of “if I eat too much I will feel sick” is “if I feel sick then I ate too much”; the inverse of the original statement is “if I did not eat too much then I will not feel sick.”  "
 },
@@ -374,25 +419,25 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-statement-relations.html#warning-3",
   "type": "Warning",
-  "number": "1.38",
+  "number": "1.43",
   "title": "",
   "body": " It is important to recognize that neither the converse nor the inverse is equivalent to the original statement, as the reader can verify by constructing the appropriate truth tables.  "
 },
 {
-  "id": "remark-6",
+  "id": "remark-7",
   "level": "2",
-  "url": "sec-statement-relations.html#remark-6",
+  "url": "sec-statement-relations.html#remark-7",
   "type": "Remark",
-  "number": "1.39",
+  "number": "1.44",
   "title": "",
   "body": " Although the converse and inverse of a statement are not equivalent to the original statement, we note that, however, that the converse and the inverse are equivalent to each another, as can be seen by applying Fact 1.3.2 (9) to the statement .  "
 },
 {
-  "id": "exercise-1",
+  "id": "exercise-2",
   "level": "2",
-  "url": "sec-statement-relations.html#exercise-1",
+  "url": "sec-statement-relations.html#exercise-2",
   "type": "Exploration",
-  "number": "1.40",
+  "number": "1.45",
   "title": "",
   "body": " Let and be statements. Show that the following are true.    .     .     .     .     .     .     .     .     "
 },
@@ -410,25 +455,25 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-valid-arguments.html#def-logical-argument",
   "type": "Definition",
-  "number": "1.41",
+  "number": "1.46",
   "title": "",
   "body": "  A logical argument is a collection of statements, the last of which is the conclusion of the argument, and the rest of which are the premises of the argument.   "
 },
 {
-  "id": "remark-7",
+  "id": "remark-8",
   "level": "2",
-  "url": "sec-valid-arguments.html#remark-7",
+  "url": "sec-valid-arguments.html#remark-8",
   "type": "Remark",
-  "number": "1.42",
+  "number": "1.47",
   "title": "",
   "body": " The use of the word “argument” in logic is different from the colloquial use of the word, where it could mean the reasons given for thinking that something is true, or it could mean a heated (and not necessarily logical) discussion.  "
 },
 {
-  "id": "example-14",
+  "id": "example-16",
   "level": "2",
-  "url": "sec-valid-arguments.html#example-14",
+  "url": "sec-valid-arguments.html#example-16",
   "type": "Example",
-  "number": "1.43",
+  "number": "1.48",
   "title": "",
   "body": " Consider the following collection of statements, which has a number of premises together with a conclusion.  If the poodle-o-matic is cheap or is energy efficient, then it will not make money for the manufacturer. If the poodle-o-matic is painted red, then it will make money for the manufacturer. The poodle-o-matic is cheap. Therefore the poodle-o-matic is not painted red.  "
 },
@@ -437,7 +482,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-valid-arguments.html#def-valid",
   "type": "Definition",
-  "number": "1.44",
+  "number": "1.49",
   "title": "",
   "body": "  An argument is valid if the conclusion necessarily follows from the premises.   "
 },
@@ -451,11 +496,11 @@ var ptx_lunr_docs = [
   "body": "Quantifiers   We are now ready for a closer look at the two types of quantifiers that we will use.   Universal Quantifiers   When using variables in a statement , it is often useful to write instead of to indicate that is subject to change. If in a statement both and are variables, and we would denote that by writing .     Let be an expression with free variable . Let denote a collection of possible values of . A universal quantifier applied to is the statement, denoted , which is true if is true for all possible values of in .     If the collection is understood from the context, then we will write .    One way to think of the statement is to view it as the conditional statement “if is in , then is true.”    There are a variety of ways to write in English, for example:   For all values of in , the statement is true;    For each in , the statement is true;    The statement is true for all in ;    All values of in satisfy the .       Let “person has red hair,” and let be the collection of all people in the world. The statement would mean that “all people in the world have red hair” (which is certainly not a true statement).    Changing the collection in a statement of the form can change the truth or falsity of the statement, so that the choice of is crucial.    Let “the number has a square root.” If we let be the collection of positive real numbers, then the statement is true. On the other hand, if we let be the collection of all real numbers, then the statement is false.    For the sake of completeness, we need to allow the case where the collection has nothing in it. In that case, the statement is always true, no matter what is, for the following reason. The statement “ ” is equivalent to the statement “if is in , then is true.” When the collection has nothing in it, then the statement “ is in ” is false, and hence the conditional statement “if is in , then is true” is true.    Existential Quantifiers    Let be a statement with variable , and let denote a collection of possible values of . An existential quantifier applied to is the statement, denoted , which is true if is true for at least one value of in .     If the collection is understood from the context, then we will write .    Observe that if the collection has nothing in it, then the statement is false.   It is important to note that the phrase “at least one value of in ” means one or more, possibly many, or even all in . In particular, if is true, then is true, except in the special case that has nothing in it. However, the statement does not imply that is true, except in the case that has either one thing or nothing in it.   There are a variety of ways to write in English, for example:   There exists some in such that holds;    There is in such that holds;    There exists at least one in such that holds;    For some value of in , the condition holds;    It is the case that is true for some in .       Let “person r has brown hair,” and let be the collection of all people in the world. Then the statement would mean that “there is someone with brown hair,” or equivalently “some people have brown hair” (which is a true statement).    Multiple Quantifiers  We can form statements with more than one quantifier, as long as different quantifiers involve different variables.  The Order of the Quantifiers Matters.  Suppose that where and are real numbers. The statement can then be written in English as “for all there exists some such that ,” or equivalently “for each there is some such that .” This statement is true, because for any real number we can always solve for in terms of , yielding .  If we reverse the order of the quantifiers, we obtain the statement , which can be written in English as “there exists some such that for all , the equation holds.” This statement is false, because for any given , there can be at most two values of such that .    When attempting to prove a theorem, the statement of which involves multiple quantifiers, it is sometimes useful to translate the statement of the theorem into symbols, to help keep track of the meaning of the quantifiers.    Suppose that we are given the statement “if is a non-negative real number, then is a perfect square.” This statement can be interpreted as a doubly quantified statement by rephrasing it as “for each non-negative real number , there is some real number such that .” Written symbolically, the statement is ( in the non-negative real numbers)( in the real numbers)( ).    A lack of attention to the order of quantifiers can easily lead to mistakes in proving theorems that have statements with multiple quantifiers.   There are eight possible generic ways of writing two quantifiers in a statement that has variables. Most of the eight possibilities have different meanings from one another.       . This statement can be written in English as “for each person , for each type of fruit , person likes to eat ,” and more simply as “every person likes every type of fruit.” To verify whether this statement is true, we would have to ask each person in the world if she likes every type of fruit; if even one person does not like one type of fruit, then the statement would be false.     . This statement can be written as “for each type of fruit , for each person , we know likes to eat ,” and more simply as “every type of fruit is liked by every person.” This statement is equivalent to Statement 1.     . This statement can be written as “for each person , there is a type of fruit y such that likes to eat ,” and more simply as “every person likes at least one type of fruit.” To verify whether this statement is true, we would have to ask each person in the world if she likes some type of fruit; if at least one person does not like any type of fruit, then the statement would be false.     . This statement can be written as “there is a person such that for all types of fruit , person likes to eat ,” and more simply as “there is a person who likes every type of fruit.” To verify whether this statement is true, we would start asking one person at a time if she likes every type of fruit; as soon as we found one person who answers yes, we would know that the statement is true, and we could stop asking more people. If no such person is found, then the statement would be false.     . This statement can be written as “for each type of fruit , there is a person such that likes to eat ,” and more simply as “every type of fruit is liked by at least one person.” To verify whether this statement is true, we would have to list all the types of fruit, and then for each type of fruit, ask one person at a time whether she likes the fruit; once we found someone who liked that fruit, we could move onto the next fruit, and again ask one person at a time about it. For the statement to be true, we would have to find at least one person per fruit, though the same person could be selected for more than one fruit.     . This statement can be written as “there is a type of fruit such that for all persons , we know that likes to eat ,” and more simply as “there is a type of fruit that all people like.” To verify whether this statement is true, we would have to list all the types of fruit, and then for one type of fruit at a time, ask each person in the world if she likes that type of fruit; as soon as we found one type of fruit that everyone likes, we would know that the statement is true, and we could stop asking about more types of fruit.     . This statement can be written as “there is a person such that there is a type of fruit such that likes to eat ,” and more simply as “there is a person who likes at least one type of fruit.” To verify whether this statement is true, we would have to start asking one person at a time if she likes some type of fruit; as soon as we found one person who answers yes, we would know that the statement is true, and we could stop asking more people.     . This statement can be written as “there is a type of fruit such that there is a person such that likes to eat ,” and more simply as “there is a type of fruit that is liked by at least one person.” This statement is equivalent to Statement 7.      In the above example we had eight cases, because there were two variables. When there are more variables, then the number of cases will be even larger. Also, we observe that whereas most of the cases in the above example are different from one another, there exist some examples of statements where some of the distinct cases above happen to coincide.   Negating Quantifiers  We now look at the negation of statements with quantifiers.    Let be a statement with variable , which takes values in some collection .    .     .        Unlike the equivalences discussed in Section 1.3, we cannot use truth tables to verify the equivalences in , though they are true nonetheless, based on the meanings of the quantifiers.   We can use the above equivalences to negate statements with more than one quantifier.   Suppose that is a function that takes real numbers to real numbers (for example for all real numbers ). Let “for each real number , there is some real number such that .” We would like to find . We start by writing symbolically. Let Then . Using our equivalences we have ¬Q ⇔ ¬[(∀w)(∃y)P(w, y)] ⇔ (∃w)¬[(∃y)P(w, y)] ⇔ (∃w)(∀y)(¬P(w, y)). Rephrasing this last expression in English yields “there exists a real number such that for all real numbers , the relation holds.   It is often easier to negate statements with multiple quantifiers by first translating them into symbolic form, negating them symbolically and then translating back into English. With a bit of practice it is possible to negate such statements directly in English as well, as long as the statements are not too complicated.   "
 },
 {
-  "id": "convention-4",
+  "id": "convention-5",
   "level": "2",
-  "url": "sec-quantifiers.html#convention-4",
+  "url": "sec-quantifiers.html#convention-5",
   "type": "Convention",
-  "number": "1.45",
+  "number": "1.50",
   "title": "",
   "body": " When using variables in a statement , it is often useful to write instead of to indicate that is subject to change. If in a statement both and are variables, and we would denote that by writing .  "
 },
@@ -464,88 +509,16 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-quantifiers.html#def-universal-quantifier",
   "type": "Definition",
-  "number": "1.46",
+  "number": "1.51",
   "title": "",
   "body": "  Let be an expression with free variable . Let denote a collection of possible values of . A universal quantifier applied to is the statement, denoted , which is true if is true for all possible values of in .   "
-},
-{
-  "id": "convention-5",
-  "level": "2",
-  "url": "sec-quantifiers.html#convention-5",
-  "type": "Convention",
-  "number": "1.47",
-  "title": "",
-  "body": " If the collection is understood from the context, then we will write .  "
-},
-{
-  "id": "remark-8",
-  "level": "2",
-  "url": "sec-quantifiers.html#remark-8",
-  "type": "Remark",
-  "number": "1.48",
-  "title": "",
-  "body": " One way to think of the statement is to view it as the conditional statement “if is in , then is true.”  "
 },
 {
   "id": "convention-6",
   "level": "2",
   "url": "sec-quantifiers.html#convention-6",
   "type": "Convention",
-  "number": "1.49",
-  "title": "",
-  "body": " There are a variety of ways to write in English, for example:   For all values of in , the statement is true;    For each in , the statement is true;    The statement is true for all in ;    All values of in satisfy the .     "
-},
-{
-  "id": "example-15",
-  "level": "2",
-  "url": "sec-quantifiers.html#example-15",
-  "type": "Example",
-  "number": "1.50",
-  "title": "",
-  "body": " Let “person has red hair,” and let be the collection of all people in the world. The statement would mean that “all people in the world have red hair” (which is certainly not a true statement).  "
-},
-{
-  "id": "warning-4",
-  "level": "2",
-  "url": "sec-quantifiers.html#warning-4",
-  "type": "Warning",
-  "number": "1.51",
-  "title": "",
-  "body": " Changing the collection in a statement of the form can change the truth or falsity of the statement, so that the choice of is crucial.  "
-},
-{
-  "id": "example-16",
-  "level": "2",
-  "url": "sec-quantifiers.html#example-16",
-  "type": "Example",
   "number": "1.52",
-  "title": "",
-  "body": " Let “the number has a square root.” If we let be the collection of positive real numbers, then the statement is true. On the other hand, if we let be the collection of all real numbers, then the statement is false.  "
-},
-{
-  "id": "example-17",
-  "level": "2",
-  "url": "sec-quantifiers.html#example-17",
-  "type": "Example",
-  "number": "1.53",
-  "title": "",
-  "body": " For the sake of completeness, we need to allow the case where the collection has nothing in it. In that case, the statement is always true, no matter what is, for the following reason. The statement “ ” is equivalent to the statement “if is in , then is true.” When the collection has nothing in it, then the statement “ is in ” is false, and hence the conditional statement “if is in , then is true” is true.  "
-},
-{
-  "id": "def-existential-quantifier",
-  "level": "2",
-  "url": "sec-quantifiers.html#def-existential-quantifier",
-  "type": "Definition",
-  "number": "1.54",
-  "title": "",
-  "body": "  Let be a statement with variable , and let denote a collection of possible values of . An existential quantifier applied to is the statement, denoted , which is true if is true for at least one value of in .   "
-},
-{
-  "id": "convention-7",
-  "level": "2",
-  "url": "sec-quantifiers.html#convention-7",
-  "type": "Convention",
-  "number": "1.55",
   "title": "",
   "body": " If the collection is understood from the context, then we will write .  "
 },
@@ -554,81 +527,108 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-quantifiers.html#remark-9",
   "type": "Remark",
-  "number": "1.56",
+  "number": "1.53",
   "title": "",
-  "body": " Observe that if the collection has nothing in it, then the statement is false.  "
+  "body": " One way to think of the statement is to view it as the conditional statement “if is in , then is true.”  "
 },
 {
-  "id": "convention-8",
+  "id": "convention-7",
   "level": "2",
-  "url": "sec-quantifiers.html#convention-8",
+  "url": "sec-quantifiers.html#convention-7",
   "type": "Convention",
-  "number": "1.57",
+  "number": "1.54",
   "title": "",
-  "body": " There are a variety of ways to write in English, for example:   There exists some in such that holds;    There is in such that holds;    There exists at least one in such that holds;    For some value of in , the condition holds;    It is the case that is true for some in .     "
+  "body": " There are a variety of ways to write in English, for example:   For all values of in , the statement is true;    For each in , the statement is true;    The statement is true for all in ;    All values of in satisfy the .     "
+},
+{
+  "id": "example-17",
+  "level": "2",
+  "url": "sec-quantifiers.html#example-17",
+  "type": "Example",
+  "number": "1.55",
+  "title": "",
+  "body": " Let “person has red hair,” and let be the collection of all people in the world. The statement would mean that “all people in the world have red hair” (which is certainly not a true statement).  "
+},
+{
+  "id": "warning-4",
+  "level": "2",
+  "url": "sec-quantifiers.html#warning-4",
+  "type": "Warning",
+  "number": "1.56",
+  "title": "",
+  "body": " Changing the collection in a statement of the form can change the truth or falsity of the statement, so that the choice of is crucial.  "
 },
 {
   "id": "example-18",
   "level": "2",
   "url": "sec-quantifiers.html#example-18",
   "type": "Example",
-  "number": "1.58",
+  "number": "1.57",
   "title": "",
-  "body": " Let “person r has brown hair,” and let be the collection of all people in the world. Then the statement would mean that “there is someone with brown hair,” or equivalently “some people have brown hair” (which is a true statement).  "
+  "body": " Let “the number has a square root.” If we let be the collection of positive real numbers, then the statement is true. On the other hand, if we let be the collection of all real numbers, then the statement is false.  "
 },
 {
   "id": "example-19",
   "level": "2",
   "url": "sec-quantifiers.html#example-19",
   "type": "Example",
+  "number": "1.58",
+  "title": "",
+  "body": " For the sake of completeness, we need to allow the case where the collection has nothing in it. In that case, the statement is always true, no matter what is, for the following reason. The statement “ ” is equivalent to the statement “if is in , then is true.” When the collection has nothing in it, then the statement “ is in ” is false, and hence the conditional statement “if is in , then is true” is true.  "
+},
+{
+  "id": "def-existential-quantifier",
+  "level": "2",
+  "url": "sec-quantifiers.html#def-existential-quantifier",
+  "type": "Definition",
   "number": "1.59",
-  "title": "The Order of the Quantifiers Matters..",
-  "body": "The Order of the Quantifiers Matters.  Suppose that where and are real numbers. The statement can then be written in English as “for all there exists some such that ,” or equivalently “for each there is some such that .” This statement is true, because for any real number we can always solve for in terms of , yielding .  If we reverse the order of the quantifiers, we obtain the statement , which can be written in English as “there exists some such that for all , the equation holds.” This statement is false, because for any given , there can be at most two values of such that .  "
+  "title": "",
+  "body": "  Let be a statement with variable , and let denote a collection of possible values of . An existential quantifier applied to is the statement, denoted , which is true if is true for at least one value of in .   "
+},
+{
+  "id": "convention-8",
+  "level": "2",
+  "url": "sec-quantifiers.html#convention-8",
+  "type": "Convention",
+  "number": "1.60",
+  "title": "",
+  "body": " If the collection is understood from the context, then we will write .  "
 },
 {
   "id": "remark-10",
   "level": "2",
   "url": "sec-quantifiers.html#remark-10",
   "type": "Remark",
-  "number": "1.60",
+  "number": "1.61",
   "title": "",
-  "body": " When attempting to prove a theorem, the statement of which involves multiple quantifiers, it is sometimes useful to translate the statement of the theorem into symbols, to help keep track of the meaning of the quantifiers.  "
+  "body": " Observe that if the collection has nothing in it, then the statement is false.  "
+},
+{
+  "id": "convention-9",
+  "level": "2",
+  "url": "sec-quantifiers.html#convention-9",
+  "type": "Convention",
+  "number": "1.62",
+  "title": "",
+  "body": " There are a variety of ways to write in English, for example:   There exists some in such that holds;    There is in such that holds;    There exists at least one in such that holds;    For some value of in , the condition holds;    It is the case that is true for some in .     "
 },
 {
   "id": "example-20",
   "level": "2",
   "url": "sec-quantifiers.html#example-20",
   "type": "Example",
-  "number": "1.61",
+  "number": "1.63",
   "title": "",
-  "body": " Suppose that we are given the statement “if is a non-negative real number, then is a perfect square.” This statement can be interpreted as a doubly quantified statement by rephrasing it as “for each non-negative real number , there is some real number such that .” Written symbolically, the statement is ( in the non-negative real numbers)( in the real numbers)( ).  "
-},
-{
-  "id": "warning-5",
-  "level": "2",
-  "url": "sec-quantifiers.html#warning-5",
-  "type": "Warning",
-  "number": "1.62",
-  "title": "",
-  "body": " A lack of attention to the order of quantifiers can easily lead to mistakes in proving theorems that have statements with multiple quantifiers.  "
+  "body": " Let “person r has brown hair,” and let be the collection of all people in the world. Then the statement would mean that “there is someone with brown hair,” or equivalently “some people have brown hair” (which is a true statement).  "
 },
 {
   "id": "example-21",
   "level": "2",
   "url": "sec-quantifiers.html#example-21",
   "type": "Example",
-  "number": "1.63",
-  "title": "",
-  "body": "     . This statement can be written in English as “for each person , for each type of fruit , person likes to eat ,” and more simply as “every person likes every type of fruit.” To verify whether this statement is true, we would have to ask each person in the world if she likes every type of fruit; if even one person does not like one type of fruit, then the statement would be false.     . This statement can be written as “for each type of fruit , for each person , we know likes to eat ,” and more simply as “every type of fruit is liked by every person.” This statement is equivalent to Statement 1.     . This statement can be written as “for each person , there is a type of fruit y such that likes to eat ,” and more simply as “every person likes at least one type of fruit.” To verify whether this statement is true, we would have to ask each person in the world if she likes some type of fruit; if at least one person does not like any type of fruit, then the statement would be false.     . This statement can be written as “there is a person such that for all types of fruit , person likes to eat ,” and more simply as “there is a person who likes every type of fruit.” To verify whether this statement is true, we would start asking one person at a time if she likes every type of fruit; as soon as we found one person who answers yes, we would know that the statement is true, and we could stop asking more people. If no such person is found, then the statement would be false.     . This statement can be written as “for each type of fruit , there is a person such that likes to eat ,” and more simply as “every type of fruit is liked by at least one person.” To verify whether this statement is true, we would have to list all the types of fruit, and then for each type of fruit, ask one person at a time whether she likes the fruit; once we found someone who liked that fruit, we could move onto the next fruit, and again ask one person at a time about it. For the statement to be true, we would have to find at least one person per fruit, though the same person could be selected for more than one fruit.     . This statement can be written as “there is a type of fruit such that for all persons , we know that likes to eat ,” and more simply as “there is a type of fruit that all people like.” To verify whether this statement is true, we would have to list all the types of fruit, and then for one type of fruit at a time, ask each person in the world if she likes that type of fruit; as soon as we found one type of fruit that everyone likes, we would know that the statement is true, and we could stop asking about more types of fruit.     . This statement can be written as “there is a person such that there is a type of fruit such that likes to eat ,” and more simply as “there is a person who likes at least one type of fruit.” To verify whether this statement is true, we would have to start asking one person at a time if she likes some type of fruit; as soon as we found one person who answers yes, we would know that the statement is true, and we could stop asking more people.     . This statement can be written as “there is a type of fruit such that there is a person such that likes to eat ,” and more simply as “there is a type of fruit that is liked by at least one person.” This statement is equivalent to Statement 7.     "
-},
-{
-  "id": "fact-quantifier-negation",
-  "level": "2",
-  "url": "sec-quantifiers.html#fact-quantifier-negation",
-  "type": "Fact",
   "number": "1.64",
-  "title": "",
-  "body": "  Let be a statement with variable , which takes values in some collection .    .     .      "
+  "title": "The Order of the Quantifiers Matters..",
+  "body": "The Order of the Quantifiers Matters.  Suppose that where and are real numbers. The statement can then be written in English as “for all there exists some such that ,” or equivalently “for each there is some such that .” This statement is true, because for any real number we can always solve for in terms of , yielding .  If we reverse the order of the quantifiers, we obtain the statement , which can be written in English as “there exists some such that for all , the equation holds.” This statement is false, because for any given , there can be at most two values of such that .  "
 },
 {
   "id": "remark-11",
@@ -637,7 +637,7 @@ var ptx_lunr_docs = [
   "type": "Remark",
   "number": "1.65",
   "title": "",
-  "body": " Unlike the equivalences discussed in Section 1.3, we cannot use truth tables to verify the equivalences in , though they are true nonetheless, based on the meanings of the quantifiers.  "
+  "body": " When attempting to prove a theorem, the statement of which involves multiple quantifiers, it is sometimes useful to translate the statement of the theorem into symbols, to help keep track of the meaning of the quantifiers.  "
 },
 {
   "id": "example-22",
@@ -645,6 +645,51 @@ var ptx_lunr_docs = [
   "url": "sec-quantifiers.html#example-22",
   "type": "Example",
   "number": "1.66",
+  "title": "",
+  "body": " Suppose that we are given the statement “if is a non-negative real number, then is a perfect square.” This statement can be interpreted as a doubly quantified statement by rephrasing it as “for each non-negative real number , there is some real number such that .” Written symbolically, the statement is ( in the non-negative real numbers)( in the real numbers)( ).  "
+},
+{
+  "id": "warning-5",
+  "level": "2",
+  "url": "sec-quantifiers.html#warning-5",
+  "type": "Warning",
+  "number": "1.67",
+  "title": "",
+  "body": " A lack of attention to the order of quantifiers can easily lead to mistakes in proving theorems that have statements with multiple quantifiers.  "
+},
+{
+  "id": "example-23",
+  "level": "2",
+  "url": "sec-quantifiers.html#example-23",
+  "type": "Example",
+  "number": "1.68",
+  "title": "",
+  "body": "     . This statement can be written in English as “for each person , for each type of fruit , person likes to eat ,” and more simply as “every person likes every type of fruit.” To verify whether this statement is true, we would have to ask each person in the world if she likes every type of fruit; if even one person does not like one type of fruit, then the statement would be false.     . This statement can be written as “for each type of fruit , for each person , we know likes to eat ,” and more simply as “every type of fruit is liked by every person.” This statement is equivalent to Statement 1.     . This statement can be written as “for each person , there is a type of fruit y such that likes to eat ,” and more simply as “every person likes at least one type of fruit.” To verify whether this statement is true, we would have to ask each person in the world if she likes some type of fruit; if at least one person does not like any type of fruit, then the statement would be false.     . This statement can be written as “there is a person such that for all types of fruit , person likes to eat ,” and more simply as “there is a person who likes every type of fruit.” To verify whether this statement is true, we would start asking one person at a time if she likes every type of fruit; as soon as we found one person who answers yes, we would know that the statement is true, and we could stop asking more people. If no such person is found, then the statement would be false.     . This statement can be written as “for each type of fruit , there is a person such that likes to eat ,” and more simply as “every type of fruit is liked by at least one person.” To verify whether this statement is true, we would have to list all the types of fruit, and then for each type of fruit, ask one person at a time whether she likes the fruit; once we found someone who liked that fruit, we could move onto the next fruit, and again ask one person at a time about it. For the statement to be true, we would have to find at least one person per fruit, though the same person could be selected for more than one fruit.     . This statement can be written as “there is a type of fruit such that for all persons , we know that likes to eat ,” and more simply as “there is a type of fruit that all people like.” To verify whether this statement is true, we would have to list all the types of fruit, and then for one type of fruit at a time, ask each person in the world if she likes that type of fruit; as soon as we found one type of fruit that everyone likes, we would know that the statement is true, and we could stop asking about more types of fruit.     . This statement can be written as “there is a person such that there is a type of fruit such that likes to eat ,” and more simply as “there is a person who likes at least one type of fruit.” To verify whether this statement is true, we would have to start asking one person at a time if she likes some type of fruit; as soon as we found one person who answers yes, we would know that the statement is true, and we could stop asking more people.     . This statement can be written as “there is a type of fruit such that there is a person such that likes to eat ,” and more simply as “there is a type of fruit that is liked by at least one person.” This statement is equivalent to Statement 7.     "
+},
+{
+  "id": "fact-quantifier-negation",
+  "level": "2",
+  "url": "sec-quantifiers.html#fact-quantifier-negation",
+  "type": "Fact",
+  "number": "1.69",
+  "title": "",
+  "body": "  Let be a statement with variable , which takes values in some collection .    .     .      "
+},
+{
+  "id": "remark-12",
+  "level": "2",
+  "url": "sec-quantifiers.html#remark-12",
+  "type": "Remark",
+  "number": "1.70",
+  "title": "",
+  "body": " Unlike the equivalences discussed in Section 1.3, we cannot use truth tables to verify the equivalences in , though they are true nonetheless, based on the meanings of the quantifiers.  "
+},
+{
+  "id": "example-24",
+  "level": "2",
+  "url": "sec-quantifiers.html#example-24",
+  "type": "Example",
+  "number": "1.71",
   "title": "",
   "body": " Suppose that is a function that takes real numbers to real numbers (for example for all real numbers ). Let “for each real number , there is some real number such that .” We would like to find . We start by writing symbolically. Let Then . Using our equivalences we have ¬Q ⇔ ¬[(∀w)(∃y)P(w, y)] ⇔ (∃w)¬[(∃y)P(w, y)] ⇔ (∃w)(∀y)(¬P(w, y)). Rephrasing this last expression in English yields “there exists a real number such that for all real numbers , the relation holds.  "
 },
@@ -694,9 +739,9 @@ var ptx_lunr_docs = [
   "body": "  Let and be integers.   If and are both even, then is even.    If and m are both odd, then is even.    If is even and is odd, then is odd.          Suppose that and are both even. Then there exist integers and such that and . Then Because and are integers, so is . Hence is even.    Combing soon!    Combing soon!      "
 },
 {
-  "id": "remark-12",
+  "id": "remark-13",
   "level": "2",
-  "url": "direct-proof.html#remark-12",
+  "url": "direct-proof.html#remark-13",
   "type": "Remark",
   "number": "2.5",
   "title": "",
@@ -712,9 +757,9 @@ var ptx_lunr_docs = [
   "body": "  Let and be integers. The number  divides the number if and only if there is some integer such that . If divides , we write , and we say that is a factor of , and that is divisible by .   "
 },
 {
-  "id": "convention-9",
+  "id": "convention-10",
   "level": "2",
-  "url": "direct-proof.html#convention-9",
+  "url": "direct-proof.html#convention-10",
   "type": "Convention",
   "number": "2.7",
   "title": "",
@@ -739,9 +784,9 @@ var ptx_lunr_docs = [
   "body": "  Any integer divides zero.    Let be an integer. Observe that . Hence .   "
 },
 {
-  "id": "exercise-2",
+  "id": "exercise-3",
   "level": "2",
-  "url": "direct-proof.html#exercise-2",
+  "url": "direct-proof.html#exercise-3",
   "type": "Exploration",
   "number": "2.10",
   "title": "",
@@ -784,9 +829,9 @@ var ptx_lunr_docs = [
   "body": "  Let be an integer. If is odd, then is odd.    Suppose that is even. Then there is some integer such that . Hence . Because is an integer, it follows that is even. By contrapositive, we see that if is odd then n is odd.   "
 },
 {
-  "id": "convention-10",
+  "id": "convention-11",
   "level": "2",
-  "url": "sec-contrapositive-contradiction.html#convention-10",
+  "url": "sec-contrapositive-contradiction.html#convention-11",
   "type": "Convention",
   "number": "2.14",
   "title": "",
@@ -829,9 +874,9 @@ var ptx_lunr_docs = [
   "body": "  Let be a real number. The number is a rational number if there exist integers and such that and . If is not a rational number, it is an irrational number.   "
 },
 {
-  "id": "remark-13",
+  "id": "remark-14",
   "level": "2",
-  "url": "sec-contrapositive-contradiction.html#remark-13",
+  "url": "sec-contrapositive-contradiction.html#remark-14",
   "type": "Remark",
   "number": "2.19",
   "title": "",
@@ -865,9 +910,9 @@ var ptx_lunr_docs = [
   "body": "  Let be an integer greater than . The number is a prime number iff the only positive integers that divide are and . The number is a composite number iff it is not a prime number.   "
 },
 {
-  "id": "exercise-3",
+  "id": "exercise-4",
   "level": "2",
-  "url": "sec-contrapositive-contradiction.html#exercise-3",
+  "url": "sec-contrapositive-contradiction.html#exercise-4",
   "type": "Exploration",
   "number": "2.23",
   "title": "",
@@ -883,18 +928,18 @@ var ptx_lunr_docs = [
   "body": "Other Proof Structures   The notion of equivalence of statements has already been seen to be useful in proving theorems, for example in proof by contrapositive. In this section we will make use of some other equivalences of statements to prove certain types of theorems.   Cases   One commonly used method for proving a statement of the form is by breaking up the proof into a number of cases (and possibly subcases, subsubcases and so on).   Formally, we use proof by cases when the premise can be written in the form . We then use Exercise 1.3.2 (6) to see that is equivalent to . Hence, in order to prove that a statement of the form is true, it is sufficient to prove that each of the statements and is true.   The use of this strategy often occurs when proving a statement involving a quantifier of the form “for all in ,” and where no single proof can be found for all such , but where can be divided up into two or more parts, and where a proof can be found for each part.     Let be an integer. Then is even.     In the proof of Theorem 2.4.1 we had two cases, which together covered all possibilities, and which were exclusive of each other. It is certainly possible to have more than two cases, and it is also possible to have non-exclusive cases; all that is needed is that all the cases combined cover all possibilities. The proof of Theorem 2.4.4 below has two non-exclusive cases.   We now turn to theorems that have statements of the form . Such theorems are less common than the previously discussed type, but do occur, and it is worth being familiar with the standard proof strategies for such theorems.   There are two commonly used strategies, each one being advantageous in certain situations. One approach would be to use the contrapositive together with De Morgan’s Law (Fact 1.3.2 (13)), which together imply that is equivalent to . The other would be to use Exercise 1.3.2 (5), which says that is equivalent to . The roles of and could also be interchanged in this last statement.     Let and be real numbers. If is irrational, then or is irrational.    Suppose that is irrational and that is rational. Hence for some integers and such that . We will show that is irrational, by using proof by contradiction. Suppose that is rational. It follows that for some integers and such that . Hence , and , contradicting the fact that is irrational. Hence is irrational.     If and Only If  Whereas the most common logical form of the statement of a theorem is , as we have discussed so far, another common form is . We refer to such theorems as “if and only if” theorems (often abbreviated “iff” theorems). To prove such a theorem, we make use of the fact that is equivalent to , as was shown in Fact 1.3.2 (11). Hence, to prove a single statement of the form , it is sufficient to prove the two statements and , each of which can be proved using any of the methods we have seen so far.    Let and be non-zero integers. Then and if and only if or .    ⇒. Suppose that and . Because , there is some integer m such that , and because , there is some integer such that . Substituting this last equation into the previous one, we obtain , and hence . Because , it follows that . Because and m are integers, then either and , or and . (We will not provide a proof of this last fact; it is stated as Theorem A.4 in the Appendix.) In the former case , and in the latter case .  ⇐. Suppose that or . First, suppose that . Then , so , and , so . Similarly, suppose that . Then , so , and , so .      Let and be integers. Then is odd if and only if both and are odd.    ⇐. Suppose that and are both odd. Hence there is an integer such that , and there is an integer such that . Therefore Because and are integers, so is . Therefore is odd.  ⇒. Suppose that and are not both odd. We will deduce that mn is not odd, and the desired result will follow by contrapositive. If and are not both odd, then at least one of them is even. Suppose first that is even. Then there is an integer such that . Hence . Because and are integers, so is . Therefore is even. Next assume that is even. The proof in this case is similar to the previous case, and we omit the details.     The Following are Equivalent  A slightly more built-up version of an if and only if theorem is a theorem that states that three or more statements are all mutually equivalent. Such theorems often include the phrase “the following are equivalent,” sometimes abbreviated “TFAE.”   "
 },
 {
-  "id": "convention-11",
+  "id": "convention-12",
   "level": "2",
-  "url": "other-structures.html#convention-11",
+  "url": "other-structures.html#convention-12",
   "type": "Convention",
   "number": "2.24",
   "title": "",
   "body": " One commonly used method for proving a statement of the form is by breaking up the proof into a number of cases (and possibly subcases, subsubcases and so on).  "
 },
 {
-  "id": "remark-14",
+  "id": "remark-15",
   "level": "2",
-  "url": "other-structures.html#remark-14",
+  "url": "other-structures.html#remark-15",
   "type": "Remark",
   "number": "2.25",
   "title": "",
@@ -910,18 +955,18 @@ var ptx_lunr_docs = [
   "body": "  Let be an integer. Then is even.   "
 },
 {
-  "id": "remark-15",
+  "id": "remark-16",
   "level": "2",
-  "url": "other-structures.html#remark-15",
+  "url": "other-structures.html#remark-16",
   "type": "Remark",
   "number": "2.27",
   "title": "",
   "body": " In the proof of Theorem 2.4.1 we had two cases, which together covered all possibilities, and which were exclusive of each other. It is certainly possible to have more than two cases, and it is also possible to have non-exclusive cases; all that is needed is that all the cases combined cover all possibilities. The proof of Theorem 2.4.4 below has two non-exclusive cases.  "
 },
 {
-  "id": "convention-12",
+  "id": "convention-13",
   "level": "2",
-  "url": "other-structures.html#convention-12",
+  "url": "other-structures.html#convention-13",
   "type": "Convention",
   "number": "2.28",
   "title": "",
@@ -955,6 +1000,60 @@ var ptx_lunr_docs = [
   "body": "  Let and be integers. Then is odd if and only if both and are odd.    ⇐. Suppose that and are both odd. Hence there is an integer such that , and there is an integer such that . Therefore Because and are integers, so is . Therefore is odd.  ⇒. Suppose that and are not both odd. We will deduce that mn is not odd, and the desired result will follow by contrapositive. If and are not both odd, then at least one of them is even. Suppose first that is even. Then there is an integer such that . Hence . Because and are integers, so is . Therefore is even. Next assume that is even. The proof in this case is similar to the previous case, and we omit the details.   "
 },
 {
+  "id": "sec-induction",
+  "level": "1",
+  "url": "sec-induction.html",
+  "type": "Section",
+  "number": "2.4",
+  "title": "Mathematical Induction",
+  "body": "Mathematical Induction    Let G \\subseteq N. Suppose that   1\\in G;    if n\\in G, then n + 1\\in G.   Then G = N.      If n\\in N, then 8n - 3n is divisible by 5.    Let G = {n\\in N | 8n - 3n is divisible by 5}. We will use PMI to show that G = N, and it will then follow that 8n - 3n is divisible by 5 for all n\\in N, which is what we need to prove. First, we observe that G \\subseteq N by definition, and hence PMI is applicable. To use PMI, we need to show two things, which are that 1\\in G, and that if n\\in G then n + 1\\in G. We start with the first of these. Observe that 8^1 - 3^1 = 5, and therefore 8^1 - 3^1 is indeed divisible by 5. Hence 1\\in G, which is Part (a) of the statement of PMI.  To show Part (b) of the statement of PMI, let n\\in G. We then need to deduce that n + 1\\in G. Because n\\in G, we know that 8n - 3n is divisible by 5, which means that there is some k\\in Z such that 8n - 3n = 5k (recall the definition of divisibility in Section 2.2). To show that n+1\\in G will require showing that 8n+1 -3n+1 is divisible by 5; we can make use of our hypothesis that 8n - 3n is divisible by 5 in this proof. We compute 8n+1 - 3n+1 = 8 · 8n - 3 · 3n = (5 · 8n + 3 · 8n) - 3 · 3n = 5 · 8n + 3 · (8n - 3n) = 5 · 8n + 3(5k) = 5(8n + 3k). Because n and k are integers, then 8n + 3k is an integer, and hence 8n+1 - 3n+1 is divisible by 5. It follows that n + 1\\in G. We have therefore proved that Part (b) of the statement of PMI holds. PMI now implies that G = N, and the result is proved.      If n\\in N, then 1 + 2 + \\cdots + n = n(n + 1) 2 .    Horse Induction  We will prove that all horses have the same color. More precisely, we will show that the statement “for any set of n horses, all the horses in the set have the same color,” is true for all n\\in N. Because there are only finitely many horses in the world, it will then follow that all existing horses have the same color. First, suppose that n = 1. It is certainly true that for any set of one horse, all the horses in the set have the same color. Next, suppose that the result is true for n, so that for any set of n horses, all the horses in the set have the same color. We need to show that the result is true for n + 1. Let {H1, \\dots, Hn+1} be a set of n + 1 horses. The set {H1, \\dots, Hn} has n horses, so by the inductive hypothesis all the horses in this set have the same color. On the other hand, the set {H2, \\dots, Hn+1} also has n horses, so all horses in this set have the same color. In particular, it then follows that Hn and Hn+1 have the same color. Combining this fact with the previous observation that horses H1, \\dots, Hn all have the same color, it follows that H1, \\dots, Hn+1 all have the same color. We have therefore proved the inductive step. Hence all horses have the same color.   Pigeonhole Principle  Let k, m\\in N, and let f : {1, \\dots, m} \\to {1, \\dots, k} be a function. Prove that if m > k, then f is not injective. A combinatorial interpretation of this fact is known as the Pigeonhole Principle, which says that if m objects are placed in k boxes, where m > k, then there will be a box with more than one object in it. Though this principle may seem innocuous, it is very important in combinatorics.   "
+},
+{
+  "id": "thm-induction",
+  "level": "2",
+  "url": "sec-induction.html#thm-induction",
+  "type": "Theorem",
+  "number": "2.32",
+  "title": "",
+  "body": "  Let G \\subseteq N. Suppose that   1\\in G;    if n\\in G, then n + 1\\in G.   Then G = N.   "
+},
+{
+  "id": "proposition-1",
+  "level": "2",
+  "url": "sec-induction.html#proposition-1",
+  "type": "Proposition",
+  "number": "2.33",
+  "title": "",
+  "body": "  If n\\in N, then 8n - 3n is divisible by 5.    Let G = {n\\in N | 8n - 3n is divisible by 5}. We will use PMI to show that G = N, and it will then follow that 8n - 3n is divisible by 5 for all n\\in N, which is what we need to prove. First, we observe that G \\subseteq N by definition, and hence PMI is applicable. To use PMI, we need to show two things, which are that 1\\in G, and that if n\\in G then n + 1\\in G. We start with the first of these. Observe that 8^1 - 3^1 = 5, and therefore 8^1 - 3^1 is indeed divisible by 5. Hence 1\\in G, which is Part (a) of the statement of PMI.  To show Part (b) of the statement of PMI, let n\\in G. We then need to deduce that n + 1\\in G. Because n\\in G, we know that 8n - 3n is divisible by 5, which means that there is some k\\in Z such that 8n - 3n = 5k (recall the definition of divisibility in Section 2.2). To show that n+1\\in G will require showing that 8n+1 -3n+1 is divisible by 5; we can make use of our hypothesis that 8n - 3n is divisible by 5 in this proof. We compute 8n+1 - 3n+1 = 8 · 8n - 3 · 3n = (5 · 8n + 3 · 8n) - 3 · 3n = 5 · 8n + 3 · (8n - 3n) = 5 · 8n + 3(5k) = 5(8n + 3k). Because n and k are integers, then 8n + 3k is an integer, and hence 8n+1 - 3n+1 is divisible by 5. It follows that n + 1\\in G. We have therefore proved that Part (b) of the statement of PMI holds. PMI now implies that G = N, and the result is proved.   "
+},
+{
+  "id": "proposition-2",
+  "level": "2",
+  "url": "sec-induction.html#proposition-2",
+  "type": "Proposition",
+  "number": "2.34",
+  "title": "",
+  "body": "  If n\\in N, then 1 + 2 + \\cdots + n = n(n + 1) 2 .   "
+},
+{
+  "id": "warning-6",
+  "level": "2",
+  "url": "sec-induction.html#warning-6",
+  "type": "Warning",
+  "number": "2.35",
+  "title": "Horse Induction.",
+  "body": "Horse Induction  We will prove that all horses have the same color. More precisely, we will show that the statement “for any set of n horses, all the horses in the set have the same color,” is true for all n\\in N. Because there are only finitely many horses in the world, it will then follow that all existing horses have the same color. First, suppose that n = 1. It is certainly true that for any set of one horse, all the horses in the set have the same color. Next, suppose that the result is true for n, so that for any set of n horses, all the horses in the set have the same color. We need to show that the result is true for n + 1. Let {H1, \\dots, Hn+1} be a set of n + 1 horses. The set {H1, \\dots, Hn} has n horses, so by the inductive hypothesis all the horses in this set have the same color. On the other hand, the set {H2, \\dots, Hn+1} also has n horses, so all horses in this set have the same color. In particular, it then follows that Hn and Hn+1 have the same color. Combining this fact with the previous observation that horses H1, \\dots, Hn all have the same color, it follows that H1, \\dots, Hn+1 all have the same color. We have therefore proved the inductive step. Hence all horses have the same color.  "
+},
+{
+  "id": "exercise-5",
+  "level": "2",
+  "url": "sec-induction.html#exercise-5",
+  "type": "Exploration",
+  "number": "2.36",
+  "title": "Pigeonhole Principle.",
+  "body": "Pigeonhole Principle  Let k, m\\in N, and let f : {1, \\dots, m} \\to {1, \\dots, k} be a function. Prove that if m > k, then f is not injective. A combinatorial interpretation of this fact is known as the Pigeonhole Principle, which says that if m objects are placed in k boxes, where m > k, then there will be a box with more than one object in it. Though this principle may seem innocuous, it is very important in combinatorics.  "
+},
+{
   "id": "sec-set-basics",
   "level": "1",
   "url": "sec-set-basics.html",
@@ -964,36 +1063,36 @@ var ptx_lunr_docs = [
   "body": "Set Basics  Sets and Notation  In the present chapter we will discuss the common basis for all systems of axioms used in contemporary mathematics, which is set theory. Though of surprisingly recent vintage, having been developed by Georg Cantor in the late nineteenth century, set theory has become widely accepted among mathematicians as the starting place for rigorous mathematics. We will take an intuitive approach to set theory (often referred to as “naive set theory”), but then build on it rigorously.   A set is a well-defined collection of objects that can be thought of as a single entity itself.   The most basic way of specifying the elements of a set is to list the elements of that set. This works well when the set contains only a small number of objects. The usual practice is to list these elements between braces.     Natural Numbers  the set of natural numbers  , denoted ;   Integers  the set of integers  , denoted ;   Rational Numbers  the set of rational numbers , denoted , which is the set of fractions;   Real Numbers  the set of real numbers , denoted , which is the set of all the numbers that are informally thought of as forming the number line.      Empty Set  An extremely valuable set we will regularly encounter is the empty set (also called the null set) which is the set that does not have any elements in it. That is, the empty set is the set . This set is denoted .   It may seem strange to consider a set that doesn't have anything in it, but the role of the empty set in set theory is somewhat analogous to the role of zero in arithmetic.  Set Builder Notation  Sometimes it is not possible to list all the elements of a set. In this case, it is sometimes convenient to use the so-called set builder notation in which the set is defined by stating a rule that all elements of the set must satisfy. If P .x\/ is a predicate in the variable x, then the notation stands for the set of all elements x in the universal set U for which P .x\/ is true. If it is clear what set is being used for the universal set, this notation is sometimes shortened to fx j P .x\/g. This is usually read as “the set of all x such that P .x\/.” The vertical bar stands for the phrase “such that.” Some writers will use a colon (:) instead of the vertical bar.    Subsets and Set Equality    Let and be sets. The set is a subset of the set , denoted , if implies . If is not a subset of , we write .    Subset Proof  There is a standard strategy for proving a statement of the form “ ,” which is to take an arbitrary element , and then to use the definitions of and to deduce that . Such a proof typically has the following form.  Proof. Let . ... (argumentation) ... Then . Hence .    It is important to distinguish between the notion of an object being an element of a set, and the notion of a set being a subset of another set. For example, let . Then and are true, whereas the statements “ ” and “ ” are false. Also, observe that a set can be an element of another set. Let . Observe that is not the same as the set . Then and are true, but “ ” and “ ” are false.   Properties of Subsets                If and , then .          To show that , we start by choosing an arbitrary element , where we think of this “ ” as the one on the left-hand side of the expression “ .” It then follows that , where we now think of this “ ” as the one on the right-hand side of the expression “ .” Hence , using the definition of subsets.    We give two proofs, because both are instructive. First, we have a direct proof. To show that , we need to show that if , then . Because is always false, then the logical implication “if , then ” is always true, using the precise definition of the conditional given in Section 1.2.  Next, we have a proof by contradiction. Suppose that . Then there exists some such that . This statement cannot be true, however, because there is no such that . We have therefore reached a contradiction, and hence the desired result is true.  This proof by contradiction might not appear to fit the standard outline for such proofs as described in Section 2.3, because it does not appear as if we are viewing the statement being proved as having the form . In fact, there are two ways of viewing the statement being proved as having this form. For the direct proof given above, we viewed the statement being proved as . We then chose an arbitrary set , and proved the statement . For the proof by contradiction, we viewed the statement being proved as “if is a set, then ,” and then indeed used our standard method of doing proof by contradiction.    This proof, having no logical tricks, is extremely typical. Let . Because , it follows that . Because , it follows that . Therefore we see that implies , and hence .       Set Equality   Let and be sets. The set  equals the set , denoted , if and . The set is a proper subset of the set , denoted , if and .     There is a bit of variation in the mathematical literature for the notation used for proper subsets. Some texts use to mean is a proper subset of , whereas others use the notation to mean what we write as .   Set Equality Proof  Proof. Let . ... (argumentation) ... Then . Therefore . Next, Let . ... (argumentation) ... Then . Hence . We conclude that .   Properties of Set Equalities   Let and be sets.    .    If then .    If and , then .       All three parts of this lemma follow straightforwardly from the definition of equality of sets together with Lemma 3.2.4. Details are left to the reader.    In some situations we will find it useful to look at not just one subset of a given set, but at all subsets of the set. In particular, we can form a new set, the elements of which are the subsets of the given set.  Power Set   Let be a set. The power set of , denoted , is the set defined by .    Power Sets     Because , then . In particular, we see that .    Let . Then the subsets of are . The last of these subsets is not proper, but we need all subsets, not only the proper ones. Therefore It can be seen intuitively that if is a finite set with n elements, then is a finite set with elements; by Part (1) of this exercise we see that this formula holds even when . This formula is proved in Theorem 7.7.10 (1).      Mutually Proper  Let and be sets. Prove that it is not possible that and are both true.    "
 },
 {
-  "id": "convention-13",
+  "id": "convention-14",
   "level": "2",
-  "url": "sec-set-basics.html#convention-13",
+  "url": "sec-set-basics.html#convention-14",
   "type": "Convention",
   "number": "3.1",
   "title": "",
   "body": " A set is a well-defined collection of objects that can be thought of as a single entity itself.  "
 },
 {
-  "id": "example-23",
+  "id": "example-25",
   "level": "2",
-  "url": "sec-set-basics.html#example-23",
+  "url": "sec-set-basics.html#example-25",
   "type": "Example",
   "number": "3.2",
   "title": "",
   "body": "   Natural Numbers  the set of natural numbers  , denoted ;   Integers  the set of integers  , denoted ;   Rational Numbers  the set of rational numbers , denoted , which is the set of fractions;   Real Numbers  the set of real numbers , denoted , which is the set of all the numbers that are informally thought of as forming the number line.     "
 },
 {
-  "id": "example-24",
+  "id": "example-26",
   "level": "2",
-  "url": "sec-set-basics.html#example-24",
+  "url": "sec-set-basics.html#example-26",
   "type": "Example",
   "number": "3.3",
   "title": "Empty Set.",
   "body": "Empty Set  An extremely valuable set we will regularly encounter is the empty set (also called the null set) which is the set that does not have any elements in it. That is, the empty set is the set . This set is denoted .  "
 },
 {
-  "id": "convention-14",
+  "id": "convention-15",
   "level": "2",
-  "url": "sec-set-basics.html#convention-14",
+  "url": "sec-set-basics.html#convention-15",
   "type": "Convention",
   "number": "3.4",
   "title": "Set Builder Notation.",
@@ -1018,9 +1117,9 @@ var ptx_lunr_docs = [
   "body": "Subset Proof  There is a standard strategy for proving a statement of the form “ ,” which is to take an arbitrary element , and then to use the definitions of and to deduce that . Such a proof typically has the following form.  Proof. Let . ... (argumentation) ... Then . Hence .  "
 },
 {
-  "id": "remark-16",
+  "id": "remark-17",
   "level": "2",
-  "url": "sec-set-basics.html#remark-16",
+  "url": "sec-set-basics.html#remark-17",
   "type": "Remark",
   "number": "3.7",
   "title": "",
@@ -1045,9 +1144,9 @@ var ptx_lunr_docs = [
   "body": "Set Equality   Let and be sets. The set  equals the set , denoted , if and . The set is a proper subset of the set , denoted , if and .   "
 },
 {
-  "id": "convention-15",
+  "id": "convention-16",
   "level": "2",
-  "url": "sec-set-basics.html#convention-15",
+  "url": "sec-set-basics.html#convention-16",
   "type": "Convention",
   "number": "3.10",
   "title": "",
@@ -1081,18 +1180,18 @@ var ptx_lunr_docs = [
   "body": "Power Set   Let be a set. The power set of , denoted , is the set defined by .   "
 },
 {
-  "id": "example-25",
+  "id": "example-27",
   "level": "2",
-  "url": "sec-set-basics.html#example-25",
+  "url": "sec-set-basics.html#example-27",
   "type": "Example",
   "number": "3.14",
   "title": "Power Sets.",
   "body": "Power Sets     Because , then . In particular, we see that .    Let . Then the subsets of are . The last of these subsets is not proper, but we need all subsets, not only the proper ones. Therefore It can be seen intuitively that if is a finite set with n elements, then is a finite set with elements; by Part (1) of this exercise we see that this formula holds even when . This formula is proved in Theorem 7.7.10 (1).     "
 },
 {
-  "id": "exercise-4",
+  "id": "exercise-6",
   "level": "2",
-  "url": "sec-set-basics.html#exercise-4",
+  "url": "sec-set-basics.html#exercise-6",
   "type": "Exploration",
   "number": "3.15",
   "title": "Mutually Proper.",
@@ -1135,9 +1234,9 @@ var ptx_lunr_docs = [
   "body": "  Let and be sets. The sets and are disjoint if .   "
 },
 {
-  "id": "example-26",
+  "id": "example-28",
   "level": "2",
-  "url": "sec-set-operations.html#example-26",
+  "url": "sec-set-operations.html#example-28",
   "type": "Example",
   "number": "3.19",
   "title": "",
@@ -1153,9 +1252,9 @@ var ptx_lunr_docs = [
   "body": "  Let and be sets. The set difference (also called the difference ) of and , denoted , is the set defined by .   "
 },
 {
-  "id": "convention-16",
+  "id": "convention-17",
   "level": "2",
-  "url": "sec-set-operations.html#convention-16",
+  "url": "sec-set-operations.html#convention-17",
   "type": "Convention",
   "number": "3.21",
   "title": "",
@@ -1180,9 +1279,9 @@ var ptx_lunr_docs = [
   "body": "  Let and be sets. The product (also called the Cartesian product ) of and , denoted , is the set , where denotes an ordered pair.   "
 },
 {
-  "id": "example-27",
+  "id": "example-29",
   "level": "2",
-  "url": "sec-set-operations.html#example-27",
+  "url": "sec-set-operations.html#example-29",
   "type": "Example",
   "number": "3.24",
   "title": "",
@@ -1198,36 +1297,36 @@ var ptx_lunr_docs = [
   "body": "  Let , , and be sets.   If and , then .     and (Distributive Laws).     and (Distributive Laws).     and .     .      "
 },
 {
-  "id": "remark-17",
+  "id": "remark-18",
   "level": "2",
-  "url": "sec-set-operations.html#remark-17",
+  "url": "sec-set-operations.html#remark-18",
   "type": "Remark",
   "number": "3.26",
   "title": "",
   "body": " Observe that is not the same as , unless and happen to be equal.  "
 },
 {
-  "id": "exercise-5",
+  "id": "exercise-7",
   "level": "2",
-  "url": "sec-set-operations.html#exercise-5",
+  "url": "sec-set-operations.html#exercise-7",
   "type": "Exploration",
   "number": "3.27",
   "title": "",
   "body": " Let and be sets. Prove that   "
 },
 {
-  "id": "exercise-6",
+  "id": "exercise-8",
   "level": "2",
-  "url": "sec-set-operations.html#exercise-6",
+  "url": "sec-set-operations.html#exercise-8",
   "type": "Exploration",
   "number": "3.28",
   "title": "",
   "body": " Let , and be sets. Suppose that , and that . Prove that .  "
 },
 {
-  "id": "exercise-7",
+  "id": "exercise-9",
   "level": "2",
-  "url": "sec-set-operations.html#exercise-7",
+  "url": "sec-set-operations.html#exercise-9",
   "type": "Exploration",
   "number": "3.29",
   "title": "",
@@ -1252,9 +1351,9 @@ var ptx_lunr_docs = [
   "body": "  Let be a set. The set is called a family of sets if all the elements of A are sets. The family of sets is indexed by , denoted , if there is a non-empty set such that there is an element for each , and that every element of equals for exactly one .   "
 },
 {
-  "id": "remark-18",
+  "id": "remark-19",
   "level": "2",
-  "url": "sec-families-of-sets.html#remark-18",
+  "url": "sec-families-of-sets.html#remark-19",
   "type": "Remark",
   "number": "3.31",
   "title": "",
@@ -1279,263 +1378,11 @@ var ptx_lunr_docs = [
   "body": "  Let be a non-empty set, let be a family of sets indexed by and let be a set.    for all . If for all , then .     for all . If for all , then .   Distributive Law   .   Distributive Law   .   De Morgan's Law   .   De Morgan's Law   .      "
 },
 {
-  "id": "sec-function-basics",
-  "level": "1",
-  "url": "sec-function-basics.html",
-  "type": "Section",
-  "number": "4.1",
-  "title": "Function Basics",
-  "body": "Function Basics    Let and be sets. A function (also called a map ) from to , denoted , is a subset such that for each , there is one and only one pair in of the form . The set is called the domain of and the set is called the codomain of .        A constant map  is any function of the form for all , where is some fixed element.    The identity map on is the function defined by for all .    The inclusion map from to is the function defined by for all     If is a function, the restriction of to , denoted , is the function defined by for all .    If is a function, an extension of to is any function such that .    The projection maps from are the functions and defined by and for all . For any finite collection of sets , projection maps for all can be defined similarly.    Let be a non-empty set, and let be a subset. The characteristic map for in , denoted , is the function defined by        Let , be subsets. Prove that if and only if .   Observe that “ ” is a statement of equality of functions, whereas “ ” is a statement of equality of sets.    Let and be sets. A partial function from to is a function of the form , where . We can think of partial functions from to as subsets of that satisfy a certain condition. Let and be partial functions from to . Prove that if and only if and .   "
-},
-{
-  "id": "def-function",
-  "level": "2",
-  "url": "sec-function-basics.html#def-function",
-  "type": "Definition",
-  "number": "4.1",
-  "title": "",
-  "body": "  Let and be sets. A function (also called a map ) from to , denoted , is a subset such that for each , there is one and only one pair in of the form . The set is called the domain of and the set is called the codomain of .   "
-},
-{
-  "id": "example-28",
-  "level": "2",
-  "url": "sec-function-basics.html#example-28",
-  "type": "Example",
-  "number": "4.2",
-  "title": "",
-  "body": "    A constant map  is any function of the form for all , where is some fixed element.    The identity map on is the function defined by for all .    The inclusion map from to is the function defined by for all     If is a function, the restriction of to , denoted , is the function defined by for all .    If is a function, an extension of to is any function such that .    The projection maps from are the functions and defined by and for all . For any finite collection of sets , projection maps for all can be defined similarly.    Let be a non-empty set, and let be a subset. The characteristic map for in , denoted , is the function defined by      "
-},
-{
-  "id": "exercise-8",
-  "level": "2",
-  "url": "sec-function-basics.html#exercise-8",
-  "type": "Exploration",
-  "number": "4.3",
-  "title": "",
-  "body": " Let , be subsets. Prove that if and only if .   Observe that “ ” is a statement of equality of functions, whereas “ ” is a statement of equality of sets.  "
-},
-{
-  "id": "exercise-9",
-  "level": "2",
-  "url": "sec-function-basics.html#exercise-9",
-  "type": "Exploration",
-  "number": "4.4",
-  "title": "",
-  "body": " Let and be sets. A partial function from to is a function of the form , where . We can think of partial functions from to as subsets of that satisfy a certain condition. Let and be partial functions from to . Prove that if and only if and .  "
-},
-{
-  "id": "sec-image-and-pre-image",
-  "level": "1",
-  "url": "sec-image-and-pre-image.html",
-  "type": "Section",
-  "number": "4.2",
-  "title": "Image and Preimage",
-  "body": "Image and Preimage    Let . The image of under , denoted , is the set defined by The range of (also called the image of ) is the set .      Let . The inverse image of under , denoted , is the set defined by       Let and be sets, let and be subsets, and let be a function. Let and be non-empty sets, let be a family of subsets of indexed by , and let be a family of subsets of indexed by .    and .     .     if and only if .    If , then .    If , then .     .     .     .     .        Let and be sets, let be subsets and let be a function.   Prove that .    Is it necessarily the case that ? Give a proof or a counterexample.      "
-},
-{
-  "id": "def-image",
-  "level": "2",
-  "url": "sec-image-and-pre-image.html#def-image",
-  "type": "Definition",
-  "number": "4.5",
-  "title": "",
-  "body": "  Let . The image of under , denoted , is the set defined by The range of (also called the image of ) is the set .   "
-},
-{
-  "id": "def-preimage",
-  "level": "2",
-  "url": "sec-image-and-pre-image.html#def-preimage",
-  "type": "Definition",
-  "number": "4.6",
-  "title": "",
-  "body": "  Let . The inverse image of under , denoted , is the set defined by    "
-},
-{
-  "id": "thm-properties-of-image-preimage",
-  "level": "2",
-  "url": "sec-image-and-pre-image.html#thm-properties-of-image-preimage",
-  "type": "Theorem",
-  "number": "4.7",
-  "title": "",
-  "body": "  Let and be sets, let and be subsets, and let be a function. Let and be non-empty sets, let be a family of subsets of indexed by , and let be a family of subsets of indexed by .    and .     .     if and only if .    If , then .    If , then .     .     .     .     .      "
-},
-{
-  "id": "exercise-10",
-  "level": "2",
-  "url": "sec-image-and-pre-image.html#exercise-10",
-  "type": "Exploration",
-  "number": "4.8",
-  "title": "",
-  "body": " Let and be sets, let be subsets and let be a function.   Prove that .    Is it necessarily the case that ? Give a proof or a counterexample.     "
-},
-{
-  "id": "sec-composition-and-inverse-functions",
-  "level": "1",
-  "url": "sec-composition-and-inverse-functions.html",
-  "type": "Section",
-  "number": "4.3",
-  "title": "Composition and Inverse Functions",
-  "body": "Composition and Inverse Functions    Let , and be sets, and let and be functions. The composition of and is the function defined by for all .      Let and be sets, and let and and be functions.    (Associative Law).     (Identity Law).         Let and be sets, and let and g : be functions.   The function is a right inverse for if .    The function is a left inverse for if .    The function is an inverse for if it is both a right inverse and a left inverse.         Let and be sets, and let be a function.   If has an inverse, then the inverse is unique.    If has a right inverse and a left inverse , then , and hence has an inverse.    If is an inverse of , then is an inverse of .        Let and be sets, and let be a function. If has an inverse, the inverse is denoted .    Let and be sets, let and be subsets, and let and be functions. Prove that .   "
-},
-{
-  "id": "def-composition",
-  "level": "2",
-  "url": "sec-composition-and-inverse-functions.html#def-composition",
-  "type": "Definition",
-  "number": "4.9",
-  "title": "",
-  "body": "  Let , and be sets, and let and be functions. The composition of and is the function defined by for all .   "
-},
-{
-  "id": "thm-properties-of-composition",
-  "level": "2",
-  "url": "sec-composition-and-inverse-functions.html#thm-properties-of-composition",
-  "type": "Theorem",
-  "number": "4.10",
-  "title": "",
-  "body": "  Let and be sets, and let and and be functions.    (Associative Law).     (Identity Law).      "
-},
-{
-  "id": "def-left-right-inverse",
-  "level": "2",
-  "url": "sec-composition-and-inverse-functions.html#def-left-right-inverse",
-  "type": "Definition",
-  "number": "4.11",
-  "title": "",
-  "body": "  Let and be sets, and let and g : be functions.   The function is a right inverse for if .    The function is a left inverse for if .    The function is an inverse for if it is both a right inverse and a left inverse.      "
-},
-{
-  "id": "thm-inverse-properties",
-  "level": "2",
-  "url": "sec-composition-and-inverse-functions.html#thm-inverse-properties",
-  "type": "Theorem",
-  "number": "4.12",
-  "title": "",
-  "body": "  Let and be sets, and let be a function.   If has an inverse, then the inverse is unique.    If has a right inverse and a left inverse , then , and hence has an inverse.    If is an inverse of , then is an inverse of .      "
-},
-{
-  "id": "convention-17",
-  "level": "2",
-  "url": "sec-composition-and-inverse-functions.html#convention-17",
-  "type": "Convention",
-  "number": "4.13",
-  "title": "",
-  "body": " Let and be sets, and let be a function. If has an inverse, the inverse is denoted .  "
-},
-{
-  "id": "exercise-11",
-  "level": "2",
-  "url": "sec-composition-and-inverse-functions.html#exercise-11",
-  "type": "Exploration",
-  "number": "4.14",
-  "title": "",
-  "body": " Let and be sets, let and be subsets, and let and be functions. Prove that .  "
-},
-{
-  "id": "sec-inject-surject-biject",
-  "level": "1",
-  "url": "sec-inject-surject-biject.html",
-  "type": "Section",
-  "number": "4.4",
-  "title": "Injectivity, Surjectivity, Bijectivty",
-  "body": "Injectivity, Surjectivity, Bijectivty    Let and be sets, and let be a function.   The function is injective (also called one-to-one or monic) if implies for all ; equivalently, if implies for all .    The function is surjective (also called onto or epic) if for every , there exists some such that ; equivalently, if .    The function is bijective if it is both injective and surjective.           Let be defined by for all . This function is surjective and injective, and hence bijective. First, we show that is injective. Let . Suppose that . Then . It follows that , and because and , we deduce that . Hence is injective. Second, we show that is surjective. Let . Then , and so . Hence k is surjective.    Let be defined by for all . This function is injective but not surjective. The proof of the injectivity of is the same as the proof of the injectivity of the function in Part (1) of this example. The reason that is not surjective is that for any , though is in the codomain of .    Let be defined by for all . This function is surjective but not injective. The proof of the surjectivity of is the same as the proof of the surjectivity of the function in Part (1) of this example. The reason is not injective is because even though . (Observe that instead of we could have used for any positive number , but a single instance where the definition of injectivity fails is sufficient.)    Let be defined by for all . This function is neither injective nor surjective, which is seen using the same arguments as the corresponding arguments for and in Parts (2) and (3) of this example.        Let , and be sets, and let and be functions.   If and are injective, then is injective.    If and are surjective, then is surjective.    If and are bijective, then is bijective.         Let and be non-empty sets, and let be a function.   The function has a right inverse if and only if is surjective.    The function has a left inverse if and only if is injective.    The function has an inverse if and only if is bijective.         Let and be non-empty sets, and let be a function.   The function is injective if and only if implies for all functions g for all sets .    The function is surjective if and only if implies for all functions for all sets .        Let and be sets, and let be a subset   Prove that the identity map is bijective.    Prove that inclusion map is injective.    Let be a function. Suppose that is injective. Is the restriction necessarily injective? Give a proof or a counterexample.    Let be a function. Suppose that is surjective. Is the restriction necessarily surjective? Give a proof or a counterexample.    Let be a function, and let be an extension of . Suppose that is injective. Is necessarily injective? Give a proof or a counterexample.    Let be a function, and let be an extension of . Suppose that is surjective. Is necessarily surjective? Give a proof or a counterexample.    Prove that the projection maps and are surjective. Are the projection maps injective?       Let , and be sets. Prove that there is a bijective function .    Let and be sets, let be subsets and let be a function. Suppose that is injective. Prove that .    Let and be sets, and let and be functions.   Suppose that is injective, and that is a left inverse of . Prove that is surjective.    Suppose that is surjective, and that is a right inverse of . Prove that is injective.    Suppose that is bijective, and that is the inverse of . Prove that is bijective.       Let , and be sets, and let and be functions.   Prove that if is injective, then is injective.    Prove that if is surjective, then is surjective.    Prove that if is bijective, then is injective, and is surjective.    Find an example of functions and such that is bijective, but is not surjective, and is not injective. Hence Parts (1)-(3) of this exercise are the best possible results.      "
-},
-{
-  "id": "def-jectivity",
-  "level": "2",
-  "url": "sec-inject-surject-biject.html#def-jectivity",
-  "type": "Definition",
-  "number": "4.15",
-  "title": "",
-  "body": "  Let and be sets, and let be a function.   The function is injective (also called one-to-one or monic) if implies for all ; equivalently, if implies for all .    The function is surjective (also called onto or epic) if for every , there exists some such that ; equivalently, if .    The function is bijective if it is both injective and surjective.      "
-},
-{
-  "id": "example-29",
-  "level": "2",
-  "url": "sec-inject-surject-biject.html#example-29",
-  "type": "Example",
-  "number": "4.16",
-  "title": "",
-  "body": "    Let be defined by for all . This function is surjective and injective, and hence bijective. First, we show that is injective. Let . Suppose that . Then . It follows that , and because and , we deduce that . Hence is injective. Second, we show that is surjective. Let . Then , and so . Hence k is surjective.    Let be defined by for all . This function is injective but not surjective. The proof of the injectivity of is the same as the proof of the injectivity of the function in Part (1) of this example. The reason that is not surjective is that for any , though is in the codomain of .    Let be defined by for all . This function is surjective but not injective. The proof of the surjectivity of is the same as the proof of the surjectivity of the function in Part (1) of this example. The reason is not injective is because even though . (Observe that instead of we could have used for any positive number , but a single instance where the definition of injectivity fails is sufficient.)    Let be defined by for all . This function is neither injective nor surjective, which is seen using the same arguments as the corresponding arguments for and in Parts (2) and (3) of this example.     "
-},
-{
-  "id": "lemma-1",
-  "level": "2",
-  "url": "sec-inject-surject-biject.html#lemma-1",
-  "type": "Lemma",
-  "number": "4.17",
-  "title": "",
-  "body": "  Let , and be sets, and let and be functions.   If and are injective, then is injective.    If and are surjective, then is surjective.    If and are bijective, then is bijective.      "
-},
-{
-  "id": "theorem-19",
-  "level": "2",
-  "url": "sec-inject-surject-biject.html#theorem-19",
-  "type": "Theorem",
-  "number": "4.18",
-  "title": "",
-  "body": "  Let and be non-empty sets, and let be a function.   The function has a right inverse if and only if is surjective.    The function has a left inverse if and only if is injective.    The function has an inverse if and only if is bijective.      "
-},
-{
-  "id": "theorem-20",
-  "level": "2",
-  "url": "sec-inject-surject-biject.html#theorem-20",
-  "type": "Theorem",
-  "number": "4.19",
-  "title": "",
-  "body": "  Let and be non-empty sets, and let be a function.   The function is injective if and only if implies for all functions g for all sets .    The function is surjective if and only if implies for all functions for all sets .      "
-},
-{
-  "id": "exercise-12",
-  "level": "2",
-  "url": "sec-inject-surject-biject.html#exercise-12",
-  "type": "Exploration",
-  "number": "4.20",
-  "title": "",
-  "body": " Let and be sets, and let be a subset   Prove that the identity map is bijective.    Prove that inclusion map is injective.    Let be a function. Suppose that is injective. Is the restriction necessarily injective? Give a proof or a counterexample.    Let be a function. Suppose that is surjective. Is the restriction necessarily surjective? Give a proof or a counterexample.    Let be a function, and let be an extension of . Suppose that is injective. Is necessarily injective? Give a proof or a counterexample.    Let be a function, and let be an extension of . Suppose that is surjective. Is necessarily surjective? Give a proof or a counterexample.    Prove that the projection maps and are surjective. Are the projection maps injective?     "
-},
-{
-  "id": "exercise-13",
-  "level": "2",
-  "url": "sec-inject-surject-biject.html#exercise-13",
-  "type": "Exploration",
-  "number": "4.21",
-  "title": "",
-  "body": " Let , and be sets. Prove that there is a bijective function .  "
-},
-{
-  "id": "exercise-14",
-  "level": "2",
-  "url": "sec-inject-surject-biject.html#exercise-14",
-  "type": "Exploration",
-  "number": "4.22",
-  "title": "",
-  "body": " Let and be sets, let be subsets and let be a function. Suppose that is injective. Prove that .  "
-},
-{
-  "id": "exercise-15",
-  "level": "2",
-  "url": "sec-inject-surject-biject.html#exercise-15",
-  "type": "Exploration",
-  "number": "4.23",
-  "title": "",
-  "body": " Let and be sets, and let and be functions.   Suppose that is injective, and that is a left inverse of . Prove that is surjective.    Suppose that is surjective, and that is a right inverse of . Prove that is injective.    Suppose that is bijective, and that is the inverse of . Prove that is bijective.     "
-},
-{
-  "id": "exercise-16",
-  "level": "2",
-  "url": "sec-inject-surject-biject.html#exercise-16",
-  "type": "Exploration",
-  "number": "4.24",
-  "title": "",
-  "body": " Let , and be sets, and let and be functions.   Prove that if is injective, then is injective.    Prove that if is surjective, then is surjective.    Prove that if is bijective, then is injective, and is surjective.    Find an example of functions and such that is bijective, but is not surjective, and is not injective. Hence Parts (1)-(3) of this exercise are the best possible results.     "
-},
-{
   "id": "sec-relation-basics",
   "level": "1",
   "url": "sec-relation-basics.html",
   "type": "Section",
-  "number": "5.1",
+  "number": "4.1",
   "title": "Relation Basics",
   "body": "Relation Basics    Let and be sets. A relation from to is a subset . If and , we write if , and if . A relation on is a relation from to .        Let be the set of all people. Define a relation on by having person related to person if and only if and have at least one parent in common.    The symbols < and both represent relations on .    Let be a set. The symbol “ ” represents a relation on , where , are related if and only if .        Let be a function. Then is defined by a subset of satisfying a certain condition. Hence is also a relation from to .    The concept of a relation is therefore seen to be more general than the concept of a function.   In principle, it would have been logical to have the chapter on relations before the chapter on functions, and to view functions as a special case of relations. In practice, however, most mathematicians do not think of functions as special types of relations when they use functions on a daily basis, and therefore functions deserve their own treatment independent of the study of relations.     Let and be non-empty sets, let be a relation from to , and let . The relation class of with respect to , denoted , is the set defined by . If the relation is understood from the context, we will often write instead of .        There are a number of distinct cases here, and we will examine a few of them. If is the only child of each of her parents, then , where we observe that has the same parents as herself. If and are the only two children of each of their parents, then . If has one half-sibling by her father, and another half-sibling by her mother, and each of and has no other siblings or half-siblings, then , and , and .    For the relation <, we see that for all , and for the relation , we see that for all .      "
 },
@@ -1544,7 +1391,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-relation-basics.html#def-relation",
   "type": "Definition",
-  "number": "5.1",
+  "number": "4.1",
   "title": "",
   "body": "  Let and be sets. A relation from to is a subset . If and , we write if , and if . A relation on is a relation from to .   "
 },
@@ -1553,7 +1400,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-relation-basics.html#example-30",
   "type": "Example",
-  "number": "5.2",
+  "number": "4.2",
   "title": "",
   "body": "    Let be the set of all people. Define a relation on by having person related to person if and only if and have at least one parent in common.    The symbols < and both represent relations on .    Let be a set. The symbol “ ” represents a relation on , where , are related if and only if .     "
 },
@@ -1562,16 +1409,16 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-relation-basics.html#prop-functions-are-relations",
   "type": "Proposition",
-  "number": "5.3",
+  "number": "4.3",
   "title": "",
   "body": "  Let be a function. Then is defined by a subset of satisfying a certain condition. Hence is also a relation from to .   "
 },
 {
-  "id": "remark-19",
+  "id": "remark-20",
   "level": "2",
-  "url": "sec-relation-basics.html#remark-19",
+  "url": "sec-relation-basics.html#remark-20",
   "type": "Remark",
-  "number": "5.4",
+  "number": "4.4",
   "title": "",
   "body": " In principle, it would have been logical to have the chapter on relations before the chapter on functions, and to view functions as a special case of relations. In practice, however, most mathematicians do not think of functions as special types of relations when they use functions on a daily basis, and therefore functions deserve their own treatment independent of the study of relations.  "
 },
@@ -1580,7 +1427,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-relation-basics.html#def-relation-class",
   "type": "Definition",
-  "number": "5.5",
+  "number": "4.5",
   "title": "",
   "body": "  Let and be non-empty sets, let be a relation from to , and let . The relation class of with respect to , denoted , is the set defined by . If the relation is understood from the context, we will often write instead of .   "
 },
@@ -1589,7 +1436,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-relation-basics.html#example-31",
   "type": "Example",
-  "number": "5.6",
+  "number": "4.6",
   "title": "",
   "body": "    There are a number of distinct cases here, and we will examine a few of them. If is the only child of each of her parents, then , where we observe that has the same parents as herself. If and are the only two children of each of their parents, then . If has one half-sibling by her father, and another half-sibling by her mother, and each of and has no other siblings or half-siblings, then , and , and .    For the relation <, we see that for all , and for the relation , we see that for all .     "
 },
@@ -1598,7 +1445,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-congruence.html",
   "type": "Section",
-  "number": "5.2",
+  "number": "4.2",
   "title": "Congruence",
   "body": "Congruence    Let , and let . The number is congruent to the number modulo , denoted , if for some .     We see that , because ; and , because ; and , because and is not a multiple of .     Let , and let .    .    If then .    If and , then .          Observe that .    Suppose that . Then for some . Hence . Because , it follows that .    Suppose that and . Then and for some . Adding these two equations we obtain . Because , it follows that .         Let , and let . Then there is a unique such that .    To prove uniqueness, suppose that there are such that and . It follows from Lemma 5.2.3 (2) that , and from Lemma 5.2.3 (3) that . That is, we have for some . On the other hand, because , it follows that . We deduce that , and hence that . To prove existence, we use the Division Algorithm (Theorem A.5) to deduce that there are such that and . Hence , and therefore .      Let , and let . Then precisely one of the following holds: either for some , or for some , or for some , \\dots, or for some .      Let . Then is even or odd, but not both.      Let .   Let . If , then . If , then [ .     .          Suppose that . Let . Then by the definition of relation classes we know that . By Lemma 5.2.3 (2) it follows that , and hence by Lemma 5.2.3 (3) we deduce that . Therefore , and hence . A similar argument shows that . We conclude that .  Now assume that . We use proof by contradiction. Suppose that . Hence there is some . Then and , so that and . By Lemma 5.2.3 (2) we see that , and by Lemma 5.2.3 (3) it follows that , which is a contradiction. We conclude that .    By definition for all , and therefore [ . Let . By Theorem 5.2.4 there is a unique such that . It follows from Lemma 5.2.3 (2) that . Hence . Because , it follows that . Therefore . We conclude that .         Let . The set of integers modulo , denoted , is the set defined by , where the relation classes are for congruence modulo .     The set is also denoted in some texts, for reasons that will become apparent if the reader learns about group theory.   Like Clockwork  The integers modulo is the set . This set has elements, each of which is itself a set (namely, a relation class), but which is viewed here as a single element in the set . The relation classes in could each be described differently. For example, we see that , and so , which is what we see on the face of a clock. For mathematical purposes it is more convenient to write rather than , and so we will continue to write as we did originally; it would also be nice to have the on clocks replaced with , but historical practice holds sway over mathematics in this situation. There are, of course, many other ways to rewrite the elements of , for example , and so it would in principle be possible to replace the number on a clock with , though presumably only mathematicians would find that amusing.     Let . Let and be the binary operations on defined by and for all .      Let , and let . Suppose that and . Then and .    There exist such that . Then and , and therefore a + b = (c + kn) + (d + jn) = c + d + (k + j)n, ab = (c + kn)(d + jn) = cd + (c j + dk + k jn)n. The desired result now follows.      Let , and let . Suppose that and . Then and .      Let . The canonical map for congruence modulo is the function defined by for all .     Observe that there is a distinct function for each , but to avoid unnecessarily cumbersome notation (such as ), we will assume that the number is always known from the context.    The canonical map is a special case of a more general type of canonical map that will be seen in Definition 5.3.8.    Let , and let . Then and .   "
 },
@@ -1607,7 +1454,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-congruence.html#def-congruent",
   "type": "Definition",
-  "number": "5.7",
+  "number": "4.7",
   "title": "",
   "body": "  Let , and let . The number is congruent to the number modulo , denoted , if for some .   "
 },
@@ -1616,7 +1463,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-congruence.html#example-32",
   "type": "Example",
-  "number": "5.8",
+  "number": "4.8",
   "title": "",
   "body": " We see that , because ; and , because ; and , because and is not a multiple of .  "
 },
@@ -1625,16 +1472,16 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-congruence.html#lem-modular-equivalence",
   "type": "Lemma",
-  "number": "5.9",
+  "number": "4.9",
   "title": "",
   "body": "  Let , and let .    .    If then .    If and , then .          Observe that .    Suppose that . Then for some . Hence . Because , it follows that .    Suppose that and . Then and for some . Adding these two equations we obtain . Because , it follows that .      "
 },
 {
-  "id": "theorem-21",
+  "id": "theorem-17",
   "level": "2",
-  "url": "sec-congruence.html#theorem-21",
+  "url": "sec-congruence.html#theorem-17",
   "type": "Theorem",
-  "number": "5.10",
+  "number": "4.10",
   "title": "",
   "body": "  Let , and let . Then there is a unique such that .    To prove uniqueness, suppose that there are such that and . It follows from Lemma 5.2.3 (2) that , and from Lemma 5.2.3 (3) that . That is, we have for some . On the other hand, because , it follows that . We deduce that , and hence that . To prove existence, we use the Division Algorithm (Theorem A.5) to deduce that there are such that and . Hence , and therefore .   "
 },
@@ -1643,7 +1490,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-congruence.html#corollary-2",
   "type": "Corollary",
-  "number": "5.11",
+  "number": "4.11",
   "title": "",
   "body": "  Let , and let . Then precisely one of the following holds: either for some , or for some , or for some , \\dots, or for some .   "
 },
@@ -1652,7 +1499,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-congruence.html#corollary-3",
   "type": "Corollary",
-  "number": "5.12",
+  "number": "4.12",
   "title": "",
   "body": "  Let . Then is even or odd, but not both.   "
 },
@@ -1661,7 +1508,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-congruence.html#thm-modular-partition",
   "type": "Theorem",
-  "number": "5.13",
+  "number": "4.13",
   "title": "",
   "body": "  Let .   Let . If , then . If , then [ .     .          Suppose that . Let . Then by the definition of relation classes we know that . By Lemma 5.2.3 (2) it follows that , and hence by Lemma 5.2.3 (3) we deduce that . Therefore , and hence . A similar argument shows that . We conclude that .  Now assume that . We use proof by contradiction. Suppose that . Hence there is some . Then and , so that and . By Lemma 5.2.3 (2) we see that , and by Lemma 5.2.3 (3) it follows that , which is a contradiction. We conclude that .    By definition for all , and therefore [ . Let . By Theorem 5.2.4 there is a unique such that . It follows from Lemma 5.2.3 (2) that . Hence . Because , it follows that . Therefore . We conclude that .      "
 },
@@ -1670,7 +1517,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-congruence.html#def-integers-modulo",
   "type": "Definition",
-  "number": "5.14",
+  "number": "4.14",
   "title": "",
   "body": "  Let . The set of integers modulo , denoted , is the set defined by , where the relation classes are for congruence modulo .   "
 },
@@ -1679,7 +1526,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-congruence.html#convention-18",
   "type": "Convention",
-  "number": "5.15",
+  "number": "4.15",
   "title": "",
   "body": " The set is also denoted in some texts, for reasons that will become apparent if the reader learns about group theory.  "
 },
@@ -1688,7 +1535,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-congruence.html#example-33",
   "type": "Example",
-  "number": "5.16",
+  "number": "4.16",
   "title": "Like Clockwork.",
   "body": "Like Clockwork  The integers modulo is the set . This set has elements, each of which is itself a set (namely, a relation class), but which is viewed here as a single element in the set . The relation classes in could each be described differently. For example, we see that , and so , which is what we see on the face of a clock. For mathematical purposes it is more convenient to write rather than , and so we will continue to write as we did originally; it would also be nice to have the on clocks replaced with , but historical practice holds sway over mathematics in this situation. There are, of course, many other ways to rewrite the elements of , for example , and so it would in principle be possible to replace the number on a clock with , though presumably only mathematicians would find that amusing.  "
 },
@@ -1697,25 +1544,25 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-congruence.html#def-modular-arithmetic",
   "type": "Definition",
-  "number": "5.17",
+  "number": "4.17",
   "title": "",
   "body": "  Let . Let and be the binary operations on defined by and for all .   "
 },
 {
-  "id": "lemma-3",
+  "id": "lemma-2",
   "level": "2",
-  "url": "sec-congruence.html#lemma-3",
+  "url": "sec-congruence.html#lemma-2",
   "type": "Lemma",
-  "number": "5.18",
+  "number": "4.18",
   "title": "",
   "body": "  Let , and let . Suppose that and . Then and .    There exist such that . Then and , and therefore a + b = (c + kn) + (d + jn) = c + d + (k + j)n, ab = (c + kn)(d + jn) = cd + (c j + dk + k jn)n. The desired result now follows.   "
 },
 {
-  "id": "theorem-23",
+  "id": "theorem-19",
   "level": "2",
-  "url": "sec-congruence.html#theorem-23",
+  "url": "sec-congruence.html#theorem-19",
   "type": "Theorem",
-  "number": "5.19",
+  "number": "4.19",
   "title": "",
   "body": "  Let , and let . Suppose that and . Then and .   "
 },
@@ -1724,7 +1571,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-congruence.html#def-canonical-congruence-map",
   "type": "Definition",
-  "number": "5.20",
+  "number": "4.20",
   "title": "",
   "body": "  Let . The canonical map for congruence modulo is the function defined by for all .   "
 },
@@ -1733,25 +1580,25 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-congruence.html#convention-19",
   "type": "Convention",
-  "number": "5.21",
+  "number": "4.21",
   "title": "",
   "body": " Observe that there is a distinct function for each , but to avoid unnecessarily cumbersome notation (such as ), we will assume that the number is always known from the context.  "
 },
 {
-  "id": "remark-20",
+  "id": "remark-21",
   "level": "2",
-  "url": "sec-congruence.html#remark-20",
+  "url": "sec-congruence.html#remark-21",
   "type": "Remark",
-  "number": "5.22",
+  "number": "4.22",
   "title": "",
   "body": " The canonical map is a special case of a more general type of canonical map that will be seen in Definition 5.3.8.  "
 },
 {
-  "id": "exercise-17",
+  "id": "exercise-10",
   "level": "2",
-  "url": "sec-congruence.html#exercise-17",
+  "url": "sec-congruence.html#exercise-10",
   "type": "Exploration",
-  "number": "5.23",
+  "number": "4.23",
   "title": "",
   "body": " Let , and let . Then and .  "
 },
@@ -1760,7 +1607,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-equivalence-relations.html",
   "type": "Section",
-  "number": "5.3",
+  "number": "4.3",
   "title": "Equivalence Relations",
   "body": "Equivalence Relations    Let be a non-empty set, and let be a relation on .   The relation is reflexive if , for all .    The relation is symmetric if implies , for all .    The relation is transitive if and imply , for all .           The relation on is reflexive and transitive, but not symmetric.    The relation of one person being the cousin of another is symmetric, but neither reflexive nor transitive.    The relation of one person being the daughter of another person is neither reflexive, symmetric nor transitive.        Let be a set, and let be a relation on . The relation is an equivalence relation if it is reflexive, symmetric and transitive.     We use for equivalence relations.       Equality    Being the same age        Congruence module for any is an equivalene relation on .      Let be a non-empty set, and let be an equivalence relation on . The relation classes of with respect to are called equivalence classes.      Let be a non-empty set, and let be an equivalence relation on . The quotient set of with respect to , denoted , is the set defined by .      Let be a non-empty set, and let be an equivalence relation on . The canonical map for and is the function defined by for all .      Let be a non-empty set. A partition of is a family of non-empty subsets of such that   if and , then ;     .           Let denote the set of even integers, and let denote the set of odd integers. Then is a partition of .    Let . Then is a partition of .    Let . Then is not a partition of , because it is not pairwise disjoint. For example, we observe that .        Let be a non-empty set, and let be an equivalence relation on . Then is a partition of .      Let be a non-empty set, let be an equivalence relation on and let . Then if and only if .    psi and phi stuff to come  "
 },
@@ -1769,7 +1616,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-equivalence-relations.html#def-r-s-t",
   "type": "Definition",
-  "number": "5.24",
+  "number": "4.24",
   "title": "",
   "body": "  Let be a non-empty set, and let be a relation on .   The relation is reflexive if , for all .    The relation is symmetric if implies , for all .    The relation is transitive if and imply , for all .      "
 },
@@ -1778,7 +1625,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-equivalence-relations.html#example-34",
   "type": "Example",
-  "number": "5.25",
+  "number": "4.25",
   "title": "",
   "body": "    The relation on is reflexive and transitive, but not symmetric.    The relation of one person being the cousin of another is symmetric, but neither reflexive nor transitive.    The relation of one person being the daughter of another person is neither reflexive, symmetric nor transitive.     "
 },
@@ -1787,7 +1634,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-equivalence-relations.html#def-equivalence-relation",
   "type": "Definition",
-  "number": "5.26",
+  "number": "4.26",
   "title": "",
   "body": "  Let be a set, and let be a relation on . The relation is an equivalence relation if it is reflexive, symmetric and transitive.   "
 },
@@ -1796,7 +1643,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-equivalence-relations.html#convention-20",
   "type": "Convention",
-  "number": "5.27",
+  "number": "4.27",
   "title": "",
   "body": " We use for equivalence relations.  "
 },
@@ -1805,7 +1652,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-equivalence-relations.html#example-35",
   "type": "Example",
-  "number": "5.28",
+  "number": "4.28",
   "title": "",
   "body": "    Equality    Being the same age     "
 },
@@ -1814,7 +1661,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-equivalence-relations.html#cor-congruence-equivalence-relation",
   "type": "Corollary",
-  "number": "5.29",
+  "number": "4.29",
   "title": "",
   "body": "  Congruence module for any is an equivalene relation on .   "
 },
@@ -1823,7 +1670,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-equivalence-relations.html#def-equivalence-class",
   "type": "Definition",
-  "number": "5.30",
+  "number": "4.30",
   "title": "",
   "body": "  Let be a non-empty set, and let be an equivalence relation on . The relation classes of with respect to are called equivalence classes.   "
 },
@@ -1832,7 +1679,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-equivalence-relations.html#def-quotient-set",
   "type": "Definition",
-  "number": "5.31",
+  "number": "4.31",
   "title": "",
   "body": "  Let be a non-empty set, and let be an equivalence relation on . The quotient set of with respect to , denoted , is the set defined by .   "
 },
@@ -1841,7 +1688,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-equivalence-relations.html#def-canonical-map",
   "type": "Definition",
-  "number": "5.32",
+  "number": "4.32",
   "title": "",
   "body": "  Let be a non-empty set, and let be an equivalence relation on . The canonical map for and is the function defined by for all .   "
 },
@@ -1850,7 +1697,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-equivalence-relations.html#def-partition",
   "type": "Definition",
-  "number": "5.33",
+  "number": "4.33",
   "title": "",
   "body": "  Let be a non-empty set. A partition of is a family of non-empty subsets of such that   if and , then ;     .      "
 },
@@ -1859,7 +1706,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-equivalence-relations.html#example-36",
   "type": "Example",
-  "number": "5.34",
+  "number": "4.34",
   "title": "",
   "body": "    Let denote the set of even integers, and let denote the set of odd integers. Then is a partition of .    Let . Then is a partition of .    Let . Then is not a partition of , because it is not pairwise disjoint. For example, we observe that .     "
 },
@@ -1868,7 +1715,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-equivalence-relations.html#thm-equivalence-partitions",
   "type": "Theorem",
-  "number": "5.35",
+  "number": "4.35",
   "title": "",
   "body": "  Let be a non-empty set, and let be an equivalence relation on . Then is a partition of .   "
 },
@@ -1877,88 +1724,268 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-equivalence-relations.html#corollary-5",
   "type": "Corollary",
-  "number": "5.36",
+  "number": "4.36",
   "title": "",
   "body": "  Let be a non-empty set, let be an equivalence relation on and let . Then if and only if .   "
 },
 {
-  "id": "sec-properties-of-n",
+  "id": "sec-function-basics",
   "level": "1",
-  "url": "sec-properties-of-n.html",
+  "url": "sec-function-basics.html",
   "type": "Section",
-  "number": "6.1",
-  "title": "Properties of the Natural Numbers",
-  "body": "Properties of the Natural Numbers   "
+  "number": "5.1",
+  "title": "Function Basics",
+  "body": "Function Basics    Let and be sets. A function (also called a map ) from to , denoted , is a subset such that for each , there is one and only one pair in of the form . The set is called the domain of and the set is called the codomain of .        A constant map  is any function of the form for all , where is some fixed element.    The identity map on is the function defined by for all .    The inclusion map from to is the function defined by for all     If is a function, the restriction of to , denoted , is the function defined by for all .    If is a function, an extension of to is any function such that .    The projection maps from are the functions and defined by and for all . For any finite collection of sets , projection maps for all can be defined similarly.    Let be a non-empty set, and let be a subset. The characteristic map for in , denoted , is the function defined by        Let , be subsets. Prove that if and only if .   Observe that “ ” is a statement of equality of functions, whereas “ ” is a statement of equality of sets.    Let and be sets. A partial function from to is a function of the form , where . We can think of partial functions from to as subsets of that satisfy a certain condition. Let and be partial functions from to . Prove that if and only if and .   "
 },
 {
-  "id": "sec-induction",
-  "level": "1",
-  "url": "sec-induction.html",
-  "type": "Section",
-  "number": "6.2",
-  "title": "Mathematical Induction",
-  "body": "Mathematical Induction    Let G \\subseteq N. Suppose that   1\\in G;    if n\\in G, then n + 1\\in G.   Then G = N.      If n\\in N, then 8n - 3n is divisible by 5.    Let G = {n\\in N | 8n - 3n is divisible by 5}. We will use PMI to show that G = N, and it will then follow that 8n - 3n is divisible by 5 for all n\\in N, which is what we need to prove. First, we observe that G \\subseteq N by definition, and hence PMI is applicable. To use PMI, we need to show two things, which are that 1\\in G, and that if n\\in G then n + 1\\in G. We start with the first of these. Observe that 8^1 - 3^1 = 5, and therefore 8^1 - 3^1 is indeed divisible by 5. Hence 1\\in G, which is Part (a) of the statement of PMI.  To show Part (b) of the statement of PMI, let n\\in G. We then need to deduce that n + 1\\in G. Because n\\in G, we know that 8n - 3n is divisible by 5, which means that there is some k\\in Z such that 8n - 3n = 5k (recall the definition of divisibility in Section 2.2). To show that n+1\\in G will require showing that 8n+1 -3n+1 is divisible by 5; we can make use of our hypothesis that 8n - 3n is divisible by 5 in this proof. We compute 8n+1 - 3n+1 = 8 · 8n - 3 · 3n = (5 · 8n + 3 · 8n) - 3 · 3n = 5 · 8n + 3 · (8n - 3n) = 5 · 8n + 3(5k) = 5(8n + 3k). Because n and k are integers, then 8n + 3k is an integer, and hence 8n+1 - 3n+1 is divisible by 5. It follows that n + 1\\in G. We have therefore proved that Part (b) of the statement of PMI holds. PMI now implies that G = N, and the result is proved.      If n\\in N, then 1 + 2 + \\cdots + n = n(n + 1) 2 .    Horse Induction  We will prove that all horses have the same color. More precisely, we will show that the statement “for any set of n horses, all the horses in the set have the same color,” is true for all n\\in N. Because there are only finitely many horses in the world, it will then follow that all existing horses have the same color. First, suppose that n = 1. It is certainly true that for any set of one horse, all the horses in the set have the same color. Next, suppose that the result is true for n, so that for any set of n horses, all the horses in the set have the same color. We need to show that the result is true for n + 1. Let {H1, \\dots, Hn+1} be a set of n + 1 horses. The set {H1, \\dots, Hn} has n horses, so by the inductive hypothesis all the horses in this set have the same color. On the other hand, the set {H2, \\dots, Hn+1} also has n horses, so all horses in this set have the same color. In particular, it then follows that Hn and Hn+1 have the same color. Combining this fact with the previous observation that horses H1, \\dots, Hn all have the same color, it follows that H1, \\dots, Hn+1 all have the same color. We have therefore proved the inductive step. Hence all horses have the same color.   Pigeonhole Principle  Let k, m\\in N, and let f : {1, \\dots, m} \\to {1, \\dots, k} be a function. Prove that if m > k, then f is not injective. A combinatorial interpretation of this fact is known as the Pigeonhole Principle, which says that if m objects are placed in k boxes, where m > k, then there will be a box with more than one object in it. Though this principle may seem innocuous, it is very important in combinatorics.   "
-},
-{
-  "id": "thm-induction",
+  "id": "def-function",
   "level": "2",
-  "url": "sec-induction.html#thm-induction",
+  "url": "sec-function-basics.html#def-function",
+  "type": "Definition",
+  "number": "5.1",
+  "title": "",
+  "body": "  Let and be sets. A function (also called a map ) from to , denoted , is a subset such that for each , there is one and only one pair in of the form . The set is called the domain of and the set is called the codomain of .   "
+},
+{
+  "id": "example-37",
+  "level": "2",
+  "url": "sec-function-basics.html#example-37",
+  "type": "Example",
+  "number": "5.2",
+  "title": "",
+  "body": "    A constant map  is any function of the form for all , where is some fixed element.    The identity map on is the function defined by for all .    The inclusion map from to is the function defined by for all     If is a function, the restriction of to , denoted , is the function defined by for all .    If is a function, an extension of to is any function such that .    The projection maps from are the functions and defined by and for all . For any finite collection of sets , projection maps for all can be defined similarly.    Let be a non-empty set, and let be a subset. The characteristic map for in , denoted , is the function defined by      "
+},
+{
+  "id": "exercise-11",
+  "level": "2",
+  "url": "sec-function-basics.html#exercise-11",
+  "type": "Exploration",
+  "number": "5.3",
+  "title": "",
+  "body": " Let , be subsets. Prove that if and only if .   Observe that “ ” is a statement of equality of functions, whereas “ ” is a statement of equality of sets.  "
+},
+{
+  "id": "exercise-12",
+  "level": "2",
+  "url": "sec-function-basics.html#exercise-12",
+  "type": "Exploration",
+  "number": "5.4",
+  "title": "",
+  "body": " Let and be sets. A partial function from to is a function of the form , where . We can think of partial functions from to as subsets of that satisfy a certain condition. Let and be partial functions from to . Prove that if and only if and .  "
+},
+{
+  "id": "sec-image-and-pre-image",
+  "level": "1",
+  "url": "sec-image-and-pre-image.html",
+  "type": "Section",
+  "number": "5.2",
+  "title": "Image and Preimage",
+  "body": "Image and Preimage    Let . The image of under , denoted , is the set defined by The range of (also called the image of ) is the set .      Let . The inverse image of under , denoted , is the set defined by       Let and be sets, let and be subsets, and let be a function. Let and be non-empty sets, let be a family of subsets of indexed by , and let be a family of subsets of indexed by .    and .     .     if and only if .    If , then .    If , then .     .     .     .     .        Let and be sets, let be subsets and let be a function.   Prove that .    Is it necessarily the case that ? Give a proof or a counterexample.      "
+},
+{
+  "id": "def-image",
+  "level": "2",
+  "url": "sec-image-and-pre-image.html#def-image",
+  "type": "Definition",
+  "number": "5.5",
+  "title": "",
+  "body": "  Let . The image of under , denoted , is the set defined by The range of (also called the image of ) is the set .   "
+},
+{
+  "id": "def-preimage",
+  "level": "2",
+  "url": "sec-image-and-pre-image.html#def-preimage",
+  "type": "Definition",
+  "number": "5.6",
+  "title": "",
+  "body": "  Let . The inverse image of under , denoted , is the set defined by    "
+},
+{
+  "id": "thm-properties-of-image-preimage",
+  "level": "2",
+  "url": "sec-image-and-pre-image.html#thm-properties-of-image-preimage",
   "type": "Theorem",
-  "number": "6.1",
+  "number": "5.7",
   "title": "",
-  "body": "  Let G \\subseteq N. Suppose that   1\\in G;    if n\\in G, then n + 1\\in G.   Then G = N.   "
+  "body": "  Let and be sets, let and be subsets, and let be a function. Let and be non-empty sets, let be a family of subsets of indexed by , and let be a family of subsets of indexed by .    and .     .     if and only if .    If , then .    If , then .     .     .     .     .      "
 },
 {
-  "id": "proposition-2",
+  "id": "exercise-13",
   "level": "2",
-  "url": "sec-induction.html#proposition-2",
-  "type": "Proposition",
-  "number": "6.2",
+  "url": "sec-image-and-pre-image.html#exercise-13",
+  "type": "Exploration",
+  "number": "5.8",
   "title": "",
-  "body": "  If n\\in N, then 8n - 3n is divisible by 5.    Let G = {n\\in N | 8n - 3n is divisible by 5}. We will use PMI to show that G = N, and it will then follow that 8n - 3n is divisible by 5 for all n\\in N, which is what we need to prove. First, we observe that G \\subseteq N by definition, and hence PMI is applicable. To use PMI, we need to show two things, which are that 1\\in G, and that if n\\in G then n + 1\\in G. We start with the first of these. Observe that 8^1 - 3^1 = 5, and therefore 8^1 - 3^1 is indeed divisible by 5. Hence 1\\in G, which is Part (a) of the statement of PMI.  To show Part (b) of the statement of PMI, let n\\in G. We then need to deduce that n + 1\\in G. Because n\\in G, we know that 8n - 3n is divisible by 5, which means that there is some k\\in Z such that 8n - 3n = 5k (recall the definition of divisibility in Section 2.2). To show that n+1\\in G will require showing that 8n+1 -3n+1 is divisible by 5; we can make use of our hypothesis that 8n - 3n is divisible by 5 in this proof. We compute 8n+1 - 3n+1 = 8 · 8n - 3 · 3n = (5 · 8n + 3 · 8n) - 3 · 3n = 5 · 8n + 3 · (8n - 3n) = 5 · 8n + 3(5k) = 5(8n + 3k). Because n and k are integers, then 8n + 3k is an integer, and hence 8n+1 - 3n+1 is divisible by 5. It follows that n + 1\\in G. We have therefore proved that Part (b) of the statement of PMI holds. PMI now implies that G = N, and the result is proved.   "
+  "body": " Let and be sets, let be subsets and let be a function.   Prove that .    Is it necessarily the case that ? Give a proof or a counterexample.     "
 },
 {
-  "id": "proposition-3",
-  "level": "2",
-  "url": "sec-induction.html#proposition-3",
-  "type": "Proposition",
-  "number": "6.3",
-  "title": "",
-  "body": "  If n\\in N, then 1 + 2 + \\cdots + n = n(n + 1) 2 .   "
+  "id": "sec-composition-and-inverse-functions",
+  "level": "1",
+  "url": "sec-composition-and-inverse-functions.html",
+  "type": "Section",
+  "number": "5.3",
+  "title": "Composition and Inverse Functions",
+  "body": "Composition and Inverse Functions    Let , and be sets, and let and be functions. The composition of and is the function defined by for all .      Let and be sets, and let and and be functions.    (Associative Law).     (Identity Law).         Let and be sets, and let and g : be functions.   The function is a right inverse for if .    The function is a left inverse for if .    The function is an inverse for if it is both a right inverse and a left inverse.         Let and be sets, and let be a function.   If has an inverse, then the inverse is unique.    If has a right inverse and a left inverse , then , and hence has an inverse.    If is an inverse of , then is an inverse of .        Let and be sets, and let be a function. If has an inverse, the inverse is denoted .    Let and be sets, let and be subsets, and let and be functions. Prove that .   "
 },
 {
-  "id": "warning-6",
+  "id": "def-composition",
   "level": "2",
-  "url": "sec-induction.html#warning-6",
-  "type": "Warning",
-  "number": "6.4",
-  "title": "Horse Induction.",
-  "body": "Horse Induction  We will prove that all horses have the same color. More precisely, we will show that the statement “for any set of n horses, all the horses in the set have the same color,” is true for all n\\in N. Because there are only finitely many horses in the world, it will then follow that all existing horses have the same color. First, suppose that n = 1. It is certainly true that for any set of one horse, all the horses in the set have the same color. Next, suppose that the result is true for n, so that for any set of n horses, all the horses in the set have the same color. We need to show that the result is true for n + 1. Let {H1, \\dots, Hn+1} be a set of n + 1 horses. The set {H1, \\dots, Hn} has n horses, so by the inductive hypothesis all the horses in this set have the same color. On the other hand, the set {H2, \\dots, Hn+1} also has n horses, so all horses in this set have the same color. In particular, it then follows that Hn and Hn+1 have the same color. Combining this fact with the previous observation that horses H1, \\dots, Hn all have the same color, it follows that H1, \\dots, Hn+1 all have the same color. We have therefore proved the inductive step. Hence all horses have the same color.  "
+  "url": "sec-composition-and-inverse-functions.html#def-composition",
+  "type": "Definition",
+  "number": "5.9",
+  "title": "",
+  "body": "  Let , and be sets, and let and be functions. The composition of and is the function defined by for all .   "
+},
+{
+  "id": "thm-properties-of-composition",
+  "level": "2",
+  "url": "sec-composition-and-inverse-functions.html#thm-properties-of-composition",
+  "type": "Theorem",
+  "number": "5.10",
+  "title": "",
+  "body": "  Let and be sets, and let and and be functions.    (Associative Law).     (Identity Law).      "
+},
+{
+  "id": "def-left-right-inverse",
+  "level": "2",
+  "url": "sec-composition-and-inverse-functions.html#def-left-right-inverse",
+  "type": "Definition",
+  "number": "5.11",
+  "title": "",
+  "body": "  Let and be sets, and let and g : be functions.   The function is a right inverse for if .    The function is a left inverse for if .    The function is an inverse for if it is both a right inverse and a left inverse.      "
+},
+{
+  "id": "thm-inverse-properties",
+  "level": "2",
+  "url": "sec-composition-and-inverse-functions.html#thm-inverse-properties",
+  "type": "Theorem",
+  "number": "5.12",
+  "title": "",
+  "body": "  Let and be sets, and let be a function.   If has an inverse, then the inverse is unique.    If has a right inverse and a left inverse , then , and hence has an inverse.    If is an inverse of , then is an inverse of .      "
+},
+{
+  "id": "convention-21",
+  "level": "2",
+  "url": "sec-composition-and-inverse-functions.html#convention-21",
+  "type": "Convention",
+  "number": "5.13",
+  "title": "",
+  "body": " Let and be sets, and let be a function. If has an inverse, the inverse is denoted .  "
+},
+{
+  "id": "exercise-14",
+  "level": "2",
+  "url": "sec-composition-and-inverse-functions.html#exercise-14",
+  "type": "Exploration",
+  "number": "5.14",
+  "title": "",
+  "body": " Let and be sets, let and be subsets, and let and be functions. Prove that .  "
+},
+{
+  "id": "sec-inject-surject-biject",
+  "level": "1",
+  "url": "sec-inject-surject-biject.html",
+  "type": "Section",
+  "number": "5.4",
+  "title": "Injectivity, Surjectivity, Bijectivty",
+  "body": "Injectivity, Surjectivity, Bijectivty    Let and be sets, and let be a function.   The function is injective (also called one-to-one or monic) if implies for all ; equivalently, if implies for all .    The function is surjective (also called onto or epic) if for every , there exists some such that ; equivalently, if .    The function is bijective if it is both injective and surjective.           Let be defined by for all . This function is surjective and injective, and hence bijective. First, we show that is injective. Let . Suppose that . Then . It follows that , and because and , we deduce that . Hence is injective. Second, we show that is surjective. Let . Then , and so . Hence k is surjective.    Let be defined by for all . This function is injective but not surjective. The proof of the injectivity of is the same as the proof of the injectivity of the function in Part (1) of this example. The reason that is not surjective is that for any , though is in the codomain of .    Let be defined by for all . This function is surjective but not injective. The proof of the surjectivity of is the same as the proof of the surjectivity of the function in Part (1) of this example. The reason is not injective is because even though . (Observe that instead of we could have used for any positive number , but a single instance where the definition of injectivity fails is sufficient.)    Let be defined by for all . This function is neither injective nor surjective, which is seen using the same arguments as the corresponding arguments for and in Parts (2) and (3) of this example.        Let , and be sets, and let and be functions.   If and are injective, then is injective.    If and are surjective, then is surjective.    If and are bijective, then is bijective.         Let and be non-empty sets, and let be a function.   The function has a right inverse if and only if is surjective.    The function has a left inverse if and only if is injective.    The function has an inverse if and only if is bijective.         Let and be non-empty sets, and let be a function.   The function is injective if and only if implies for all functions g for all sets .    The function is surjective if and only if implies for all functions for all sets .        Let and be sets, and let be a subset   Prove that the identity map is bijective.    Prove that inclusion map is injective.    Let be a function. Suppose that is injective. Is the restriction necessarily injective? Give a proof or a counterexample.    Let be a function. Suppose that is surjective. Is the restriction necessarily surjective? Give a proof or a counterexample.    Let be a function, and let be an extension of . Suppose that is injective. Is necessarily injective? Give a proof or a counterexample.    Let be a function, and let be an extension of . Suppose that is surjective. Is necessarily surjective? Give a proof or a counterexample.    Prove that the projection maps and are surjective. Are the projection maps injective?       Let , and be sets. Prove that there is a bijective function .    Let and be sets, let be subsets and let be a function. Suppose that is injective. Prove that .    Let and be sets, and let and be functions.   Suppose that is injective, and that is a left inverse of . Prove that is surjective.    Suppose that is surjective, and that is a right inverse of . Prove that is injective.    Suppose that is bijective, and that is the inverse of . Prove that is bijective.       Let , and be sets, and let and be functions.   Prove that if is injective, then is injective.    Prove that if is surjective, then is surjective.    Prove that if is bijective, then is injective, and is surjective.    Find an example of functions and such that is bijective, but is not surjective, and is not injective. Hence Parts (1)-(3) of this exercise are the best possible results.      "
+},
+{
+  "id": "def-jectivity",
+  "level": "2",
+  "url": "sec-inject-surject-biject.html#def-jectivity",
+  "type": "Definition",
+  "number": "5.15",
+  "title": "",
+  "body": "  Let and be sets, and let be a function.   The function is injective (also called one-to-one or monic) if implies for all ; equivalently, if implies for all .    The function is surjective (also called onto or epic) if for every , there exists some such that ; equivalently, if .    The function is bijective if it is both injective and surjective.      "
+},
+{
+  "id": "example-38",
+  "level": "2",
+  "url": "sec-inject-surject-biject.html#example-38",
+  "type": "Example",
+  "number": "5.16",
+  "title": "",
+  "body": "    Let be defined by for all . This function is surjective and injective, and hence bijective. First, we show that is injective. Let . Suppose that . Then . It follows that , and because and , we deduce that . Hence is injective. Second, we show that is surjective. Let . Then , and so . Hence k is surjective.    Let be defined by for all . This function is injective but not surjective. The proof of the injectivity of is the same as the proof of the injectivity of the function in Part (1) of this example. The reason that is not surjective is that for any , though is in the codomain of .    Let be defined by for all . This function is surjective but not injective. The proof of the surjectivity of is the same as the proof of the surjectivity of the function in Part (1) of this example. The reason is not injective is because even though . (Observe that instead of we could have used for any positive number , but a single instance where the definition of injectivity fails is sufficient.)    Let be defined by for all . This function is neither injective nor surjective, which is seen using the same arguments as the corresponding arguments for and in Parts (2) and (3) of this example.     "
+},
+{
+  "id": "lemma-3",
+  "level": "2",
+  "url": "sec-inject-surject-biject.html#lemma-3",
+  "type": "Lemma",
+  "number": "5.17",
+  "title": "",
+  "body": "  Let , and be sets, and let and be functions.   If and are injective, then is injective.    If and are surjective, then is surjective.    If and are bijective, then is bijective.      "
+},
+{
+  "id": "theorem-24",
+  "level": "2",
+  "url": "sec-inject-surject-biject.html#theorem-24",
+  "type": "Theorem",
+  "number": "5.18",
+  "title": "",
+  "body": "  Let and be non-empty sets, and let be a function.   The function has a right inverse if and only if is surjective.    The function has a left inverse if and only if is injective.    The function has an inverse if and only if is bijective.      "
+},
+{
+  "id": "theorem-25",
+  "level": "2",
+  "url": "sec-inject-surject-biject.html#theorem-25",
+  "type": "Theorem",
+  "number": "5.19",
+  "title": "",
+  "body": "  Let and be non-empty sets, and let be a function.   The function is injective if and only if implies for all functions g for all sets .    The function is surjective if and only if implies for all functions for all sets .      "
+},
+{
+  "id": "exercise-15",
+  "level": "2",
+  "url": "sec-inject-surject-biject.html#exercise-15",
+  "type": "Exploration",
+  "number": "5.20",
+  "title": "",
+  "body": " Let and be sets, and let be a subset   Prove that the identity map is bijective.    Prove that inclusion map is injective.    Let be a function. Suppose that is injective. Is the restriction necessarily injective? Give a proof or a counterexample.    Let be a function. Suppose that is surjective. Is the restriction necessarily surjective? Give a proof or a counterexample.    Let be a function, and let be an extension of . Suppose that is injective. Is necessarily injective? Give a proof or a counterexample.    Let be a function, and let be an extension of . Suppose that is surjective. Is necessarily surjective? Give a proof or a counterexample.    Prove that the projection maps and are surjective. Are the projection maps injective?     "
+},
+{
+  "id": "exercise-16",
+  "level": "2",
+  "url": "sec-inject-surject-biject.html#exercise-16",
+  "type": "Exploration",
+  "number": "5.21",
+  "title": "",
+  "body": " Let , and be sets. Prove that there is a bijective function .  "
+},
+{
+  "id": "exercise-17",
+  "level": "2",
+  "url": "sec-inject-surject-biject.html#exercise-17",
+  "type": "Exploration",
+  "number": "5.22",
+  "title": "",
+  "body": " Let and be sets, let be subsets and let be a function. Suppose that is injective. Prove that .  "
 },
 {
   "id": "exercise-18",
   "level": "2",
-  "url": "sec-induction.html#exercise-18",
+  "url": "sec-inject-surject-biject.html#exercise-18",
   "type": "Exploration",
-  "number": "6.5",
-  "title": "Pigeonhole Principle.",
-  "body": "Pigeonhole Principle  Let k, m\\in N, and let f : {1, \\dots, m} \\to {1, \\dots, k} be a function. Prove that if m > k, then f is not injective. A combinatorial interpretation of this fact is known as the Pigeonhole Principle, which says that if m objects are placed in k boxes, where m > k, then there will be a box with more than one object in it. Though this principle may seem innocuous, it is very important in combinatorics.  "
+  "number": "5.23",
+  "title": "",
+  "body": " Let and be sets, and let and be functions.   Suppose that is injective, and that is a left inverse of . Prove that is surjective.    Suppose that is surjective, and that is a right inverse of . Prove that is injective.    Suppose that is bijective, and that is the inverse of . Prove that is bijective.     "
 },
 {
-  "id": "sec-recursion",
-  "level": "1",
-  "url": "sec-recursion.html",
-  "type": "Section",
-  "number": "6.3",
-  "title": "Recursion",
-  "body": "Recursion   "
+  "id": "exercise-19",
+  "level": "2",
+  "url": "sec-inject-surject-biject.html#exercise-19",
+  "type": "Exploration",
+  "number": "5.24",
+  "title": "",
+  "body": " Let , and be sets, and let and be functions.   Prove that if is injective, then is injective.    Prove that if is surjective, then is surjective.    Prove that if is bijective, then is injective, and is surjective.    Find an example of functions and such that is bijective, but is not surjective, and is not injective. Hence Parts (1)-(3) of this exercise are the best possible results.     "
 },
 {
   "id": "sec-cardinality-of-sets",
   "level": "1",
   "url": "sec-cardinality-of-sets.html",
   "type": "Section",
-  "number": "7.1",
+  "number": "6.1",
   "title": "Cardinality of Sets",
   "body": "Cardinality of Sets    Let and be sets. The sets and are equinumerous, denoted (more commonly ), if there is a bijective function .     Don't like the notation.         Almost Equivalent  Lemma 6.5.2 might lead the reader to think of as an equivalence relation, but we need to proceed with caution here. If were a relation, on what set would it be a relation? We might want to think of as a relation on the set of all sets, because for any two sets and , it must be the case that either or . However, because of foundational problems such as Russell's Paradox, which was discussed in Section 3.5, we avoid things such as the set of all sets. Hence, although satisfies the three properties of an equivalence relation, it is not technically a relation on a set at all. If, however, all sets of interest are subsets of a given set , then it is correct to say that is an equivalence relation on .     Let be a set.   The set is said to be finite if it is either the empty set or for some .    The set is said to be infinite if it is not finite.    The set is said to be countably infinite if .    The set is said to be countable (also called denumerable) if it is finite or countably infinite.    The set is said to be uncountable if it is not countable.         Let and be sets. Suppose that . If is finite, infinite, countably infinite, countable or uncountable, then so is .         The set is infinite.    A countably infinite set is infinite.          Suppose that is finite. Because , then there is some such that . Let be a bijective function. It then follows from Theorem 6.3.11 (1) that there is some such that for any . Therefore for all . Hence . Because we deduce that is not surjective, which is a contradiction. Hence is not finite, and so it is infinite.    Let be a set. Suppose that is countably infinite. Then . Suppose further that is finite. It would then follow from Exercise 6.5.5 that is finite, which is a contradiction to Part (1) of this lemma. Hence is infinite.         Let be a set. Then .    There are two cases. First, suppose that . Observe that , and therefore there cannot be a bijective function , because there cannot be a function from a non-empty set to the empty set. Hence .  Next, suppose that . Suppose further that . Then there is a bijective function . Let . Observe that , and so . Because is surjective, there is some such that . Is ? Suppose that . Then by the definition of we see that . Suppose that . Then . We therefore have a contradiction, and so .      The set is uncountable.    By Theorem 6.5.7 we know that , and so is not countably infinite. If we could show that were not finite, then it would follow that it is not countable. Suppose that is finite. Let . It follows from Theorem 6.6.5 (1) that is finite. However, it is evident that , and this would imply that is finite, which is a contradiction to Lemma 6.5.5 (1). We conclude that is uncountable.      Let and be sets. We say that if there is an injective function .     Notation I like better     Let , and be sets. Then the following hold:    .     .    If and , then .         Let , and be sets. Suppose that , and that . Then .      Let and be sets. Suppose that and . Then .    By definition there are injective functions and . Then , and . By Exercise 6.5.4 we know that and . From the former it follows that , and we then use Lemma 6.5.11 to deduce that . Hence .     Let . Suppose that . We will use the Schroeder-Bernstein Theorem (Theorem 6.5.10) to prove that . By Example 6.5.3 (3) we know that and . Hence, it will suffice to prove that . Let be defined by for all , and let be defined by for all . Then both and are injective, and hence and . The Schroeder-Bernstein Theorem now implies that , and therefore .     Let and be sets. Then or .    We need to show that there is an injective function or an injective function . If or is empty these functions exist trivially, so we will assume that and are both non-empty.  A partial function from to is a function of the form , where . We can think of a partial function from to as a subset such that for each , there is at most one pair in of the form . Hence, we can apply the concepts of subset and union to partial functions from to .  Let be the set of all injective partial functions from to . Observe that , because . Let be a chain in . We claim that . Suppose that , , for some and . Then and for some partial functions . Because is a chain, we know that or . Without loss of generality assume that . Then and are both in , and because is a partial function, then it must be the case that . We conclude that is a partial function from to . Next, suppose that , for some and . A similar argument shows that must both be in some , and because is an injective partial function, then it must be the case that . We conclude that \\bigcup is an injective partial function from to , and hence that .  By Zorn's Lemma (Theorem 3.5.6) the family of sets has a maximal element. Let be such a maximal element. Then is an injective partial function from to . There are now three cases. First, suppose that for each , there is a pair of the form . Then is an injective function . Second, suppose that for each , there is a pair of the form . Then is a bijective partial function from , and using Exercise 4.4.13 (3) we see that the inverse function of can be viewed as an injective function . Third, suppose that neither of the previous two cases holds. Then there is some such that there is no pair of the form in , and there is some such that there is no pair of the form . Let . It is left to the reader to verify that is an injective partial function from to , and hence that . Because , we have a contradiction to the fact that is a maximal element of , and so this third case cannot happen.     Let and be sets, let be a subset and let be a function. Suppose that is injective. Prove that .       Give an example of sets , and such that and .    Let , and be sets. Suppose that and that and . Prove that .    Let , and be sets. Suppose that and that and . Is it necessarily the case that ? Give a proof or a counterexample.      "
 },
@@ -1967,16 +1994,16 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-cardinality-of-sets.html#def-equinumerous",
   "type": "Definition",
-  "number": "7.1",
+  "number": "6.1",
   "title": "",
   "body": "  Let and be sets. The sets and are equinumerous, denoted (more commonly ), if there is a bijective function .   "
 },
 {
-  "id": "convention-21",
+  "id": "convention-22",
   "level": "2",
-  "url": "sec-cardinality-of-sets.html#convention-21",
+  "url": "sec-cardinality-of-sets.html#convention-22",
   "type": "Convention",
-  "number": "7.2",
+  "number": "6.2",
   "title": "",
   "body": " Don't like the notation.  "
 },
@@ -1985,7 +2012,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-cardinality-of-sets.html#theorem-26",
   "type": "Theorem",
-  "number": "7.3",
+  "number": "6.3",
   "title": "",
   "body": "     "
 },
@@ -1994,7 +2021,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-cardinality-of-sets.html#warning-7",
   "type": "Warning",
-  "number": "7.4",
+  "number": "6.4",
   "title": "Almost Equivalent.",
   "body": "Almost Equivalent  Lemma 6.5.2 might lead the reader to think of as an equivalence relation, but we need to proceed with caution here. If were a relation, on what set would it be a relation? We might want to think of as a relation on the set of all sets, because for any two sets and , it must be the case that either or . However, because of foundational problems such as Russell's Paradox, which was discussed in Section 3.5, we avoid things such as the set of all sets. Hence, although satisfies the three properties of an equivalence relation, it is not technically a relation on a set at all. If, however, all sets of interest are subsets of a given set , then it is correct to say that is an equivalence relation on .  "
 },
@@ -2003,7 +2030,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-cardinality-of-sets.html#def-set-sizes",
   "type": "Definition",
-  "number": "7.5",
+  "number": "6.5",
   "title": "",
   "body": "  Let be a set.   The set is said to be finite if it is either the empty set or for some .    The set is said to be infinite if it is not finite.    The set is said to be countably infinite if .    The set is said to be countable (also called denumerable) if it is finite or countably infinite.    The set is said to be uncountable if it is not countable.      "
 },
@@ -2012,7 +2039,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-cardinality-of-sets.html#theorem-27",
   "type": "Theorem",
-  "number": "7.6",
+  "number": "6.6",
   "title": "",
   "body": "  Let and be sets. Suppose that . If is finite, infinite, countably infinite, countable or uncountable, then so is .   "
 },
@@ -2021,7 +2048,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-cardinality-of-sets.html#theorem-28",
   "type": "Theorem",
-  "number": "7.7",
+  "number": "6.7",
   "title": "",
   "body": "     The set is infinite.    A countably infinite set is infinite.          Suppose that is finite. Because , then there is some such that . Let be a bijective function. It then follows from Theorem 6.3.11 (1) that there is some such that for any . Therefore for all . Hence . Because we deduce that is not surjective, which is a contradiction. Hence is not finite, and so it is infinite.    Let be a set. Suppose that is countably infinite. Then . Suppose further that is finite. It would then follow from Exercise 6.5.5 that is finite, which is a contradiction to Part (1) of this lemma. Hence is infinite.      "
 },
@@ -2030,7 +2057,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-cardinality-of-sets.html#theorem-29",
   "type": "Theorem",
-  "number": "7.8",
+  "number": "6.8",
   "title": "",
   "body": "  Let be a set. Then .    There are two cases. First, suppose that . Observe that , and therefore there cannot be a bijective function , because there cannot be a function from a non-empty set to the empty set. Hence .  Next, suppose that . Suppose further that . Then there is a bijective function . Let . Observe that , and so . Because is surjective, there is some such that . Is ? Suppose that . Then by the definition of we see that . Suppose that . Then . We therefore have a contradiction, and so .   "
 },
@@ -2039,7 +2066,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-cardinality-of-sets.html#cor-pn-uncountable",
   "type": "Corollary",
-  "number": "7.9",
+  "number": "6.9",
   "title": "",
   "body": "  The set is uncountable.    By Theorem 6.5.7 we know that , and so is not countably infinite. If we could show that were not finite, then it would follow that it is not countable. Suppose that is finite. Let . It follows from Theorem 6.6.5 (1) that is finite. However, it is evident that , and this would imply that is finite, which is a contradiction to Lemma 6.5.5 (1). We conclude that is uncountable.   "
 },
@@ -2048,16 +2075,16 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-cardinality-of-sets.html#definition-55",
   "type": "Definition",
-  "number": "7.10",
+  "number": "6.10",
   "title": "",
   "body": "  Let and be sets. We say that if there is an injective function .   "
 },
 {
-  "id": "convention-22",
+  "id": "convention-23",
   "level": "2",
-  "url": "sec-cardinality-of-sets.html#convention-22",
+  "url": "sec-cardinality-of-sets.html#convention-23",
   "type": "Convention",
-  "number": "7.11",
+  "number": "6.11",
   "title": "",
   "body": " Notation I like better  "
 },
@@ -2066,7 +2093,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-cardinality-of-sets.html#theorem-30",
   "type": "Theorem",
-  "number": "7.12",
+  "number": "6.12",
   "title": "",
   "body": "  Let , and be sets. Then the following hold:    .     .    If and , then .      "
 },
@@ -2075,7 +2102,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-cardinality-of-sets.html#lem-schroder-lemma",
   "type": "Lemma",
-  "number": "7.13",
+  "number": "6.13",
   "title": "",
   "body": "  Let , and be sets. Suppose that , and that . Then .   "
 },
@@ -2084,16 +2111,16 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-cardinality-of-sets.html#thm-schroder-bernstein",
   "type": "Theorem",
-  "number": "7.14",
+  "number": "6.14",
   "title": "",
   "body": "  Let and be sets. Suppose that and . Then .    By definition there are injective functions and . Then , and . By Exercise 6.5.4 we know that and . From the former it follows that , and we then use Lemma 6.5.11 to deduce that . Hence .   "
 },
 {
-  "id": "example-37",
+  "id": "example-39",
   "level": "2",
-  "url": "sec-cardinality-of-sets.html#example-37",
+  "url": "sec-cardinality-of-sets.html#example-39",
   "type": "Example",
-  "number": "7.15",
+  "number": "6.15",
   "title": "",
   "body": " Let . Suppose that . We will use the Schroeder-Bernstein Theorem (Theorem 6.5.10) to prove that . By Example 6.5.3 (3) we know that and . Hence, it will suffice to prove that . Let be defined by for all , and let be defined by for all . Then both and are injective, and hence and . The Schroeder-Bernstein Theorem now implies that , and therefore .  "
 },
@@ -2102,25 +2129,25 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-cardinality-of-sets.html#thm-set-trichotomy",
   "type": "Theorem",
-  "number": "7.16",
+  "number": "6.16",
   "title": "",
   "body": "  Let and be sets. Then or .    We need to show that there is an injective function or an injective function . If or is empty these functions exist trivially, so we will assume that and are both non-empty.  A partial function from to is a function of the form , where . We can think of a partial function from to as a subset such that for each , there is at most one pair in of the form . Hence, we can apply the concepts of subset and union to partial functions from to .  Let be the set of all injective partial functions from to . Observe that , because . Let be a chain in . We claim that . Suppose that , , for some and . Then and for some partial functions . Because is a chain, we know that or . Without loss of generality assume that . Then and are both in , and because is a partial function, then it must be the case that . We conclude that is a partial function from to . Next, suppose that , for some and . A similar argument shows that must both be in some , and because is an injective partial function, then it must be the case that . We conclude that \\bigcup is an injective partial function from to , and hence that .  By Zorn's Lemma (Theorem 3.5.6) the family of sets has a maximal element. Let be such a maximal element. Then is an injective partial function from to . There are now three cases. First, suppose that for each , there is a pair of the form . Then is an injective function . Second, suppose that for each , there is a pair of the form . Then is a bijective partial function from , and using Exercise 4.4.13 (3) we see that the inverse function of can be viewed as an injective function . Third, suppose that neither of the previous two cases holds. Then there is some such that there is no pair of the form in , and there is some such that there is no pair of the form . Let . It is left to the reader to verify that is an injective partial function from to , and hence that . Because , we have a contradiction to the fact that is a maximal element of , and so this third case cannot happen.   "
-},
-{
-  "id": "exercise-19",
-  "level": "2",
-  "url": "sec-cardinality-of-sets.html#exercise-19",
-  "type": "Exploration",
-  "number": "7.17",
-  "title": "",
-  "body": " Let and be sets, let be a subset and let be a function. Suppose that is injective. Prove that .  "
 },
 {
   "id": "exercise-20",
   "level": "2",
   "url": "sec-cardinality-of-sets.html#exercise-20",
   "type": "Exploration",
-  "number": "7.18",
+  "number": "6.17",
+  "title": "",
+  "body": " Let and be sets, let be a subset and let be a function. Suppose that is injective. Prove that .  "
+},
+{
+  "id": "exercise-21",
+  "level": "2",
+  "url": "sec-cardinality-of-sets.html#exercise-21",
+  "type": "Exploration",
+  "number": "6.18",
   "title": "",
   "body": "    Give an example of sets , and such that and .    Let , and be sets. Suppose that and that and . Prove that .    Let , and be sets. Suppose that and that and . Is it necessarily the case that ? Give a proof or a counterexample.     "
 },
@@ -2129,7 +2156,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-finite-countable-sets.html",
   "type": "Section",
-  "number": "7.2",
+  "number": "6.2",
   "title": "Finite and Countable Sets",
   "body": "Finite and Countable Sets    Let be a set. Suppose that is finite. The cardinality of , denoted , is defined as follows. If , let . If , let , where .      Let . Then if and only if .      Let and be sets. Suppose that and are finite. Then if and only if .      Let be a set. Suppose that is finite.   If , then is finite.    If , then .    If , then .    If , then .         Let be a set. Then is infinite if and only if it contains an infinite subset.      Let be a set. Suppose that is countable. If , then is countable.    Let .  If is finite, then by Theorem 6.6.5 (1) we know that is finite, and hence it is countable. Now assume that is countably infinite. We will prove the theorem for the special case that . For the general case, we observe that if is countably infinite, then there is a bijective function , and the desired result follows from the fact that , which holds by Exercise 6.5.4, and that is a subset of .  Suppose that . If is finite, then it is countable by definition, and there is nothing to prove. Now suppose that is infinite.  By the Well-Ordering Principle (Theorem 6.2.5), there is a unique element such that for all . Let be defined as follows. Let . Then for some , which means that is a function . It follows from Exercise 6.6.3 that cannot be surjective, and hence . Using the Well-Ordering Principle again we see that there is a unique element such that for all . We then let .  We can apply Theorem 6.4.8 to and as above, and we deduce that there is a unique function such that , and that for all . Hence for all , and if , then , and so for all .  Let . Then for all , where we think of as the empty set when . Because , it follows that . By Exercise 6.3.4 we see that for all .  We now show that is bijective. Let . Suppose that . Without loss of generality assume that . Then , and also , so that . It follows that , and as observed above we know that . Therefore , and we deduce that f is injective.  Let . Suppose that for any . Using a previous observation we know that , and hence . On the other hand, we saw above that for all . By hypothesis on we know that , and it follows that , which is a contradiction. Therefore is surjective.  We conclude that is bijective, which implies that . Hence is countably infinite, and therefore countable.      Let be a non-empty set. The following are equivalent.   The set is countable.    There is an injective function .    There is a surjective function .           . Suppose that is countable. There are two cases, depending upon whether is finite or countably infinite. If is finite, there is a bijective function for some , and hence there is an injective function , because . If is countably infinite, there is a bijective function , which is injective.     . Suppose that there is an injective function . Because is injective, it follows from Exercise 6.5.4 that . By Theorem 6.6.7 we know that is countable, and therefore is countable.     . Suppose that there is an injective function . By Theorem 4.4.5 (2) the function has a left inverse, say . By Exercise 4.4.13 (1) we see that is surjective. The other implication is proved similarly, and we omit the details.         Let be a non-empty set, and let be a family of sets indexed by . Suppose that is countable for each .    is countable.    If is countable, then is countable.          Choose some . Then , and hence is countable by Theorem 6.6.7.    If for all , then , which implies that is finite, and hence countable. Now assume that for some . Because the empty set contributes nothing to a union of sets, the set will not be changed if we delete from those elements such that . Let us assume that that has been done, and therefore that for all .  There are two cases, depending upon whether is countably infinite or is finite. We prove the former case, leaving the other case to the reader in Exercise 6.6.12. Because we are assuming that is countably infinite, without loss of generality we may assume that .  Because is countable for all , then by Theorem 6.6.8 there is a surjective function for each . Let be defined as follows. Let . We can apply Exercise 6.3.14 to the function defined by for all , and we deduce that there are unique such that and . Let .  Let . Then for some . Because is surjective, there is some such that . Let . The reader can then verify that . Therefore is surjective, and it follows from Theorem 6.6.8 that is countable.        Observe that in the proof of Theorem 6.6.9 (2), we simultaneously had to choose a surjective function for each ; there really is a choice to be made, because there is more than one such function for each (except when has only one element in it). Hence, we are making use of the Axiom of Choice (Theorem 4.1.5). To use that axiom formally in this proof, we would let denote the set of all surjective functions for each , and we would apply the Axiom of Choice to the family of sets ; we omit the details. It is pointed out in [Vau95, p. 56] that any proof of Theorem 6.6.9 (2) requires the Axiom of Choice.     Let be sets for some . Suppose that are countable. Then is countable.      Let be a set. If is infinite, then has a countably infinite subset.    Suppose that is infinite. By the Trichotomy Law for Sets (Theorem 6.5.13) we know that .  First, suppose that . Then there is an injective function . By Exercise 6.5.4 we know that . Hence is a countably infinite subset of .  Second, suppose that . Then there is an injective function . By Exercise 6.5.4 again we know that . Because , it follows from Theorem 6.6.7 that is countable. Hence is countable. Because is infinite, then it must be countably infinite, and hence A has a countably infinite subset, namely, itself.      Let be a set. Then is finite if and only if has no proper subset with the same cardinality as .     Let and be sets. Suppose that and are finite. Prove that is finite.    Let be a subset. Suppose that there is some such that for all . Prove that is finite.    Let be a set. Prove that is finite if and only if there is an injective function for some if and only if there is a surjective function for some .    Let and be sets, and let be a function. Suppose that and are finite sets, and that . Prove that is bijective if and only if is injective if and only if is surjective.    Let be a set. Suppose that is finite and non-empty. Use Theorem 6.3.11 (1) to prove that there is some such that for all .    Let be a set. Suppose that is countably infinite. Prove that there is a function that is injective but not surjective.    Let be a set. Prove that is uncountable if and only if it contains an uncountable subset.    Let and be sets. Suppose that and are countable. Prove that is countable.   "
 },
@@ -2138,7 +2165,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-finite-countable-sets.html#def-cardinality",
   "type": "Definition",
-  "number": "7.19",
+  "number": "6.19",
   "title": "",
   "body": "  Let be a set. Suppose that is finite. The cardinality of , denoted , is defined as follows. If , let . If , let , where .   "
 },
@@ -2147,7 +2174,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-finite-countable-sets.html#corollary-7",
   "type": "Corollary",
-  "number": "7.20",
+  "number": "6.20",
   "title": "",
   "body": "  Let . Then if and only if .   "
 },
@@ -2156,7 +2183,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-finite-countable-sets.html#corollary-8",
   "type": "Corollary",
-  "number": "7.21",
+  "number": "6.21",
   "title": "",
   "body": "  Let and be sets. Suppose that and are finite. Then if and only if .   "
 },
@@ -2165,7 +2192,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-finite-countable-sets.html#theorem-33",
   "type": "Theorem",
-  "number": "7.22",
+  "number": "6.22",
   "title": "",
   "body": "  Let be a set. Suppose that is finite.   If , then is finite.    If , then .    If , then .    If , then .      "
 },
@@ -2174,7 +2201,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-finite-countable-sets.html#cor-infinite-subset",
   "type": "Corollary",
-  "number": "7.23",
+  "number": "6.23",
   "title": "",
   "body": "  Let be a set. Then is infinite if and only if it contains an infinite subset.   "
 },
@@ -2183,7 +2210,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-finite-countable-sets.html#thm-countable-subsets",
   "type": "Theorem",
-  "number": "7.24",
+  "number": "6.24",
   "title": "",
   "body": "  Let be a set. Suppose that is countable. If , then is countable.    Let .  If is finite, then by Theorem 6.6.5 (1) we know that is finite, and hence it is countable. Now assume that is countably infinite. We will prove the theorem for the special case that . For the general case, we observe that if is countably infinite, then there is a bijective function , and the desired result follows from the fact that , which holds by Exercise 6.5.4, and that is a subset of .  Suppose that . If is finite, then it is countable by definition, and there is nothing to prove. Now suppose that is infinite.  By the Well-Ordering Principle (Theorem 6.2.5), there is a unique element such that for all . Let be defined as follows. Let . Then for some , which means that is a function . It follows from Exercise 6.6.3 that cannot be surjective, and hence . Using the Well-Ordering Principle again we see that there is a unique element such that for all . We then let .  We can apply Theorem 6.4.8 to and as above, and we deduce that there is a unique function such that , and that for all . Hence for all , and if , then , and so for all .  Let . Then for all , where we think of as the empty set when . Because , it follows that . By Exercise 6.3.4 we see that for all .  We now show that is bijective. Let . Suppose that . Without loss of generality assume that . Then , and also , so that . It follows that , and as observed above we know that . Therefore , and we deduce that f is injective.  Let . Suppose that for any . Using a previous observation we know that , and hence . On the other hand, we saw above that for all . By hypothesis on we know that , and it follows that , which is a contradiction. Therefore is surjective.  We conclude that is bijective, which implies that . Hence is countably infinite, and therefore countable.   "
 },
@@ -2192,7 +2219,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-finite-countable-sets.html#theorem-35",
   "type": "Theorem",
-  "number": "7.25",
+  "number": "6.25",
   "title": "",
   "body": "  Let be a non-empty set. The following are equivalent.   The set is countable.    There is an injective function .    There is a surjective function .           . Suppose that is countable. There are two cases, depending upon whether is finite or countably infinite. If is finite, there is a bijective function for some , and hence there is an injective function , because . If is countably infinite, there is a bijective function , which is injective.     . Suppose that there is an injective function . Because is injective, it follows from Exercise 6.5.4 that . By Theorem 6.6.7 we know that is countable, and therefore is countable.     . Suppose that there is an injective function . By Theorem 4.4.5 (2) the function has a left inverse, say . By Exercise 4.4.13 (1) we see that is surjective. The other implication is proved similarly, and we omit the details.      "
 },
@@ -2201,16 +2228,16 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-finite-countable-sets.html#thm-countable-unions-intersections",
   "type": "Theorem",
-  "number": "7.26",
+  "number": "6.26",
   "title": "",
   "body": "  Let be a non-empty set, and let be a family of sets indexed by . Suppose that is countable for each .    is countable.    If is countable, then is countable.          Choose some . Then , and hence is countable by Theorem 6.6.7.    If for all , then , which implies that is finite, and hence countable. Now assume that for some . Because the empty set contributes nothing to a union of sets, the set will not be changed if we delete from those elements such that . Let us assume that that has been done, and therefore that for all .  There are two cases, depending upon whether is countably infinite or is finite. We prove the former case, leaving the other case to the reader in Exercise 6.6.12. Because we are assuming that is countably infinite, without loss of generality we may assume that .  Because is countable for all , then by Theorem 6.6.8 there is a surjective function for each . Let be defined as follows. Let . We can apply Exercise 6.3.14 to the function defined by for all , and we deduce that there are unique such that and . Let .  Let . Then for some . Because is surjective, there is some such that . Let . The reader can then verify that . Therefore is surjective, and it follows from Theorem 6.6.8 that is countable.      "
 },
 {
-  "id": "remark-21",
+  "id": "remark-22",
   "level": "2",
-  "url": "sec-finite-countable-sets.html#remark-21",
+  "url": "sec-finite-countable-sets.html#remark-22",
   "type": "Remark",
-  "number": "7.27",
+  "number": "6.27",
   "title": "",
   "body": " Observe that in the proof of Theorem 6.6.9 (2), we simultaneously had to choose a surjective function for each ; there really is a choice to be made, because there is more than one such function for each (except when has only one element in it). Hence, we are making use of the Axiom of Choice (Theorem 4.1.5). To use that axiom formally in this proof, we would let denote the set of all surjective functions for each , and we would apply the Axiom of Choice to the family of sets ; we omit the details. It is pointed out in [Vau95, p. 56] that any proof of Theorem 6.6.9 (2) requires the Axiom of Choice.  "
 },
@@ -2219,7 +2246,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-finite-countable-sets.html#thm-countable-products",
   "type": "Theorem",
-  "number": "7.28",
+  "number": "6.28",
   "title": "",
   "body": "  Let be sets for some . Suppose that are countable. Then is countable.   "
 },
@@ -2228,7 +2255,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-finite-countable-sets.html#theorem-38",
   "type": "Theorem",
-  "number": "7.29",
+  "number": "6.29",
   "title": "",
   "body": "  Let be a set. If is infinite, then has a countably infinite subset.    Suppose that is infinite. By the Trichotomy Law for Sets (Theorem 6.5.13) we know that .  First, suppose that . Then there is an injective function . By Exercise 6.5.4 we know that . Hence is a countably infinite subset of .  Second, suppose that . Then there is an injective function . By Exercise 6.5.4 again we know that . Because , it follows from Theorem 6.6.7 that is countable. Hence is countable. Because is infinite, then it must be countably infinite, and hence A has a countably infinite subset, namely, itself.   "
 },
@@ -2237,79 +2264,79 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-finite-countable-sets.html#thm-finite-characterization",
   "type": "Theorem",
-  "number": "7.30",
+  "number": "6.30",
   "title": "",
   "body": "  Let be a set. Then is finite if and only if has no proper subset with the same cardinality as .   "
-},
-{
-  "id": "exercise-21",
-  "level": "2",
-  "url": "sec-finite-countable-sets.html#exercise-21",
-  "type": "Exploration",
-  "number": "7.31",
-  "title": "",
-  "body": " Let and be sets. Suppose that and are finite. Prove that is finite.  "
 },
 {
   "id": "exercise-22",
   "level": "2",
   "url": "sec-finite-countable-sets.html#exercise-22",
   "type": "Exploration",
-  "number": "7.32",
+  "number": "6.31",
   "title": "",
-  "body": " Let be a subset. Suppose that there is some such that for all . Prove that is finite.  "
+  "body": " Let and be sets. Suppose that and are finite. Prove that is finite.  "
 },
 {
   "id": "exercise-23",
   "level": "2",
   "url": "sec-finite-countable-sets.html#exercise-23",
   "type": "Exploration",
-  "number": "7.33",
+  "number": "6.32",
   "title": "",
-  "body": " Let be a set. Prove that is finite if and only if there is an injective function for some if and only if there is a surjective function for some .  "
+  "body": " Let be a subset. Suppose that there is some such that for all . Prove that is finite.  "
 },
 {
   "id": "exercise-24",
   "level": "2",
   "url": "sec-finite-countable-sets.html#exercise-24",
   "type": "Exploration",
-  "number": "7.34",
+  "number": "6.33",
   "title": "",
-  "body": " Let and be sets, and let be a function. Suppose that and are finite sets, and that . Prove that is bijective if and only if is injective if and only if is surjective.  "
+  "body": " Let be a set. Prove that is finite if and only if there is an injective function for some if and only if there is a surjective function for some .  "
 },
 {
   "id": "exercise-25",
   "level": "2",
   "url": "sec-finite-countable-sets.html#exercise-25",
   "type": "Exploration",
-  "number": "7.35",
+  "number": "6.34",
   "title": "",
-  "body": " Let be a set. Suppose that is finite and non-empty. Use Theorem 6.3.11 (1) to prove that there is some such that for all .  "
+  "body": " Let and be sets, and let be a function. Suppose that and are finite sets, and that . Prove that is bijective if and only if is injective if and only if is surjective.  "
 },
 {
   "id": "exercise-26",
   "level": "2",
   "url": "sec-finite-countable-sets.html#exercise-26",
   "type": "Exploration",
-  "number": "7.36",
+  "number": "6.35",
   "title": "",
-  "body": " Let be a set. Suppose that is countably infinite. Prove that there is a function that is injective but not surjective.  "
+  "body": " Let be a set. Suppose that is finite and non-empty. Use Theorem 6.3.11 (1) to prove that there is some such that for all .  "
 },
 {
   "id": "exercise-27",
   "level": "2",
   "url": "sec-finite-countable-sets.html#exercise-27",
   "type": "Exploration",
-  "number": "7.37",
+  "number": "6.36",
   "title": "",
-  "body": " Let be a set. Prove that is uncountable if and only if it contains an uncountable subset.  "
+  "body": " Let be a set. Suppose that is countably infinite. Prove that there is a function that is injective but not surjective.  "
 },
 {
   "id": "exercise-28",
   "level": "2",
   "url": "sec-finite-countable-sets.html#exercise-28",
   "type": "Exploration",
-  "number": "7.38",
+  "number": "6.37",
+  "title": "",
+  "body": " Let be a set. Prove that is uncountable if and only if it contains an uncountable subset.  "
+},
+{
+  "id": "exercise-29",
+  "level": "2",
+  "url": "sec-finite-countable-sets.html#exercise-29",
+  "type": "Exploration",
+  "number": "6.38",
   "title": "",
   "body": " Let and be sets. Suppose that and are countable. Prove that is countable.  "
 },
@@ -2318,7 +2345,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-cardinality-of-number-systems.html",
   "type": "Section",
-  "number": "7.3",
+  "number": "6.3",
   "title": "Cardinality of the Number Systems",
   "body": "Cardinality of the Number Systems    The set is countably infinite.    We have just remarked that the set is countably infinite, and hence it is countable. Let . It follows from Exercise 6.5.8 (1) that is also countable. By Theorem 6.6.10 we know that is countable, and it follows from Theorem 6.6.8 that there is a surjective function . Let be defined by for all . Given that consists of all fractions, it is evident that is surjective. By Lemma 4.4.4 (2) we see that is a surjective function . Hence is countable by Theorem 6.6.8. Because is infinite, as previously remarked, it is therefore countably infinite.      The set is uncountable.    Suppose to the contrary that is countable. Because is infinite, as already observed, it must be countably infinite. From Example 6.5.3 (4) we know that , and hence must be countably infinite. Let be a bijective function. For each , we can write as an infinite decimal f (n) = 0.a1 n a2 n a3 n \\dots, where the numbers a1 n, a2 n, a3 n, \\dots are integers in {0, 1, \\dots, 9}, and where the expansion does not eventually become the number 9 repeating.  For each k\\in N, let bk = { 1, if a k k \\neq 1 2, if ak k = 1. Observe that bk \\neq ak k for all k\\in N. Let b be the number represented by the decimal expansion b = 0.b1 b2 b3 \\dots . Because b k \\neq 9 for all k\\in N, then this decimal expansion corresponds to a unique number in (0, 1). We claim that b \\neq f (n) for all n\\in N. The decimal expansion of any real number is unique if it does not become the number 9 repeating, and therefore if two numbers have different such decimal expansions (even if the difference is by only one digit) then the two numbers are not equal. For each n\\in N, the n-th digit in the decimal expansion of f (n) is a n n, whereas the n-th digit in the decimal expansion of b is b n. Hence b \\neq f (n) for all n\\in N. We have therefore reached a contradiction to the surjectivity of f, and we deduce that R is not countable.      The set of irrational numbers has the same cardinality as .      Let . Then .        Prove that . Use the fact that every real number can be expressed uniquely as an infinite decimal, if decimal expansions that eventually become the number repeating are not allowed.    Let and be sets. Suppose that and . Prove that .       This exercise is for the reader who is familiar with the complex numbers. Prove that the set of complex numbers has the same cardinality as .   "
 },
@@ -2327,7 +2354,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-cardinality-of-number-systems.html#thm-q-countable",
   "type": "Theorem",
-  "number": "7.39",
+  "number": "6.39",
   "title": "",
   "body": "  The set is countably infinite.    We have just remarked that the set is countably infinite, and hence it is countable. Let . It follows from Exercise 6.5.8 (1) that is also countable. By Theorem 6.6.10 we know that is countable, and it follows from Theorem 6.6.8 that there is a surjective function . Let be defined by for all . Given that consists of all fractions, it is evident that is surjective. By Lemma 4.4.4 (2) we see that is a surjective function . Hence is countable by Theorem 6.6.8. Because is infinite, as previously remarked, it is therefore countably infinite.   "
 },
@@ -2336,7 +2363,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-cardinality-of-number-systems.html#thm-r-uncountable",
   "type": "Theorem",
-  "number": "7.40",
+  "number": "6.40",
   "title": "",
   "body": "  The set is uncountable.    Suppose to the contrary that is countable. Because is infinite, as already observed, it must be countably infinite. From Example 6.5.3 (4) we know that , and hence must be countably infinite. Let be a bijective function. For each , we can write as an infinite decimal f (n) = 0.a1 n a2 n a3 n \\dots, where the numbers a1 n, a2 n, a3 n, \\dots are integers in {0, 1, \\dots, 9}, and where the expansion does not eventually become the number 9 repeating.  For each k\\in N, let bk = { 1, if a k k \\neq 1 2, if ak k = 1. Observe that bk \\neq ak k for all k\\in N. Let b be the number represented by the decimal expansion b = 0.b1 b2 b3 \\dots . Because b k \\neq 9 for all k\\in N, then this decimal expansion corresponds to a unique number in (0, 1). We claim that b \\neq f (n) for all n\\in N. The decimal expansion of any real number is unique if it does not become the number 9 repeating, and therefore if two numbers have different such decimal expansions (even if the difference is by only one digit) then the two numbers are not equal. For each n\\in N, the n-th digit in the decimal expansion of f (n) is a n n, whereas the n-th digit in the decimal expansion of b is b n. Hence b \\neq f (n) for all n\\in N. We have therefore reached a contradiction to the surjectivity of f, and we deduce that R is not countable.   "
 },
@@ -2345,7 +2372,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-cardinality-of-number-systems.html#thm-irrationals-uncountable",
   "type": "Theorem",
-  "number": "7.41",
+  "number": "6.41",
   "title": "",
   "body": "  The set of irrational numbers has the same cardinality as .   "
 },
@@ -2354,25 +2381,25 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-cardinality-of-number-systems.html#thm-rn-cardinality",
   "type": "Theorem",
-  "number": "7.42",
+  "number": "6.42",
   "title": "",
   "body": "  Let . Then .   "
-},
-{
-  "id": "exercise-29",
-  "level": "2",
-  "url": "sec-cardinality-of-number-systems.html#exercise-29",
-  "type": "Exploration",
-  "number": "7.43",
-  "title": "",
-  "body": "    Prove that . Use the fact that every real number can be expressed uniquely as an infinite decimal, if decimal expansions that eventually become the number repeating are not allowed.    Let and be sets. Suppose that and . Prove that .     "
 },
 {
   "id": "exercise-30",
   "level": "2",
   "url": "sec-cardinality-of-number-systems.html#exercise-30",
   "type": "Exploration",
-  "number": "7.44",
+  "number": "6.43",
+  "title": "",
+  "body": "    Prove that . Use the fact that every real number can be expressed uniquely as an infinite decimal, if decimal expansions that eventually become the number repeating are not allowed.    Let and be sets. Suppose that and . Prove that .     "
+},
+{
+  "id": "exercise-31",
+  "level": "2",
+  "url": "sec-cardinality-of-number-systems.html#exercise-31",
+  "type": "Exploration",
+  "number": "6.44",
   "title": "",
   "body": " This exercise is for the reader who is familiar with the complex numbers. Prove that the set of complex numbers has the same cardinality as .  "
 },
@@ -2381,7 +2408,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-binary-operations.html",
   "type": "Section",
-  "number": "8.1",
+  "number": "7.1",
   "title": "Binary Operations",
   "body": "Binary Operations  Internal Binary Operations  Binary Operation   A internal binary operation binary operation operation on a set is a       Let be a set, and let be a binary operation. If , then it would be proper to denote the result of doing the operation to the pair by writing . Such notation is quite cumbersome, however, and would not look like familiar binary operations such as addition of numbers. Hence, we will write instead of .    Internal binary operations are usually reffered to as binary operations as they are the most common form of binary operation. The internal piece subtly implies the existence of some nebulous external binary operation, which we'll get to later.      A binary operation is closed        Addition  The function defined by is a binary operation for .   Multiplication  The function defined by (often shortened to ) is a binary operation for .   Composition  Let denote the set of all functions from a set to itself. The function defined by is a binary operation.        A binary operation on a set is commutative if for all .      A binary operation on a set is associative if for all .      A binary operation on a set is idempotent if for all .      Let be a binary operation on a set .   An element is called a left identity if for all .    An element is called a right identity if for all .    An element is called an identity if it is both a left and a right identity.         Any binary operation has at most one identity.      If an operation has both a left identity and a right identity, then these two elements are equal.      Let be a binary operation on a set with identity , and let .   An element is called a left inverse of if .    An element is called a right inverse if .    An element that is both a left inverse and right inverse of is called an inverse of .         Let be an associative binary operation on a set .   Any element in has at most one inverse.    If has a left inverse and a right inverse , then these .        Partial Binary Operations    A partial function from a set to a set is a function from a subset of to . This is denoted .      A partial binary operation partial binary operation operation on a set is a partial function     Division      External Binary Operations         "
 },
@@ -2390,25 +2417,25 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-binary-operations.html#def-binop",
   "type": "Definition",
-  "number": "8.1",
+  "number": "7.1",
   "title": "Binary Operation.",
   "body": "Binary Operation   A internal binary operation binary operation operation on a set is a     "
 },
 {
-  "id": "convention-23",
+  "id": "convention-24",
   "level": "2",
-  "url": "sec-binary-operations.html#convention-23",
+  "url": "sec-binary-operations.html#convention-24",
   "type": "Convention",
-  "number": "8.2",
+  "number": "7.2",
   "title": "",
   "body": " Let be a set, and let be a binary operation. If , then it would be proper to denote the result of doing the operation to the pair by writing . Such notation is quite cumbersome, however, and would not look like familiar binary operations such as addition of numbers. Hence, we will write instead of .  "
 },
 {
-  "id": "remark-22",
+  "id": "remark-23",
   "level": "2",
-  "url": "sec-binary-operations.html#remark-22",
+  "url": "sec-binary-operations.html#remark-23",
   "type": "Remark",
-  "number": "8.3",
+  "number": "7.3",
   "title": "",
   "body": " Internal binary operations are usually reffered to as binary operations as they are the most common form of binary operation. The internal piece subtly implies the existence of some nebulous external binary operation, which we'll get to later.   "
 },
@@ -2417,16 +2444,16 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-binary-operations.html#def-closure",
   "type": "Definition",
-  "number": "8.4",
+  "number": "7.4",
   "title": "",
   "body": "  A binary operation is closed    "
 },
 {
-  "id": "example-38",
+  "id": "example-40",
   "level": "2",
-  "url": "sec-binary-operations.html#example-38",
+  "url": "sec-binary-operations.html#example-40",
   "type": "Example",
-  "number": "8.5",
+  "number": "7.5",
   "title": "",
   "body": "   Addition  The function defined by is a binary operation for .   Multiplication  The function defined by (often shortened to ) is a binary operation for .   Composition  Let denote the set of all functions from a set to itself. The function defined by is a binary operation.     "
 },
@@ -2435,7 +2462,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-binary-operations.html#def-commutative",
   "type": "Definition",
-  "number": "8.6",
+  "number": "7.6",
   "title": "",
   "body": "  A binary operation on a set is commutative if for all .   "
 },
@@ -2444,7 +2471,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-binary-operations.html#def-associative",
   "type": "Definition",
-  "number": "8.7",
+  "number": "7.7",
   "title": "",
   "body": "  A binary operation on a set is associative if for all .   "
 },
@@ -2453,7 +2480,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-binary-operations.html#def-idempotent",
   "type": "Definition",
-  "number": "8.8",
+  "number": "7.8",
   "title": "",
   "body": "  A binary operation on a set is idempotent if for all .   "
 },
@@ -2462,7 +2489,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-binary-operations.html#def-identity",
   "type": "Definition",
-  "number": "8.9",
+  "number": "7.9",
   "title": "",
   "body": "  Let be a binary operation on a set .   An element is called a left identity if for all .    An element is called a right identity if for all .    An element is called an identity if it is both a left and a right identity.      "
 },
@@ -2471,7 +2498,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-binary-operations.html#thm-unique-identity",
   "type": "Theorem",
-  "number": "8.10",
+  "number": "7.10",
   "title": "",
   "body": "  Any binary operation has at most one identity.   "
 },
@@ -2480,7 +2507,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-binary-operations.html#cor-left-right-identity",
   "type": "Corollary",
-  "number": "8.11",
+  "number": "7.11",
   "title": "",
   "body": "  If an operation has both a left identity and a right identity, then these two elements are equal.   "
 },
@@ -2489,7 +2516,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-binary-operations.html#def-inverse",
   "type": "Definition",
-  "number": "8.12",
+  "number": "7.12",
   "title": "",
   "body": "  Let be a binary operation on a set with identity , and let .   An element is called a left inverse of if .    An element is called a right inverse if .    An element that is both a left inverse and right inverse of is called an inverse of .      "
 },
@@ -2498,7 +2525,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-binary-operations.html#prop-unique-associative-inverses",
   "type": "Proposition",
-  "number": "8.13",
+  "number": "7.13",
   "title": "",
   "body": "  Let be an associative binary operation on a set .   Any element in has at most one inverse.    If has a left inverse and a right inverse , then these .      "
 },
@@ -2507,7 +2534,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-binary-operations.html#def-partial-function",
   "type": "Definition",
-  "number": "8.14",
+  "number": "7.14",
   "title": "",
   "body": "  A partial function from a set to a set is a function from a subset of to . This is denoted .   "
 },
@@ -2516,16 +2543,16 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-binary-operations.html#def-partial-binary-operation",
   "type": "Definition",
-  "number": "8.15",
+  "number": "7.15",
   "title": "",
   "body": "  A partial binary operation partial binary operation operation on a set is a partial function    "
 },
 {
-  "id": "example-39",
+  "id": "example-41",
   "level": "2",
-  "url": "sec-binary-operations.html#example-39",
+  "url": "sec-binary-operations.html#example-41",
   "type": "Example",
-  "number": "8.16",
+  "number": "7.16",
   "title": "Division.",
   "body": "Division    "
 },
@@ -2534,52 +2561,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-binary-operations.html#def-external-binary-operation",
   "type": "Definition",
-  "number": "8.17",
-  "title": "",
-  "body": "     "
-},
-{
-  "id": "sec-algebraic-structures",
-  "level": "1",
-  "url": "sec-algebraic-structures.html",
-  "type": "Section",
-  "number": "8.2",
-  "title": "Algebraic Structures",
-  "body": "Algebraic Structures  Grouplike Structures    Let be a binary operation on a set . We define the following:   The pair is called a magma .    A semigroup is an associative magma.    A monoid is a semigroup with an identity element.    A group is a monoid with inverses.    An abelian group is a commutative group.         Let be a partial binary operation on a set . We define the following:   The pair is called a partial magma .    A semigroupoid is an associative partial magma.    A small category is a semigroupoid with an identity element.    A groupoid is a small category with inverses.        Ringlike Structures         Latticelike Structures         "
-},
-{
-  "id": "def-magma",
-  "level": "2",
-  "url": "sec-algebraic-structures.html#def-magma",
-  "type": "Definition",
-  "number": "8.18",
-  "title": "",
-  "body": "  Let be a binary operation on a set . We define the following:   The pair is called a magma .    A semigroup is an associative magma.    A monoid is a semigroup with an identity element.    A group is a monoid with inverses.    An abelian group is a commutative group.      "
-},
-{
-  "id": "def-partial-structures",
-  "level": "2",
-  "url": "sec-algebraic-structures.html#def-partial-structures",
-  "type": "Definition",
-  "number": "8.19",
-  "title": "",
-  "body": "  Let be a partial binary operation on a set . We define the following:   The pair is called a partial magma .    A semigroupoid is an associative partial magma.    A small category is a semigroupoid with an identity element.    A groupoid is a small category with inverses.      "
-},
-{
-  "id": "def-distributive-law",
-  "level": "2",
-  "url": "sec-algebraic-structures.html#def-distributive-law",
-  "type": "Definition",
-  "number": "8.20",
-  "title": "",
-  "body": "     "
-},
-{
-  "id": "def-absorbtion-law",
-  "level": "2",
-  "url": "sec-algebraic-structures.html#def-absorbtion-law",
-  "type": "Definition",
-  "number": "8.21",
+  "number": "7.17",
   "title": "",
   "body": "     "
 },
@@ -2588,7 +2570,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-posets.html",
   "type": "Section",
-  "number": "8.3",
+  "number": "8.1",
   "title": "Partially Ordered Sets",
   "body": "Partially Ordered Sets  Antisymmetric   Let be a non-empty set, and let be a relation on . The relation is antisymmetric if and imply that , for all     Poset   Let be a non-empty set, and let be a relation on . The relation is a partial ordering (also called a partial order ) if it is reflexive, transitive and antisymmetric. If is a partial ordering, the pair is a partially ordered set, often abbreviated as poset .        Let be a set. Then is a poset but not a totally ordered set, as mentioned previously.    Divisibility in is a poset.      Toset   Let be a non-empty set, and let be a relation on . The relation is a total ordering (also called a total order or linear ordering) if it is a partial ordering, and if for every , at least one of a or holds. If is a total ordering, the pair is a totally ordered set .     Formally, a poset is a pair . However, when the relation is understood from the context, or it is not important to designate the symbol for the relation, we will simply say “let be a poset.” Similarly for totally ordered sets.    Each of the sets and with the relation is a totally ordered set.   Cover   Let be a poset, and let . The element  covers the element if , and , and there is no such that and .    Greatest, Least Element   Let be a poset, and let . The element is a greatest element of if for all . The element is a least element of if for all .     The poset has no greatest element or least element. Even finite posets need not have greatest elements or least elements. For example, the poset in Example 7.4.4 (1) does not have a greatest element; observe that is not a greatest element with respect to the relation , because does not divide . The poset does have a least element, the number , because divides all the other numbers in the set.   Maximal, Minimal Element   Let be a poset, and let . The element a is a maximal element of if there is no such that and . The element is a minimal element of if there is no such that and .     The poset has no maximal element or minimal element. Let be the poset in Example 7.4.4 (1). The elements , and are all maximal elements, which shows that maximal elements need not be unique, and also that maximal elements need not be greatest elements. The element is a minimal element, which also happens to be a least element.     Let be a poset. Suppose that is finite. Then has a maximal element and a minimal element.    We will prove the existence of maximal elements; the existence of minimal elements is similar, and we omit the details. Let . We proceed by induction on . If , then the single element of is clearly a maximal element. Now assume that . Suppose that the result is true for . Let , and let . By Exercise 7.4.8 we know that is a poset. Because | , it follows from the inductive hypothesis that there is a maximal element of . We now define as follows. If , let ; if it is not the case that , then let . We claim that is a maximal element of . There are two cases. First, suppose that . Then . Suppose that there is some such that and . By transitivity it follows that , and by antisymmetry it follows that . Because , then , and we then have a contradiction to the fact that is a maximal element of . It follows that is a maximal element of . Second, suppose that it is not the case that . Then . Because is a maximal element of , then there is no such that and . It follows that there is no such that and , and hence is a maximal element of .    Poset Bounds   Let be a poset, let be a subset and let . The element is an upper bound of if for all . The element is a least upper bound of if it is an upper bound of , and for any other upper bound . The element is a lower bound of if for all . The element is a greatest lower bound for if it is a lower bound of , and for any other lower bound .    Uniqueness of Poset Bounds   Let be a poset, and let be a subset. If has a least upper bound, then it is unique, and if has a greatest lower bound, then it is unique.    Let , and suppose that both are least upper bounds of . By definition both and are upper bounds for . Because is a least upper bound of , and is an upper bound of , then by the definition of least upper bounds. Similarly, we see that . By antisymmetry, it follows that . A similar argument works for greatest lower bounds; we omit the details.    Poset Extension Theorem   Let be a poset. Suppose that is finite. Then there is a total ordering on A such that if then , for all .    Let . We proceed by induction on . If the result is trivial. Now assume that . Suppose that the result is true for . By Theorem 7.4.9 the poset has a maximal element, say . Let . By Exercise 7.4.8 we know that is a poset. Because , it follows from the inductive hypothesis that there is a total ordering on such that if then , for all . Now define a relation on as follows. If , let if and only if . If , let . It is left to the reader in Exercise 7.4.9 to show that is a total order on , and that if then , for all .    Order Homomorphism   Let and be posets, and let be a function. The function is an order homomorphism (also called an order preserving function ) if implies , for all . The function is an order isomorphism if it is bijective, and if both and are order homomorphisms.    Finite Toset Classification Theorem   Let be a totally ordered set. Suppose that is finite. Let . Then there is an order isomorphism from to .    We follow [KR83a]. We prove the result by induction on . When the result is trivial. Now assume that . Suppose that the result holds for . By Theorem 7.4.9 the poset has a maximal element, say . Let . Because is a total ordering, we know that or . If it were the case that , then by hypothesis on we would know that . Hence . Let . By Exercise 7.4.8 we know that is a poset. Because , it follows from the inductive hypothesis that there is an order isomorphism from to , say . Let be defined by for all , and . Because is bijective, it is straightforward to see that is bijective as well; we omit the details. To see that is an order isomorphism, it suffices by Lemma 7.4.16 to show that if and only if , for all . First, let . Then if and only if because is an order isomorphism. Because and , then if and only if . Now let . We know that , and we also know that , because . Hence if and only if , because both these statements are true. It follows that is an order isomorphism.    "
 },
@@ -2597,7 +2579,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-posets.html#def-antisymmetric",
   "type": "Definition",
-  "number": "8.22",
+  "number": "8.1",
   "title": "Antisymmetric.",
   "body": "Antisymmetric   Let be a non-empty set, and let be a relation on . The relation is antisymmetric if and imply that , for all    "
 },
@@ -2606,16 +2588,16 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-posets.html#def-poset",
   "type": "Definition",
-  "number": "8.23",
+  "number": "8.2",
   "title": "Poset.",
   "body": "Poset   Let be a non-empty set, and let be a relation on . The relation is a partial ordering (also called a partial order ) if it is reflexive, transitive and antisymmetric. If is a partial ordering, the pair is a partially ordered set, often abbreviated as poset .   "
 },
 {
-  "id": "example-40",
+  "id": "example-42",
   "level": "2",
-  "url": "sec-posets.html#example-40",
+  "url": "sec-posets.html#example-42",
   "type": "Example",
-  "number": "8.24",
+  "number": "8.3",
   "title": "",
   "body": "    Let be a set. Then is a poset but not a totally ordered set, as mentioned previously.    Divisibility in is a poset.     "
 },
@@ -2624,25 +2606,25 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-posets.html#def-toset",
   "type": "Definition",
-  "number": "8.25",
+  "number": "8.4",
   "title": "Toset.",
   "body": "Toset   Let be a non-empty set, and let be a relation on . The relation is a total ordering (also called a total order or linear ordering) if it is a partial ordering, and if for every , at least one of a or holds. If is a total ordering, the pair is a totally ordered set .   "
 },
 {
-  "id": "remark-23",
+  "id": "remark-24",
   "level": "2",
-  "url": "sec-posets.html#remark-23",
+  "url": "sec-posets.html#remark-24",
   "type": "Remark",
-  "number": "8.26",
+  "number": "8.5",
   "title": "",
   "body": " Formally, a poset is a pair . However, when the relation is understood from the context, or it is not important to designate the symbol for the relation, we will simply say “let be a poset.” Similarly for totally ordered sets.  "
 },
 {
-  "id": "example-41",
+  "id": "example-43",
   "level": "2",
-  "url": "sec-posets.html#example-41",
+  "url": "sec-posets.html#example-43",
   "type": "Example",
-  "number": "8.27",
+  "number": "8.6",
   "title": "",
   "body": " Each of the sets and with the relation is a totally ordered set.  "
 },
@@ -2651,7 +2633,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-posets.html#def-covers",
   "type": "Definition",
-  "number": "8.28",
+  "number": "8.7",
   "title": "Cover.",
   "body": "Cover   Let be a poset, and let . The element  covers the element if , and , and there is no such that and .   "
 },
@@ -2660,16 +2642,16 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-posets.html#def-greatest-least-element",
   "type": "Definition",
-  "number": "8.29",
+  "number": "8.8",
   "title": "Greatest, Least Element.",
   "body": "Greatest, Least Element   Let be a poset, and let . The element is a greatest element of if for all . The element is a least element of if for all .   "
 },
 {
-  "id": "example-42",
+  "id": "example-44",
   "level": "2",
-  "url": "sec-posets.html#example-42",
+  "url": "sec-posets.html#example-44",
   "type": "Example",
-  "number": "8.30",
+  "number": "8.9",
   "title": "",
   "body": " The poset has no greatest element or least element. Even finite posets need not have greatest elements or least elements. For example, the poset in Example 7.4.4 (1) does not have a greatest element; observe that is not a greatest element with respect to the relation , because does not divide . The poset does have a least element, the number , because divides all the other numbers in the set.  "
 },
@@ -2678,16 +2660,16 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-posets.html#def-maximal-minimal-element",
   "type": "Definition",
-  "number": "8.31",
+  "number": "8.10",
   "title": "Maximal, Minimal Element.",
   "body": "Maximal, Minimal Element   Let be a poset, and let . The element a is a maximal element of if there is no such that and . The element is a minimal element of if there is no such that and .   "
 },
 {
-  "id": "example-43",
+  "id": "example-45",
   "level": "2",
-  "url": "sec-posets.html#example-43",
+  "url": "sec-posets.html#example-45",
   "type": "Example",
-  "number": "8.32",
+  "number": "8.11",
   "title": "",
   "body": " The poset has no maximal element or minimal element. Let be the poset in Example 7.4.4 (1). The elements , and are all maximal elements, which shows that maximal elements need not be unique, and also that maximal elements need not be greatest elements. The element is a minimal element, which also happens to be a least element.  "
 },
@@ -2696,7 +2678,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-posets.html#thm-finite-maximal-minimal",
   "type": "Theorem",
-  "number": "8.33",
+  "number": "8.12",
   "title": "",
   "body": "  Let be a poset. Suppose that is finite. Then has a maximal element and a minimal element.    We will prove the existence of maximal elements; the existence of minimal elements is similar, and we omit the details. Let . We proceed by induction on . If , then the single element of is clearly a maximal element. Now assume that . Suppose that the result is true for . Let , and let . By Exercise 7.4.8 we know that is a poset. Because | , it follows from the inductive hypothesis that there is a maximal element of . We now define as follows. If , let ; if it is not the case that , then let . We claim that is a maximal element of . There are two cases. First, suppose that . Then . Suppose that there is some such that and . By transitivity it follows that , and by antisymmetry it follows that . Because , then , and we then have a contradiction to the fact that is a maximal element of . It follows that is a maximal element of . Second, suppose that it is not the case that . Then . Because is a maximal element of , then there is no such that and . It follows that there is no such that and , and hence is a maximal element of .   "
 },
@@ -2705,7 +2687,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-posets.html#def-poset-bounds",
   "type": "Definition",
-  "number": "8.34",
+  "number": "8.13",
   "title": "Poset Bounds.",
   "body": "Poset Bounds   Let be a poset, let be a subset and let . The element is an upper bound of if for all . The element is a least upper bound of if it is an upper bound of , and for any other upper bound . The element is a lower bound of if for all . The element is a greatest lower bound for if it is a lower bound of , and for any other lower bound .   "
 },
@@ -2714,7 +2696,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-posets.html#lem-unique-bounds",
   "type": "Lemma",
-  "number": "8.35",
+  "number": "8.14",
   "title": "Uniqueness of Poset Bounds.",
   "body": "Uniqueness of Poset Bounds   Let be a poset, and let be a subset. If has a least upper bound, then it is unique, and if has a greatest lower bound, then it is unique.    Let , and suppose that both are least upper bounds of . By definition both and are upper bounds for . Because is a least upper bound of , and is an upper bound of , then by the definition of least upper bounds. Similarly, we see that . By antisymmetry, it follows that . A similar argument works for greatest lower bounds; we omit the details.   "
 },
@@ -2723,7 +2705,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-posets.html#thm-poset-to-toset",
   "type": "Theorem",
-  "number": "8.36",
+  "number": "8.15",
   "title": "Poset Extension Theorem.",
   "body": "Poset Extension Theorem   Let be a poset. Suppose that is finite. Then there is a total ordering on A such that if then , for all .    Let . We proceed by induction on . If the result is trivial. Now assume that . Suppose that the result is true for . By Theorem 7.4.9 the poset has a maximal element, say . Let . By Exercise 7.4.8 we know that is a poset. Because , it follows from the inductive hypothesis that there is a total ordering on such that if then , for all . Now define a relation on as follows. If , let if and only if . If , let . It is left to the reader in Exercise 7.4.9 to show that is a total order on , and that if then , for all .   "
 },
@@ -2732,7 +2714,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-posets.html#def-order-homomorphism",
   "type": "Definition",
-  "number": "8.37",
+  "number": "8.16",
   "title": "Order Homomorphism.",
   "body": "Order Homomorphism   Let and be posets, and let be a function. The function is an order homomorphism (also called an order preserving function ) if implies , for all . The function is an order isomorphism if it is bijective, and if both and are order homomorphisms.   "
 },
@@ -2741,7 +2723,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-posets.html#thm-finite-toset-classification",
   "type": "Theorem",
-  "number": "8.38",
+  "number": "8.17",
   "title": "Finite Toset Classification Theorem.",
   "body": "Finite Toset Classification Theorem   Let be a totally ordered set. Suppose that is finite. Let . Then there is an order isomorphism from to .    We follow [KR83a]. We prove the result by induction on . When the result is trivial. Now assume that . Suppose that the result holds for . By Theorem 7.4.9 the poset has a maximal element, say . Let . Because is a total ordering, we know that or . If it were the case that , then by hypothesis on we would know that . Hence . Let . By Exercise 7.4.8 we know that is a poset. Because , it follows from the inductive hypothesis that there is an order isomorphism from to , say . Let be defined by for all , and . Because is bijective, it is straightforward to see that is bijective as well; we omit the details. To see that is an order isomorphism, it suffices by Lemma 7.4.16 to show that if and only if , for all . First, let . Then if and only if because is an order isomorphism. Because and , then if and only if . Now let . We know that , and we also know that , because . Hence if and only if , because both these statements are true. It follows that is an order isomorphism.   "
 },
@@ -2750,7 +2732,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec-lattices.html",
   "type": "Section",
-  "number": "8.4",
+  "number": "8.2",
   "title": "Lattices",
   "body": "Lattices  Meet, Join   Let be a poset. Let . The join of and , denoted , is the least upper bound of , if the least upper bound exists; the join is not defined if the least upper bound does not exist. The meet of and , denoted , is the greatest lower bound of , if the greatest lower bound exists; the meet is not defined if the greatest lower bound does not exist.    Lattice   A poset is a lattice if and exist for all .        The sets and with the relation are all lattices. We know from Example 7.4.2 (3) that these sets with the relation are all posets. Let and be two numbers in any one of these sets. If then and ; if , then is the smaller of the two numbers, and is the larger. More generally, any totally ordered set is a lattice, by the same argument.    Let be a set. The poset is a lattice. If , then and .    As shown in Example 7.4.2 (5), the set with the relation “ ” is a poset. This poset is a lattice. If , then is the greatest common divisor of and , and is the least common multiple.        Let be a lattice, and let .    and (Idempotent Laws).     and (Commutative Laws).     and (Associative Laws).     and (Absorption Laws).     if and only if if and only if .    If , then and .       Coming soon!      Let be a set, and let and be binary operations on . Suppose that and satisfy the following properties. Let .    and .     and .     and .   Let be the relation on defined by if and only , for all . Then is a lattice, with and the meet and join of the lattice, respectively.    We follow [Bir48] and [LP98] in part. As a preliminary, we prove the following two facts: (1) for all ; and (2) if and only if , for all . Let . Using both parts of Property (c), we see that , which proves Fact (1). Suppose that . Then by Properties (a) and (c) we see that , which proves one of the implications in Fact (2); a similar argument proves the other implication, and we omit the details.  We now show that is a poset. Because by Fact (1), it follows from the definition of that . Hence is reflexive. Now suppose that and . Then and . By Property (b) we see that . It follows that . Therefore is transitive. Next, suppose that and . Then and . It follows from Property (a) that . Therefore is antisymmetric. We conclude that is a poset.  Finally, we show that and are the meet and join of , respectively. It will then follow from this fact that meet and join always exist for any two elements of , and hence is a lattice. We start with . Using Property (b) and Fact (1) we see that . Hence . Because by Property (a), a similar argument shows that . Therefore is a lower bound of . Now suppose that is a lower bound of . Then and , and therefore and . By Property (b) we see that . Hence . It follows that is the greatest lower bound of , which means that is the meet of and .  We now turn to . By Property (c) we know that . Hence . Because by Property (a), a similar argument shows that . Hence is an upper bound of . Now suppose that is an upper bound of . Then and , and therefore and . By Fact (2) we deduce that and . Property (b) then implies that . Hence by Fact (2). Therefore . It follows that is the least upper bound of , which means that is the join of .      Let and be lattices, and let be a function. Let and be the meet and join for , and let and be the meet and join for . The function is a meet homomorphism if for all . The function is a join homomorphism if for all .        The function in Example 7.4.17 (2) is both a meet homomorphism and a join homomorphism, as the reader can verify.    The function in Example 7.4.17 (1) is an order homomorphism, as was stated in that example. However, this function is neither a meet homomorphism nor a join homomorphism. For example, let , and let . Then, as in Example 7.5.2 (2), we see that , and . Hence and . However, as discussed in Example 7.5.2 (1), we see that , and . Hence and .        Let and be lattices, and let be a function.   If is a meet homomorphism or a join homomorphism, then it is an order homomorphism.    If is bijective and a meet (respectively, join) homomorphism, then is a meet (respectively, join) homomorphism.    The function is an order isomorphism if and only if is bijective and a meet homomorphism if and only if is bijective and a join homomorphism.          Suppose that is a meet homomorphism. Let denote the meet for and , respectively. Let . Suppose that . Then by Theorem 7.5.3 (6) we know that . Then , because is a meet homomorphism. Using Theorem 7.5.3 (6) again, we deduce that . It follows that is an order homomorphism. A similar argument works if is a join homomorphism; we omit the details.         Let be a lattice, and let be an order homomorphism. Suppose that the least upper bound and greatest lower bound exist for all non-empty subsets of . Then there is some such that .    Let . Observe that is non-empty because it is a poset, and all posets are assumed to be non-empty. Let be the greatest lower bound of , which exists by hypothesis. Then is a lower bound of , and therefore for all . In particular, we see that . It follows that , and so is non-empty.  Let be the least upper bound of . Let . Then is an upper bound of , and therefore . Using the definition of and the fact that is an order homomorphism, we deduce that . It follows that is an upper bound for . Because is the least upper bound of , we deduce that . Because is an order homomorphism, it follows that . Hence , and therefore , because is an upper bound of . By antisymmetry, we deduce that .      Let be a lattice, and let be an order homomorphism. If is finite, then there is some such that .    "
 },
@@ -2759,7 +2741,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-lattices.html#def-meet-join",
   "type": "Definition",
-  "number": "8.39",
+  "number": "8.18",
   "title": "Meet, Join.",
   "body": "Meet, Join   Let be a poset. Let . The join of and , denoted , is the least upper bound of , if the least upper bound exists; the join is not defined if the least upper bound does not exist. The meet of and , denoted , is the greatest lower bound of , if the greatest lower bound exists; the meet is not defined if the greatest lower bound does not exist.   "
 },
@@ -2768,16 +2750,16 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-lattices.html#def-lattice",
   "type": "Definition",
-  "number": "8.40",
+  "number": "8.19",
   "title": "Lattice.",
   "body": "Lattice   A poset is a lattice if and exist for all .   "
 },
 {
-  "id": "example-44",
+  "id": "example-46",
   "level": "2",
-  "url": "sec-lattices.html#example-44",
+  "url": "sec-lattices.html#example-46",
   "type": "Example",
-  "number": "8.41",
+  "number": "8.20",
   "title": "",
   "body": "    The sets and with the relation are all lattices. We know from Example 7.4.2 (3) that these sets with the relation are all posets. Let and be two numbers in any one of these sets. If then and ; if , then is the smaller of the two numbers, and is the larger. More generally, any totally ordered set is a lattice, by the same argument.    Let be a set. The poset is a lattice. If , then and .    As shown in Example 7.4.2 (5), the set with the relation “ ” is a poset. This poset is a lattice. If , then is the greatest common divisor of and , and is the least common multiple.     "
 },
@@ -2786,7 +2768,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-lattices.html#theorem-48",
   "type": "Theorem",
-  "number": "8.42",
+  "number": "8.21",
   "title": "",
   "body": "  Let be a lattice, and let .    and (Idempotent Laws).     and (Commutative Laws).     and (Associative Laws).     and (Absorption Laws).     if and only if if and only if .    If , then and .       Coming soon!   "
 },
@@ -2795,7 +2777,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-lattices.html#theorem-49",
   "type": "Theorem",
-  "number": "8.43",
+  "number": "8.22",
   "title": "",
   "body": "  Let be a set, and let and be binary operations on . Suppose that and satisfy the following properties. Let .    and .     and .     and .   Let be the relation on defined by if and only , for all . Then is a lattice, with and the meet and join of the lattice, respectively.    We follow [Bir48] and [LP98] in part. As a preliminary, we prove the following two facts: (1) for all ; and (2) if and only if , for all . Let . Using both parts of Property (c), we see that , which proves Fact (1). Suppose that . Then by Properties (a) and (c) we see that , which proves one of the implications in Fact (2); a similar argument proves the other implication, and we omit the details.  We now show that is a poset. Because by Fact (1), it follows from the definition of that . Hence is reflexive. Now suppose that and . Then and . By Property (b) we see that . It follows that . Therefore is transitive. Next, suppose that and . Then and . It follows from Property (a) that . Therefore is antisymmetric. We conclude that is a poset.  Finally, we show that and are the meet and join of , respectively. It will then follow from this fact that meet and join always exist for any two elements of , and hence is a lattice. We start with . Using Property (b) and Fact (1) we see that . Hence . Because by Property (a), a similar argument shows that . Therefore is a lower bound of . Now suppose that is a lower bound of . Then and , and therefore and . By Property (b) we see that . Hence . It follows that is the greatest lower bound of , which means that is the meet of and .  We now turn to . By Property (c) we know that . Hence . Because by Property (a), a similar argument shows that . Hence is an upper bound of . Now suppose that is an upper bound of . Then and , and therefore and . By Fact (2) we deduce that and . Property (b) then implies that . Hence by Fact (2). Therefore . It follows that is the least upper bound of , which means that is the join of .   "
 },
@@ -2804,16 +2786,16 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-lattices.html#def-meet-join-homomorphism",
   "type": "Definition",
-  "number": "8.44",
+  "number": "8.23",
   "title": "",
   "body": "  Let and be lattices, and let be a function. Let and be the meet and join for , and let and be the meet and join for . The function is a meet homomorphism if for all . The function is a join homomorphism if for all .   "
 },
 {
-  "id": "example-45",
+  "id": "example-47",
   "level": "2",
-  "url": "sec-lattices.html#example-45",
+  "url": "sec-lattices.html#example-47",
   "type": "Example",
-  "number": "8.45",
+  "number": "8.24",
   "title": "",
   "body": "    The function in Example 7.4.17 (2) is both a meet homomorphism and a join homomorphism, as the reader can verify.    The function in Example 7.4.17 (1) is an order homomorphism, as was stated in that example. However, this function is neither a meet homomorphism nor a join homomorphism. For example, let , and let . Then, as in Example 7.5.2 (2), we see that , and . Hence and . However, as discussed in Example 7.5.2 (1), we see that , and . Hence and .     "
 },
@@ -2822,7 +2804,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-lattices.html#theorem-50",
   "type": "Theorem",
-  "number": "8.46",
+  "number": "8.25",
   "title": "",
   "body": "  Let and be lattices, and let be a function.   If is a meet homomorphism or a join homomorphism, then it is an order homomorphism.    If is bijective and a meet (respectively, join) homomorphism, then is a meet (respectively, join) homomorphism.    The function is an order isomorphism if and only if is bijective and a meet homomorphism if and only if is bijective and a join homomorphism.          Suppose that is a meet homomorphism. Let denote the meet for and , respectively. Let . Suppose that . Then by Theorem 7.5.3 (6) we know that . Then , because is a meet homomorphism. Using Theorem 7.5.3 (6) again, we deduce that . It follows that is an order homomorphism. A similar argument works if is a join homomorphism; we omit the details.      "
 },
@@ -2831,7 +2813,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-lattices.html#theorem-51",
   "type": "Theorem",
-  "number": "8.47",
+  "number": "8.26",
   "title": "",
   "body": "  Let be a lattice, and let be an order homomorphism. Suppose that the least upper bound and greatest lower bound exist for all non-empty subsets of . Then there is some such that .    Let . Observe that is non-empty because it is a poset, and all posets are assumed to be non-empty. Let be the greatest lower bound of , which exists by hypothesis. Then is a lower bound of , and therefore for all . In particular, we see that . It follows that , and so is non-empty.  Let be the least upper bound of . Let . Then is an upper bound of , and therefore . Using the definition of and the fact that is an order homomorphism, we deduce that . It follows that is an upper bound for . Because is the least upper bound of , we deduce that . Because is an order homomorphism, it follows that . Hence , and therefore , because is an upper bound of . By antisymmetry, we deduce that .   "
 },
@@ -2840,108 +2822,18 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-lattices.html#corollary-11",
   "type": "Corollary",
-  "number": "8.48",
+  "number": "8.27",
   "title": "",
   "body": "  Let be a lattice, and let be an order homomorphism. If is finite, then there is some such that .   "
 },
 {
-  "id": "sec-axioms",
+  "id": "sec-zorn",
   "level": "1",
-  "url": "sec-axioms.html",
+  "url": "sec-zorn.html",
   "type": "Section",
-  "number": "8.5",
-  "title": "Axioms for Set Theory",
-  "body": "Axioms for Set Theory  Axiom of Extensionality   Let and be sets. If and have the same elements, then .    Axiom of Empty Set   There is a set such that for all sets .    Axiom of Pairing   Let and be sets. There is a set such that if and only if or .    Axiom of Union   Let be a set. There is a set such that if and only if there is some such that .    Axiom of Power Set   Let be a set. There is a set such that if and only if .    Axiom of Regularity   Let be a set. Suppose that . Then there is some such that .    Axiom of Selection   Let be a logical property of sets with one free variable that can be formulated in the context of the ZF axioms. Let be a set. Then there is a set such that if and only if y and is true.    Axiom of Infinity   There is a set such that , and if then .    Axiom of Replacement   Let be a functional property of sets with two free variables and that can be formulated in the context of the ZF axioms. Let be a set. Then there is a set such that if and only if there is some such that is true.    Axiom of Choice   Let be a set. Suppose that if , then and . Then there is a set such that if , then contains a single element.    "
-},
-{
-  "id": "axiom-extensionality",
-  "level": "2",
-  "url": "sec-axioms.html#axiom-extensionality",
-  "type": "Axiom",
-  "number": "8.49",
-  "title": "Axiom of Extensionality.",
-  "body": "Axiom of Extensionality   Let and be sets. If and have the same elements, then .   "
-},
-{
-  "id": "axiom-empty-set",
-  "level": "2",
-  "url": "sec-axioms.html#axiom-empty-set",
-  "type": "Axiom",
-  "number": "8.50",
-  "title": "Axiom of Empty Set.",
-  "body": "Axiom of Empty Set   There is a set such that for all sets .   "
-},
-{
-  "id": "axiom-pairing",
-  "level": "2",
-  "url": "sec-axioms.html#axiom-pairing",
-  "type": "Axiom",
-  "number": "8.51",
-  "title": "Axiom of Pairing.",
-  "body": "Axiom of Pairing   Let and be sets. There is a set such that if and only if or .   "
-},
-{
-  "id": "axiom-union",
-  "level": "2",
-  "url": "sec-axioms.html#axiom-union",
-  "type": "Axiom",
-  "number": "8.52",
-  "title": "Axiom of Union.",
-  "body": "Axiom of Union   Let be a set. There is a set such that if and only if there is some such that .   "
-},
-{
-  "id": "axiom-power-set",
-  "level": "2",
-  "url": "sec-axioms.html#axiom-power-set",
-  "type": "Axiom",
-  "number": "8.53",
-  "title": "Axiom of Power Set.",
-  "body": "Axiom of Power Set   Let be a set. There is a set such that if and only if .   "
-},
-{
-  "id": "axiom-regularity",
-  "level": "2",
-  "url": "sec-axioms.html#axiom-regularity",
-  "type": "Axiom",
-  "number": "8.54",
-  "title": "Axiom of Regularity.",
-  "body": "Axiom of Regularity   Let be a set. Suppose that . Then there is some such that .   "
-},
-{
-  "id": "axiom-selection",
-  "level": "2",
-  "url": "sec-axioms.html#axiom-selection",
-  "type": "Axiom",
-  "number": "8.55",
-  "title": "Axiom of Selection.",
-  "body": "Axiom of Selection   Let be a logical property of sets with one free variable that can be formulated in the context of the ZF axioms. Let be a set. Then there is a set such that if and only if y and is true.   "
-},
-{
-  "id": "axiom-infinity",
-  "level": "2",
-  "url": "sec-axioms.html#axiom-infinity",
-  "type": "Axiom",
-  "number": "8.56",
-  "title": "Axiom of Infinity.",
-  "body": "Axiom of Infinity   There is a set such that , and if then .   "
-},
-{
-  "id": "axiom-replacement",
-  "level": "2",
-  "url": "sec-axioms.html#axiom-replacement",
-  "type": "Axiom",
-  "number": "8.57",
-  "title": "Axiom of Replacement.",
-  "body": "Axiom of Replacement   Let be a functional property of sets with two free variables and that can be formulated in the context of the ZF axioms. Let be a set. Then there is a set such that if and only if there is some such that is true.   "
-},
-{
-  "id": "axiom-choice",
-  "level": "2",
-  "url": "sec-axioms.html#axiom-choice",
-  "type": "Axiom",
-  "number": "8.58",
-  "title": "Axiom of Choice.",
-  "body": "Axiom of Choice   Let be a set. Suppose that if , then and . Then there is a set such that if , then contains a single element.   "
+  "number": "8.3",
+  "title": "Zorn's Lemma and the Axiom of Choice",
+  "body": "Zorn's Lemma and the Axiom of Choice   "
 },
 {
   "id": "sec-topology",
@@ -2971,22 +2863,184 @@ var ptx_lunr_docs = [
   "body": "  A set 𝑈 ⊂ 𝑋 is called an open set in (𝑋, 𝒯) if and only if 𝑈 \\in 𝒯.   "
 },
 {
-  "id": "convention-24",
+  "id": "convention-25",
   "level": "2",
-  "url": "sec-topology.html#convention-24",
+  "url": "sec-topology.html#convention-25",
   "type": "Convention",
   "number": "A.3",
   "title": "",
   "body": " It is customary to use the letters 𝑈 and 𝑉 to denote open sets.  "
 },
 {
-  "id": "remark-24",
+  "id": "remark-25",
   "level": "2",
-  "url": "sec-topology.html#remark-24",
+  "url": "sec-topology.html#remark-25",
   "type": "Remark",
   "number": "A.4",
   "title": "",
   "body": " Keep in mind that open sets are elements of the topology 𝒯 and subsets of the space 𝑋. Elements of 𝑋, on the other hand, are the points of the space 𝑋.  "
+},
+{
+  "id": "sec-algebraic-structures",
+  "level": "1",
+  "url": "sec-algebraic-structures.html",
+  "type": "Section",
+  "number": "A.2",
+  "title": "Algebraic Structures",
+  "body": "Algebraic Structures  Grouplike Structures    Let be a binary operation on a set . We define the following:   The pair is called a magma .    A semigroup is an associative magma.    A monoid is a semigroup with an identity element.    A group is a monoid with inverses.    An abelian group is a commutative group.         Let be a partial binary operation on a set . We define the following:   The pair is called a partial magma .    A semigroupoid is an associative partial magma.    A small category is a semigroupoid with an identity element.    A groupoid is a small category with inverses.        Ringlike Structures         Latticelike Structures         "
+},
+{
+  "id": "def-magma",
+  "level": "2",
+  "url": "sec-algebraic-structures.html#def-magma",
+  "type": "Definition",
+  "number": "A.5",
+  "title": "",
+  "body": "  Let be a binary operation on a set . We define the following:   The pair is called a magma .    A semigroup is an associative magma.    A monoid is a semigroup with an identity element.    A group is a monoid with inverses.    An abelian group is a commutative group.      "
+},
+{
+  "id": "def-partial-structures",
+  "level": "2",
+  "url": "sec-algebraic-structures.html#def-partial-structures",
+  "type": "Definition",
+  "number": "A.6",
+  "title": "",
+  "body": "  Let be a partial binary operation on a set . We define the following:   The pair is called a partial magma .    A semigroupoid is an associative partial magma.    A small category is a semigroupoid with an identity element.    A groupoid is a small category with inverses.      "
+},
+{
+  "id": "def-distributive-law",
+  "level": "2",
+  "url": "sec-algebraic-structures.html#def-distributive-law",
+  "type": "Definition",
+  "number": "A.7",
+  "title": "",
+  "body": "     "
+},
+{
+  "id": "def-absorbtion-law",
+  "level": "2",
+  "url": "sec-algebraic-structures.html#def-absorbtion-law",
+  "type": "Definition",
+  "number": "A.8",
+  "title": "",
+  "body": "     "
+},
+{
+  "id": "sec-graphs",
+  "level": "1",
+  "url": "sec-graphs.html",
+  "type": "Section",
+  "number": "A.3",
+  "title": "Graphs",
+  "body": "Graphs   "
+},
+{
+  "id": "sec-category",
+  "level": "1",
+  "url": "sec-category.html",
+  "type": "Section",
+  "number": "A.4",
+  "title": "An Overwhelming Introduction to Categories",
+  "body": "An Overwhelming Introduction to Categories   "
+},
+{
+  "id": "app-axioms",
+  "level": "1",
+  "url": "app-axioms.html",
+  "type": "Appendix",
+  "number": "B",
+  "title": "Axioms for Set Theory",
+  "body": "Axioms for Set Theory  Axiom of Extensionality   Let and be sets. If and have the same elements, then .    Axiom of Empty Set   There is a set such that for all sets .    Axiom of Pairing   Let and be sets. There is a set such that if and only if or .    Axiom of Union   Let be a set. There is a set such that if and only if there is some such that .    Axiom of Power Set   Let be a set. There is a set such that if and only if .    Axiom of Regularity   Let be a set. Suppose that . Then there is some such that .    Axiom of Selection   Let be a logical property of sets with one free variable that can be formulated in the context of the ZF axioms. Let be a set. Then there is a set such that if and only if y and is true.    Axiom of Infinity   There is a set such that , and if then .    Axiom of Replacement   Let be a functional property of sets with two free variables and that can be formulated in the context of the ZF axioms. Let be a set. Then there is a set such that if and only if there is some such that is true.    Axiom of Choice   Let be a set. Suppose that if , then and . Then there is a set such that if , then contains a single element.    "
+},
+{
+  "id": "axiom-extensionality",
+  "level": "2",
+  "url": "app-axioms.html#axiom-extensionality",
+  "type": "Axiom",
+  "number": "B.1",
+  "title": "Axiom of Extensionality.",
+  "body": "Axiom of Extensionality   Let and be sets. If and have the same elements, then .   "
+},
+{
+  "id": "axiom-empty-set",
+  "level": "2",
+  "url": "app-axioms.html#axiom-empty-set",
+  "type": "Axiom",
+  "number": "B.2",
+  "title": "Axiom of Empty Set.",
+  "body": "Axiom of Empty Set   There is a set such that for all sets .   "
+},
+{
+  "id": "axiom-pairing",
+  "level": "2",
+  "url": "app-axioms.html#axiom-pairing",
+  "type": "Axiom",
+  "number": "B.3",
+  "title": "Axiom of Pairing.",
+  "body": "Axiom of Pairing   Let and be sets. There is a set such that if and only if or .   "
+},
+{
+  "id": "axiom-union",
+  "level": "2",
+  "url": "app-axioms.html#axiom-union",
+  "type": "Axiom",
+  "number": "B.4",
+  "title": "Axiom of Union.",
+  "body": "Axiom of Union   Let be a set. There is a set such that if and only if there is some such that .   "
+},
+{
+  "id": "axiom-power-set",
+  "level": "2",
+  "url": "app-axioms.html#axiom-power-set",
+  "type": "Axiom",
+  "number": "B.5",
+  "title": "Axiom of Power Set.",
+  "body": "Axiom of Power Set   Let be a set. There is a set such that if and only if .   "
+},
+{
+  "id": "axiom-regularity",
+  "level": "2",
+  "url": "app-axioms.html#axiom-regularity",
+  "type": "Axiom",
+  "number": "B.6",
+  "title": "Axiom of Regularity.",
+  "body": "Axiom of Regularity   Let be a set. Suppose that . Then there is some such that .   "
+},
+{
+  "id": "axiom-selection",
+  "level": "2",
+  "url": "app-axioms.html#axiom-selection",
+  "type": "Axiom",
+  "number": "B.7",
+  "title": "Axiom of Selection.",
+  "body": "Axiom of Selection   Let be a logical property of sets with one free variable that can be formulated in the context of the ZF axioms. Let be a set. Then there is a set such that if and only if y and is true.   "
+},
+{
+  "id": "axiom-infinity",
+  "level": "2",
+  "url": "app-axioms.html#axiom-infinity",
+  "type": "Axiom",
+  "number": "B.8",
+  "title": "Axiom of Infinity.",
+  "body": "Axiom of Infinity   There is a set such that , and if then .   "
+},
+{
+  "id": "axiom-replacement",
+  "level": "2",
+  "url": "app-axioms.html#axiom-replacement",
+  "type": "Axiom",
+  "number": "B.9",
+  "title": "Axiom of Replacement.",
+  "body": "Axiom of Replacement   Let be a functional property of sets with two free variables and that can be formulated in the context of the ZF axioms. Let be a set. Then there is a set such that if and only if there is some such that is true.   "
+},
+{
+  "id": "axiom-choice",
+  "level": "2",
+  "url": "app-axioms.html#axiom-choice",
+  "type": "Axiom",
+  "number": "B.10",
+  "title": "Axiom of Choice.",
+  "body": "Axiom of Choice   Let be a set. Suppose that if , then and . Then there is a set such that if , then contains a single element.   "
 },
 {
   "id": "colophon-2",

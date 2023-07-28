@@ -467,7 +467,7 @@ window.MathJax = {
 </ul>
 </li>
 <li>
-<div class="toc-item"><a href="foundations.html" class="internal"><span class="codenumber">I</span> <span class="title">Foundations of Advanced Mathematics</span></a></div>
+<div class="toc-item"><a href="part-logic-proof.html" class="internal"><span class="codenumber">I</span> <span class="title">Logic and Proof</span></a></div>
 <ul class="structural">
 <li>
 <div class="toc-item"><a href="ch-logic.html" class="internal"><span class="codenumber">1</span> <span class="title">Informal Logic</span></a></div>
@@ -477,6 +477,7 @@ window.MathJax = {
 <ul class="structural">
 <li><div class="toc-item"><a href="sec-statements.html#subsec-statements" class="internal"><span class="title">What is a Statement?</span></a></div></li>
 <li><div class="toc-item"><a href="sec-statements.html#subsec-combining-statements" class="internal"><span class="title">Combining Statements</span></a></div></li>
+<li><div class="toc-item"><a href="sec-statements.html#subsec-verifying-compound-statements" class="internal"><span class="title">Verifying Compound Statements</span></a></div></li>
 <li><div class="toc-item"><a href="sec-statements.html#subsec-tautology" class="internal"><span class="title">Tautologies and Contradictions</span></a></div></li>
 </ul>
 </li>
@@ -525,8 +526,14 @@ window.MathJax = {
 <li><div class="toc-item"><a href="other-structures.html#subsec-tfare" class="internal"><span class="title">The Following are Equivalent</span></a></div></li>
 </ul>
 </li>
+<li><div class="toc-item"><a href="sec-induction.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Mathematical Induction</span></a></div></li>
 </ul>
 </li>
+</ul>
+</li>
+<li>
+<div class="toc-item"><a href="foundations.html" class="internal"><span class="codenumber">II</span> <span class="title">Fundamentals</span></a></div>
+<ul class="structural">
 <li>
 <div class="toc-item"><a href="ch-sets.html" class="internal"><span class="codenumber">3</span> <span class="title">Sets</span></a></div>
 <ul class="structural">
@@ -542,60 +549,52 @@ window.MathJax = {
 </ul>
 </li>
 <li>
-<div class="toc-item"><a href="ch-functions.html" class="internal"><span class="codenumber">4</span> <span class="title">Functions</span></a></div>
+<div class="toc-item"><a href="ch-relations.html" class="internal"><span class="codenumber">4</span> <span class="title">Relations</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-function-basics.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Function Basics</span></a></div></li>
-<li><div class="toc-item"><a href="sec-image-and-pre-image.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Image and Preimage</span></a></div></li>
-<li><div class="toc-item"><a href="sec-composition-and-inverse-functions.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Composition and Inverse Functions</span></a></div></li>
-<li><div class="toc-item"><a href="sec-inject-surject-biject.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Injectivity, Surjectivity, Bijectivty</span></a></div></li>
+<li class="active"><div class="toc-item"><a href="sec-relation-basics.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Relation Basics</span></a></div></li>
+<li><div class="toc-item"><a href="sec-congruence.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Congruence</span></a></div></li>
+<li><div class="toc-item"><a href="sec-equivalence-relations.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Equivalence Relations</span></a></div></li>
 </ul>
 </li>
 <li>
-<div class="toc-item"><a href="ch-relations.html" class="internal"><span class="codenumber">5</span> <span class="title">Relations</span></a></div>
+<div class="toc-item"><a href="ch-functions.html" class="internal"><span class="codenumber">5</span> <span class="title">Functions</span></a></div>
 <ul class="structural">
-<li class="active"><div class="toc-item"><a href="sec-relation-basics.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Relation Basics</span></a></div></li>
-<li><div class="toc-item"><a href="sec-congruence.html" class="internal"><span class="codenumber">5.2</span> <span class="title">Congruence</span></a></div></li>
-<li><div class="toc-item"><a href="sec-equivalence-relations.html" class="internal"><span class="codenumber">5.3</span> <span class="title">Equivalence Relations</span></a></div></li>
+<li><div class="toc-item"><a href="sec-function-basics.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Function Basics</span></a></div></li>
+<li><div class="toc-item"><a href="sec-image-and-pre-image.html" class="internal"><span class="codenumber">5.2</span> <span class="title">Image and Preimage</span></a></div></li>
+<li><div class="toc-item"><a href="sec-composition-and-inverse-functions.html" class="internal"><span class="codenumber">5.3</span> <span class="title">Composition and Inverse Functions</span></a></div></li>
+<li><div class="toc-item"><a href="sec-inject-surject-biject.html" class="internal"><span class="codenumber">5.4</span> <span class="title">Injectivity, Surjectivity, Bijectivty</span></a></div></li>
 </ul>
 </li>
 <li>
-<div class="toc-item"><a href="ch-induction-recursion.html" class="internal"><span class="codenumber">6</span> <span class="title">Induction and Recursion</span></a></div>
+<div class="toc-item"><a href="ch-cardinality.html" class="internal"><span class="codenumber">6</span> <span class="title">Cardinality</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-properties-of-n.html" class="internal"><span class="codenumber">6.1</span> <span class="title">Properties of the Natural Numbers</span></a></div></li>
-<li><div class="toc-item"><a href="sec-induction.html" class="internal"><span class="codenumber">6.2</span> <span class="title">Mathematical Induction</span></a></div></li>
-<li><div class="toc-item"><a href="sec-recursion.html" class="internal"><span class="codenumber">6.3</span> <span class="title">Recursion</span></a></div></li>
+<li><div class="toc-item"><a href="sec-cardinality-of-sets.html" class="internal"><span class="codenumber">6.1</span> <span class="title">Cardinality of Sets</span></a></div></li>
+<li><div class="toc-item"><a href="sec-finite-countable-sets.html" class="internal"><span class="codenumber">6.2</span> <span class="title">Finite and Countable Sets</span></a></div></li>
+<li><div class="toc-item"><a href="sec-cardinality-of-number-systems.html" class="internal"><span class="codenumber">6.3</span> <span class="title">Cardinality of the Number Systems</span></a></div></li>
+</ul>
+</li>
 </ul>
 </li>
 <li>
-<div class="toc-item"><a href="ch-cardinality.html" class="internal"><span class="codenumber">7</span> <span class="title">Cardinality</span></a></div>
-<ul class="structural">
-<li><div class="toc-item"><a href="sec-cardinality-of-sets.html" class="internal"><span class="codenumber">7.1</span> <span class="title">Cardinality of Sets</span></a></div></li>
-<li><div class="toc-item"><a href="sec-finite-countable-sets.html" class="internal"><span class="codenumber">7.2</span> <span class="title">Finite and Countable Sets</span></a></div></li>
-<li><div class="toc-item"><a href="sec-cardinality-of-number-systems.html" class="internal"><span class="codenumber">7.3</span> <span class="title">Cardinality of the Number Systems</span></a></div></li>
-</ul>
-</li>
-<li>
-<div class="toc-item"><a href="ch-extras.html" class="internal"><span class="codenumber">8</span> <span class="title">Extras</span></a></div>
+<div class="toc-item"><a href="part-extras.html" class="internal"><span class="codenumber">III</span> <span class="title">Extras</span></a></div>
 <ul class="structural">
 <li>
-<div class="toc-item"><a href="sec-binary-operations.html" class="internal"><span class="codenumber">8.1</span> <span class="title">Binary Operations</span></a></div>
+<div class="toc-item"><a href="ch-operations.html" class="internal"><span class="codenumber">7</span> <span class="title">Operations</span></a></div>
+<ul class="structural"><li>
+<div class="toc-item"><a href="sec-binary-operations.html" class="internal"><span class="codenumber">7.1</span> <span class="title">Binary Operations</span></a></div>
 <ul class="structural">
 <li><div class="toc-item"><a href="sec-binary-operations.html#subsec-internal-binary-operations" class="internal"><span class="title">Internal Binary Operations</span></a></div></li>
 <li><div class="toc-item"><a href="sec-binary-operations.html#subsec-partial-binary-operations" class="internal"><span class="title">Partial Binary Operations</span></a></div></li>
 <li><div class="toc-item"><a href="sec-binary-operations.html#subsec-external-binary-operations" class="internal"><span class="title">External Binary Operations</span></a></div></li>
 </ul>
+</li></ul>
 </li>
 <li>
-<div class="toc-item"><a href="sec-algebraic-structures.html" class="internal"><span class="codenumber">8.2</span> <span class="title">Algebraic Structures</span></a></div>
+<div class="toc-item"><a href="ch-algebra.html" class="internal"><span class="codenumber">8</span> <span class="title">Posets and Lattices</span></a></div>
 <ul class="structural">
-<li><div class="toc-item"><a href="sec-algebraic-structures.html#subsec-grouplike" class="internal"><span class="title">Grouplike Structures</span></a></div></li>
-<li><div class="toc-item"><a href="sec-algebraic-structures.html#subsec-ringlike" class="internal"><span class="title">Ringlike Structures</span></a></div></li>
-<li><div class="toc-item"><a href="sec-algebraic-structures.html#subsec-latticelike" class="internal"><span class="title">Latticelike Structures</span></a></div></li>
-</ul>
-</li>
-<li><div class="toc-item"><a href="sec-posets.html" class="internal"><span class="codenumber">8.3</span> <span class="title">Partially Ordered Sets</span></a></div></li>
-<li><div class="toc-item"><a href="sec-lattices.html" class="internal"><span class="codenumber">8.4</span> <span class="title">Lattices</span></a></div></li>
-<li><div class="toc-item"><a href="sec-axioms.html" class="internal"><span class="codenumber">8.5</span> <span class="title">Axioms for Set Theory</span></a></div></li>
+<li><div class="toc-item"><a href="sec-posets.html" class="internal"><span class="codenumber">8.1</span> <span class="title">Partially Ordered Sets</span></a></div></li>
+<li><div class="toc-item"><a href="sec-lattices.html" class="internal"><span class="codenumber">8.2</span> <span class="title">Lattices</span></a></div></li>
+<li><div class="toc-item"><a href="sec-zorn.html" class="internal"><span class="codenumber">8.3</span> <span class="title">Zorn's Lemma and the Axiom of Choice</span></a></div></li>
 </ul>
 </li>
 </ul>
@@ -604,41 +603,54 @@ window.MathJax = {
 <div class="toc-item"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div>
 <ul class="structural">
 <li>
-<div class="toc-item"><a href="appendix-1.html" class="internal"><span class="codenumber">A</span> <span class="title">Topology</span></a></div>
-<ul class="structural"><li><div class="toc-item"><a href="sec-topology.html" class="internal"><span class="codenumber">A.1</span> <span class="title">Topology</span></a></div></li></ul>
+<div class="toc-item"><a href="appendix-1.html" class="internal"><span class="codenumber">A</span> <span class="title">A Survey of Abstract Mathematics</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec-topology.html" class="internal"><span class="codenumber">A.1</span> <span class="title">Topology</span></a></div></li>
+<li>
+<div class="toc-item"><a href="sec-algebraic-structures.html" class="internal"><span class="codenumber">A.2</span> <span class="title">Algebraic Structures</span></a></div>
+<ul class="structural">
+<li><div class="toc-item"><a href="sec-algebraic-structures.html#subsec-grouplike" class="internal"><span class="title">Grouplike Structures</span></a></div></li>
+<li><div class="toc-item"><a href="sec-algebraic-structures.html#subsec-ringlike" class="internal"><span class="title">Ringlike Structures</span></a></div></li>
+<li><div class="toc-item"><a href="sec-algebraic-structures.html#subsec-latticelike" class="internal"><span class="title">Latticelike Structures</span></a></div></li>
+</ul>
 </li>
+<li><div class="toc-item"><a href="sec-graphs.html" class="internal"><span class="codenumber">A.3</span> <span class="title">Graphs</span></a></div></li>
+<li><div class="toc-item"><a href="sec-category.html" class="internal"><span class="codenumber">A.4</span> <span class="title">An Overwhelming Introduction to Categories</span></a></div></li>
+</ul>
+</li>
+<li><div class="toc-item"><a href="app-axioms.html" class="internal"><span class="codenumber">B</span> <span class="title">Axioms for Set Theory</span></a></div></li>
 <li><div class="toc-item"><a href="colophon-2.html" class="internal"><span class="title">Colophon</span></a></div></li>
 </ul>
 </li>
 </ul></nav></div>
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-relation-basics"><h2 class="heading hide-type">
-<span class="type">Section</span> <span class="codenumber">5.1</span> <span class="title">Relation Basics</span>
+<span class="type">Section</span> <span class="codenumber">4.1</span> <span class="title">Relation Basics</span>
 </h2>
 <article class="definition definition-like" id="def-relation"><h3 class="heading">
-<span class="type">Definition</span><span class="space"> </span><span class="codenumber">5.1</span><span class="period">.</span>
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">4.1</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-414">Let <span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span> be sets. A relation <span class="process-math">\(R\)</span> from <span class="process-math">\(A\)</span> to <span class="process-math">\(B\)</span> is a subset <span class="process-math">\(R \subseteq  A \times B\text{.}\)</span> If <span class="process-math">\(a\in  A\)</span> and <span class="process-math">\(b\in B\text{,}\)</span> we write <span class="process-math">\(a R b\)</span> if <span class="process-math">\((a, b)\in  R\text{,}\)</span> and <span class="process-math">\(a \notR b\)</span> if <span class="process-math">\((a, b) \not\in  R\text{.}\)</span> A relation on <span class="process-math">\(A\)</span> is a relation from <span class="process-math">\(A\)</span> to <span class="process-math">\(A\text{.}\)</span>
+<div class="para" id="p-359">Let <span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span> be sets. A relation <span class="process-math">\(R\)</span> from <span class="process-math">\(A\)</span> to <span class="process-math">\(B\)</span> is a subset <span class="process-math">\(R \subseteq  A \times B\text{.}\)</span> If <span class="process-math">\(a\in  A\)</span> and <span class="process-math">\(b\in B\text{,}\)</span> we write <span class="process-math">\(a R b\)</span> if <span class="process-math">\((a, b)\in  R\text{,}\)</span> and <span class="process-math">\(a \notR b\)</span> if <span class="process-math">\((a, b) \not\in  R\text{.}\)</span> A relation on <span class="process-math">\(A\)</span> is a relation from <span class="process-math">\(A\)</span> to <span class="process-math">\(A\text{.}\)</span>
 </div></article><article class="example example-like" id="example-30"><h3 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">5.2</span><span class="period">.</span>
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">4.2</span><span class="period">.</span>
 </h3>
-<div class="para logical" id="p-415"><ul class="disc">
-<li id="li-172"><div class="para" id="p-416">Let <span class="process-math">\(P\)</span> be the set of all people. Define a relation on <span class="process-math">\(P\)</span> by having person <span class="process-math">\(x\)</span> related to person <span class="process-math">\(y\)</span> if and only if <span class="process-math">\(x\)</span> and <span class="process-math">\(y\)</span> have at least one parent in common.</div></li>
-<li id="li-173"><div class="para" id="p-417">The symbols &lt; and <span class="process-math">\(\leq \)</span> both represent relations on <span class="process-math">\(\R\text{.}\)</span>
+<div class="para logical" id="p-360"><ul class="disc">
+<li id="li-121"><div class="para" id="p-361">Let <span class="process-math">\(P\)</span> be the set of all people. Define a relation on <span class="process-math">\(P\)</span> by having person <span class="process-math">\(x\)</span> related to person <span class="process-math">\(y\)</span> if and only if <span class="process-math">\(x\)</span> and <span class="process-math">\(y\)</span> have at least one parent in common.</div></li>
+<li id="li-122"><div class="para" id="p-362">The symbols &lt; and <span class="process-math">\(\leq \)</span> both represent relations on <span class="process-math">\(\R\text{.}\)</span>
 </div></li>
-<li id="li-174"><div class="para" id="p-418">Let <span class="process-math">\(A\)</span> be a set. The symbol “<span class="process-math">\(\subseteq \)</span>” represents a relation on <span class="process-math">\(\cP (A)\text{,}\)</span> where <span class="process-math">\(P\text{,}\)</span> <span class="process-math">\(Q\in\cP (A)\)</span> are related if and only if <span class="process-math">\(P \subseteq  Q\text{.}\)</span>
+<li id="li-123"><div class="para" id="p-363">Let <span class="process-math">\(A\)</span> be a set. The symbol “<span class="process-math">\(\subseteq \)</span>” represents a relation on <span class="process-math">\(\cP (A)\text{,}\)</span> where <span class="process-math">\(P\text{,}\)</span> <span class="process-math">\(Q\in\cP (A)\)</span> are related if and only if <span class="process-math">\(P \subseteq  Q\text{.}\)</span>
 </div></li>
 </ul></div></article><article class="proposition theorem-like" id="prop-functions-are-relations"><h3 class="heading">
-<span class="type">Proposition</span><span class="space"> </span><span class="codenumber">5.3</span><span class="period">.</span>
+<span class="type">Proposition</span><span class="space"> </span><span class="codenumber">4.3</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-419">Let <span class="process-math">\(f : A \to B\)</span> be a function. Then <span class="process-math">\(f\)</span> is defined by a subset of <span class="process-math">\(A \times B\)</span> satisfying a certain condition. Hence <span class="process-math">\(f\)</span> is also a relation from <span class="process-math">\(A\)</span> to <span class="process-math">\(B\text{.}\)</span>
-</div></article><div class="para" id="p-420">The concept of a relation is therefore seen to be more general than the concept of a function.</div>
-<article class="remark remark-like" id="remark-19"><h3 class="heading">
-<span class="type">Remark</span><span class="space"> </span><span class="codenumber">5.4</span><span class="period">.</span>
+<div class="para" id="p-364">Let <span class="process-math">\(f : A \to B\)</span> be a function. Then <span class="process-math">\(f\)</span> is defined by a subset of <span class="process-math">\(A \times B\)</span> satisfying a certain condition. Hence <span class="process-math">\(f\)</span> is also a relation from <span class="process-math">\(A\)</span> to <span class="process-math">\(B\text{.}\)</span>
+</div></article><div class="para" id="p-365">The concept of a relation is therefore seen to be more general than the concept of a function.</div>
+<article class="remark remark-like" id="remark-20"><h3 class="heading">
+<span class="type">Remark</span><span class="space"> </span><span class="codenumber">4.4</span><span class="period">.</span>
 </h3>
-<div class="para" id="p-421">In principle, it would have been logical to have the chapter on relations before the chapter on functions, and to view functions as a special case of relations. In practice, however, most mathematicians do not think of functions as special types of relations when they use functions on a daily basis, and therefore functions deserve their own treatment independent of the study of relations.</div></article><article class="definition definition-like" id="def-relation-class"><h3 class="heading">
-<span class="type">Definition</span><span class="space"> </span><span class="codenumber">5.5</span><span class="period">.</span>
+<div class="para" id="p-366">In principle, it would have been logical to have the chapter on relations before the chapter on functions, and to view functions as a special case of relations. In practice, however, most mathematicians do not think of functions as special types of relations when they use functions on a daily basis, and therefore functions deserve their own treatment independent of the study of relations.</div></article><article class="definition definition-like" id="def-relation-class"><h3 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">4.5</span><span class="period">.</span>
 </h3>
-<div class="para logical" id="p-422">
+<div class="para logical" id="p-367">
 <div class="para">Let <span class="process-math">\(A\)</span> and <span class="process-math">\(B\)</span> be non-empty sets, let <span class="process-math">\(R\)</span> be a relation from <span class="process-math">\(A\)</span> to <span class="process-math">\(B\text{,}\)</span> and let <span class="process-math">\(x\in  A\text{.}\)</span> The relation class of <span class="process-math">\(x\)</span> with respect to <span class="process-math">\(R\text{,}\)</span> denoted <span class="process-math">\(R [x]\text{,}\)</span> is the set defined by</div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -648,12 +660,12 @@ R [x] = \{y\in B | x R y\}\text{.}
 <div class="para">If the relation <span class="process-math">\(R\)</span> is understood from the context, we will often write <span class="process-math">\([x]\)</span> instead of <span class="process-math">\(R [x]\text{.}\)</span>
 </div>
 </div></article><article class="example example-like" id="example-31"><h3 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">5.6</span><span class="period">.</span>
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">4.6</span><span class="period">.</span>
 </h3>
-<div class="para logical" id="p-423"><ul class="disc">
-<li id="li-175"><div class="para" id="p-424">There are a number of distinct cases here, and we will examine a few of them. If <span class="process-math">\(x\)</span> is the only child of each of her parents, then <span class="process-math">\([x] = \{x\}\text{,}\)</span> where we observe that <span class="process-math">\(x\)</span> has the same parents as herself. If <span class="process-math">\(y\)</span> and <span class="process-math">\(z\)</span> are the only two children of each of their parents, then <span class="process-math">\([y] = \{y, z\} = [z]\text{.}\)</span> If <span class="process-math">\(a\)</span> has one half-sibling <span class="process-math">\(b\)</span> by her father, and another half-sibling <span class="process-math">\(c\)</span> by her mother, and each of <span class="process-math">\(b\)</span> and <span class="process-math">\(c\)</span> has no other siblings or half-siblings, then <span class="process-math">\([a] = \{a, b, c\}\text{,}\)</span> and <span class="process-math">\([b] = \{a, b\}\text{,}\)</span> and <span class="process-math">\([c] = \{a, c\}\text{.}\)</span>
+<div class="para logical" id="p-368"><ul class="disc">
+<li id="li-124"><div class="para" id="p-369">There are a number of distinct cases here, and we will examine a few of them. If <span class="process-math">\(x\)</span> is the only child of each of her parents, then <span class="process-math">\([x] = \{x\}\text{,}\)</span> where we observe that <span class="process-math">\(x\)</span> has the same parents as herself. If <span class="process-math">\(y\)</span> and <span class="process-math">\(z\)</span> are the only two children of each of their parents, then <span class="process-math">\([y] = \{y, z\} = [z]\text{.}\)</span> If <span class="process-math">\(a\)</span> has one half-sibling <span class="process-math">\(b\)</span> by her father, and another half-sibling <span class="process-math">\(c\)</span> by her mother, and each of <span class="process-math">\(b\)</span> and <span class="process-math">\(c\)</span> has no other siblings or half-siblings, then <span class="process-math">\([a] = \{a, b, c\}\text{,}\)</span> and <span class="process-math">\([b] = \{a, b\}\text{,}\)</span> and <span class="process-math">\([c] = \{a, c\}\text{.}\)</span>
 </div></li>
-<li id="li-176"><div class="para" id="p-425">For the relation &lt;, we see that <span class="process-math">\([x] = (x, ∞)\)</span> for all <span class="process-math">\(x\in\R\text{,}\)</span> and for the relation <span class="process-math">\(\leq \text{,}\)</span> we see that <span class="process-math">\([x] = [x, ∞)\)</span> for all <span class="process-math">\(x\in\R\text{.}\)</span>
+<li id="li-125"><div class="para" id="p-370">For the relation &lt;, we see that <span class="process-math">\([x] = (x, ∞)\)</span> for all <span class="process-math">\(x\in\R\text{,}\)</span> and for the relation <span class="process-math">\(\leq \text{,}\)</span> we see that <span class="process-math">\([x] = [x, ∞)\)</span> for all <span class="process-math">\(x\in\R\text{.}\)</span>
 </div></li>
 </ul></div></article></section></div>
 <div class="ptx-content-footer">
